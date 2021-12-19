@@ -9,21 +9,21 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 4000,
+		"semiMajorAxis" : 6000,
 		"inclination" : 3,
 		"primaryBody" : "SUN",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 0,
+		"longitudeOfAscendingNode" : 76,
 		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
-		"axialTilt" : 0,
+		"argumentOfPeriapsis": 54,
+		"axialTilt" : 3,
 	},
 	"Atmosphere" :
 	{
 		"size" : 350,
 		"fogTint" : 
 		{
-			"r" : 200,
+			"r" : 220,
 			"g" : 128,
 			"b" : 128,
 			"a" : 255

@@ -9,7 +9,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 12000,
+		"semiMajorAxis" : 13000,
 		"inclination" : 3,
 		"primaryBody" : "SUN",
 		"isMoon" : false,
