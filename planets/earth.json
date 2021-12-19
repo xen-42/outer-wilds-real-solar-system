@@ -4,9 +4,9 @@
 	{
 		"playerSpawnPoint" :
 		{
-			"x" : 181.0,
-			"y" : 228.6,
-			"z" : 61.5,
+			"x" : 182.4,
+			"y" : 227.4,
+			"z" : 62.7,
 		},
 		"shipSpawnPoint" :
 		{
@@ -26,20 +26,22 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 7500,
-		"inclination" : 3,
+		"semiMajorAxis" : 6000,
+		"inclination" : 7,
 		"primaryBody" : "SUN",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : -11.2,
+		"longitudeOfAscendingNode" : 175,
 		"eccentricity" : 0,
-		"argumentOfPeriapsis": 114,
+		"argumentOfPeriapsis": 102,
+		"trueAnomaly" : 90,
 		"axialTilt" : 23,
+		"siderealPeriod" : 50,
 	},
 	"Atmosphere" :
 	{
 		"hasOxygen" : true,
 		"hasAtmosphere" : true,
-		"size" : 400,
+		"size" : 375,
 		"fogTint" : 
 		{
 			"r" : 90,

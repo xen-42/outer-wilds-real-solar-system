@@ -3,27 +3,28 @@
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 200,
+		"surfaceSize" : 100,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true,
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 5000,
+		"semiMajorAxis" : 3000,
 		"inclination" : 3,
 		"primaryBody" : "SUN",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 48.3,
-		"eccentricity" : 0.2,
+		"longitudeOfAscendingNode" : 48,
+		"eccentricity" : 0,
 		"argumentOfPeriapsis": 29,
 		"axialTilt" : 2,
 		"trueAnomaly" : 174,
+		"siderealPeriod" : 50,
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/mercury_heightmap.png",	
 		"textureMap" : "planets/assets/mercury_texturemap.png",	
-		"minHeight" : 195,
-		"maxHeight" : 205,
+		"minHeight" : 100,
+		"maxHeight" : 102,
 	}
 }

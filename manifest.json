@@ -1,8 +1,8 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
+  "author": "xen",
+  "name": "Real Solar System",
+  "uniqueName": "xen.RealSolarSystem",
   "version": "0.1.0",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]

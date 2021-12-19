@@ -10,17 +10,17 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 17000,
-		"inclination" : 3,
+		"inclination" : 1,
 		"primaryBody" : "SUN",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
-		"axialTilt" : 0,
+		"longitudeOfAscendingNode" : 131,
+		"axialTilt" : 28,
+		"trueAnomaly" : 256,
+		"siderealPeriod" : 30,
 	},
 	"Atmosphere" :
 	{
-		"size" : 300,
+		"size" : 200,
 		"cloudTint" : 
 		{
 			"r" : 181,
