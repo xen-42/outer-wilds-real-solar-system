@@ -11,14 +11,14 @@
 	{
 		"semiMajorAxis" : 4000,
 		"inclination" : 3,
-		"primaryBody" : "SUN",
+		"primaryBody" : "Sun",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 76,
+		"longitudeOfAscendingNode" : 0,
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 54,
 		"axialTilt" : 177,
 		"siderealPeriod" : 100,
-		"trueAnomaly" : 50,
+		"trueAnomaly" : 180,
 	},
 	"Atmosphere" :
 	{

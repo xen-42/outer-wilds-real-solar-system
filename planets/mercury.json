@@ -2,7 +2,7 @@
 	"name" : "Mercury",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
+		"surfaceGravity" : 6,
 		"surfaceSize" : 100,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true,
@@ -11,14 +11,14 @@
 	{
 		"semiMajorAxis" : 3000,
 		"inclination" : 3,
-		"primaryBody" : "SUN",
+		"primaryBody" : "Sun",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 48,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 29,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis": 0,
 		"axialTilt" : 2,
-		"trueAnomaly" : 174,
-		"siderealPeriod" : 50,
+		"trueAnomaly" : 0,
+		"isTidallyLocked" : true,
 	},
 	"HeightMap" :
 	{

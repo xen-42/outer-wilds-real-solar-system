@@ -27,13 +27,13 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 6000,
-		"inclination" : 7,
-		"primaryBody" : "SUN",
+		"inclination" : 2,
+		"primaryBody" : "Sun",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 175,
+		"longitudeOfAscendingNode" : 0,
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 102,
-		"trueAnomaly" : 90,
+		"trueAnomaly" : 180,
 		"axialTilt" : 23,
 		"siderealPeriod" : 50,
 	},

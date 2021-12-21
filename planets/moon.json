@@ -17,6 +17,7 @@
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 0,
 		"axialTilt" : 0,
+		"isTidallyLocked" : true,
 	},
 	"HeightMap" :
 	{

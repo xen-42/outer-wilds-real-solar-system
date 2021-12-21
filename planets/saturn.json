@@ -11,7 +11,7 @@
 	{
 		"semiMajorAxis" : 13000,
 		"inclination" : 3,
-		"primaryBody" : "SUN",
+		"primaryBody" : "Sun",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 113,
 		"axialTilt" : 26,
@@ -29,8 +29,6 @@
 			"a" : 255
 		},
 		"cloud" : "planets/assets/saturn.png",
-		"cloudCap" : "planets/assets/blank_cap.png",
-		"cloudRamp" : "planets/assets/saturn_ramp.png",
 		"fogTint" : 
 		{
 			"r" : 255,

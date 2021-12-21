@@ -11,7 +11,7 @@
 	{
 		"semiMajorAxis" : 17000,
 		"inclination" : 1,
-		"primaryBody" : "SUN",
+		"primaryBody" : "Sun",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 131,
 		"axialTilt" : 28,
@@ -29,8 +29,6 @@
 			"a" : 255
 		},
 		"cloud" : "planets/assets/neptune.png",
-		"cloudCap" : "planets/assets/blank_cap.png",
-		"cloudRamp" : "planets/assets/neptune_ramp.png",
 		"fogTint" : 
 		{
 			"r" : 128,

@@ -11,7 +11,7 @@
 	{
 		"semiMajorAxis" : 11000,
 		"inclination" : 1,
-		"primaryBody" : "SUN",
+		"primaryBody" : "Sun",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 100,
 		"axialTilt" : 3,
@@ -29,8 +29,6 @@
 			"a" : 255
 		},
 		"cloud" : "planets/assets/jupiter.png",
-		"cloudCap" : "planets/assets/blank_cap.png",
-		"cloudRamp" : "planets/assets/jupiter_ramp.png",
 		"fogTint" : 
 		{
 			"r" : 255,

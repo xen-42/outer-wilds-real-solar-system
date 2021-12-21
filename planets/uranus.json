@@ -11,7 +11,7 @@
 	{
 		"semiMajorAxis" : 15000,
 		"inclination" : 0,
-		"primaryBody" : "SUN",
+		"primaryBody" : "Sun",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 74,
 		"axialTilt" : 97,
@@ -29,8 +29,6 @@
 			"a" : 255
 		},
 		"cloud" : "planets/assets/uranus.png",
-		"cloudCap" : "planets/assets/blank_cap.png",
-		"cloudRamp" : "planets/assets/uranus_ramp.png",
 		"fogTint" : 
 		{
 			"r" : 128,

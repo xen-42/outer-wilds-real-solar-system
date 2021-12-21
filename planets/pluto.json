@@ -13,9 +13,9 @@
 		"inclination" : 12,
 		"primaryBody" : "SUN",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 110,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 114,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis": 0,
 		"axialTilt" : 122,
 	},
 	"Atmosphere" :
