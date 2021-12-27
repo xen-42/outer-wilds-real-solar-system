@@ -1,0 +1,51 @@
+{
+	"name" : "Venus",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 270,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 4000,
+		"inclination" : 3,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 54,
+		"axialTilt" : 177,
+		"siderealPeriod" : 100,
+		"trueAnomaly" : 180
+	},
+	"Atmosphere" :
+	{
+		"size" : 300,
+		"cloudTint" : 
+		{
+			"r" : 202,
+			"g" : 171,
+			"b" : 117,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/venus_clouds.png",
+		"fogTint" : 
+		{
+			"r" : 200,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 310
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/venus_heightmap.png",	
+		"textureMap" : "planets/assets/venus_texturemap.png",	
+		"minHeight" : 270,
+		"maxHeight" : 275
+	}
+}

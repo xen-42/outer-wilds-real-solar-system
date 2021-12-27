@@ -1,0 +1,44 @@
+{
+	"name" : "Halley's Comet",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 50,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"hasCometTail" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 14500,
+		"inclination" : 167,
+		"eccentricity" : 0.9,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
+		"isTidallyLocked" : true
+	},
+	"Atmosphere" :
+	{
+		"size" : 60,
+		"fogTint" : 
+		{
+			"r" : 128,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 60
+	},
+	"ProcGen" :
+	{
+		"scale" : 50,
+		"color" : 
+		{
+			"r" : 177,
+			"g" : 177,
+			"b" : 177,
+			"a" : 255
+		}
+	}
+}

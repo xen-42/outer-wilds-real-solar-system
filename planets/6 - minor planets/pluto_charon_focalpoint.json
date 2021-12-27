@@ -1,0 +1,23 @@
+{
+	"name" : "Pluto-Charon",
+	"Base" :
+	{
+		"hasMapMarker" : true,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 22000,
+		"inclination" : 12,
+		"primaryBody" : "SUN",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 122
+	},
+	"FocalPoint" :
+	{
+		"Primary" : "Pluto",
+		"Secondary" : "Charon",
+	}
+}

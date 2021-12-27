@@ -1,0 +1,25 @@
+{
+	"name" : "Titania",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1200,
+		"primaryBody" : "Uranus",
+		"isMoon" : true,
+		"inclination" : 97,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"textureMap" : "planets/assets/titania_texturemap.png",	
+		"minHeight" : 50,
+		"maxHeight" : 50
+	}
+}

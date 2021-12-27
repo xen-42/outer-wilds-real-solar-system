@@ -1,0 +1,25 @@
+{
+	"name" : "Triton",
+	"Base" :
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 80,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1200,
+		"inclination" : 156,
+		"primaryBody" : "Neptune",
+		"isMoon" : true,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"textureMap" : "planets/assets/triton_texturemap.png",	
+		"minHeight" : 80,
+		"maxHeight" : 80
+	}
+}

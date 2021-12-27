@@ -1,0 +1,48 @@
+{
+	"name" : "Uranus",
+	"Base" :
+	{
+		"surfaceGravity" : 20,
+		"surfaceSize" : 300,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 18000,
+		"inclination" : 0,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 74,
+		"axialTilt" : 97,
+		"trueAnomaly" : 142,
+		"siderealPeriod" : 30
+	},
+	"Atmosphere" :
+	{
+		"size" : 300,
+		"cloudTint" : 
+		{
+			"r" : 181,
+			"g" : 181,
+			"b" : 230,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/uranus.png",
+		"fogTint" : 
+		{
+			"r" : 128,
+			"g" : 128,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 300
+	},
+	"Ring" : 
+	{
+		"innerRadius" : 560,
+		"outerRadius" : 600,
+		"texture" : "planets/assets/uranus_rings.png",
+	}
+}

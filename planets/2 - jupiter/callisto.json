@@ -1,0 +1,25 @@
+{
+	"name" : "Callisto",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1400,
+		"primaryBody" : "Jupiter",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"trueAnomaly" : 200
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"textureMap" : "planets/assets/callisto_texturemap.png",	
+		"minHeight" : 70,
+		"maxHeight" : 70
+	}
+}

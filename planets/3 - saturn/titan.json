@@ -1,0 +1,51 @@
+{
+	"name" : "Titan",
+	"Base" :
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 140,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"waterSize" : 102
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1200,
+		"inclination" : 0,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"isTidallyLocked" : true
+	},
+	"Atmosphere" :
+	{
+		"size" : 120,
+		"cloudTint" : 
+		{
+			"r" : 220,
+			"g" : 198,
+			"b" : 97,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/titan_clouds.png",
+		"fogTint" : 
+		{
+			"r" : 220,
+			"g" : 198,
+			"b" : 97,
+			"a" : 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 120,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/titan_heightmap.png",	
+		"textureMap" : "planets/assets/titan_texturemap.png",	
+		"minHeight" : 100,
+		"maxHeight" : 105
+	}
+}

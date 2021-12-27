@@ -1,0 +1,26 @@
+{
+	"name" : "Perdition",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 150,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"lavaSize" : 152
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 4000,
+		"inclination" : 0,
+		"primaryBody" : "Alpha Centauri A",
+		"isMoon" : false,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/venus_heightmap.png",	
+		"textureMap" : "planets/assets/Proxima B.png",	
+		"minHeight" : 150,
+		"maxHeight" : 153
+	}
+}

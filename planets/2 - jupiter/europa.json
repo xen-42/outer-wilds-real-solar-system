@@ -1,0 +1,25 @@
+{
+	"name" : "Europa",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 50,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1000,
+		"primaryBody" : "Jupiter",
+		"isMoon" : true,
+		"trueAnomaly" : 86,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"textureMap" : "planets/assets/europa_texturemap.png",	
+		"minHeight" : 50,
+		"maxHeight" : 50
+	}
+}

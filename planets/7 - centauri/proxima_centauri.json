@@ -1,0 +1,31 @@
+{
+	"name" : "Proxima Centauri",
+	"Base" :
+	{
+		"surfaceGravity" : 50,
+		"surfaceSize" : 1000,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 20000,
+		"inclination" : 0,
+		"eccentricity" : 0.5,
+		"argumentOfPeriapsis" : 270,
+		"primaryBody" : "Alpha Centauri A",
+		"showOrbitLine" : false,
+		"isStatic" : true
+	},
+	"Star" :
+	{
+		"size" : 400,
+		"tint" : 
+		{
+			"r" : 200,
+			"g" : 44,
+			"b" : 44,
+			"a" : 255
+		}
+	}
+}

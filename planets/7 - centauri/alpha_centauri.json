@@ -1,0 +1,20 @@
+{
+	"name" : "Alpha Centauri",
+	"Base" :
+	{
+		"hasMapMarker" : false,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 120000,
+		"primaryBody" : "Sun",
+		"showOrbitLine" : false,
+		"trueAnomaly" : 60,
+		"isStatic" : true,
+	},
+	"FocalPoint" :
+	{
+		"Primary" : "Alpha Centauri A",
+		"Secondary" : "Alpha Centauri B",
+	}
+}

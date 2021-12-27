@@ -1,0 +1,25 @@
+{
+	"name" : "Ganymede",
+	"Base" :
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 80,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1200,
+		"primaryBody" : "Jupiter",
+		"isMoon" : true,
+		"trueAnomaly" : 298,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"textureMap" : "planets/assets/ganymede_texturemap.png",	
+		"minHeight" : 80,
+		"maxHeight" : 80
+	}
+}

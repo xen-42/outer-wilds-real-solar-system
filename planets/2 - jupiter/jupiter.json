@@ -1,0 +1,42 @@
+{
+	"name" : "Jupiter",
+	"Base" :
+	{
+		"surfaceGravity" : 20,
+		"surfaceSize" : 300,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 12000,
+		"inclination" : 1,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 100,
+		"axialTilt" : 3,
+		"trueAnomaly":20,
+		"siderealPeriod" : 30
+	},
+	"Atmosphere" :
+	{
+		"size" : 500,
+		"cloudTint" : 
+		{
+			"r" : 181,
+			"g" : 181,
+			"b" : 230,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/jupiter.png",
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 450
+	}
+}

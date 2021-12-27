@@ -1,0 +1,24 @@
+{
+	"name" : "Charon",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 80,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 500,
+		"primaryBody" : "Pluto-Charon",
+		"isMoon" : true,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/charon_heightmap.png",	
+		"textureMap" : "planets/assets/charon_texturemap.png",	
+		"minHeight" : 80,
+		"maxHeight" : 81
+	}
+}

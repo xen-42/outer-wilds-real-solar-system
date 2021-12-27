@@ -1,0 +1,28 @@
+{
+	"name" : "Proxima B",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 150,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 2000,
+		"inclination" : 0,
+		"primaryBody" : "Proxima Centauri",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 74,
+		"axialTilt" : 0,
+		"trueAnomaly" : 0,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/venus_heightmap.png",	
+		"textureMap" : "planets/assets/Alpha Centauri Ab.png",	
+		"minHeight" : 150,
+		"maxHeight" : 153
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"name" : "Mars",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 150,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 8000,
+		"inclination" : 5,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 50,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 286,
+		"axialTilt" : 25,
+		"trueAnomaly" : 19.4,
+		"siderealPeriod" : 50
+	},
+	"Atmosphere" :
+	{
+		"size" : 160,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 160
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/mars_heightmap.png",	
+		"textureMap" : "planets/assets/mars_texturemap.png",	
+		"minHeight" : 150,
+		"maxHeight" : 155
+	}
+}

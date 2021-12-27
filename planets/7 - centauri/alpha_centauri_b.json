@@ -1,0 +1,35 @@
+{
+	"name" : "Alpha Centauri B",
+	"Base" :
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 1000,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10000,
+		"inclination" : 0,
+		"primaryBody" : "Alpha Centauri",
+		"showOrbitLine" : true,
+	},
+	"Star" :
+	{
+		"size" : 1800,
+		"tint" : 
+		{
+			"r" : 160,
+			"g" : 87,
+			"b" : 55,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 26,
+			"g" : 102,
+			"b" : 255,
+			"a" : 255
+		}
+	}
+}

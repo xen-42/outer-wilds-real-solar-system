@@ -1,0 +1,29 @@
+{
+	"name" : "The Moon",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 800,
+		"inclination" : 5,
+		"primaryBody" : "Earth",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/moon_heightmap.png",	
+		"textureMap" : "planets/assets/moon_texturemap.png",	
+		"minHeight" : 100,
+		"maxHeight" : 105
+	}
+}
