@@ -6,7 +6,7 @@
 		"surfaceSize" : 150,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true,
-		"lavaSize" : 151.5
+		"lavaSize" : 151
 	},
 	"Orbit" :
 	{
