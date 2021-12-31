@@ -11,7 +11,7 @@
 	{
 		"semiMajorAxis" : 3000,
 		"inclination" : 3,
-		"primaryBody" : "Sun",
+		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 0,
 		"eccentricity" : 0.1,

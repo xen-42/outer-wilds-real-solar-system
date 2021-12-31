@@ -16,7 +16,15 @@
 		"longitudeOfAscendingNode" : 74,
 		"axialTilt" : 0,
 		"trueAnomaly" : 0,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 180,
+			"g" : 180,
+			"b" : 30,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{

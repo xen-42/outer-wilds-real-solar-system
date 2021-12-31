@@ -14,7 +14,15 @@
 		"inclination" : 0,
 		"primaryBody" : "Alpha Centauri A",
 		"isMoon" : false,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 200,
+			"g" : 0,
+			"b" : 0,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{

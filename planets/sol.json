@@ -1,0 +1,52 @@
+{
+	"name" : "Sol",
+	"Base" :
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 1000,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "linear",
+		"centerOfSolarSystem" : true
+	},
+	"Orbit" :
+	{
+		"isStatic" : true
+	},
+	"Atmosphere" :
+	{
+		"size" : 2200,
+		"fogTint" : 
+		{
+			"r" : 245,
+			"g" : 197,
+			"b" : 126,
+			"a" : 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 2200,
+	},
+	"Star" :
+	{
+		"size" : 2000,
+		"tint" : 
+		{
+			"r" : 245,
+			"g" : 197,
+			"b" : 126,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 26,
+			"g" : 102,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarLuminosity" : 0.8
+	},
+	"AsteroidBelt" : 
+	{
+		"innerRadius" : 9400,
+		"outerRadius" : 9200
+	}
+}

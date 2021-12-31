@@ -11,7 +11,7 @@
 	{
 		"semiMajorAxis" : 18000,
 		"inclination" : 0,
-		"primaryBody" : "Sun",
+		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 74,
 		"axialTilt" : 97,
@@ -37,7 +37,15 @@
 			"a" : 255
 		},
 		"fogDensity": 0.9,
-		"fogSize": 300
+		"fogSize": 300,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 10,
+			"g" : 90,
+			"b" : 220,
+			"a" : 255
+		}
 	},
 	"Ring" : 
 	{

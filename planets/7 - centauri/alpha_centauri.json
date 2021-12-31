@@ -7,7 +7,7 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 120000,
-		"primaryBody" : "Sun",
+		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
 		"trueAnomaly" : 60,
 		"isStatic" : true,

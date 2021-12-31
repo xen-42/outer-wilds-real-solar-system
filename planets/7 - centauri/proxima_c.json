@@ -38,12 +38,20 @@
 			"a" : 255
 		},
 		"fogDensity": 0.9,
-		"fogSize": 300
+		"fogSize": 300,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 181,
+			"g" : 181,
+			"b" : 230,
+			"a" : 255
+		}
 	},
 	"Ring" : 
 	{
 		"innerRadius" : 400,
 		"outerRadius" : 600,
-		"texture" : "planets/assets/default_rings.png",
+		"texture" : "planets/assets/proxima_c_rings.png",
 	}
 }

@@ -13,7 +13,7 @@
 		"semiMajorAxis" : 14500,
 		"inclination" : 167,
 		"eccentricity" : 0.7,
-		"primaryBody" : "Sun",
+		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"isTidallyLocked" : true
 	},

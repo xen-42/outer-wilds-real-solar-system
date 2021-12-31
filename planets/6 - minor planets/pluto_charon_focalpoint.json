@@ -8,7 +8,7 @@
 	{
 		"semiMajorAxis" : 22000,
 		"inclination" : 12,
-		"primaryBody" : "SUN",
+		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 0,
 		"eccentricity" : 0.1,

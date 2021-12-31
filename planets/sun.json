@@ -1,8 +1,0 @@
-{
-	"name" : "Sun",
-	"AsteroidBelt" : 
-	{
-		"innerRadius" : 9400,
-		"outerRadius" : 9200
-	}
-}

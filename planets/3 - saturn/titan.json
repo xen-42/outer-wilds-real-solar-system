@@ -40,6 +40,14 @@
 		},
 		"fogDensity": 0.9,
 		"fogSize": 120,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 230,
+			"g" : 230,
+			"b" : 80,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{
