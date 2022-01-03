@@ -14,10 +14,10 @@ Images used are not mine. Unless stated otherwise, they're from NASA. The other 
 
 [Titania texture map](https://www.deviantart.com/neptuneproproduction/art/Titania-Texture-Map-746524585)
 
-I am probably missing some.
+[Ceres texture map](https://www.solarsystemscope.com/textures/)
 
 ### Models
 
 "Teapot." (https://skfb.ly/oqPNZ) by Akulla is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
-Mars Perserverance Rover and Cassini 3D models made by NASA
+Mars Perserverance Rover, Cassini, Lunar Lander, and Voyager 3D models made by [NASA](https://nasa3d.arc.nasa.gov/models)
