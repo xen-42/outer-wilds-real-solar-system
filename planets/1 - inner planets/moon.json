@@ -24,6 +24,20 @@
 		"heightMap" : "planets/assets/moon_heightmap.png",	
 		"textureMap" : "planets/assets/moon_texturemap.png",	
 		"minHeight" : 100,
-		"maxHeight" : 105
+		"maxHeight" : 102
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "Name" : "Lunar Lander", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "Position" : {"x": -74.21288, "y": -50.54135, "z": 46.29598} }
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/lunarlander.prefab", "position" : {"x": -74.21288, "y": -50.54135, "z": 46.29598}, "alignToNormal" : true, "scale": 12 }
+		]
 	}
 }

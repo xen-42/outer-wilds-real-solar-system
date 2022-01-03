@@ -1,0 +1,25 @@
+{
+	"name" : "Vesta",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 50,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 9000,
+		"inclination" : 2,
+		"longitudeOfAscendingNode" : 100,
+		"primaryBody" : "Sol",
+		"isMoon" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/vesta_heightmap.png",	
+		"textureMap" : "planets/assets/vesta_texturemap.png",	
+		"minHeight" : 45,
+		"maxHeight" : 50
+	},
+}

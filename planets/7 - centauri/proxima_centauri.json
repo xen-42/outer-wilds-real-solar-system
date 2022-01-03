@@ -9,10 +9,9 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 20000,
-		"inclination" : 0,
-		"eccentricity" : 0.5,
+		"semiMajorAxis" : 40000,
 		"trueAnomaly" : 270,
+		"argumentOfPeriapsis" : 270,
 		"primaryBody" : "Alpha Centauri A",
 		"showOrbitLine" : false,
 		"isStatic" : true

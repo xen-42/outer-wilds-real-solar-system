@@ -18,7 +18,14 @@
 		"argumentOfPeriapsis": 0,
 		"axialTilt" : 2,
 		"trueAnomaly" : 0,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"tint" : 
+		{
+			"r" : 160,
+			"g" : 135,
+			"b" : 82,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{

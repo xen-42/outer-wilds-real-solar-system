@@ -1,0 +1,30 @@
+{
+	"name" : "Voyager",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"hasMapMarker" : false,
+		"isSatellite" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10000,
+		"primaryBody" : "Proxima Centauri",
+		"showOrbitLine" : true,
+		"eccentricity" : 0.5
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "Name" : "Voyager", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Voyager.prefab" }
+		]
+	}
+}

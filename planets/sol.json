@@ -5,7 +5,7 @@
 		"surfaceGravity" : 100,
 		"surfaceSize" : 1000,
 		"hasMapMarker" : true,
-		"gravityFallOff" : "linear",
+		"gravityFallOff" : "inverseSquared",
 		"centerOfSolarSystem" : true
 	},
 	"Orbit" :
@@ -23,7 +23,7 @@
 			"a" : 255
 		},
 		"fogDensity": 0.4,
-		"fogSize": 2200,
+		"fogSize": 2200
 	},
 	"Star" :
 	{
@@ -46,7 +46,7 @@
 	},
 	"AsteroidBelt" : 
 	{
-		"innerRadius" : 9400,
-		"outerRadius" : 9200
+		"innerRadius" : 9200,
+		"outerRadius" : 9400
 	}
 }

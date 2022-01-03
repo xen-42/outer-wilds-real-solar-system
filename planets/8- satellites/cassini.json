@@ -16,7 +16,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Radio", "Name" : "Cassini", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 1 },
+			{ "Frequency" : "Radio", "Name" : "Cassini", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :

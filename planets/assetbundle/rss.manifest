@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 683060207
+CRC: 2702657824
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 243535ef6cbbfcc6d7614b93e79329bc
+    Hash: ae47c4937020fe07581410ae78898b70
   TypeTreeHash:
     serializedVersion: 2
     Hash: 388948f85a7dab97f666b97c740d0f0d
@@ -29,21 +29,32 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/RSS/teapot1.fbx
+- Assets/RSS/Materials/foil.mat
 - Assets/RSS/Chiri_Base_Color.jpeg
 - Assets/RSS/Prefabs/Cassini.prefab
+- Assets/RSS/voyager/Materials/tex_02_AO.mat
 - Assets/RSS/Materials/1_Base_Color.mat
 - Assets/RSS/Materials/Dodas_Base_Color.mat
 - Assets/RSS/foil_gold_ramp.png
+- Assets/RSS/dawn.fbx
 - Assets/RSS/Materials/Voxel_Base_Color.mat
 - Assets/RSS/dish_AO.png
+- Assets/RSS/lunarlander.fbx
 - Assets/RSS/rover.fbx
 - Assets/RSS/Materials/dish_AO.mat
 - Assets/RSS/Dodas_Base_Color.jpeg
+- Assets/RSS/voyager.fbx
 - Assets/RSS/1_Base_Color.jpeg
+- Assets/RSS/Prefabs/lunarlander.prefab
 - Assets/RSS/Materials/Chiri_Base_Color.mat
+- Assets/RSS/Dawn_19.fbx
+- Assets/RSS/Mars Global Surveyor.fbx
 - Assets/RSS/Cassini_66.fbx
 - Assets/RSS/Prefabs/Rover.prefab
+- Assets/RSS/Prefabs/Voyager.prefab
 - Assets/RSS/Prefabs/Teapot.prefab
 - Assets/RSS/Voxel_Base_Color.jpeg
 - Assets/RSS/Materials/foil_gold_ramp.mat
+- Assets/RSS/voyager/tex_02_AO.png
+- Assets/RSS/MESSENGER.fbx
 Dependencies: []

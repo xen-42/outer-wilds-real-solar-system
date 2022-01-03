@@ -1,0 +1,26 @@
+{
+	"name" : "Ceres",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 60,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 9500,
+		"inclination" : 3,
+		"trueAnomaly" : 180,
+		"longitudeOfAscendingNode": 80,
+		"primaryBody" : "Sol",
+		"isMoon" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/ceres_heightmap.png",	
+		"textureMap" : "planets/assets/ceres_texturemap.png",	
+		"minHeight" : 60,
+		"maxHeight" : 65
+	},
+}

@@ -18,7 +18,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Traveler", "Name" : "Russel's Teapot", "AudioClip" : "OW Space Station 081420_2 AP", "SourceRadius" : 1 },
+			{ "Frequency" : "Traveler", "Name" : "Russel's Teapot", "AudioClip" : "OW Space Station 081420_2 AP", "SourceRadius" : 1, "detectionRadius": 200, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :
