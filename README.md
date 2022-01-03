@@ -5,6 +5,7 @@
 
 Replaces the solar system in Outer Wilds with ours, including 8 planets, 12 moons, over 100 asteroids, Pluto-Charon, Halley's comet, and distant Alpha Centauri.
 
+## Credits
 Images used are not mine. Unless stated otherwise, they're from NASA. The other sources are:
 
 [Triton texture map](https://www.deviantart.com/neptuneprogaming/art/Triton-Texture-Map-713512330)
@@ -12,3 +13,9 @@ Images used are not mine. Unless stated otherwise, they're from NASA. The other 
 [Titania texture map](https://www.deviantart.com/neptuneproproduction/art/Titania-Texture-Map-746524585)
 
 I am probably missing some.
+
+### Models
+
+"Teapot." (https://skfb.ly/oqPNZ) by Akulla is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Mars Perserverance Rover and Cassini 3D models made by NASA
