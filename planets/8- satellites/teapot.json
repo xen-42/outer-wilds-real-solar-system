@@ -3,7 +3,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
-		"hasMapMarker" : true,
+		"hasMapMarker" : false,
 		"isSatellite" : true
 	},
 	"Orbit" :
@@ -12,7 +12,7 @@
 		"inclination" : 5,
 		"trueAnomaly" : 65,
 		"primaryBody" : "Sol",
-		"showOrbitLine" : true
+		"showOrbitLine" : false
 	},
 	"Signal" : 
 	{
