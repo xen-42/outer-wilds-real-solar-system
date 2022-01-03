@@ -47,5 +47,19 @@
 		"textureMap" : "planets/assets/mars_texturemap.png",	
 		"minHeight" : 150,
 		"maxHeight" : 155
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "Name" : "Perserverance Rover", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "Position" : {"x": 150.3908, "y": -8.638512, "z": -34.5191} }
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Rover.prefab", "position" : {"x": 150.3908, "y": -8.638512, "z": -34.5191}, "alignToNormal" : true }
+		]
 	}
 }

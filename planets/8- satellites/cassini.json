@@ -1,0 +1,29 @@
+{
+	"name" : "Cassini",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"hasMapMarker" : true,
+		"isSatellite" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1000,
+		"primaryBody" : "Saturn",
+		"showOrbitLine" : true
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "Name" : "Cassini", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 1 },
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Cassini.prefab" }
+		]
+	}
+}

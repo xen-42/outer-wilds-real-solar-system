@@ -12,7 +12,7 @@
 		"semiMajorAxis" : 20000,
 		"inclination" : 0,
 		"eccentricity" : 0.5,
-		"argumentOfPeriapsis" : 270,
+		"trueAnomaly" : 270,
 		"primaryBody" : "Alpha Centauri A",
 		"showOrbitLine" : false,
 		"isStatic" : true

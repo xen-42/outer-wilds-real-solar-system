@@ -3,7 +3,7 @@
   "author": "xen",
   "name": "Real Solar System",
   "uniqueName": "xen.RealSolarSystem",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]
 }

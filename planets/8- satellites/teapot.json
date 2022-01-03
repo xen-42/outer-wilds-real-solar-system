@@ -1,0 +1,31 @@
+{
+	"name" : "Russel's Teapot",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"hasMapMarker" : true,
+		"isSatellite" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 7000,
+		"inclination" : 5,
+		"trueAnomaly" : 65,
+		"primaryBody" : "Sol",
+		"showOrbitLine" : true
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Traveler", "Name" : "Russel's Teapot", "AudioClip" : "OW Space Station 081420_2 AP", "SourceRadius" : 1 },
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab" }
+		]
+	}
+}

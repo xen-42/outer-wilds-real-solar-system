@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 683060207
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 243535ef6cbbfcc6d7614b93e79329bc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 388948f85a7dab97f666b97c740d0f0d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+Assets:
+- Assets/RSS/teapot1.fbx
+- Assets/RSS/Chiri_Base_Color.jpeg
+- Assets/RSS/Prefabs/Cassini.prefab
+- Assets/RSS/Materials/1_Base_Color.mat
+- Assets/RSS/Materials/Dodas_Base_Color.mat
+- Assets/RSS/foil_gold_ramp.png
+- Assets/RSS/Materials/Voxel_Base_Color.mat
+- Assets/RSS/dish_AO.png
+- Assets/RSS/rover.fbx
+- Assets/RSS/Materials/dish_AO.mat
+- Assets/RSS/Dodas_Base_Color.jpeg
+- Assets/RSS/1_Base_Color.jpeg
+- Assets/RSS/Materials/Chiri_Base_Color.mat
+- Assets/RSS/Cassini_66.fbx
+- Assets/RSS/Prefabs/Rover.prefab
+- Assets/RSS/Prefabs/Teapot.prefab
+- Assets/RSS/Voxel_Base_Color.jpeg
+- Assets/RSS/Materials/foil_gold_ramp.mat
+Dependencies: []
