@@ -1,6 +1,6 @@
 {
 	"name" : "Earth",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Spawn" : 
 	{
 		"playerSpawnPoint" :

@@ -1,6 +1,6 @@
 {
 	"name" : "Pluto-Charon",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"hasMapMarker" : true

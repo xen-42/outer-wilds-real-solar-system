@@ -1,6 +1,6 @@
 {
 	"name" : "Alpha Centauri",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"hasMapMarker" : false

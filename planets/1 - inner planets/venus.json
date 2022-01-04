@@ -1,6 +1,6 @@
 {
 	"name" : "Venus",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 12,

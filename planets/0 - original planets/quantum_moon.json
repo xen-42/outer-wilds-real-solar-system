@@ -1,5 +1,5 @@
 {
 	"name" : "Quantum Moon",
 	"destroy" : true,
-	"starSystem" : "SolSystem"
+	"starSystem" : "xen.RealSolarSystem"
 }

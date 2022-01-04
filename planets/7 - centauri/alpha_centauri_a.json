@@ -1,6 +1,6 @@
 {
 	"name" : "Alpha Centauri A",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 180,

@@ -1,6 +1,6 @@
 {
 	"name" : "Phobos",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 1,

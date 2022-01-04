@@ -1,6 +1,6 @@
 {
 	"name" : "Pluto",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 8,

@@ -1,6 +1,6 @@
 {
 	"name" : "Sol",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 100,

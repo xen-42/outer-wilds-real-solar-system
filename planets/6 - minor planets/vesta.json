@@ -1,6 +1,6 @@
 {
 	"name" : "Vesta",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 6,

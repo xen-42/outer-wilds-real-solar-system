@@ -1,5 +1,5 @@
 {
 	"name" : "Brittle Hollow",
 	"destroy" : true,
-	"starSystem" : "SolSystem"
+	"starSystem" : "xen.RealSolarSystem"
 }

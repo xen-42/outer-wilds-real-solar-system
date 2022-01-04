@@ -1,5 +1,5 @@
 {
 	"name" : "Timber Hearth",
 	"destroy" : true,
-	"starSystem" : "SolSystem"
+	"starSystem" : "xen.RealSolarSystem"
 }

@@ -1,6 +1,6 @@
 {
 	"name" : "Proxima Centauri",
-	"starSystem" : "SolSystem",
+	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 50,
