@@ -5,7 +5,10 @@
 
 ![Perserverance Rover](https://user-images.githubusercontent.com/22628069/147908787-7ee451b6-459d-449f-8fa1-dbac6be82103.png)
 
-Replaces the solar system in Outer Wilds with ours, including 8 planets, 12 moons, over 100 asteroids, Pluto-Charon, Halley's comet, and distant Alpha Centauri.
+![Lunar lander](https://user-images.githubusercontent.com/22628069/148104095-67424b8a-7307-4bcc-a5a9-138d97316e23.png)
+
+
+Replaces the solar system in Outer Wilds with ours, including 8 planets, 12 moons, over 100 asteroids, 5 minor bodies, a few planetary probes and satellites, and distant Alpha Centauri.
 
 ## Credits
 Images used are not mine. Unless stated otherwise, they're from NASA. The other sources are:
