@@ -1,5 +1,6 @@
 {
 	"name" : "Titan",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 10,

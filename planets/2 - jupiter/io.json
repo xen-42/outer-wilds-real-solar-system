@@ -1,5 +1,6 @@
 {
 	"name" : "Io",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 8,

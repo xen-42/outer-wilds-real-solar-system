@@ -1,5 +1,6 @@
 {
 	"name" : "Callisto",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 8,

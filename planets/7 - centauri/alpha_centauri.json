@@ -1,8 +1,9 @@
 {
 	"name" : "Alpha Centauri",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
-		"hasMapMarker" : false,
+		"hasMapMarker" : false
 	},
 	"Orbit" :
 	{
@@ -10,11 +11,11 @@
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
 		"trueAnomaly" : 60,
-		"isStatic" : true,
+		"isStatic" : true
 	},
 	"FocalPoint" :
 	{
 		"Primary" : "Alpha Centauri A",
-		"Secondary" : "Alpha Centauri B",
+		"Secondary" : "Alpha Centauri B"
 	}
 }

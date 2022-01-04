@@ -1,5 +1,6 @@
 {
 	"name" : "Halley's Comet",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 6,

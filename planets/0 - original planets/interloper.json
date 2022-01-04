@@ -1,4 +1,5 @@
 {
 	"name" : "Interloper",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

@@ -1,5 +1,6 @@
 {
 	"name" : "Cassini",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 0,

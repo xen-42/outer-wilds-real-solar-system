@@ -1,19 +1,12 @@
 {
 	"name" : "Earth",
+	"starSystem" : "SolSystem",
 	"Spawn" : 
 	{
 		"playerSpawnPoint" :
-		{
-			"x" : 182.4,
-			"y" : 227.4,
-			"z" : 62.7,
-		},
+		{"x": -55.65454, "y": 227.4736, "z": 183.9742},
 		"shipSpawnPoint" :
-		{
-			"x" : 188.7,
-			"y" : 223.4,
-			"z" : 55.6,
-		},
+		{"x": -59.18244, "y": 215.5915, "z": 196.174},
 		"startwithSuit" : true
 	},
 	"Base" :

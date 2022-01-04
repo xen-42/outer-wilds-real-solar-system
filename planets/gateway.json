@@ -1,0 +1,10 @@
+{
+	"name" : "Timber Hearth",
+	"Singularity" :
+	{
+		"Type" : "BlackHole",
+		"TargetStarSystem" : "SolSystem",
+		"Size" : 4,
+		"Position" : {"x": 28.33457, "y": -51.38859, "z": 183.9816} 
+	}
+}

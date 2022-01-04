@@ -1,4 +1,5 @@
 {
 	"name" : "Hollow's Lantern",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

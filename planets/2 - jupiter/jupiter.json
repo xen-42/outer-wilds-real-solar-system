@@ -1,5 +1,6 @@
 {
 	"name" : "Jupiter",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 20,

@@ -1,4 +1,5 @@
 {
 	"name" : "Brittle Hollow",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

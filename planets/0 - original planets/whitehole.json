@@ -1,4 +1,5 @@
 {
 	"name" : "White Hole",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

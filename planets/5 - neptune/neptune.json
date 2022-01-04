@@ -1,5 +1,6 @@
 {
 	"name" : "Neptune",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 20,

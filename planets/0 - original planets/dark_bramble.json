@@ -1,4 +1,5 @@
 {
 	"name" : "Dark Bramble",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

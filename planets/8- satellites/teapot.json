@@ -1,5 +1,6 @@
 {
 	"name" : "Russel's Teapot",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 0,

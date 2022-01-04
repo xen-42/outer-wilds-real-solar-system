@@ -1,5 +1,6 @@
 {
 	"name" : "Mars",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 4,

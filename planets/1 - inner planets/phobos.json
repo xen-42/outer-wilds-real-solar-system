@@ -1,5 +1,6 @@
 {
 	"name" : "Phobos",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 1,

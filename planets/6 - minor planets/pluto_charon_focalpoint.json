@@ -1,8 +1,9 @@
 {
 	"name" : "Pluto-Charon",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
-		"hasMapMarker" : true,
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -18,6 +19,6 @@
 	"FocalPoint" :
 	{
 		"Primary" : "Pluto",
-		"Secondary" : "Charon",
+		"Secondary" : "Charon"
 	}
 }

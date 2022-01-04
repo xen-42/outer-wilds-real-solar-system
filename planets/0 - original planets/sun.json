@@ -1,4 +1,5 @@
 {
 	"name" : "Sun",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

@@ -1,4 +1,5 @@
 {
 	"name" : "DreamWorld",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

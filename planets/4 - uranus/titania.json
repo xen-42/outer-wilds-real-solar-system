@@ -1,5 +1,6 @@
 {
 	"name" : "Titania",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 8,

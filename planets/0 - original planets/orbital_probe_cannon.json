@@ -1,4 +1,5 @@
 {
 	"name" : "Orbital Probe Cannon",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

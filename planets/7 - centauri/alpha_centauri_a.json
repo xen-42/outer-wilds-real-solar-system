@@ -1,17 +1,18 @@
 {
 	"name" : "Alpha Centauri A",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 180,
 		"surfaceSize" : 1000,
 		"hasMapMarker" : true,
-		"gravityFallOff" : "inverseSquared",
+		"gravityFallOff" : "inverseSquared"
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
 		"primaryBody" : "Alpha Centauri",
-		"showOrbitLine" : true,
+		"showOrbitLine" : true
 	},
 	"Star" :
 	{

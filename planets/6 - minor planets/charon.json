@@ -1,5 +1,6 @@
 {
 	"name" : "Charon",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 6,

@@ -1,5 +1,6 @@
 {
 	"name" : "Voyager",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 0,

@@ -1,5 +1,6 @@
 {
 	"name" : "Sol",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 100,

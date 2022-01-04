@@ -1,5 +1,6 @@
 {
 	"name" : "Ganymede",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 10,

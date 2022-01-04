@@ -1,4 +1,5 @@
 {
 	"name" : "Timber Hearth",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

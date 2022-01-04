@@ -1,5 +1,6 @@
 {
 	"name" : "Mercury",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 6,

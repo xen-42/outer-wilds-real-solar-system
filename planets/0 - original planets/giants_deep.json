@@ -1,4 +1,5 @@
 {
 	"name" : "Giant's Deep",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

@@ -1,4 +1,5 @@
 {
 	"name" : "Ash Twin",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }

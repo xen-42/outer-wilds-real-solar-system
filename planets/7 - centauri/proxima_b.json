@@ -1,11 +1,12 @@
 {
 	"name" : "Proxima B",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 8,
 		"surfaceSize" : 150,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true,
+		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{

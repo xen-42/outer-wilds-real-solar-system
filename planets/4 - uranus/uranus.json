@@ -1,5 +1,6 @@
 {
 	"name" : "Uranus",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 20,

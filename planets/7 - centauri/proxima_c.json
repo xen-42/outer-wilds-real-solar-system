@@ -1,5 +1,6 @@
 {
 	"name" : "Proxima C",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 12,

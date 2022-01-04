@@ -1,11 +1,12 @@
 {
 	"name" : "Proxima Centauri",
+	"starSystem" : "SolSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 50,
 		"surfaceSize" : 1000,
 		"hasMapMarker" : true,
-		"gravityFallOff" : "inverseSquared",
+		"gravityFallOff" : "inverseSquared"
 	},
 	"Orbit" :
 	{

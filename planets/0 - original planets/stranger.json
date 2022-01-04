@@ -1,4 +1,5 @@
 {
 	"name" : "RingWorld",
-	"destroy" : true
+	"destroy" : true,
+	"starSystem" : "SolSystem"
 }
