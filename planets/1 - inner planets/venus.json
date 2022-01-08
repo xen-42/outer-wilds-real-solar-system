@@ -32,6 +32,7 @@
 			"a" : 255
 		},
 		"cloud" : "planets/assets/venus_clouds.png",
+		"useBasicCloudShader" : true,
 		"fogTint" : 
 		{
 			"r" : 200,

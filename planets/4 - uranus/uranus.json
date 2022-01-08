@@ -52,6 +52,6 @@
 	{
 		"innerRadius" : 560,
 		"outerRadius" : 600,
-		"texture" : "planets/assets/uranus_rings.png",
+		"texture" : "planets/assets/uranus_rings.png"
 	}
 }

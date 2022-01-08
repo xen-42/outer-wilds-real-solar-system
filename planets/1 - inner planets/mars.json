@@ -60,14 +60,14 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Radio", "Name" : "Perserverance Rover", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "Position" : {"x": 150.3908, "y": -8.638512, "z": -34.5191} }
+			{ "Frequency" : "Radio", "Name" : "Perserverance Rover", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "Position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
 		]
 	},
 	"Props" :
 	{
 		"Details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Rover.prefab", "position" : {"x": 150.3908, "y": -8.638512, "z": -34.5191}, "alignToNormal" : true }
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Rover.prefab", "position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736}, "alignToNormal" : true }
 		]
 	}
 }
