@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "Cassini",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
@@ -17,7 +18,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Radio", "Name" : "Cassini", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "Frequency" : "Radio", "name" : "Cassini", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :

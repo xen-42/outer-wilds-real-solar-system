@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "Voyager",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
@@ -18,7 +19,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Radio", "Name" : "Voyager", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "Frequency" : "Radio", "name" : "Voyager", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :

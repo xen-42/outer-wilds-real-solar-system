@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "Mars",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
@@ -60,7 +61,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Radio", "Name" : "Perserverance Rover", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "Position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
+			{ "Frequency" : "Radio", "name" : "Perserverance Rover", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "Position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
 		]
 	},
 	"Props" :

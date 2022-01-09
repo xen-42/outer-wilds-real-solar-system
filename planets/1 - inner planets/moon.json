@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "The Moon",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
@@ -31,7 +32,7 @@
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Radio", "Name" : "Lunar Lander", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "Position" : {"x": -74.21288, "y": -50.54135, "z": 46.29598} }
+			{ "Frequency" : "Radio", "name" : "Lunar Lander", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "Position" : {"x": -74.21288, "y": -50.54135, "z": 46.29598} }
 		]
 	},
 	"Props" :

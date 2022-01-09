@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "Timber Hearth",
 	"Singularity" :
 	{
@@ -13,7 +14,7 @@
 		[
 			{ 
 				"Frequency" : "Default",
-				"Name" : "Gateway to Earth",
+				"name" : "Gateway to Earth",
 				"AudioClip" : "OW_NM_WhiteHoleAmbienceL", 
 				"SourceRadius" : 3, 
 				"Position" : {"x": 28.33457, "y": -51.38859, "z": 183.9816},
