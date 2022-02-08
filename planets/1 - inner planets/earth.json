@@ -15,8 +15,7 @@
 		"surfaceGravity" : 12,
 		"surfaceSize" : 300,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true,
-		"waterSize" : 294
+		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
@@ -30,6 +29,9 @@
 		"trueAnomaly" : 180,
 		"axialTilt" : 23,
 		"siderealPeriod" : 50
+	},
+	"Water" : {
+		"size" : 294
 	},
 	"Atmosphere" :
 	{

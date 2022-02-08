@@ -7,8 +7,7 @@
 		"surfaceGravity" : 10,
 		"surfaceSize" : 140,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true,
-		"waterSize" : 102
+		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
@@ -48,6 +47,16 @@
 			"r" : 230,
 			"g" : 230,
 			"b" : 80,
+			"a" : 255
+		}
+	},
+	"Water" : {
+		"size" : 103,
+		"tint" : 
+		{
+			"r" : 113,
+			"g" : 82,
+			"b" : 28,
 			"a" : 255
 		}
 	},
