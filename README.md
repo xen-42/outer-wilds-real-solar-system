@@ -14,7 +14,7 @@ Replaces the solar system in Outer Wilds with ours, including 8 planets, 12 moon
 ![Lunar lander](https://user-images.githubusercontent.com/22628069/148104095-67424b8a-7307-4bcc-a5a9-138d97316e23.png)
 
 ## Credits
-Images used are not mine. Unless stated otherwise, they're from NASA. The other sources are:
+Planet textures and height maps used are not mine. Unless stated otherwise, they're from NASA. The other sources are:
 
 [Triton texture map](https://www.deviantart.com/neptuneprogaming/art/Triton-Texture-Map-713512330)
 
