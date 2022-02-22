@@ -28,5 +28,10 @@
 		[
 			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Voyager.prefab" }
 		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
 	}
 }

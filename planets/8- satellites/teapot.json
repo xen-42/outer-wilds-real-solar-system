@@ -29,5 +29,10 @@
 		[
 			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab" }
 		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
 	}
 }
