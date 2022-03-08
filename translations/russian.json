@@ -1,0 +1,67 @@
+{
+    "DialogueDictionary" :
+    	{
+		"" : ""
+   	},
+    "ShipLogDictionary" :
+    	{
+		"" : ""
+   	},
+	"UIDictionary" :
+    	{
+		"Sol" : "Солнце",
+		"Gateway to Earth" : "Телепорт на Землю",
+
+		"Mercury" : "Меркурий",
+		"Venus" : "Венера",
+		"Earth" : "Земля",
+		"Mars" : "Марс",
+		"Jupiter": "Юпитер",
+		"Saturn" : "Сатурн",
+		"Uranus" : "Уран",
+		"Neptune" : "Нептун",
+
+		"The Moon" : "Луна",
+		"Deimos" : "Деймос",
+		"Phobos" : "Фобос",
+		"Io" : "Ио",
+		"Europa" : "Европа",
+		"Ganymede" : "Ганимед",
+		"Callisto" : "Каллисто",
+		"Titan" : "Титан",
+		"Titania" : "Титания",
+		"Puck" : "Пак",
+		"Triton" : "Тритон",
+
+		"Ceres" : "Церера",
+		"Charon" : "Харон",
+		"Halley's Comet" : "Комета Галлея",
+		"Pluto" : "Плутон",
+		"Pluto-Charon" : "Плутон-Харон",
+		"Vesta" : "Веста",
+
+		"Cassini" : "Кассини",
+		"Russel's Teapot" : "Чайник Рассела",
+		"Voyager" : "Вояджер",
+		
+		
+		"Alpha Centauri" : "Альфа Центавра",
+		"Alpha Centauri A" : "Альфа Центавра A",
+		"Perdition" : "Альфа Центавра AB",
+		"Alpha Centauri B" : "Альфа Центавра B",
+
+
+		"Proxima B" : "Проксима B",
+		"Proxima C" : "Проксима C",
+		"Proxima Centauri" : "Проксима Центавра",
+
+		
+		
+		"Lunar Lander" : "Лунный модуль",
+		"Perserverance Rover" : "Марсоход Персеверанс",
+		"Cassini" : "Кассини",
+		"Russel's Teapot" : "Чайник Рассела",
+		"Voyager" : "Вояджер"
+		
+    }
+}
