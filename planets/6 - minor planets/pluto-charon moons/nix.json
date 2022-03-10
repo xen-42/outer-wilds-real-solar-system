@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Nix",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 900,
+		"primaryBody" : "Pluto-Charon",
+		"isMoon" : true,
+		"isTidallyLocked" : true
+	},
+	"ProcGen": {
+		"scale": 40,
+		"colour": {
+			"R": 100,
+			"G": 100,
+			"B": 100,
+			"A": 255
+		}
+	}
+}
