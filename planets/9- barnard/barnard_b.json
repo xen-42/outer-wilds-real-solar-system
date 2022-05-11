@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Barnard's B",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 300,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 3000,
+		"inclination" : 4.7,
+		"primaryBody" : "Barnard's Star",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 256,
+		"eccentricity" : 0.32,
+		"axialTilt" : 10
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"textureMap" : "planets/assets/barnardb_texturemap.png",	
+		"minHeight" : 300,
+		"maxHeight" : 300
+	}
+}
