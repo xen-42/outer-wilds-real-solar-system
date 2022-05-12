@@ -11,7 +11,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 415,
+		"semiMajorAxis" : 450,
 		"primaryBody" : "Earth",
 		"showOrbitLine" : true,
 		"dottedOrbitLine": true,
@@ -31,9 +31,13 @@
 	},
 	"Props" :
 	{
-		"Details" :
+		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/iss", "path" : "Assets/ISS/InternationalSpaceStation.prefab" }
+			{
+				"assetBundle" : "planets/assetbundle/iss",
+				"path" : "Assets/ISS/InternationalSpaceStation.prefab",
+				"scale": 0.75,
+			}
 		]
 	},
 	"ShipLog" : {

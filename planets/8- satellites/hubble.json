@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 534,
+		"semiMajorAxis" : 550,
 		"primaryBody" : "Earth",
 		"showOrbitLine" : true,
 		"dottedOrbitLine": true,

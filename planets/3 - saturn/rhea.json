@@ -11,14 +11,14 @@
 	},
 	"AsteroidBelt" : 
 	{
-		"innerRadius" : 100,
-		"outerRadius" : 80,
+		"innerRadius" : 75,
+		"outerRadius" : 70,
 		"randomSeed": 7432,
 		"amount": 20,
-		"minSize": 5,
-		"maxSize": 10,
+		"minSize": 2,
+		"maxSize": 4,
 		"procGen": {
-			"scale": 5,
+			"scale": 3,
 			"colour": {
 				"r": 126,
 				"g": 95,
@@ -29,7 +29,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 827,
+		"semiMajorAxis" : 900,
 		"inclination" : 0,
 		"primaryBody" : "Saturn",
 		"isMoon" : true,

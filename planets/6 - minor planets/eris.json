@@ -11,7 +11,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 38051,
+		"semiMajorAxis" : 38000,
 		"inclination" : 44,
 		"trueAnomaly" : 206,
         "eccentricity": 0.44,
@@ -20,7 +20,7 @@
 		"axialTilt": 78,
 		"siderealPeriod": 53,
 		"primaryBody" : "Sol",
-		"isMoon" : true
+		"isMoon" : false
 	},
 	"HeightMap" :
 	{

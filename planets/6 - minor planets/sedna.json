@@ -19,7 +19,7 @@
 		"argumentOfPeriapsis": 	311,
 		"siderealPeriod": 20,
 		"primaryBody" : "Sol",
-		"isMoon" : true
+		"isMoon" : false
 	},
 	"HeightMap" :
 	{
