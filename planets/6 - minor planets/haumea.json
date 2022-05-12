@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Haumea",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 7,
+		"surfaceSize" : 200,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 24175,
+		"inclination" : 28,
+		"trueAnomaly" : 218,
+		"eccentricity": 0.2,
+		"longitudeOfAscendingNode": 122,
+		"argumentOfPeriapsis": 239,
+		"siderealPeriod": 1,
+		"primaryBody" : "Sol",
+		"isMoon" : false
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/haumea_heightmap.png",
+		"textureMap": "planets/assets/haumea_texturemap.jpg",
+		"minHeight": 88,
+		"maxHeight": 90,
+		"stretch":{
+			"x": 1.1428572,
+			"y": 1.6,
+			"z": 0.72727275
+		}
+	}
+}

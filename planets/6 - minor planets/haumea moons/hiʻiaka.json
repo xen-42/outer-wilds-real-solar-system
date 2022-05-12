@@ -1,0 +1,34 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Hiʻiaka",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 350,
+		"primaryBody" : "Haumea",
+		"inclination": 126.356,
+		"longitudeOfAscendingNode": 206.766,
+		"eccentricity": 0.0513,
+		"trueAnomaly": 152.8,
+		"argumentOfPeriapsis": 154.1,
+		"axialTilt": 78,
+		"isMoon" : true,
+		"isTidallyLocked" : true
+	},
+	"ProcGen": {
+		"scale": 30,
+		"colour": {
+			"R": 100,
+			"G": 100,
+			"B": 100,
+			"A": 255
+		}
+	}
+}
