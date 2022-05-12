@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Makemake",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 9,
+		"surfaceSize" : 70,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 25472,
+		"inclination" : 29,
+		"trueAnomaly" : 165,
+		"eccentricity": 0.16,
+		"longitudeOfAscendingNode": 80,
+		"argumentOfPeriapsis": 295,
+		"siderealPeriod": 46,
+		"primaryBody" : "Sol",
+		"isMoon" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/makemake_heightmap.png",	
+		"textureMap" : "planets/assets/makemake_texturemap.png",	
+		"minHeight" : 60,
+		"maxHeight" : 65
+	}
+}
