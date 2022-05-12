@@ -25,7 +25,7 @@
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/pan_heightmap.png",	
-		"textureMap" : "planets/assets/cupid_texturemap.png",	
+		"textureMap" : "planets/assets/blank_texturemap.png",	
 		"minHeight" : 0.7825,
 		"maxHeight" : 1.25
 	}
