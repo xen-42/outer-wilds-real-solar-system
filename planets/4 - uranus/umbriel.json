@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Umbriel",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 80,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 566,
+		"primaryBody" : "Uranus",
+		"isMoon" : true,
+		"inclination" : 0.128,
+		"eccentricity" : 0.0039,
+		"trueAnomaly": 258.3,
+		"longitudeOfAscendingNode": 195.5,
+		"argumentOfPeriapsis": 157.5,
+		"siderealPeriod" : 202
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/umbriel_heightmap.png",	
+		"textureMap" : "planets/assets/umbriel_texturemap.png",	
+		"minHeight" : 33,
+		"maxHeight" : 35
+	}
+}
