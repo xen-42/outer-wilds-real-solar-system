@@ -4,20 +4,20 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 8,
-		"surfaceSize" : 100,
+		"surfaceGravity" : 1,
+		"surfaceSize" : 10,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 600,
+		"semiMajorAxis" : 800,
 		"primaryBody" : "Pluto-Charon",
 		"isMoon" : true,
 		"isTidallyLocked" : true
 	},
 	"ProcGen": {
-		"scale": 40,
+		"scale": 10,
 		"colour": {
 			"R": 100,
 			"G": 100,
