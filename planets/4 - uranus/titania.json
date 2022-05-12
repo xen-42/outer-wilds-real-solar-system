@@ -20,9 +20,9 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/titania_heightmap.png",	
 		"textureMap" : "planets/assets/titania_texturemap.png",	
-		"minHeight" : 45,
+		"minHeight" : 43,
 		"maxHeight" : 45
 	},
 	"ShipLog" : {
