@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 8,
-		"surfaceSize" : 50,
+		"surfaceGravity" : 4,
+		"surfaceSize" : 70,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -21,7 +21,7 @@
 	{
 		"heightMap" : "planets/assets/blank_heightmap.png",	
 		"textureMap" : "planets/assets/europa_texturemap.png",	
-		"minHeight" : 50,
-		"maxHeight" : 50
+		"minHeight" : 70,
+		"maxHeight" : 70
 	}
 }

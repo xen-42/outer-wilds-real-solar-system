@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 8,
-		"surfaceSize" : 100,
+		"surfaceGravity" : 4,
+		"surfaceSize" : 75,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -19,14 +19,15 @@
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 0,
 		"axialTilt" : 0,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/moon_heightmap.png",	
 		"textureMap" : "planets/assets/moon_texturemap.png",	
-		"minHeight" : 100,
-		"maxHeight" : 102
+		"minHeight" : 74,
+		"maxHeight" : 76
 	},
 	"Signal" : 
 	{

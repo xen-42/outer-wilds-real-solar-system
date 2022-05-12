@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 6,
-		"surfaceSize" : 50,
+		"surfaceGravity" : 2,
+		"surfaceSize" : 20,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -21,7 +21,7 @@
 	{
 		"heightMap" : "planets/assets/vesta_heightmap.png",	
 		"textureMap" : "planets/assets/vesta_texturemap.png",	
-		"minHeight" : 45,
-		"maxHeight" : 50
-	},
+		"minHeight" : 20,
+		"maxHeight" : 25
+	}
 }

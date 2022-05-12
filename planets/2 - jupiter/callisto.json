@@ -4,14 +4,14 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 8,
+		"surfaceGravity" : 4,
 		"surfaceSize" : 100,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1400,
+		"semiMajorAxis" : 1600,
 		"primaryBody" : "Jupiter",
 		"isMoon" : true,
 		"isTidallyLocked" : true,
@@ -21,7 +21,7 @@
 	{
 		"heightMap" : "planets/assets/blank_heightmap.png",	
 		"textureMap" : "planets/assets/callisto_texturemap.png",	
-		"minHeight" : 70,
-		"maxHeight" : 70
+		"minHeight" : 100,
+		"maxHeight" : 100
 	}
 }

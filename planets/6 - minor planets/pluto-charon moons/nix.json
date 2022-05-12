@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
-		"surfaceSize" : 100,
+		"surfaceGravity" : 1,
+		"surfaceSize" : 20,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -17,7 +17,7 @@
 		"isTidallyLocked" : true
 	},
 	"ProcGen": {
-		"scale": 40,
+		"scale": 20,
 		"colour": {
 			"R": 100,
 			"G": 100,

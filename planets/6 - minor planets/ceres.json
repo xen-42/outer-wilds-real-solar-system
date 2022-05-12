@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 6,
-		"surfaceSize" : 60,
+		"surfaceGravity" : 3,
+		"surfaceSize" : 30,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -22,7 +22,7 @@
 	{
 		"heightMap" : "planets/assets/ceres_heightmap.png",	
 		"textureMap" : "planets/assets/ceres_texturemap.png",	
-		"minHeight" : 60,
-		"maxHeight" : 65
-	},
+		"minHeight" : 30,
+		"maxHeight" : 35
+	}
 }
