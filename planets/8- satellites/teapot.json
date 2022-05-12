@@ -14,7 +14,8 @@
 		"inclination" : 5,
 		"trueAnomaly" : 65,
 		"primaryBody" : "Sol",
-		"showOrbitLine" : false
+		"showOrbitLine" : false,
+		"dottedOrbitLine": true
 	},
 	"Signal" : 
 	{

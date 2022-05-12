@@ -13,6 +13,7 @@
 		"semiMajorAxis" : 534,
 		"primaryBody" : "Earth",
 		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
 		"longitudeOfAscendingNode" : 342.6,
 		"eccentricity" : 0.0002415,
 		"inclination" : 28.5,

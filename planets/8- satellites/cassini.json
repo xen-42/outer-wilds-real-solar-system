@@ -17,6 +17,7 @@
 		"eccentricity": 0,
 		"argumentOfPeriapsis": 0,
 		"showOrbitLine" : true,
+		"dottedOrbitLine" : true,
 		"isMoon": true
 	},
 	"Signal" : 
