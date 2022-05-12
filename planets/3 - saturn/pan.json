@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Pan",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 1,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 383,
+		"inclination" : 0,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"trueAnomaly": 146.6,
+		"axialTilt" : 0,
+		"siderealPeriod": 28
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/pan_heightmap.png",	
+		"textureMap" : "planets/assets/cupid_texturemap.png",	
+		"minHeight" : 0.7825,
+		"maxHeight" : 1.25
+	}
+}
