@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 10,
-		"surfaceSize" : 80,
+		"surfaceGravity" : 4,
+		"surfaceSize" : 65,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -21,7 +21,7 @@
 	{
 		"heightMap" : "planets/assets/blank_heightmap.png",	
 		"textureMap" : "planets/assets/triton_texturemap.png",	
-		"minHeight" : 80,
-		"maxHeight" : 80
+		"minHeight" : 65,
+		"maxHeight" : 65
 	}
 }

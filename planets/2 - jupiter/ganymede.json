@@ -4,14 +4,14 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 10,
-		"surfaceSize" : 80,
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1200,
+		"semiMajorAxis" : 1300,
 		"primaryBody" : "Jupiter",
 		"isMoon" : true,
 		"trueAnomaly" : 298,
@@ -21,7 +21,7 @@
 	{
 		"heightMap" : "planets/assets/blank_heightmap.png",	
 		"textureMap" : "planets/assets/ganymede_texturemap.png",	
-		"minHeight" : 80,
-		"maxHeight" : 80
+		"minHeight" : 100,
+		"maxHeight" : 100
 	}
 }

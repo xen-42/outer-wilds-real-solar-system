@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 8,
-		"surfaceSize" : 100,
+		"surfaceGravity" : 4,
+		"surfaceSize" : 60,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -18,7 +18,7 @@
 	},
 	"Atmosphere" :
 	{
-		"size" : 110,
+		"size" : 61,
 		"fogTint" : 
 		{
 			"r" : 90,
@@ -27,13 +27,13 @@
 			"a" : 255
 		},
 		"fogDensity": 0.1,
-		"fogSize": 110
+		"fogSize": 61
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/pluto_heightmap.png",	
 		"textureMap" : "planets/assets/pluto_texturemap.png",	
-		"minHeight" : 99,
-		"maxHeight" : 101
+		"minHeight" : 63,
+		"maxHeight" : 67
 	}
 }

@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 8,
-		"surfaceSize" : 100,
+		"surfaceGravity" : 4,
+		"surfaceSize" : 45,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -21,7 +21,7 @@
 	{
 		"heightMap" : "planets/assets/blank_heightmap.png",	
 		"textureMap" : "planets/assets/titania_texturemap.png",	
-		"minHeight" : 50,
-		"maxHeight" : 50
+		"minHeight" : 45,
+		"maxHeight" : 45
 	}
 }
