@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "International Space Station",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"hasMapMarker" : false,
+		"isSpaceStation" : true,
+		"isSatellite" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 415,
+		"primaryBody" : "Earth",
+		"showOrbitLine" : true,
+		"longitudeOfAscendingNode" : 13.5,
+		"eccentricity" : 0.0004225,
+		"inclination" : 51.65,
+		"argumentOfPeriapsis" : 325.5,
+		"trueAnomaly" : 125.41,
+		"isTidallyLocked": true
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "name" : "International Space Station", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 30, "detectionRadius": 400, "identificationRadius" : 100 }
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/iss", "path" : "Assets/ISS/InternationalSpaceStation.prefab" }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}
