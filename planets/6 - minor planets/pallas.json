@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Pallas",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 26,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 9475,
+		"inclination" : 34.93,
+		"eccentricity": 0.23,
+		"trueAnomaly": 229.5,
+		"longitudeOfAscendingNode" : 172.9,
+		"argumentOfPeriapsis": 310.7,
+		"axialTilt": 84,
+		"primaryBody" : "Sol",
+		"isMoon" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/pallas_heightmap.png",	
+		"textureMap" : "planets/assets/blank_texturemap.png",	
+		"minHeight" : 22,
+		"maxHeight" : 26
+	}
+}
