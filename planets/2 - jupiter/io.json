@@ -14,6 +14,8 @@
 		"primaryBody" : "Jupiter",
 		"inclination": 3,
 		"longitudeOfAscendingNode": 180,
+		"eccentricity": 0.004,
+		"trueAnomaly": 331,
 		"isMoon" : true,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
@@ -33,9 +35,9 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/io_heightmap.png",	
 		"textureMap" : "planets/assets/io_texturemap.png",	
-		"minHeight" : 75,
+		"minHeight" : 73,
 		"maxHeight" : 75
 	},
 	"Props":{
