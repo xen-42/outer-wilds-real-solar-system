@@ -17,13 +17,14 @@
 		"isMoon" : true,
 		"isTidallyLocked" : true,
 		"trueAnomaly" : 200,
+		"eccentricity": 0.0074,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/callisto_heightmap.png",	
 		"textureMap" : "planets/assets/callisto_texturemap.png",	
-		"minHeight" : 100,
+		"minHeight" : 95,
 		"maxHeight" : 100
 	},
 	"ShipLog" : {
