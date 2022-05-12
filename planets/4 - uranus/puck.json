@@ -14,12 +14,13 @@
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
+		"trueAnomaly": 50.1,
 		"longitudeOfAscendingNode": 180,
-		"isTidallyLocked" : true
+		"siderealPeriod": 37
 	},
 	"ProcGen" :
 	{
-		"scale" : 20,
+		"scale" : 15,
 		"color" : 
 		{
 			"r" : 177,
