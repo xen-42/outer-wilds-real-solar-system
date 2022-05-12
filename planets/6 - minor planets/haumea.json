@@ -23,7 +23,7 @@
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/haumea_heightmap.png",
-		"textureMap": "planets/assets/haumea_texturemap.jpg",
+		"textureMap": "planets/assets/haumea_texturemap.png",
 		"minHeight": 88,
 		"maxHeight": 90,
 		"stretch":{

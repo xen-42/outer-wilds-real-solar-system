@@ -24,7 +24,7 @@
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/miranda_heightmap.png",	
-		"textureMap" : "planets/assets/miranda_texturemap.jpg",	
+		"textureMap" : "planets/assets/miranda_texturemap.png",	
 		"minHeight" : 23,
 		"maxHeight" : 25
 	}
