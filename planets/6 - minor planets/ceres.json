@@ -12,11 +12,13 @@
 	{
 		"semiMajorAxis" : 10000,
 		"inclination" : 10,
-		"trueAnomaly" : 180,
+		"trueAnomaly" : 291,
 		"longitudeOfAscendingNode": 80,
+		"eccentricity": 0.08,
+		"argumentOfPeriapsis": 74,
 		"primaryBody" : "Sol",
 		"isMoon" : true,
-		"siderealPeriod": 3,
+		"siderealPeriod": 1.85,
 		"axialTilt": 4
 	},
 	"HeightMap" :

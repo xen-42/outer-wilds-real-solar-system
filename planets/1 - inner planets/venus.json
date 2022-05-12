@@ -15,12 +15,12 @@
 		"inclination" : 3,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 54,
+		"longitudeOfAscendingNode" : 77,
+		"eccentricity" : 0.007,
+		"argumentOfPeriapsis": 55,
 		"axialTilt" : 177,
 		"siderealPeriod" : 10,
-		"trueAnomaly" : 180
+		"trueAnomaly" : 50
 	},
 	"Atmosphere" :
 	{

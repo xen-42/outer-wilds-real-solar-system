@@ -18,6 +18,7 @@
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 0,
 		"axialTilt" : 26,
+		"trueAnomaly": 205,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
