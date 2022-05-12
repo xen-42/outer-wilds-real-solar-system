@@ -16,14 +16,16 @@
 		"longitudeOfAscendingNode": 180,
 		"isMoon" : true,
 		"trueAnomaly" : 86,
+		"eccentricity" : 0.009,
+		"axialTilt": 0.1,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/europa_heightmap.png",	
 		"textureMap" : "planets/assets/europa_texturemap.png",	
-		"minHeight" : 70,
+		"minHeight" : 68,
 		"maxHeight" : 70
 	},
 	"ShipLog" : {
