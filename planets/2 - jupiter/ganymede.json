@@ -16,14 +16,16 @@
 		"longitudeOfAscendingNode": 180,
 		"isMoon" : true,
 		"trueAnomaly" : 298,
+		"eccentricity": 0.001,
+		"axialTilt": 0.33,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/ganymede_heightmap.png",	
 		"textureMap" : "planets/assets/ganymede_texturemap.png",	
-		"minHeight" : 100,
+		"minHeight" : 95,
 		"maxHeight" : 100
 	},
 	"ShipLog" : {
