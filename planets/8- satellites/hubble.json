@@ -1,0 +1,41 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Hubble Space Telescope",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"hasMapMarker" : false,
+		"isSatellite" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 534,
+		"primaryBody" : "Earth",
+		"showOrbitLine" : true,
+		"longitudeOfAscendingNode" : 342.6,
+		"eccentricity" : 0.0002415,
+		"inclination" : 28.5,
+		"argumentOfPeriapsis" : 245.56,
+		"trueAnomaly" : 161.55
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "name" : "Hubble Space Telescope", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/hubble", "path" : "Assets/HubbleSpaceTelescope.prefab" }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}

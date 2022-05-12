@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 3577161431
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4efdc15b2f41e9fdb4bf4b8f4f72b72c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c5d8728239c5b2dfb84e4bcc6a363eb3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+Assets:
+- Assets/OutsideA.mat
+- Assets/textures/outside_A_Roughness.jpeg
+- Assets/textures/outside_A_BaseColor.jpeg
+- Assets/textures/outside_B_Normal.jpeg
+- Assets/textures/outside_B_BaseColor.jpeg
+- Assets/textures/inside_Roughness.jpeg
+- Assets/textures/inside_Metallic.jpeg
+- Assets/Inside.mat
+- Assets/textures/inside_Normal.jpeg
+- Assets/textures/inside_BaseColor.jpeg
+- Assets/textures/outside_A_Metallic.jpeg
+- Assets/textures/outside_A_Normal.jpeg
+- Assets/textures/outside_B_Roughness.jpeg
+- Assets/OutsideB.mat
+- Assets/HubbleSpaceTelescope.prefab
+- Assets/textures/outside_B_Metallic.jpeg
+Dependencies: []
