@@ -1,0 +1,15 @@
+<DialogueTree>
+	<NameField>RECORDING</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_1</Page>
+			<Page>RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_2</Page>
+			<Page>RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_3</Page>
+			<Page>RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_4</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

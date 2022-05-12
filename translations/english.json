@@ -1,0 +1,19 @@
+{
+    "DialogueDictionary" :
+    {
+		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_1" : "So for starters I have no idea how I ended up here.",
+		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_2" : "I'm also not entirely sure where exactly here is.",
+		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_3" : "Seems I'm not the only one who's been here, judging by the Nomai ruins nearby.",
+		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_4" : "I'll go check those out tomorrow, for now I think I deserve a little rest.",
+
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_1" : "Allium: This raft was here when we arrived.",
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_2" : "Allium: Hypothesis 1: It was left here by the original inhabitants of this planet.",
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_3" : "Allium: Hypothesis 2: We are not the only ones to have been marooned here.",
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_4" : "Musa: Unrelated hypothesis, this raft would have made our ocean crossing much easier.",
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5" : "Allium: I believe that is more of an objective fact than a theory, Musa."
+   	},
+    "ShipLogDictionary" :
+    {
+		"" : ""
+   	}
+}

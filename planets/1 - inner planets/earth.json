@@ -61,7 +61,8 @@
 				"comment" : "NORTH AMERICAN NOMAI RUINS",
 				"path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Structure_NOM_WarpReceiver_TimberHearth",
 				"position": {"x": 15.31864, "y": 187.3307, "z": 230.2823},
-				"alignToNormal": true
+				"alignToNormal": true,
+				"removeChildren": ["Structure_NOM_WarpReceiver_TimberHearth_Glass"]
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Props_NOM_WarpCoreWhite",
@@ -101,7 +102,7 @@
 			},
 			{
 				"comment" : "NORTH AMERICAN DETAILS",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District2/Interactables_HangingCity_District2/VisibleFrom_HangingCity/Props_NOM_Whiteboard (1)",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/TowerInterior/Prefab_NOM_Whiteboard (1)",
 				"position": {"x": 33.41655, "y": 191.0698, "z": 226.322},
 				"rotation": {"x": 0, "y": 270, "z": 0},
 				"alignToNormal": true
@@ -234,6 +235,19 @@
 				"alignToNormal": true
 			},
 			{
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder",
+                "position": {"x": 12.56632, "y": 234.4428, "z": 182.669},
+                "alignToNormal": true,
+				"removeComponents": true
+            },
+			{
+				"comment": "Near the raft",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/Props_HEA_table/Tree_TH_Stump (1)",
+				"position": {"x": 20.45054, "y": 155.4767, "z": 251.9456},
+				"scale": 0.3,
+				"alignToNormal": true
+			},
+			{
 				"comment" : "GEYSER",
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)",
 				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363},
@@ -334,6 +348,18 @@
 				"xmlFile": "planets/xml/text/EarthScroll.xml",
 				"position": {"x": 196.726, "y": -141.5839, "z": -184.2589},
 				"normal": {"x": 0.8739169, "y": -0.2074001, "z": -0.4396072}
+			},
+			{
+				"type":"wall",
+				"xmlFile": "planets/xml/text/EarthScroll.xml",
+				"position": {"x": 15.41775, "y": 191.364, "z": 228.9008}, 
+				"normal": {"x": 0.02449025, "y": 0.7747101, "z": -0.6318424}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/text/RSS_EARTH_NOM_RAFT_RECORDER.xml",
+				"position": {"x": 20.7505, "y": 156.1296, "z": 252.6456},
+				"rotation": {"x": 324.6292, "y": 111.2246, "z": 58.3512}
 			}
 		],
 		"rafts": [
@@ -345,6 +371,19 @@
 			{
 				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363}
 			}
+		],
+		"dialogue": [
+			{
+				"position": {"x": 12.56632, "y": 234.4428, "z": 182.669},
+				"xmlFile": "planets/xml/dialogue/RSS_EARTH_HEA_CAMPSITE_RECORDER.xml",
+				"radius": 0.5
+			}
 		]
+	},
+	"Singularity": {
+		"pairedSingularity": "The Moon",
+		"position": {"x": 15.4186, "y": 188.6308, "z": 231.7824},
+		"type": "BlackHole",
+		"size": 2
 	}
 }

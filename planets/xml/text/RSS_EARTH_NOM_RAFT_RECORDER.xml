@@ -1,0 +1,22 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_1</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_2</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_3</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_4</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5</Text>
+	</TextBlock>
+</NomaiObject>
