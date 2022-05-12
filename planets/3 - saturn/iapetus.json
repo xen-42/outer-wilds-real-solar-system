@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Iapetus",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 40,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 2048,
+		"inclination" : 17,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/iapetus_heightmap.png",	
+		"textureMap" : "planets/assets/iapetus_texturemap.png",	
+		"minHeight" : 39,
+		"maxHeight" : 40
+	}
+}
