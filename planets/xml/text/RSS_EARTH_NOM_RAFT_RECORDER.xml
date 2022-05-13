@@ -5,18 +5,22 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
+		<ParentID>1</ParentID>
 		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_2</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
+		<ParentID>2</ParentID>
 		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_3</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
+		<ParentID>3</ParentID>
 		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_4</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
+		<ParentID>4</ParentID>
 		<Text>RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5</Text>
 	</TextBlock>
 </NomaiObject>
