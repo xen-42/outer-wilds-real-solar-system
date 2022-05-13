@@ -4,7 +4,7 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 12,
+		"surfaceGravity" : 10,
 		"surfaceSize" : 270,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
@@ -24,7 +24,7 @@
 	},
 	"Atmosphere" :
 	{
-		"size" : 310,
+		"size" : 300,
 		"cloudTint" : 
 		{
 			"r" : 202,
@@ -42,7 +42,7 @@
 			"a" : 255
 		},
 		"fogDensity": 0.9,
-		"fogSize": 310,
+		"fogSize": 300,
 		"hasAtmosphere" : true,
 		"atmosphereTint" : 
 		{
@@ -56,7 +56,7 @@
 	{
 		"heightMap" : "planets/assets/venus_heightmap.png",	
 		"textureMap" : "planets/assets/venus_texturemap.png",	
-		"minHeight" : 270,
-		"maxHeight" : 275
+		"minHeight" : 255,
+		"maxHeight" : 245
 	}
 }
