@@ -22,6 +22,8 @@ Planet textures and height maps used are not mine. Unless stated otherwise, they
 
 [Ceres texture map](https://www.solarsystemscope.com/textures/)
 
+[Venus texture maps](https://www.deviantart.com/oleg-pluton)
+
 ### Models
 
 "Teapot." (https://skfb.ly/oqPNZ) by Akulla is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
