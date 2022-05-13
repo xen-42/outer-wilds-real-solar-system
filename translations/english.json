@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/translation_schema.json",
     "DialogueDictionary" :
     {
 		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_1" : "So for starters I have no idea how I ended up here.",
