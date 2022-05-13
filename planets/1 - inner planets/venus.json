@@ -58,5 +58,22 @@
 		"textureMap" : "planets/assets/venus_texturemap.png",	
 		"minHeight" : 255,
 		"maxHeight" : 245
+	},
+	"Signal": {
+		"signals": [
+			{ "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "frequency" : "Traveler", "name" : "Jammer", "audioClip" : "ow_kazoo_theme", "sourceRadius" : 0.5, "detectionRadius": 100, "identificationRadius" : 5, "onlyAudibleToScope" : false }
+		]
+	},
+	"Props": {
+		"details": [
+			{ "path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Ghosts_DreamZone_1/GhostNodeMap_Forest/Prefab_IP_GhostBird_Enkidu/Ghostbird_IP_ANIM", "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "scale" : 0.1, "alignToNormal" : true }
+		],
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/dialogue/jammer.xml",
+				"radius": 1,
+				"position": {"x": -111.0043, "y": 218.0896, "z": -11.04778}
+			}
+		]
 	}
 }

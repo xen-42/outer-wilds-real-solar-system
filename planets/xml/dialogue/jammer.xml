@@ -1,0 +1,47 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/dialogue_schema.xsd">	
+	<NameField>Jammer</NameField>
+	
+    <DialogueNode>
+        <Name>Jammer1</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Speical birthday gift!</Page>
+        </Dialogue>
+
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Wahoo!</Text>
+                <DialogueTarget>Jammer2</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+        <SetCondition>JammerBirthday</SetCondition>
+    </DialogueNode>
+
+	<DialogueNode>
+		<Name>Jammer2</Name>
+		<EntryCondition>JammerBirthday</EntryCondition>
+        <Randomize/>
+		<Dialogue>
+			<Page>Ur winning!</Page>
+		</Dialogue>
+        <Dialogue>
+            <Page>Im winning!</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>Will fund!</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>HOT</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>YAY!!~!!!</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>Oak doak!</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>Bestest day!</Page>
+        </Dialogue>
+	</DialogueNode>
+	
+</DialogueTree>
