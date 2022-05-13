@@ -45,55 +45,7 @@
 				"path" : "Assets/RSS/Prefabs/lunarlander.prefab", 
 				"position" :  {"x": -68.19719, "y": 3.428392, "z": -31.16138}, 
 				"alignToNormal" : true, "scale": 12 
-			},
-			{
-				"comment" : "MOON NOMAI RUINS",
-				"path": "SunStation_Body/Sector_SunStation/Sector_WarpModule/Interactables_WarpModule/Prefab_NOM_WarpReceiver/Structure_NOM_WarpReceiver_PlatformOnly",
-				"position": {"x": -1.2773, "y": 32.3014, "z": 67.5629},
-				"alignToNormal": true,
-				"removeChildren": ["Structure_NOM_WarpReceiver_PlatformOnly_Glass"]
-			},
-			{
-				"comment": "Using these as walls lol",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/TowerInterior/Prefab_NOM_Whiteboard (1)",
-				"position": {"x": -1.2773, "y": 33.7014, "z": 63.563},
-				"alignToNormal": true
-			},
-			{
-				"comment": "Using these as walls lol",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/TowerInterior/Prefab_NOM_Whiteboard (1)",
-				"position": {"x": -4.0773, "y": 30.9014, "z": 64.8629},
-				"rotation": {"x":0, "y": 90, "z": 0},
-				"alignToNormal": true
-			},
-			{
-				"comment": "Using these as walls lol",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/TowerInterior/Prefab_NOM_Whiteboard (1)",
-				"position": {"x": -1.2773, "y": 28.3014, "z": 66.1629},
-				"rotation": {"x":0, "y": 180, "z": 0},
-				"alignToNormal": true
-			},
-			{
-				"comment": "Using these as walls lol",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/TowerInterior/Prefab_NOM_Whiteboard (1)",
-				"position": {"x": 1.6227, "y": 31.1014, "z": 64.8629},
-				"rotation": {"x":0, "y": 270, "z": 0},
-				"alignToNormal": true
-			}
-		],
-		"nomaiText": [
-			{
-				"type": "scroll",
-				"xmlFile": "planets/xml/text/EarthScroll.xml",
-				"position": {"x": 3.098896, "y": 21.9427, "z": 71.79379}
 			}
 		]
-	},
-	"Singularity": {
-		"pairedSingularity": "Earth",
-		"position": {"x": -1.4173, "y": 33.5707, "z": 69.4174},
-		"type": "WhiteHole",
-		"size": 1,
-		"makeZeroGVolume": false
 	}
 }
