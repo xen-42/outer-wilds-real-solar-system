@@ -1,0 +1,2 @@
+# Prevent paths like .gitignore, .gitattributes, etc from being archived in the release zip.
+.* export-ignore
