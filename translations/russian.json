@@ -51,15 +51,18 @@
 		
 		
 		"Alpha Centauri" : "Альфа Центавра",
-		"Alpha Centauri A" : "Альфа Центавра A",
-		"Perdition" : "Альфа Центавра AB",
-		"Alpha Centauri B" : "Альфа Центавра B",
+		"Toliman" : "Толиман ",
+		"Rigil Kentaurus" : "Ригиль Кентавра",
 
 
-		"Proxima B" : "Проксима B",
-		"Proxima C" : "Проксима C",
+		"Proxima Centauri b" : "Проксима Центавра b",
+		"Proxima Centauri c" : "Проксима Центавра c",
 		"Proxima Centauri" : "Проксима Центавра",
-
+		
+		
+		"Barnard's Star" : "Звезда Барнарда",
+		"Barnard's B" : "Барнарда b",
+		"Proxima Centauri" : "Проксима Центавра",
 		
 		
 		"Lunar Lander" : "Лунный модуль",
