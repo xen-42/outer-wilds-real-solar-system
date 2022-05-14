@@ -2,7 +2,18 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/translation_schema.json",
     "DialogueDictionary" :
     	{
-		"" : ""
+		"Fred: Earth." : "Фред: Земля.",
+		
+		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_1" : "Для начала, я понятия не имею, как я тут оказался.",
+		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_2" : "Так-же я не уверен, где я нахожусь.",
+		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_3" : "Судя по руинам номаи, я не первый, кто попал сюда.",
+		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_4" : "Я проверю их завтра. А сейчас - время отдохнуть.",
+
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_1" : "Аллиум: Этот плот был здесь до того, как мы сюда пришли.",
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_2" : "Аллиум: Гипотеза 1: Он остался здесь после прошлых обитателей планеты.",
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_3" : "Аллиум: Гипотеза 2: Мы не единственные на этой планете.",
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_4" : "Муса: Теория: С этим плотом нам будет гораздо легче путешествовать по океану.",
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5" : "Аллиум: Муса, я думаю, что это больше факт, чем теория."
    	},
     "ShipLogDictionary" :
     	{
@@ -62,7 +73,6 @@
 		
 		"Barnard's Star" : "Звезда Барнарда",
 		"Barnard's B" : "Барнарда b",
-		"Proxima Centauri" : "Проксима Центавра",
 		
 		
 		"Lunar Lander" : "Лунный модуль",
