@@ -1,18 +1,17 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Alpha Centauri B",
+	"name" : "Toliman",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 100,
-		"surfaceSize" : 1000,
+		"surfaceGravity" : 90,
+		"surfaceSize" : 1800,
 		"hasMapMarker" : true,
 		"gravityFallOff" : "inverseSquared"
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 10000,
-		"inclination" : 0,
 		"primaryBody" : "Alpha Centauri",
 		"showOrbitLine" : true
 	},
@@ -21,17 +20,11 @@
 		"size" : 1800,
 		"tint" : 
 		{
-			"r" : 160,
-			"g" : 87,
-			"b" : 55,
+			"r" : 255,
+			"g" : 197,
+			"b" : 126,
 			"a" : 255
 		},
-		"solarFlareTint" : 
-		{
-			"r" : 26,
-			"g" : 102,
-			"b" : 255,
-			"a" : 255
-		}
+		"solarLuminosity": 0.6
 	}
 }

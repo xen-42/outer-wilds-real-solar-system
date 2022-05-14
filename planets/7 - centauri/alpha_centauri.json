@@ -4,7 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"hasMapMarker" : false
+		"hasMapMarker" : true,
+		"hasReferenceFrame": false
 	},
 	"Orbit" :
 	{
@@ -16,7 +17,7 @@
 	},
 	"FocalPoint" :
 	{
-		"Primary" : "Alpha Centauri A",
-		"Secondary" : "Alpha Centauri B"
+		"primary" : "Rigil Kentaurus",
+		"secondary" : "Toliman"
 	}
 }

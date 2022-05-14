@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Alpha Centauri A",
+	"name" : "Rigil Kentaurus",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 180,
-		"surfaceSize" : 1000,
+		"surfaceGravity" : 120,
+		"surfaceSize" : 2400,
 		"hasMapMarker" : true,
 		"gravityFallOff" : "inverseSquared"
 	},
@@ -20,10 +20,11 @@
 		"size" : 2400,
 		"tint" : 
 		{
-			"r" : 200,
-			"g" : 200,
-			"b" : 20,
+			"r" : 255,
+			"g" : 197,
+			"b" : 126,
 			"a" : 255
-		}
+		},
+		"solarLuminosity": 1
 	}
 }

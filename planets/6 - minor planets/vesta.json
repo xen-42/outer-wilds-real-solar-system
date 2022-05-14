@@ -7,21 +7,23 @@
 		"surfaceGravity" : 2,
 		"surfaceSize" : 20,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 9000,
-		"inclination" : 2,
+		"semiMajorAxis" : 9500,
+		"inclination" : 7,
 		"longitudeOfAscendingNode" : 100,
 		"primaryBody" : "Sol",
-		"isMoon" : true
+		"isMoon" : true,
+		"siderealPeriod": 2,
+		"axialTilt": 29
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/vesta_heightmap.png",	
 		"textureMap" : "planets/assets/vesta_texturemap.png",	
-		"minHeight" : 20,
+		"minHeight" : 18,
 		"maxHeight" : 25
 	}
 }

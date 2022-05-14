@@ -14,19 +14,6 @@
 	{
 		"isStatic" : true
 	},
-	"Atmosphere" :
-	{
-		"size" : 2200,
-		"fogTint" : 
-		{
-			"r" : 245,
-			"g" : 197,
-			"b" : 126,
-			"a" : 255
-		},
-		"fogDensity": 0.4,
-		"fogSize": 2200
-	},
 	"Star" :
 	{
 		"size" : 2000,
@@ -37,18 +24,14 @@
 			"b" : 126,
 			"a" : 255
 		},
-		"solarFlareTint" : 
-		{
-			"r" : 26,
-			"g" : 102,
-			"b" : 255,
-			"a" : 255
-		},
 		"solarLuminosity" : 0.8
 	},
 	"AsteroidBelt" : 
 	{
-		"innerRadius" : 9200,
-		"outerRadius" : 9400
+		"innerRadius" : 9000,
+		"outerRadius" : 10500,
+		"maxSize": 25,
+		"minSize": 10,
+		"amount": 69
 	}
 }

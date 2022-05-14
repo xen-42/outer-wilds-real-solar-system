@@ -54,8 +54,8 @@
 	{
 		"heightMap" : "planets/assets/mars_heightmap.png",	
 		"textureMap" : "planets/assets/mars_texturemap.png",	
-		"minHeight" : 148,
-		"maxHeight" : 154
+		"minHeight" : 150,
+		"maxHeight" : 155
 	},
 	"Signal" : 
 	{

@@ -13,18 +13,26 @@
 	{
 		"semiMajorAxis" : 40000,
 		"argumentOfPeriapsis" : 90,
-		"primaryBody" : "Alpha Centauri A",
+		"primaryBody" : "Alpha Centauri",
 		"showOrbitLine" : false,
 		"isStatic" : true
 	},
 	"Star" :
 	{
-		"size" : 400,
+		"size" : 1000,
 		"tint" : 
 		{
-			"r" : 200,
-			"g" : 44,
-			"b" : 44,
+			"r" : 255,
+			"g" : 100,
+			"b" : 80,
+			"a" : 255
+		},
+		"solarLuminosity": 0.6,
+		"lightTint":
+		{
+			"r" : 255,
+			"g" : 100,
+			"b" : 80,
 			"a" : 255
 		}
 	}

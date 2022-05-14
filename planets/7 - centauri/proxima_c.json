@@ -1,29 +1,28 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Proxima C",
+	"name" : "Proxima Centauri c",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 12,
-		"surfaceSize" : 200,
+		"surfaceGravity" : 16,
+		"surfaceSize" : 400,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true,
-		"waterSize" : 200
+		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 4000,
+		"semiMajorAxis" : 10000,
 		"inclination" : 3,
 		"primaryBody" : "Proxima Centauri",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 74,
 		"axialTilt" : 27,
 		"trueAnomaly" : 142,
-		"siderealPeriod" : 30
+		"siderealPeriod" : 3
 	},
 	"Atmosphere" :
 	{
-		"size" : 300,
+		"size" : 500,
 		"cloudTint" : 
 		{
 			"r" : 181,
@@ -40,8 +39,9 @@
 			"a" : 255
 		},
 		"fogDensity": 0.9,
-		"fogSize": 300,
+		"fogSize": 500,
 		"hasAtmosphere" : true,
+		"hasRain": true,
 		"atmosphereTint" : 
 		{
 			"r" : 181,
@@ -50,10 +50,15 @@
 			"a" : 255
 		}
 	},
+	"Water": 
+	{
+		"size": 400
+	},
 	"Ring" : 
 	{
-		"innerRadius" : 400,
-		"outerRadius" : 600,
+		"innerRadius" : 650,
+		"outerRadius" : 1000,
 		"texture" : "planets/assets/proxima_c_rings.png",
+		"fluidType": "SAND"
 	}
 }
