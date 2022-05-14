@@ -4,7 +4,7 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
+		"surfaceGravity" : 6,
 		"surfaceSize" : 150,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
@@ -16,11 +16,11 @@
 		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 50,
-		"eccentricity" : 0,
+		"eccentricity" : 0.05,
 		"argumentOfPeriapsis": 286,
 		"axialTilt" : 25,
 		"trueAnomaly" : 19.4,
-		"siderealPeriod" : 50,
+		"siderealPeriod" : 5,
 		"tint" : 
 		{
 			"r" : 249,
@@ -35,8 +35,8 @@
 		"fogTint" : 
 		{
 			"r" : 255,
-			"g" : 128,
-			"b" : 128,
+			"g" : 192,
+			"b" : 92,
 			"a" : 255
 		},
 		"fogDensity": 0.1,
@@ -45,8 +45,8 @@
 		"atmosphereTint" : 
 		{
 			"r" : 100,
-			"g" : 30,
-			"b" : 30,
+			"g" : 45,
+			"b" : 20,
 			"a" : 255
 		}
 	},
@@ -54,14 +54,14 @@
 	{
 		"heightMap" : "planets/assets/mars_heightmap.png",	
 		"textureMap" : "planets/assets/mars_texturemap.png",	
-		"minHeight" : 150,
-		"maxHeight" : 155
+		"minHeight" : 148,
+		"maxHeight" : 154
 	},
 	"Signal" : 
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Radio", "name" : "Perserverance Rover", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "Position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
+			{ "Frequency" : "Radio", "name" : "Perserverance", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "detectionRadius" : 100, "identificationRadius" : 5, "Position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
 		]
 	},
 	"Props" :

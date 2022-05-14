@@ -7,7 +7,7 @@
 		"surfaceGravity" : 6,
 		"surfaceSize" : 100,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
@@ -20,7 +20,7 @@
 		"argumentOfPeriapsis": 0,
 		"axialTilt" : 2,
 		"trueAnomaly" : 0,
-		"isTidallyLocked" : true,
+		"siderealPeriod": 10,
 		"tint" : 
 		{
 			"r" : 160,
@@ -33,7 +33,7 @@
 	{
 		"heightMap" : "planets/assets/mercury_heightmap.png",	
 		"textureMap" : "planets/assets/mercury_texturemap.png",	
-		"minHeight" : 100,
+		"minHeight" : 98,
 		"maxHeight" : 102
 	}
 }

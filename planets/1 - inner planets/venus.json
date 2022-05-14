@@ -11,7 +11,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 4000,
+		"semiMajorAxis" : 4500,
 		"inclination" : 3,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
@@ -19,7 +19,7 @@
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 54,
 		"axialTilt" : 177,
-		"siderealPeriod" : 100,
+		"siderealPeriod" : 10,
 		"trueAnomaly" : 180
 	},
 	"Atmosphere" :

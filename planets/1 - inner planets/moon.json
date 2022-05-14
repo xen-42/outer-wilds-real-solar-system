@@ -7,7 +7,7 @@
 		"surfaceGravity" : 4,
 		"surfaceSize" : 75,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
@@ -26,14 +26,14 @@
 	{
 		"heightMap" : "planets/assets/moon_heightmap.png",	
 		"textureMap" : "planets/assets/moon_texturemap.png",	
-		"minHeight" : 74,
-		"maxHeight" : 76
+		"minHeight" : 73,
+		"maxHeight" : 77
 	},
 	"Signal" : 
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Lunar Lander", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 10, "position" :  {"x": -68.19719, "y": 3.428392, "z": -31.16138} }
+			{ "frequency" : "Radio", "name" : "Aquarius", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 5, "detectionRadius" : 100, "identificationRadius" : 10, "position" :  {"x": -68.19719, "y": 3.428392, "z": -31.16138} }
 		]
 	},
 	"Props" :

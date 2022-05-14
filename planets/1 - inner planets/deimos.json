@@ -5,26 +5,28 @@
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 20,
+		"surfaceSize" : 15,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 650,
-		"inclination" : 1,
+		"semiMajorAxis" : 550,
+		"inclination" : 26,
 		"primaryBody" : "Mars",
 		"isMoon" : true,
-		"longitudeOfAscendingNode" : 0,
+		"longitudeOfAscendingNode" : 180,
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 0,
-		"axialTilt" : 0
+		"axialTilt" : 26,
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/deimos_heightmap.png",	
 		"textureMap" : "planets/assets/deimos_texturemap.png",	
 		"minHeight" : 10,
-		"maxHeight" : 18
+		"maxHeight" : 16
 	}
 }
