@@ -13,7 +13,18 @@
 		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_2" : "Аллиум: Гипотеза 1: Он остался здесь после прошлых обитателей планеты.",
 		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_3" : "Аллиум: Гипотеза 2: Мы не единственные на этой планете.",
 		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_4" : "Муса: Теория: С этим плотом нам будет гораздо легче путешествовать по океану.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5" : "Аллиум: Муса, я думаю, что это больше факт, чем теория."
+		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5" : "Аллиум: Муса, я думаю, что это больше факт, чем теория.",
+
+		"Jammer" : "Джеммер",
+		"Speical birthday gift!" : "С днём рождения!",
+		"Wahoo!" : "Вау!",
+		"Ur winning!" : "Ты выиграл!",
+		"Im winning!" : "Я выиграл!",
+		"Will fund!" : "НАЙДУ!",
+		"HOT" : "ГОРЯЧО",
+		"YAY!!~!!!" : "УРА!!~!!!",
+		"Oak doak!" : "Ока-дока!",
+		"Bestest day!" : "Лучший день в мире!"
    	},
     "ShipLogDictionary" :
     	{
@@ -75,11 +86,12 @@
 		"Barnard's B" : "Барнарда b",
 		
 		
-		"Lunar Lander" : "Лунный модуль",
-		"Perserverance Rover" : "Марсоход Персеверанс",
+		"Aquarius" : "Водолей",
+		"Perserverance" : "Персеверанс",
 		"Cassini" : "Кассини",
 		"Russel's Teapot" : "Чайник Рассела",
-		"Voyager" : "Вояджер"
+		"Voyager" : "Вояджер",
+		"Jammer" : "Джеммер"
 		
     }
 }
