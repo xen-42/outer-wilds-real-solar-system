@@ -21,6 +21,12 @@
 		"primaryBody" : "Sol",
 		"isMoon" : false
 	},
+	"Ring" :
+	{
+		"innerRadius" : 150,
+		"outerRadius" : 160,
+		"texture": "planets/assets/haumea_rings.png"
+	},
 	"HeightMap": {
 		"heightMap": "planets/assets/haumea_heightmap.png",
 		"textureMap": "planets/assets/haumea_texturemap.png",
