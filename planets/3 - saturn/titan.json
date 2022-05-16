@@ -66,5 +66,11 @@
 		"textureMap" : "planets/assets/titan_texturemap.png",	
 		"minHeight" : 100,
 		"maxHeight" : 105
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Titan log.png"
+		}
 	}
 }

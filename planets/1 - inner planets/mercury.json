@@ -35,5 +35,11 @@
 		"textureMap" : "planets/assets/mercury_texturemap.png",	
 		"minHeight" : 98,
 		"maxHeight" : 102
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/mercury.png"
+		}
 	}
 }

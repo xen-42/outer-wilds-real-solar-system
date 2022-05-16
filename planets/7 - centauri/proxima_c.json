@@ -60,5 +60,11 @@
 		"outerRadius" : 1000,
 		"texture" : "planets/assets/proxima_c_rings.png",
 		"fluidType": "SAND"
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Proxima C log.png"
+		}
 	}
 }

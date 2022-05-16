@@ -24,5 +24,11 @@
 			"B": 100,
 			"A": 255
 		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/kerberos.png"
+		}
 	}
 }

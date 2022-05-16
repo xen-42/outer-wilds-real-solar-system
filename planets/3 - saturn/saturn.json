@@ -54,5 +54,11 @@
 		"innerRadius" : 500,
 		"outerRadius" : 950,
 		"texture" : "planets/assets/saturn_rings.png"
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/saturn.png"
+		}
 	}
 }

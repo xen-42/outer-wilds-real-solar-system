@@ -75,5 +75,11 @@
 				"position": {"x": -111.0043, "y": 218.0896, "z": -11.04778}
 			}
 		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/venus.png"
+		}
 	}
 }

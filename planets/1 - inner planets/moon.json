@@ -95,5 +95,11 @@
 		"type": "WhiteHole",
 		"size": 1,
 		"makeZeroGVolume": false
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Moon log.png"
+		}
 	}
 }

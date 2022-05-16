@@ -26,5 +26,11 @@
 		"textureMap" : "planets/assets/ceres_texturemap.png",	
 		"minHeight" : 30,
 		"maxHeight" : 35
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Ceres log.png"
+		}
 	}
 }

@@ -23,5 +23,11 @@
 		"textureMap" : "planets/assets/callisto_texturemap.png",	
 		"minHeight" : 100,
 		"maxHeight" : 100
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Callisto.png"
+		}
 	}
 }

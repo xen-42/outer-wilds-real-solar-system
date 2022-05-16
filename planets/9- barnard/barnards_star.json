@@ -27,5 +27,11 @@
 			"b" : 44,
 			"a" : 255
 		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Barnard's Star  log.png"
+		}
 	}
 }

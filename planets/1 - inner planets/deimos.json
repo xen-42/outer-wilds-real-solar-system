@@ -28,5 +28,11 @@
 		"textureMap" : "planets/assets/deimos_texturemap.png",	
 		"minHeight" : 10,
 		"maxHeight" : 16
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Deimos log.png"
+		}
 	}
 }

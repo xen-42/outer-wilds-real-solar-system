@@ -48,5 +48,11 @@
 			"b" : 220,
 			"a" : 255
 		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/neptune log.png"
+		}
 	}
 }

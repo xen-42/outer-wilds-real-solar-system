@@ -27,5 +27,11 @@
 			"b" : 177,
 			"a" : 255
 		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Puck log.png"
+		}
 	}
 }

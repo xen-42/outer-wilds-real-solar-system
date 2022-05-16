@@ -33,5 +33,11 @@
 		"maxSize": 25,
 		"minSize": 10,
 		"amount": 69
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/The Sun log.png"
+		}
 	}
 }

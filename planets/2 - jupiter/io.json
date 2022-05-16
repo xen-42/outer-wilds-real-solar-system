@@ -35,5 +35,11 @@
 		"textureMap" : "planets/assets/io_texturemap.png",	
 		"minHeight" : 75,
 		"maxHeight" : 75
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/io.png"
+		}
 	}
 }

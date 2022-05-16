@@ -25,5 +25,11 @@
 		"textureMap" : "planets/assets/barnardb_texturemap.png",	
 		"minHeight" : 300,
 		"maxHeight" : 300
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Barnard's B log.png"
+		}
 	}
 }

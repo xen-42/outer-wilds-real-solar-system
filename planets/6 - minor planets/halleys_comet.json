@@ -42,5 +42,11 @@
 			"b" : 177,
 			"a" : 255
 		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Halley's Comet Log.png"
+		}
 	}
 }

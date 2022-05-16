@@ -22,5 +22,11 @@
 		"textureMap" : "planets/assets/charon_texturemap.png",	
 		"minHeight" : 29,
 		"maxHeight" : 32
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Charon log.png"
+		}
 	}
 }

@@ -54,5 +54,11 @@
 		"innerRadius" : 560,
 		"outerRadius" : 600,
 		"texture" : "planets/assets/uranus_rings.png"
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/uranus log.png"
+		}
 	}
 }

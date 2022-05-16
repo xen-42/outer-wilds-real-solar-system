@@ -35,5 +35,11 @@
 			"b" : 80,
 			"a" : 255
 		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Proxima Centauri log.png"
+		}
 	}
 }

@@ -28,5 +28,11 @@
 		"textureMap" : "planets/assets/phobos_texturemap.png",	
 		"minHeight" : 20,
 		"maxHeight" : 25
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Phobos log.png"
+		}
 	}
 }

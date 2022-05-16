@@ -35,5 +35,11 @@
 		"textureMap" : "planets/assets/pluto_texturemap.png",	
 		"minHeight" : 63,
 		"maxHeight" : 67
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Pluto log.png"
+		}
 	}
 }

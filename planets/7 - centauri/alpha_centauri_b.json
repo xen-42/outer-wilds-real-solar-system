@@ -26,5 +26,11 @@
 			"a" : 255
 		},
 		"solarLuminosity": 0.6
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Alpha Centauri B log.png"
+		}
 	}
 }

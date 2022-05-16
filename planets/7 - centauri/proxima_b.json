@@ -48,5 +48,11 @@
 		"textureMap" : "planets/assets/Alpha Centauri Ab.png",	
 		"minHeight" : 295,
 		"maxHeight" : 305
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Proxima B log.png"
+		}
 	}
 }

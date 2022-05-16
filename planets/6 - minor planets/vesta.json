@@ -25,5 +25,11 @@
 		"textureMap" : "planets/assets/vesta_texturemap.png",	
 		"minHeight" : 18,
 		"maxHeight" : 25
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Vesta Log.png"
+		}
 	}
 }

@@ -59,16 +59,22 @@
 	},
 	"Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
-			{ "Frequency" : "Radio", "name" : "Perserverance", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "detectionRadius" : 100, "identificationRadius" : 5, "Position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
+			{ "frequency" : "Radio", "name" : "Perserverance", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "detectionRadius" : 100, "identificationRadius" : 5, "Position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
 		]
 	},
 	"Props" :
 	{
-		"Details" :
+		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Rover.prefab", "position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736}, "alignToNormal" : true }
 		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/mars log.png"
+		}
 	}
 }

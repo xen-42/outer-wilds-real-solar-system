@@ -385,5 +385,11 @@
 		"position": {"x": 15.4186, "y": 188.6308, "z": 231.7824},
 		"type": "BlackHole",
 		"size": 2
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/earth.png"
+		}
 	}
 }

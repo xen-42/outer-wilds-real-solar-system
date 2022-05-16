@@ -23,5 +23,11 @@
 		"textureMap" : "planets/assets/titania_texturemap.png",	
 		"minHeight" : 45,
 		"maxHeight" : 45
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"MapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Titania log.png"
+		}
 	}
 }
