@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Dactyl",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 5,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 90,
+		"inclination" : 8,
+		"eccentricity": 0.2,
+		"trueAnomaly": 	0,
+		"longitudeOfAscendingNode" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"primaryBody" : "Ida",
+		"isMoon" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/dactyl_heightmap.png",	
+		"textureMap" : "planets/assets/dactyl_texturemap.png",	
+		"minHeight" : 1,
+		"maxHeight" : 5
+	}
+}

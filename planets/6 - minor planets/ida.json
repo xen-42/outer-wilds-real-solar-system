@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Ida",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 10,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 9650,
+		"inclination" : 1.132,
+		"eccentricity": 0.0411,
+		"trueAnomaly": 	38.71,
+		"longitudeOfAscendingNode" : 324.016,
+		"argumentOfPeriapsis": 110.961,
+		"axialTilt" : 0,
+		"siderealPeriod": 9.5,
+		"primaryBody" : "Sol",
+		"isMoon" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/ida_heightmap.png",	
+		"textureMap" : "planets/assets/ida_texturemap.png",	
+		"minHeight" : 5,
+		"maxHeight" : 10
+	}
+}
