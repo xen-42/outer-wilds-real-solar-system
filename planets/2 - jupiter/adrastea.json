@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Amalthea",
+	"name" : "Adrastea",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
@@ -11,21 +11,21 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 750,
-		"inclination" : 0.374,
+		"semiMajorAxis" : 700,
+		"inclination" : 0.03,
 		"primaryBody" : "Jupiter",
 		"isMoon" : true,
-		"longitudeOfAscendingNode" : 123,
-		"eccentricity" : 0.003,
-		"trueAnomaly": 180,
-		"argumentOfPeriapsis": 78.68,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.0015,
+		"trueAnomaly": 0,
+		"argumentOfPeriapsis": 0,
 		"axialTilt" : 0,
 		"isTidallyLocked" : true
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/amalthea_heightmap.png",	
-		"textureMap" : "planets/assets/amalthea_texturemap.png",	
+		"heightMap" : "planets/assets/adrastea_heightmap.png",	
+		"textureMap" : "planets/assets/adrastea_texturemap.png",	
 		"minHeight" : 4,
 		"maxHeight" : 5
 	}
