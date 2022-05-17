@@ -18,13 +18,15 @@ Ship log planet icons by [Classic](https://github.com/ClassicalBro)
 
 Planet textures and height maps used are not ours. Unless stated otherwise, they're from NASA. The other sources are:
 
-[Triton texture map](https://www.deviantart.com/neptuneprogaming/art/Triton-Texture-Map-713512330)
-
-[Titania texture map](https://www.deviantart.com/neptuneproproduction/art/Titania-Texture-Map-746524585)
+[Venus texture maps](https://www.deviantart.com/oleg-pluton)
 
 [Ceres texture map](https://www.solarsystemscope.com/textures/)
 
-[Venus texture maps](https://www.deviantart.com/oleg-pluton)
+[Titania texture map](https://www.deviantart.com/neptuneproproduction/art/Titania-Texture-Map-746524585)
+
+[Triton texture map](https://www.deviantart.com/neptuneprogaming/art/Triton-Texture-Map-713512330)
+
+[Charon texture map](https://www.deviantart.com/master-bit/art/Charon-8K-555604289)
 
 ### Models
 
