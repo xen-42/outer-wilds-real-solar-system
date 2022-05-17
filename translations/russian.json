@@ -16,15 +16,15 @@
 		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5" : "Аллиум: Муса, я думаю, что это больше факт, чем теория.",
 
 		"Jammer" : "Джеммер",
-		"Speical birthday gift!" : "С днём рождения!",
+		"Speical birthday gift!" : "Спеицальный подарок на день рождения!",
 		"Wahoo!" : "Вау!",
 		"Ur winning!" : "Ты выиграл!",
 		"Im winning!" : "Я выиграл!",
-		"Will fund!" : "НАЙДУ!",
-		"HOT" : "ГОРЯЧО",
+		"Will fund!" : "Дам денег!",
+		"HOT" : "ГОРЯЧ",
 		"YAY!!~!!!" : "УРА!!~!!!",
 		"Oak doak!" : "Ока-дока!",
-		"Bestest day!" : "Лучший день в мире!"
+		"Bestest day!" : "Наилучший день!"
    	},
     "ShipLogDictionary" :
     	{
@@ -83,7 +83,7 @@
 		
 		
 		"Barnard's Star" : "Звезда Барнарда",
-		"Barnard's B" : "Звезда Барнарда b",
+		"Barnard's Star B" : "Звезда Барнарда b",
 		
 		
 		"Aquarius" : "Водолей",
