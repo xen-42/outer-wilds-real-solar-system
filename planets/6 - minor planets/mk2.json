@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "MK2",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 8,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 210,
+		"primaryBody" : "Makemake",
+		"inclination": 0,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"trueAnomaly": 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt": 0,
+		"isMoon" : true,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/mk2_heightmap.png",	
+		"textureMap" : "planets/assets/mk2_texturemap.png",	
+		"minHeight" : 7,
+		"maxHeight" : 8
+	}
+}
