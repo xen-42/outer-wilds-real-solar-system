@@ -4,25 +4,25 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 20,
-		"surfaceSize" : 300,
+		"surfaceGravity" : 12,
+		"surfaceSize" : 500,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 21000,
+		"semiMajorAxis" : 30000,
 		"inclination" : 1,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 131,
 		"axialTilt" : 28,
 		"trueAnomaly" : 256,
-		"siderealPeriod" : 30
+		"siderealPeriod" : 4
 	},
 	"Atmosphere" :
 	{
-		"size" : 300,
+		"size" : 500,
 		"cloudTint" : 
 		{
 			"r" : 181,
@@ -39,7 +39,7 @@
 			"a" : 255
 		},
 		"fogDensity": 0.9,
-		"fogSize": 300,
+		"fogSize": 500,
 		"hasAtmosphere" : true,
 		"atmosphereTint" : 
 		{

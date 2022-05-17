@@ -4,17 +4,18 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 8,
+		"surfaceGravity" : 1,
 		"surfaceSize" : 20,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 700,
+		"semiMajorAxis" : 1100,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
+		"longitudeOfAscendingNode": 180,
 		"isTidallyLocked" : true
 	},
 	"ProcGen" :

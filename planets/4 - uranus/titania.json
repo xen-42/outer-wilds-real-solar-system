@@ -7,15 +7,17 @@
 		"surfaceGravity" : 4,
 		"surfaceSize" : 45,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1200,
+		"semiMajorAxis" : 1400,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
-		"isTidallyLocked" : true
+		"longitudeOfAscendingNode": 180,
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{

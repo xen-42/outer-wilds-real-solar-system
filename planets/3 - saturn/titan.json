@@ -4,22 +4,23 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 10,
-		"surfaceSize" : 140,
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1200,
-		"inclination" : 0,
+		"semiMajorAxis" : 2500,
+		"inclination" : 26,
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
-		"longitudeOfAscendingNode" : 0,
+		"longitudeOfAscendingNode" : 180,
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 0,
 		"axialTilt" : 0,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"Atmosphere" :
 	{

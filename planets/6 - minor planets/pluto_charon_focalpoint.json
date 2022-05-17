@@ -4,22 +4,23 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"hasMapMarker" : true
+		"hasMapMarker" : true,
+		"hasReferenceFrame": false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 22000,
+		"semiMajorAxis" : 40000,
 		"inclination" : 12,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0.1,
-		"argumentOfPeriapsis": 0,
-		"axialTilt" : 122
+		"longitudeOfAscendingNode" : 300,
+		"eccentricity" : 0.25,
+		"argumentOfPeriapsis": 300,
+		"trueAnomaly": 270
 	},
 	"FocalPoint" :
 	{
-		"Primary" : "Pluto",
-		"Secondary" : "Charon"
+		"primary" : "Pluto",
+		"secondary" : "Charon"
 	}
 }

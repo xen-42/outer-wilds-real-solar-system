@@ -7,27 +7,29 @@
 		"surfaceGravity" : 4,
 		"surfaceSize" : 60,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
 		"primaryBody" : "Pluto-Charon",
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"alignmentAxis" : {"x": 1, "y": 0, "z": 0},
+		"axialTilt" : 240
 	},
 	"Atmosphere" :
 	{
 		"size" : 61,
-		"fogTint" : 
+		"hasAtmosphere": true,
+		"hasSnow": true,
+		"atmosphereTint":
 		{
-			"r" : 90,
-			"g" : 128,
-			"b" : 128,
+			"r" : 150,
+			"g" : 150,
+			"b" : 255,
 			"a" : 255
-		},
-		"fogDensity": 0.1,
-		"fogSize": 61
+		}
 	},
 	"HeightMap" :
 	{

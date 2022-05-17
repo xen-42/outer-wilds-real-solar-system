@@ -7,15 +7,18 @@
 		"surfaceGravity" : 4,
 		"surfaceSize" : 65,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 1200,
-		"inclination" : 156,
+		"inclination" : 130,
+		"longitudeOfAscendingNode": 0,
 		"primaryBody" : "Neptune",
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"axialTilt": 130,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{

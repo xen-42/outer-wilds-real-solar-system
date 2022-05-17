@@ -7,14 +7,17 @@
 		"surfaceGravity" : 1,
 		"surfaceSize" : 10,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 800,
+		"semiMajorAxis" : 500,
 		"primaryBody" : "Pluto-Charon",
+		"inclination": 120,
+		"trueAnomaly": 135,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"siderealPeriod": -2.5,
+		"axialTilt": 240
 	},
 	"ProcGen": {
 		"scale": 10,

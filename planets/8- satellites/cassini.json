@@ -10,15 +10,19 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1000,
+		"semiMajorAxis" : 1450,
 		"primaryBody" : "Saturn",
+		"inclination": 116,
+		"longitudeOfAscendingNode": 90,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
 		"showOrbitLine" : true
 	},
 	"Signal" : 
 	{
 		"Signals" : 
 		[
-			{ "Frequency" : "Radio", "name" : "Cassini", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "Frequency" : "Radio", "name" : "Cassini", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 5, "detectionRadius": 500, "identificationRadius" : 20 }
 		]
 	},
 	"Props" :

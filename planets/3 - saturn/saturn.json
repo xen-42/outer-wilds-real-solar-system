@@ -4,25 +4,25 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 20,
-		"surfaceSize" : 300,
+		"surfaceGravity" : 12,
+		"surfaceSize" : 500,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 15000,
+		"semiMajorAxis" : 19000,
 		"inclination" : 3,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 113,
 		"axialTilt" : 26,
 		"trueAnomaly" : 160,
-		"siderealPeriod" : 30
+		"siderealPeriod" : 2
 	},
 	"Atmosphere" :
 	{
-		"size" : 400,
+		"size" : 850,
 		"cloudTint" : 
 		{
 			"r" : 181,
@@ -39,7 +39,7 @@
 			"a" : 255
 		},
 		"fogDensity": 0.9,
-		"fogSize": 400,
+		"fogSize": 850,
 		"hasAtmosphere" : true,
 		"atmosphereTint" : 
 		{
@@ -51,9 +51,10 @@
 	},
 	"Ring" : 
 	{
-		"innerRadius" : 500,
-		"outerRadius" : 950,
-		"texture" : "planets/assets/saturn_rings.png"
+		"innerRadius" : 900,
+		"outerRadius" : 1700,
+		"texture" : "planets/assets/saturn_rings.png",
+		"fluidType": "SAND"
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
