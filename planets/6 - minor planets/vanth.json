@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Vanth",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 3,
+		"surfaceSize" : 20,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 180,
+		"primaryBody" : "Orcus",
+        "inclination": 105.03,
+        "longitudeOfAscendingNode": 53.5,
+		"trueAnomaly": 188.5,
+		"argumentOfPeriapsis": 330,
+        "eccentricity": 0.00091,
+        "axialTilt": 0,
+		"isMoon" : true,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/vanth_heightmap.png",	
+		"textureMap" : "planets/assets/vanth_texturemap.png",	
+		"minHeight" : 17,
+		"maxHeight" : 20
+	}
+}

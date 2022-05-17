@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Orcus",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 50,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 21900,
+		"inclination" : 20.592,
+		"trueAnomaly" : 181.735,
+        "eccentricity": 0.22701,
+		"longitudeOfAscendingNode": 268.799,
+		"argumentOfPeriapsis": 	72.310,
+		"axialTilt": 1,
+		"siderealPeriod": 27,
+		"primaryBody" : "Sol",
+		"isMoon" : false
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/orcus_heightmap.png",	
+		"textureMap" : "planets/assets/orcus_texturemap.png",	
+		"minHeight" : 48,
+		"maxHeight" : 50
+	}
+}
