@@ -6,7 +6,7 @@
 	{
 		"surfaceGravity" : 0,
 		"hasMapMarker" : false,
-		"isSatellite" : true
+		"showMinimap": false
 	},
 	"Orbit" :
 	{
@@ -27,7 +27,7 @@
 	{
 		"Details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab" }
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab", "scale": 100 }
 		]
 	},
 	"ShipLog" : {

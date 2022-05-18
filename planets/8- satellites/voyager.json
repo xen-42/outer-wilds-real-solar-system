@@ -6,13 +6,14 @@
 	{
 		"surfaceGravity" : 0,
 		"hasMapMarker" : false,
-		"isSatellite" : true
+		"showMinimap": false
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 10000,
 		"primaryBody" : "Proxima Centauri",
 		"showOrbitLine" : true,
+		"isMoon": true,
 		"eccentricity" : 0.5
 	},
 	"Signal" : 

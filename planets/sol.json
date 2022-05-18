@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 100,
-		"surfaceSize" : 1000,
+		"surfaceSize" : 2000,
 		"hasMapMarker" : true,
 		"gravityFallOff" : "inverseSquared",
 		"centerOfSolarSystem" : true
@@ -24,7 +24,20 @@
 			"b" : 126,
 			"a" : 255
 		},
-		"solarLuminosity" : 0.8
+		"solarLuminosity" : 0.8,
+		"goSupernova": true,
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 12, "value": 1 },
+			{ "time": 21, "value": 2.3 }
+		],
+		"endTint": 
+		{
+			"r" : 255,
+			"g" : 50,
+			"b" : 50,
+			"a" : 255
+		}
 	},
 	"AsteroidBelt" : 
 	{
@@ -32,7 +45,7 @@
 		"outerRadius" : 10500,
 		"maxSize": 25,
 		"minSize": 10,
-		"amount": 69
+		"amount": 100
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

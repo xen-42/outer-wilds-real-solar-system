@@ -17,7 +17,7 @@
 		"primaryBody" : "Neptune",
 		"isMoon" : true,
 		"isTidallyLocked" : true,
-		"axialTilt": 130,
+		"axialTilt": 220,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
