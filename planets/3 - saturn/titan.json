@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 100,
+		"surfaceSize" : 105,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -24,35 +24,35 @@
 	},
 	"Atmosphere" :
 	{
-		"size" : 120,
+		"size" : 105,
 		"cloudTint" : 
 		{
-			"r" : 220,
-			"g" : 198,
-			"b" : 97,
+			"r" : 255,
+			"g" : 200,
+			"b" : 128,
 			"a" : 255
 		},
 		"cloud" : "planets/assets/titan_clouds.png",
 		"fogTint" : 
 		{
-			"r" : 220,
-			"g" : 198,
-			"b" : 97,
+			"r" : 255,
+			"g" : 200,
+			"b" : 128,
 			"a" : 255
 		},
-		"fogDensity": 0.9,
-		"fogSize": 120,
+		"fogDensity": 1,
+		"fogSize": 105,
 		"hasAtmosphere" : true,
 		"atmosphereTint" : 
 		{
-			"r" : 230,
-			"g" : 230,
-			"b" : 80,
+			"r" : 100,
+			"g" : 128,
+			"b" : 255,
 			"a" : 255
 		}
 	},
 	"Water" : {
-		"size" : 103,
+		"size" : 82,
 		"tint" : 
 		{
 			"r" : 113,
@@ -65,8 +65,8 @@
 	{
 		"heightMap" : "planets/assets/titan_heightmap.png",	
 		"textureMap" : "planets/assets/titan_texturemap.png",	
-		"minHeight" : 100,
-		"maxHeight" : 105
+		"minHeight" : 80,
+		"maxHeight" : 84
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
