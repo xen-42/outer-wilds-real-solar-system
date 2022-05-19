@@ -1,12 +1,12 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Russel's Teapot",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 0,
 		"hasMapMarker" : false,
-		"isSatellite" : true
+		"showMinimap": false
 	},
 	"Orbit" :
 	{
@@ -27,7 +27,7 @@
 	{
 		"Details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab" }
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab", "scale": 100 }
 		]
 	},
 	"ShipLog" : {

@@ -1,11 +1,11 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Venus",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 10,
-		"surfaceSize" : 270,
+		"surfaceSize" : 300,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -27,21 +27,21 @@
 		"size" : 300,
 		"cloudTint" : 
 		{
-			"r" : 202,
-			"g" : 171,
-			"b" : 117,
+			"r" : 255,
+			"g" : 175,
+			"b" : 128,
 			"a" : 255
 		},
 		"cloud" : "planets/assets/venus_clouds.png",
 		"useBasicCloudShader" : true,
 		"fogTint" : 
 		{
-			"r" : 200,
-			"g" : 128,
+			"r" : 255,
+			"g" : 150,
 			"b" : 128,
 			"a" : 255
 		},
-		"fogDensity": 0.9,
+		"fogDensity": 1,
 		"fogSize": 300,
 		"hasAtmosphere" : true,
 		"atmosphereTint" : 

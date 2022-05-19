@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Triton",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
@@ -17,7 +17,7 @@
 		"primaryBody" : "Neptune",
 		"isMoon" : true,
 		"isTidallyLocked" : true,
-		"axialTilt": 130,
+		"axialTilt": 220,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :

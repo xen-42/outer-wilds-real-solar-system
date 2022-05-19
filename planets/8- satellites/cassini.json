@@ -1,22 +1,23 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Cassini",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 0,
 		"hasMapMarker" : false,
-		"isSatellite" : true
+		"showMinimap" : false
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 1450,
 		"primaryBody" : "Saturn",
-		"inclination": 116,
+		"inclination": 90,
 		"longitudeOfAscendingNode": 90,
 		"eccentricity": 0,
 		"argumentOfPeriapsis": 0,
-		"showOrbitLine" : true
+		"showOrbitLine" : true,
+		"isMoon": true
 	},
 	"Signal" : 
 	{
