@@ -8,7 +8,7 @@
 		"surfaceSize" : 900,
 		"groundSize": 500,
 		"hasMapMarker" : true,
-		"ambientLight" : 1.4
+		"ambientLight" : 0.8
 	},
 	"Orbit" :
 	{
