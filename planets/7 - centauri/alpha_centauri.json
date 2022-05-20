@@ -9,10 +9,10 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 120000,
+		"semiMajorAxis" : 132000,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
-		"trueAnomaly" : 60,
+		"trueAnomaly" : 220,
 		"isStatic" : true
 	},
 	"FocalPoint" :

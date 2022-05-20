@@ -25,7 +25,20 @@
 			"b" : 126,
 			"a" : 255
 		},
-		"solarLuminosity": 1
+		"solarLuminosity": 0.8,
+		"goSupernova": true,
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 11, "value": 1 },
+			{ "time": 20, "value": 2 }
+		],
+		"endTint": 
+		{
+			"r" : 255,
+			"g" : 50,
+			"b" : 50,
+			"a" : 255
+		}
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
