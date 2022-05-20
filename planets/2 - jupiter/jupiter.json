@@ -6,8 +6,9 @@
 	{
 		"surfaceGravity" : 24,
 		"surfaceSize" : 900,
+		"groundSize": 500,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"ambientLight" : 1.4
 	},
 	"Orbit" :
 	{
@@ -20,33 +21,65 @@
 		"trueAnomaly": 20,
 		"siderealPeriod" : 2
 	},
+	"Water" : 
+	{
+		"tint": {"R": 212, "G": 211, "B": 207},
+		"size": 501
+	},
+	"Props": {
+		"tornados": [
+			{"downwards": false, "elevation": 500, "height":270, "tint": {"R": 149, "G": 116, "B": 83}, "wanderRate": 0.01},
+			{"downwards": true, "elevation": 500, "height":270, "tint": {"R": 149, "G": 116, "B": 83}, "wanderRate": 0.01},
+			{"downwards": false, "elevation": 500, "height":270, "tint": {"R": 149, "G": 116, "B": 83}, "wanderRate": 0.01},
+			{"downwards": true, "elevation": 500, "height":270, "tint": {"R": 149, "G": 116, "B": 83}, "wanderRate": 0.01},
+			{"downwards": false, "elevation": 500, "height":270, "tint": {"R": 149, "G": 116, "B": 83}, "wanderRate": 0.01},
+			{"downwards": true, "elevation": 500, "height":270, "tint": {"R": 149, "G": 116, "B": 83}, "wanderRate": 0.01}
+		],
+		"rafts": [
+			{"position": {"x": 501, "y": 0, "z": 0}},
+			{"position": {"x": -501, "y": 0, "z": 0}},
+			{"position": {"x": 0, "y": 501, "z": 0}},
+			{"position": {"x": 0, "y": 0, "z": 501}}
+		]
+	},
 	"Atmosphere" :
 	{
 		"size" : 950,
-		"cloudTint" : 
-		{
-			"r" : 181,
-			"g" : 181,
-			"b" : 230,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/jupiter.png",
 		"fogTint" : 
 		{
-			"r" : 255,
-			"g" : 128,
-			"b" : 128,
-			"a" : 255
+			"R" : 193,
+			"G" : 139,
+			"B" : 95,
+			"A" : 255
 		},
-		"fogDensity": 0.9,
+		"fogDensity": 1,
 		"fogSize": 950,
 		"hasAtmosphere" : true,
 		"atmosphereTint" : 
 		{
-			"r" : 255,
-			"g" : 200,
-			"b" : 128,
-			"a" : 255
+			"R" : 193,
+			"G" : 139,
+			"B" : 95,
+			"A" : 255
+		},
+		"hasRain": true,
+		"Clouds": {
+			"outerCloudRadius" : 950,
+			"innerCloudRadius" : 750,
+			"tint" : 
+			{
+				"R" : 193,
+				"G" : 139,
+				"B" : 95,
+				"A" : 255
+			},
+			"texturePath" : "planets/assets/jupiter.png",
+			"hasLightning" : true,
+			"lightningGradient" : [
+				{"time": 0, "tint": {"r": 255, "g": 0, "b": 0}},
+				{"time": 0.99, "tint": {"r": 128, "g": 64, "b": 0}},
+				{"time": 1, "tint": {"r": 128, "g": 25, "b": 0}}
+			]
 		}
 	},
 	"ShipLog" : {
