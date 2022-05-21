@@ -11,7 +11,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 10000,
+		"semiMajorAxis" : 15000,
 		"primaryBody" : "Alpha Centauri",
 		"showOrbitLine" : true
 	},
@@ -25,7 +25,20 @@
 			"b" : 126,
 			"a" : 255
 		},
-		"solarLuminosity": 0.6
+		"solarLuminosity": 0.6,
+		"goSupernova": false,
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 18, "value": 1 },
+			{ "time": 22, "value": 1.4 }
+		],
+		"endTint": 
+		{
+			"r" : 255,
+			"g" : 131,
+			"b" : 84,
+			"a" : 255
+		}
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

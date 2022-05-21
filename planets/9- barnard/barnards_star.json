@@ -11,10 +11,10 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 165000,
+		"semiMajorAxis" : 184000,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
-		"trueAnomaly" : 135,
+		"trueAnomaly" : 270,
 		"isStatic" : true
 	},
 	"Star" :
@@ -34,7 +34,8 @@
 			"g" : 100,
 			"b" : 80,
 			"a" : 255
-		}
+		},
+		"goSupernova": false
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
