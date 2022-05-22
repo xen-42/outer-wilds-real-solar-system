@@ -23,31 +23,63 @@
 	"Atmosphere" :
 	{
 		"size" : 500,
-		"cloudTint" : 
+		"fogTint" : 
 		{
-			"r" : 181,
-			"g" : 181,
+			"r" : 50,
+			"g" : 100,
 			"b" : 230,
 			"a" : 255
 		},
-		"cloud" : "planets/assets/neptune.png",
-		"fogTint" : 
-		{
-			"r" : 128,
-			"g" : 128,
-			"b" : 255,
-			"a" : 255
-		},
-		"fogDensity": 0.9,
+		"fogDensity": 1,
 		"fogSize": 500,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
-			"r" : 10,
-			"g" : 90,
-			"b" : 220,
+			"r" : 50,
+			"g" : 100,
+			"b" : 230,
 			"a" : 255
+		},
+		"hasRain": true,
+		"hasSnow": true,
+		"clouds": {
+			"outerCloudRadius" : 500,
+			"innerCloudRadius" : 450,
+			"tint" : 
+			{
+				"r" : 10,
+				"g" : 30,
+				"b" : 100,
+				"a" : 255
+			},
+			"texturePath" : "planets/assets/neptune.png",
+			"hasLightning" : true,
+			"lightningGradient" : [
+				{"time": 0, "tint": {"r": 255, "g": 0, "b": 0}},
+				{"time": 0.99, "tint": {"r": 128, "g": 64, "b": 0}},
+				{"time": 1, "tint": {"r": 128, "g": 25, "b": 0}}
+			]
 		}
+	},
+	"Water": {
+		"size": 350
+	},
+	"Lava": {
+		"size": 50
+	},
+	"Props": {
+		"tornados": [
+			{ "type": "downwards", "position": { "x": 175, "y": 303, "z": 0 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -87, "y": 303, "z": 152 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -87, "y": 303, "z": -152 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			
+			{ "type": "hurricane", "position": { "x": 0, "y": 0, "z": 350 }, "height": 100, "wanderDegreesX": 90, "wanderDegreesZ": 30, "wanderRate": 0.02, "tint": { "r" : 10, "g" : 30, "b" : 100, "a" : 255 } },
+			{ "type": "hurricane", "position": { "x": 0, "y": 0, "z": -350 }, "height": 100, "wanderDegreesX": 90, "wanderDegreesZ": 30, "wanderRate": 0.02, "tint": { "r" : 10, "g" : 30, "b" : 100, "a" : 255 } },
+
+			{ "type": "downwards", "position": { "x": -175, "y": -303, "z": 0 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 87, "y": -303, "z": 152 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 87, "y": -303, "z": -152 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } }
+		]
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

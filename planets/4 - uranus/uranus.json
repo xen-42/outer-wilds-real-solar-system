@@ -23,31 +23,43 @@
 	"Atmosphere" :
 	{
 		"size" : 500,
-		"cloudTint" : 
-		{
-			"r" : 181,
-			"g" : 181,
-			"b" : 230,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/uranus.png",
 		"fogTint" : 
 		{
 			"r" : 128,
-			"g" : 128,
-			"b" : 255,
+			"g" : 255,
+			"b" : 230,
 			"a" : 255
 		},
-		"fogDensity": 0.9,
+		"fogDensity": 1,
 		"fogSize": 500,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
-			"r" : 10,
-			"g" : 90,
-			"b" : 220,
+			"r" : 128,
+			"g" : 255,
+			"b" : 230,
 			"a" : 255
+		},
+		"hasRain": true,
+		"hasSnow": true,
+		"clouds": {
+			"outerCloudRadius" : 500,
+			"innerCloudRadius" : 450,
+			"tint" : 
+			{
+				"r" : 128,
+				"g" : 255,
+				"b" : 230,
+				"a" : 255
+			},
+			"texturePath" : "planets/assets/uranus.png"
 		}
+	},
+	"Water": {
+		"size": 350
+	},
+	"Lava": {
+		"size": 50
 	},
 	"Ring" : 
 	{
