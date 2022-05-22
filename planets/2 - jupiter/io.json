@@ -38,6 +38,11 @@
 		"minHeight" : 75,
 		"maxHeight" : 75
 	},
+	"Props":{
+		"volcanoes": [
+			{"position":{"x":75}}
+		]
+	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
 		"MapMode" : {
