@@ -41,7 +41,7 @@
 		},
 		"fogDensity": 0.1,
 		"fogSize": 160,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
 			"r" : 100,
@@ -61,7 +61,7 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Perserverance", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "detectionRadius" : 100, "identificationRadius" : 5, "Position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
+			{ "frequency" : "Radio", "name" : "Perserverance", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius" : 100, "identificationRadius" : 5, "position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736} }
 		]
 	},
 	"Props" :
@@ -69,6 +69,11 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Rover.prefab", "position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736}, "alignToNormal" : true }
+		],
+		"tornados": [
+			{ "position": {"x": -37.14261, "y": -100.763, "z": -104.7132}, "height": 5, "type": "upwards", "wanderDegreesX": 20, "wanderDegreesZ": 20, "wanderRate": 0.05, "tint": { "r" : 180, "g" : 120, "b" : 80, "a" : 255 } },
+			{ "position": {"x": 131.7721, "y": 63.16584, "z": 37.69978}, "height": 5, "type": "upwards", "wanderDegreesX": 15, "wanderDegreesZ": 15, "wanderRate": 0.06, "tint": { "r" : 180, "g" : 120, "b" : 80, "a" : 255 } },
+			{ "position": {"x": 34.78928, "y": 98.345, "z": -108.5234}, "height": 5, "type": "upwards", "wanderDegreesX": 30, "wanderDegreesZ": 30, "wanderRate": 0.04, "tint": { "r" : 180, "g" : 120, "b" : 80, "a" : 255 } }
 		]
 	},
 	"ShipLog" : {

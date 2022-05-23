@@ -25,31 +25,40 @@
 	"Atmosphere" :
 	{
 		"size" : 300,
-		"cloudTint" : 
-		{
-			"r" : 255,
-			"g" : 175,
-			"b" : 128,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/venus_clouds.png",
-		"useBasicCloudShader" : true,
 		"fogTint" : 
 		{
 			"r" : 255,
-			"g" : 150,
+			"g" : 200,
 			"b" : 128,
 			"a" : 255
 		},
 		"fogDensity": 1,
 		"fogSize": 300,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
 			"r" : 255,
 			"g" : 200,
 			"b" : 128,
 			"a" : 255
+		},
+		"clouds": {
+			"outerCloudRadius" : 300,
+			"innerCloudRadius" : 280,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 200,
+				"b" : 128,
+				"a" : 255
+			},
+			"texturePath" : "planets/assets/venus_clouds.png",
+			"hasLightning" : true,
+			"lightningGradient" : [
+				{"time": 0, "tint": {"r": 0, "g": 0, "b": 0}},
+				{"time": 0.99, "tint": {"r": 0, "g": 0, "b": 0}},
+				{"time": 1, "tint": {"r": 0, "g": 0, "b": 0}}
+			]
 		}
 	},
 	"HeightMap" :

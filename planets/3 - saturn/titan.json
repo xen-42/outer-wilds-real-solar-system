@@ -18,37 +18,41 @@
 		"longitudeOfAscendingNode" : 180,
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 0,
-		"axialTilt" : 0,
+		"axialTilt" : 26,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"Atmosphere" :
 	{
 		"size" : 105,
-		"cloudTint" : 
-		{
-			"r" : 255,
-			"g" : 200,
-			"b" : 128,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/titan_clouds.png",
 		"fogTint" : 
 		{
 			"r" : 255,
-			"g" : 200,
-			"b" : 128,
+			"g" : 220,
+			"b" : 150,
 			"a" : 255
 		},
 		"fogDensity": 1,
 		"fogSize": 105,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
 			"r" : 100,
 			"g" : 128,
 			"b" : 255,
 			"a" : 255
+		},
+		"clouds": {
+			"outerCloudRadius" : 105,
+			"innerCloudRadius" : 95,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 220,
+				"b" : 150,
+				"a" : 255
+			},
+			"texturePath" : "planets/assets/titan_clouds.png"
 		}
 	},
 	"Water" : {
