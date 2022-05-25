@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Quaoar",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 5,
+		"surfaceSize" : 60,
+		"hasMapMarker" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 45100,
+		"inclination" : 8,
+		"trueAnomaly" : 301,
+		"eccentricity": 0.041,
+		"longitudeOfAscendingNode": 189,
+		"argumentOfPeriapsis": 147,
+		"siderealPeriod": 4,
+		"primaryBody" : "Sol",
+		"isMoon" : false
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/quaoar_heightmap.png",	
+		"textureMap" : "planets/assets/quaoar_texturemap.png",	
+		"minHeight" : 56,
+		"maxHeight" : 60
+	}
+}

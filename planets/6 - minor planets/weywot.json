@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Weywot",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 10,
+		"hasMapMarker" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 150,
+		"primaryBody" : "Quaoar",
+		"inclination": 14,
+		"eccentricity": 0.148,
+		"argumentOfPeriapsis": 348,
+		"isMoon" : true,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/weywot_heightmap.png",	
+		"textureMap" : "planets/assets/weywot_texturemap.png",	
+		"minHeight" : 9,
+		"maxHeight" : 10
+	}
+}
