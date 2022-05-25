@@ -18,14 +18,14 @@
 	},
 	"Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
-			{ "Frequency" : "Traveler", "name" : "Russel's Teapot", "AudioClip" : "OW Space Station 081420_2 AP", "SourceRadius" : 1, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "frequency" : "Traveler", "name" : "Russel's Teapot", "audioClip" : "OW Space Station 081420_2 AP", "sourceRadius" : 1, "detectionRadius": 200, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :
 	{
-		"Details" :
+		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab", "scale": 100 }
 		]

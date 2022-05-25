@@ -39,7 +39,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/Barnard's Star  log.png"
 		}
 	}

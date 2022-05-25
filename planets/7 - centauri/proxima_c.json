@@ -23,14 +23,6 @@
 	"Atmosphere" :
 	{
 		"size" : 500,
-		"cloudTint" : 
-		{
-			"r" : 181,
-			"g" : 181,
-			"b" : 230,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/Proxima C.png",
 		"fogTint" : 
 		{
 			"r" : 128,
@@ -40,7 +32,7 @@
 		},
 		"fogDensity": 0.9,
 		"fogSize": 500,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"hasRain": true,
 		"atmosphereTint" : 
 		{
@@ -48,6 +40,18 @@
 			"g" : 181,
 			"b" : 230,
 			"a" : 255
+		},
+		"clouds": {
+			"outerCloudRadius" : 500,
+			"innerCloudRadius" : 450,
+			"tint" : 
+			{
+				"r" : 181,
+				"g" : 181,
+				"b" : 230,
+				"a" : 255
+			},
+			"texturePath" : "planets/assets/Proxima C.png"
 		}
 	},
 	"Water": 
@@ -59,11 +63,11 @@
 		"innerRadius" : 650,
 		"outerRadius" : 1000,
 		"texture" : "planets/assets/proxima_c_rings.png",
-		"fluidType": "SAND"
+		"fluidType": "sand"
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/Proxima C log.png"
 		}
 	}

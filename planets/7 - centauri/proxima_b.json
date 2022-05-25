@@ -33,7 +33,7 @@
 		},
 		"fogDensity": 0.1,
 		"fogSize": 310,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
 			"r" : 255,
@@ -51,7 +51,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/Proxima B log.png"
 		}
 	}

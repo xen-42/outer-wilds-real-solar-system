@@ -49,7 +49,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/The Sun log.png"
 		}
 	}

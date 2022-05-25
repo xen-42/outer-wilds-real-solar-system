@@ -42,7 +42,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/Alpha Centauri A log.png"
 		}
 	}

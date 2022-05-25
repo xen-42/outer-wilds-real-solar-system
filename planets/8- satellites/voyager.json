@@ -18,14 +18,14 @@
 	},
 	"Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
-			{ "Frequency" : "Radio", "name" : "Voyager", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "frequency" : "Radio", "name" : "Voyager", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :
 	{
-		"Details" :
+		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Voyager.prefab" }
 		]
