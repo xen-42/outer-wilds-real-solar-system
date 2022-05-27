@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1400,
+		"semiMajorAxis" : 1300,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
@@ -22,8 +22,8 @@
 	{
 		"heightMap" : "planets/assets/titania_heightmap.png",	
 		"textureMap" : "planets/assets/titania_texturemap.png",	
-		"minHeight" : 43,
-		"maxHeight" : 45
+		"minHeight" : 37,
+		"maxHeight" : 40
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

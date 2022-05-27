@@ -5,27 +5,25 @@
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 78,
+		"surfaceSize" : 28,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 600,
+		"semiMajorAxis" : 1000,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
-		"inclination" : 0.260,
+		"inclination" : 97,
 		"eccentricity" : 0.0012,
-		"trueAnomaly": 119.8,
-		"longitudeOfAscendingNode": 0,
-		"argumentOfPeriapsis": 83.3,
-		"siderealPeriod" : 123
+		"longitudeOfAscendingNode": 180,
+		"siderealPeriod" : 12.3
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/ariel_heightmap.png",	
 		"textureMap" : "planets/assets/ariel_texturemap.png",	
-		"minHeight" : 31,
-		"maxHeight" : 33
+		"minHeight" : 25,
+		"maxHeight" : 28
 	}
 }

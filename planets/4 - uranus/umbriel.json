@@ -5,27 +5,25 @@
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 80,
+		"surfaceSize" : 30,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 750,
+		"semiMajorAxis" : 1150,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
-		"inclination" : 0.128,
+		"inclination" : 97,
 		"eccentricity" : 0.0039,
-		"trueAnomaly": 258.3,
-		"longitudeOfAscendingNode": 195.5,
-		"argumentOfPeriapsis": 157.5,
-		"siderealPeriod" : 202
+		"longitudeOfAscendingNode": 180,
+		"siderealPeriod" : 20.2
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/umbriel_heightmap.png",	
 		"textureMap" : "planets/assets/umbriel_texturemap.png",	
-		"minHeight" : 33,
-		"maxHeight" : 35
+		"minHeight" : 27,
+		"maxHeight" : 30
 	}
 }

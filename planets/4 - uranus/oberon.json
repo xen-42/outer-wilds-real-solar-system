@@ -5,27 +5,25 @@
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 98,
+		"surfaceSize" : 39,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1000,
+		"semiMajorAxis" : 1400,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
-		"inclination" : 0.1,
+		"inclination" : 97,
 		"eccentricity" : 0.001,
-		"trueAnomaly": 139.7,
-		"longitudeOfAscendingNode": 30.5,
-		"argumentOfPeriapsis": 182.4,
-		"siderealPeriod" : 656
+		"longitudeOfAscendingNode": 180,
+		"siderealPeriod" : 65.6
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/oberon_heightmap.png",	
 		"textureMap" : "planets/assets/oberon_texturemap.png",	
-		"minHeight" : 46,
-		"maxHeight" : 48
+		"minHeight" : 36,
+		"maxHeight" : 39
 	}
 }

@@ -16,8 +16,8 @@
 		"longitudeOfAscendingNode": 180,
 		"isMoon" : true,
 		"trueAnomaly" : 298,
-		"eccentricity": 0.001,
-		"axialTilt": 0.33,
+		"eccentricity": 0.0013,
+		"axialTilt": 0.165,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},

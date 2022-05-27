@@ -11,7 +11,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 24500,
+		"semiMajorAxis" : 44500,
 		"inclination" : 28,
 		"trueAnomaly" : 218,
 		"eccentricity": 0.2,

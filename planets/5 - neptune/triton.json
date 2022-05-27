@@ -11,7 +11,7 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 1200,
-		"inclination" : 130,
+		"inclination" : 157,
 		"longitudeOfAscendingNode": 0,
 		"primaryBody" : "Neptune",
 		"isMoon" : true,

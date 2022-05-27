@@ -11,14 +11,14 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 800,
-		"inclination" : 5,
+		"inclination" : 5.14,
 		"primaryBody" : "Earth",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 125,
-		"eccentricity" : 0.0554,
+		"eccentricity" : 0.055,
 		"trueAnomaly": 135,
 		"argumentOfPeriapsis": 318,
-		"axialTilt" : 0,
+		"axialTilt" : 1.5,
 		"siderealPeriod" : 55,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}

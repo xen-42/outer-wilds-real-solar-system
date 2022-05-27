@@ -11,15 +11,11 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 417,
+		"semiMajorAxis" : 850,
 		"inclination" : 0.5,
 		"primaryBody" : "Neptune",
 		"isMoon" : true,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
-		"axialTilt" : 0,
-		"siderealPeriod": 30,
+		"longitudeOfAscendingNode" : 180,
 		"isTidallyLocked" : true
 	},
 	"HeightMap" :

@@ -23,9 +23,9 @@
 		"inclination" : 2,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 18,
+		"longitudeOfAscendingNode" : 0,
 		"eccentricity" : 0.017,
-		"argumentOfPeriapsis": 86,
+		"argumentOfPeriapsis": 102,
 		"trueAnomaly" : 358,
 		"axialTilt" : 23,
 		"siderealPeriod" : 5

@@ -15,10 +15,10 @@
 		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 48,
-		"eccentricity" : 0.1,
+		"eccentricity" : 0.205,
 		"argumentOfPeriapsis": 29,
 		"axialTilt" : 2,
-		"trueAnomaly" : 0,
+		"trueAnomaly" : 174,
 		"siderealPeriod": 10,
 		"tint" : 
 		{

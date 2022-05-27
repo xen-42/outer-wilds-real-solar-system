@@ -10,13 +10,13 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1100,
+		"semiMajorAxis" : 800,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
 		"trueAnomaly": 50.1,
 		"longitudeOfAscendingNode": 180,
-		"siderealPeriod": 37
+		"siderealPeriod": 3.7
 	},
 	"ProcGen" :
 	{

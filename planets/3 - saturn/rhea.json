@@ -9,6 +9,15 @@
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 2550,
+		"inclination" : 26,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 180,
+		"isTidallyLocked" : true
+	},
 	"AsteroidBelt" : 
 	{
 		"innerRadius" : 75,
@@ -26,18 +35,6 @@
 				"a": 255
 			}
 		}
-	},
-	"Orbit" :
-	{
-		"semiMajorAxis" : 900,
-		"inclination" : 0,
-		"primaryBody" : "Saturn",
-		"isMoon" : true,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
-		"axialTilt" : 0,
-		"isTidallyLocked" : true
 	},
 	"HeightMap" :
 	{

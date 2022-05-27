@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 9500,
+		"semiMajorAxis" : 9600,
 		"inclination" : 7,
 		"longitudeOfAscendingNode" : 100,
 		"primaryBody" : "Sol",

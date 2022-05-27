@@ -11,22 +11,20 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 750,
-		"inclination" : 0.374,
+		"semiMajorAxis" : 1150,
 		"primaryBody" : "Jupiter",
-		"isMoon" : true,
-		"longitudeOfAscendingNode" : 123,
+		"inclination" : 3.374,
 		"eccentricity" : 0.003,
-		"trueAnomaly": 180,
-		"argumentOfPeriapsis": 78.68,
-		"axialTilt" : 0,
-		"isTidallyLocked" : true
+		"longitudeOfAscendingNode" : 180,
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/amalthea_heightmap.png",	
 		"textureMap" : "planets/assets/amalthea_texturemap.png",	
-		"minHeight" : 4,
+		"minHeight" : 1,
 		"maxHeight" : 5
 	}
 }

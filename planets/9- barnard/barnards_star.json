@@ -11,7 +11,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 250000,
+		"semiMajorAxis" : 270000,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
 		"trueAnomaly" : 270,
