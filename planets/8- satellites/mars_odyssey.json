@@ -1,0 +1,45 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Mars Odyssey",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"hasMapMarker" : false,
+		"showMinimap" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 200,
+		"primaryBody" : "Mars",
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"inclination" : 68.064,
+		"eccentricity": 0,
+		"longitudeOfAscendingNode": 34.98,
+		"argumentOfPeriapsis": 0,
+		"trueAnomaly": 0,
+		"isMoon": true,
+		"isTidallyLocked": true
+	},
+	"Signal" : 
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Mars Odyssey", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 15, "detectionRadius": 200, "identificationRadius" : 30 }
+		]
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/marsodyssey", "path" : "Assets/MarsOdyssey.prefab" }
+		]
+	},
+	"ShipLog" : 
+    {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}
