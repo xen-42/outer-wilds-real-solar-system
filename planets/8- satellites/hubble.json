@@ -32,7 +32,8 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/hubble", "path" : "Assets/HubbleSpaceTelescope.prefab" }
+			{ "assetBundle" : "planets/assetbundle/hubble", "path" : "Assets/HubbleSpaceTelescope.prefab" },
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
 		]
 	},
 	"ShipLog" : 

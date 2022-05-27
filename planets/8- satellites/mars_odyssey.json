@@ -33,7 +33,8 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/marsodyssey", "path" : "Assets/MarsOdyssey.prefab" }
+			{ "assetBundle" : "planets/assetbundle/marsodyssey", "path" : "Assets/MarsOdyssey.prefab" },
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 20 }
 		]
 	},
 	"ShipLog" : 

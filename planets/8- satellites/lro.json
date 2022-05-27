@@ -1,0 +1,45 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "LRO",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"hasMapMarker" : false,
+		"showMinimap" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 100,
+		"primaryBody" : "The Moon",
+		"inclination": 90,
+		"longitudeOfAscendingNode": 60,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+        "trueAnomaly": 0,
+		"showOrbitLine" : true,
+		"isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {"x": 0, "y": 0, "z": 1}
+	},
+	"Signal" : 
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Lunar Reconnaissance Orbiter", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": -0.25, "y": -1, "z": -3.25 } }
+		]
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/LRO_35.prefab" },
+            { "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}
