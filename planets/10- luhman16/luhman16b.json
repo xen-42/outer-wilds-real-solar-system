@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Luhman 16B",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 65,
+		"surfaceSize" : 600,
+		"hasMapMarker" : true,
+		"ambientLight": 2,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10500,
+		"inclination": 100,
+		"longitudeOfAscendingNode": 140,
+		"argumentOfPeriapsis": 128,
+		"primaryBody" : "Luhman 16",
+		"showOrbitLine" : true
+	},
+	"Star":
+	{
+		"size": 416,
+		"tint" : 
+		{
+			"r" : 221,
+			"g" : 42,
+			"b" : 0,
+			"a" : 255
+		},
+		"hasAtmosphere": false,
+		"solarLuminosity": 0.5,
+		"hasStarController": false
+	},
+	"Atmosphere" :
+	{
+		"size" : 500,
+		"clouds": {
+			"innerCloudRadius": 430,
+			"outerCloudRadius": 500,
+			"texturePath": "planets/assets/luhman16b.png",
+			"unlit": true,
+			"tint": 
+			{
+				"r" : 253,
+				"g" : 143,
+				"b" : 0,
+				"a" : 255
+			}
+		}
+	}
+}
