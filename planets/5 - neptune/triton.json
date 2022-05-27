@@ -21,9 +21,9 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/triton_heightmap.png",	
 		"textureMap" : "planets/assets/triton_texturemap.png",	
-		"minHeight" : 65,
+		"minHeight" : 63,
 		"maxHeight" : 65
 	},
 	"ShipLog" : {
