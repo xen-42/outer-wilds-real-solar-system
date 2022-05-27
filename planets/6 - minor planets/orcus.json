@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 6,
-		"surfaceSize" : 50,
+		"surfaceGravity" : 3,
+		"surfaceSize" : 45,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -25,7 +25,7 @@
 	{
 		"heightMap" : "planets/assets/orcus_heightmap.png",	
 		"textureMap" : "planets/assets/orcus_texturemap.png",	
-		"minHeight" : 48,
-		"maxHeight" : 50
+		"minHeight" : 43,
+		"maxHeight" : 45
 	}
 }

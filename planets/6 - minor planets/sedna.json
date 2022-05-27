@@ -4,13 +4,13 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 6,
+		"surfaceGravity" : 7,
 		"surfaceSize" : 50,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 100000,
+		"semiMajorAxis" : 90000,
 		"inclination" : 12,
 		"trueAnomaly" : 358,
 		"eccentricity": 0.85,
