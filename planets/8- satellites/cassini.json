@@ -34,9 +34,8 @@
 			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Cassini.prefab" }
 		]
 	},
-	"ShipLog" : {
-		"mapMode" : {
-			"remove" : true
-		}
+	"ShipLog" : 
+	{
+		"mapMode" : { "remove" : true }
 	}
 }

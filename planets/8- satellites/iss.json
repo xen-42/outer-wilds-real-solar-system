@@ -6,8 +6,7 @@
 	{
 		"surfaceGravity" : 0,
 		"hasMapMarker" : false,
-		"isSpaceStation" : true,
-		"isSatellite" : true
+		"showMinimap" : false
 	},
 	"Orbit" :
 	{
@@ -20,13 +19,14 @@
 		"inclination" : 51.65,
 		"argumentOfPeriapsis" : 325.5,
 		"trueAnomaly" : 125.41,
+		"isMoon": true,
 		"isTidallyLocked": true
 	},
 	"Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
-			{ "Frequency" : "Radio", "name" : "International Space Station", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 30, "detectionRadius": 400, "identificationRadius" : 100 }
+			{ "frequency" : "Radio", "name" : "International Space Station", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 30, "detectionRadius": 400, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :
@@ -36,13 +36,12 @@
 			{
 				"assetBundle" : "planets/assetbundle/iss",
 				"path" : "Assets/ISS/InternationalSpaceStation.prefab",
-				"scale": 0.75,
+				"scale": 0.75
 			}
 		]
 	},
-	"ShipLog" : {
-		"mapMode" : {
-			"remove" : true
-		}
+	"ShipLog" : 
+	{
+		"mapMode" : { "remove" : true }
 	}
 }

@@ -6,7 +6,7 @@
 	{
 		"surfaceGravity" : 0,
 		"hasMapMarker" : false,
-		"isSatellite" : true
+		"showMinimap" : false
 	},
 	"Orbit" :
 	{
@@ -18,25 +18,25 @@
 		"eccentricity" : 0.0002415,
 		"inclination" : 28.5,
 		"argumentOfPeriapsis" : 245.56,
-		"trueAnomaly" : 161.55
+		"trueAnomaly" : 161.55,
+		"isMoon": true
 	},
 	"Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
-			{ "Frequency" : "Radio", "name" : "Hubble Space Telescope", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "frequency" : "Radio", "name" : "Hubble Space Telescope", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :
 	{
-		"Details" :
+		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/hubble", "path" : "Assets/HubbleSpaceTelescope.prefab" }
 		]
 	},
-	"ShipLog" : {
-		"mapMode" : {
-			"remove" : true
-		}
+	"ShipLog" : 
+	{
+		"mapMode" : { "remove" : true }
 	}
 }

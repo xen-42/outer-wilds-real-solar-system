@@ -15,7 +15,8 @@
 		"trueAnomaly" : 65,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
-		"dottedOrbitLine": true
+		"dottedOrbitLine": true,
+		"isMoon": true
 	},
 	"Signal" : 
 	{
@@ -31,9 +32,8 @@
 			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab", "scale": 100 }
 		]
 	},
-	"ShipLog" : {
-		"mapMode" : {
-			"remove" : true
-		}
+	"ShipLog" : 
+	{
+		"mapMode" : { "remove" : true }
 	}
 }
