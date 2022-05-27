@@ -30,7 +30,8 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Cassini.prefab" }
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Cassini.prefab" },
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
 		]
 	},
 	"ShipLog" : {
