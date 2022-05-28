@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 253628621
+CRC: 2350593964
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 090283765a6b413dad5c87116235755a
+    Hash: 1a6aae88d6a7d27efa3f7509892eea99
   TypeTreeHash:
     serializedVersion: 2
     Hash: 84f3069c62c024e5f87668c560eae2c9
@@ -35,6 +35,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/RSS/Venera.prefab
 - Assets/RSS/Huygens.prefab
 - Assets/ZeroGVolume.prefab
 - Assets/RSS/Messenger.prefab

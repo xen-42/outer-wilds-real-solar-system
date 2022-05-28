@@ -5,6 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
+        "surfaceSize": 1,
 		"hasMapMarker" : false,
 		"showMinimap" : false
 	},

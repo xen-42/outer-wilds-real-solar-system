@@ -21,22 +21,22 @@
 		"tint" : 
 		{
 			"r" : 255,
-			"g" : 197,
-			"b" : 126,
+			"g" : 200,
+			"b" : 70,
 			"a" : 255
 		},
-		"solarLuminosity": 0.6,
+		"solarLuminosity": 0.8,
 		"goSupernova": false,
 		"curve": [
 			{ "time": 0, "value": 1 },
-			{ "time": 18, "value": 1 },
-			{ "time": 22, "value": 1.4 }
+			{ "time": 16, "value": 1 },
+			{ "time": 22, "value": 1.5 }
 		],
 		"endTint": 
 		{
-			"r" : 255,
-			"g" : 131,
-			"b" : 84,
+			"r" : 235,
+			"g" : 40,
+			"b" : 10,
 			"a" : 255
 		}
 	},
