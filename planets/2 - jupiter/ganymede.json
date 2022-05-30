@@ -26,6 +26,20 @@
 		"minHeight" : 100,
 		"maxHeight" : 100
 	},
+	"Signal" : 
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Laplace-P", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": -59.53851, "y": -45.05071, "z": 66.5143} }
+		]
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/LaplaceP.prefab", "position" : {"x": -59.53851, "y": -45.05071, "z": 66.5143}, "alignToNormal" : true }
+		]
+	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
 		"mapMode" : {

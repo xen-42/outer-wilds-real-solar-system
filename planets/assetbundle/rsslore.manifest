@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2350593964
+CRC: 905444395
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1a6aae88d6a7d27efa3f7509892eea99
+    Hash: 4eda8147a6f18d3cf539ec6c72373e8a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 84f3069c62c024e5f87668c560eae2c9
+    Hash: 00597cad9c4610e60424ad1a12c344a5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,17 +27,25 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/RSS/Venera.prefab
 - Assets/RSS/Huygens.prefab
+- Assets/RSS/LaplaceP.prefab
 - Assets/ZeroGVolume.prefab
+- Assets/RSS/Juice.prefab
+- Assets/RSS/Parker.prefab
+- Assets/RSS/EuropaClipper.prefab
 - Assets/RSS/Messenger.prefab
 - Assets/RSS/LRO_35.prefab
 Dependencies: []

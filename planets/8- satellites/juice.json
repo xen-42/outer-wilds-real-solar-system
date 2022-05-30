@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "JUICE",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+        "surfaceSize": 1,
+		"hasMapMarker" : false,
+		"showMinimap" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 150,
+		"primaryBody" : "Ganymede",
+		"inclination": 90,
+		"longitudeOfAscendingNode": 120,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+        "trueAnomaly": 0,
+		"showOrbitLine" : true,
+		"isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {"x": 1, "y": 0, "z": 0}
+	},
+	"Signal" : 
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Jupiter Icy Moons Explorer", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 2.1, "y": 0, "z": 0 } }
+		]
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/Juice.prefab" },
+            { "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 25 }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}
