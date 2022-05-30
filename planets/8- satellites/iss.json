@@ -5,6 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
+		"surfaceSize" : 45,
 		"hasMapMarker" : false,
 		"showMinimap" : false
 	},
@@ -26,7 +27,7 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "International Space Station", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 30, "detectionRadius": 400, "identificationRadius" : 100 }
+			{ "frequency" : "Radio", "name" : "International Space Station", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 45, "detectionRadius": 400, "identificationRadius" : 100 }
 		]
 	},
 	"Props" :
@@ -34,7 +35,7 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/iss", "path" : "Assets/ISS/InternationalSpaceStation.prefab", "scale": 0.75 },
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 30 }
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 45 }
 		]
 	},
 	"ShipLog" : 

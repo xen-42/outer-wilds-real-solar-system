@@ -5,6 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
 		"hasMapMarker" : false,
 		"showMinimap" : false
 	},
@@ -18,6 +19,7 @@
 		"argumentOfPeriapsis": 0,
         "trueAnomaly": 200,
 		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
 		"isMoon": true,
         "isTidallyLocked": true,
         "alignmentAxis": {"x": 1, "y": 0, "z": 0}
