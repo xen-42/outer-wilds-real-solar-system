@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Tethys",
+	"name" : "Telesto",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 30,
+		"surfaceSize" : 5,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -15,14 +15,14 @@
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"trueAnomaly": 0,
+		"trueAnomaly": 60,
 		"isTidallyLocked" : true
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/tethys_heightmap.png",	
-		"textureMap" : "planets/assets/tethys_texturemap.png",	
-		"minHeight" : 28,
-		"maxHeight" : 30
+		"heightMap" : "planets/assets/telesto_heightmap.png",	
+		"textureMap" : "planets/assets/blank_texturemap.png",	
+		"minHeight" : 4,
+		"maxHeight" : 5
 	}
 }
