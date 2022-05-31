@@ -20,7 +20,7 @@
 	"Atmosphere" :
 	{
 		"size" : 61,
-		"hasAtmosphere": true,
+		"useAtmosphereShader": true,
 		"hasSnow": true,
 		"atmosphereTint":
 		{
@@ -39,7 +39,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/Pluto log.png"
 		}
 	}

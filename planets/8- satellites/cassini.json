@@ -21,16 +21,17 @@
 	},
 	"Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
-			{ "Frequency" : "Radio", "name" : "Cassini", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 5, "detectionRadius": 500, "identificationRadius" : 20 }
+			{ "frequency" : "Radio", "name" : "Cassini", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 5, "detectionRadius": 500, "identificationRadius" : 20 }
 		]
 	},
 	"Props" :
 	{
-		"Details" :
+		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Cassini.prefab" }
+			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Cassini.prefab" },
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
 		]
 	},
 	"ShipLog" : {

@@ -70,12 +70,21 @@
 		"Cassini" : "Кассини",
 		"Russel's Teapot" : "Чайник Рассела",
 		"Voyager" : "Вояджер",
-		
+		"LRO" : "ЛРА",
+		"Lunar Reconnaissance Orbiter" : "Лунный разведовательный аппарат",
+		"Venera 9" : "Венера-9",
+		"Europa Clipper" : "Европа Клиппер",
+		"Jupiter Icy Moons Explorer" : "Эксплорер ледяных лун Юпитера",
+		"Laplace-P" : "Лаплас-П",
+		"Uranus Orbiter" : "Уранский орбитальный аппарат",
+		"Neptune Odyssey" : "Нептун Одиссея", 
+		"Parker Solar Probe" : "Солнечный зонд «Паркер»",
+		"MESSENGER" : "Мессенджер",
+		"Huygens" : "Гюгенс",
 		
 		"Alpha Centauri" : "Альфа Центавра",
 		"Toliman" : "Толиман ",
 		"Rigil Kentaurus" : "Ригиль Кентавра",
-
 
 		"Proxima Centauri b" : "Проксима Центавра b",
 		"Proxima Centauri c" : "Проксима Центавра c",
@@ -89,6 +98,7 @@
 		"Aquarius" : "Водолей",
 		"Perserverance" : "Персеверанс",
 		"Jammer" : "Джеммер"
+		
 		
     }
 }

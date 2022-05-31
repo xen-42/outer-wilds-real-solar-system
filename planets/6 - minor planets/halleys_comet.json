@@ -16,7 +16,7 @@
 		"inclination" : 162,
 		"eccentricity" : 0.78,
 		"primaryBody" : "Sol",
-		"trueAnomaly": 180,
+		"trueAnomaly": 225,
 		"isMoon" : false,
 		"isTidallyLocked" : true
 	},
@@ -47,7 +47,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/Halley's Comet Log.png"
 		}
 	}

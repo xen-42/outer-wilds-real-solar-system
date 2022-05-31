@@ -35,6 +35,7 @@
 		"fogDensity": 1,
 		"fogSize": 105,
 		"useAtmosphereShader": true,
+		"hasSnow": true,
 		"atmosphereTint" : 
 		{
 			"r" : 100,
@@ -52,7 +53,8 @@
 				"b" : 150,
 				"a" : 255
 			},
-			"texturePath" : "planets/assets/titan_clouds.png"
+			"texturePath" : "planets/assets/titan_clouds.png",
+			"useBasicCloudShader": true
 		}
 	},
 	"Water" : {
@@ -72,9 +74,23 @@
 		"minHeight" : 80,
 		"maxHeight" : 84
 	},
+	"Signal" : 
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Huygens", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": -76.79877, "y": -15.90129, "z": 26.27043} }
+		]
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/Huygens.prefab", "position" : {"x": -76.79877, "y": -15.90129, "z": 26.27043}, "alignToNormal" : true }
+		]
+	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/Titan log.png"
 		}
 	}

@@ -36,14 +36,14 @@
 	"Atmosphere" :
 	{
 		"hasOxygen" : true,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"size" : 375,
 		"fogTint" : 
 		{
-			"R" : 90,
-			"G" : 128,
-			"B" : 128,
-			"A" : 255
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
 		},
 		"fogDensity": 0.1,
 		"fogSize": 375
@@ -370,6 +370,9 @@
 		"geysers": [
 			{
 				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363}
+			},
+			{
+				"position": {"x": -121.2435, "y": 267.469, "z": 42.14647}
 			}
 		],
 		"dialogue": [
@@ -383,12 +386,12 @@
 	"Singularity": {
 		"pairedSingularity": "The Moon",
 		"position": {"x": 15.4186, "y": 188.6308, "z": 231.7824},
-		"type": "BlackHole",
+		"type": "blackHole",
 		"size": 2
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/earth.png"
 		}
 	}

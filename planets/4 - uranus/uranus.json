@@ -80,13 +80,13 @@
 	"Ring" : 
 	{
 		"innerRadius" : 800,
-		"outerRadius" : 900,
+		"outerRadius" : 1000,
 		"texture" : "planets/assets/uranus_rings.png",
-		"fluidType": "SAND"
+		"fluidType": "sand"
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/shiplogs/icons/uranus log.png"
 		}
 	}
