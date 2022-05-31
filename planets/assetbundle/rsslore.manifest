@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 905444395
+CRC: 2023002733
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4eda8147a6f18d3cf539ec6c72373e8a
+    Hash: c49b4313e12c07ceffad7b8c400c843d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 00597cad9c4610e60424ad1a12c344a5
@@ -40,11 +40,13 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/RSS/Venera.prefab
+- Assets/RSS/UranusOrbiter.prefab
 - Assets/RSS/Huygens.prefab
 - Assets/RSS/LaplaceP.prefab
 - Assets/ZeroGVolume.prefab
 - Assets/RSS/Juice.prefab
 - Assets/RSS/Parker.prefab
+- Assets/RSS/NeptuneOdyssey.prefab
 - Assets/RSS/EuropaClipper.prefab
 - Assets/RSS/Messenger.prefab
 - Assets/RSS/LRO_35.prefab
