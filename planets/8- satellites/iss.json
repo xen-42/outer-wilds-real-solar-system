@@ -34,7 +34,7 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/iss", "path" : "Assets/ISS/InternationalSpaceStation.prefab", "scale": 0.75 },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/ISS/InternationalSpaceStation.prefab", "scale": 0.75 },
 			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 45 }
 		]
 	},
