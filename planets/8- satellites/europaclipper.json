@@ -1,25 +1,24 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "MESSENGER",
+	"name" : "Europa Clipper",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 0,
-		"surfaceSize" : 1,
+        "surfaceSize": 1,
 		"hasMapMarker" : false,
 		"showMinimap" : false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 150,
-		"primaryBody" : "Mercury",
+		"semiMajorAxis" : 120,
+		"primaryBody" : "Europa",
 		"inclination": 90,
 		"longitudeOfAscendingNode": 0,
 		"eccentricity": 0,
 		"argumentOfPeriapsis": 0,
-        "trueAnomaly": 200,
+        "trueAnomaly": 0,
 		"showOrbitLine" : true,
-		"dottedOrbitLine": true,
 		"isMoon": true,
         "isTidallyLocked": true,
         "alignmentAxis": {"x": 1, "y": 0, "z": 0}
@@ -28,14 +27,14 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "MESSENGER", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0.75, "y": 0.75, "z": 0 } }
+			{ "frequency" : "Radio", "name" : "Europa Clipper", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 1.6, "y": -0.5, "z": 0 } }
 		]
 	},
 	"Props" :
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/Messenger.prefab" },
+			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/EuropaClipper.prefab" },
             { "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 25 }
 		]
 	},

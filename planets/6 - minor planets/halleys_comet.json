@@ -16,7 +16,7 @@
 		"inclination" : 162,
 		"eccentricity" : 0.78,
 		"primaryBody" : "Sol",
-		"trueAnomaly": 180,
+		"trueAnomaly": 225,
 		"isMoon" : false,
 		"isTidallyLocked" : true
 	},

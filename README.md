@@ -32,4 +32,4 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 "Teapot." (https://skfb.ly/oqPNZ) by Akulla is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
-Mars Perserverance Rover, Cassini, Lunar Lander, and Voyager 3D models made by [NASA](https://nasa3d.arc.nasa.gov/models).
+All other models are from [NASA](https://nasa3d.arc.nasa.gov/models) or made by [Trifid](https://github.com/TerrificTrifid).
