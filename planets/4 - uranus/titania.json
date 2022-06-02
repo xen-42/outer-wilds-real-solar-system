@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1300,
+		"semiMajorAxis" : 1400,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
