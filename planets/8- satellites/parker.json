@@ -34,8 +34,8 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/Parker.prefab" },
-            { "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 50 }
+			{ "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/RSS/Parker.prefab" },
+            { "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/ZeroGVolume.prefab", "scale": 50 }
 		]
 	},
 	"ShipLog" : {

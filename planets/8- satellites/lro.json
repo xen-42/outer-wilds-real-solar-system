@@ -35,8 +35,8 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/LRO_35.prefab" },
-            { "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
+			{ "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/RSS/LRO_35.prefab" },
+            { "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
 		]
 	},
 	"ShipLog" : {
