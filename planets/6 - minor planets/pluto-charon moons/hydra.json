@@ -30,7 +30,7 @@
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/shiplogs/icons/hydra.png"
+			"revealedSprite": "planets/shiplogs/icons/Hydra log.png"
 		}
 	}
 }
