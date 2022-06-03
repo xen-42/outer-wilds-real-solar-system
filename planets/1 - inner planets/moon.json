@@ -40,7 +40,7 @@
 		"details" :
 		[
 			{ 
-				"assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", 
+				"assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", 
 				"path" : "Assets/RSS/lunarlander.prefab", 
 				"position" :  {"x": -68.19719, "y": 3.428392, "z": -31.16138}, 
 				"alignToNormal" : true, "scale": 1.5 
