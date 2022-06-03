@@ -19,6 +19,7 @@
 		"argumentOfPeriapsis": 180,
         "trueAnomaly": 0,
 		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
 		"isMoon": true,
         "isTidallyLocked": true,
         "alignmentAxis": {"x": 0, "y": 0, "z": -1}
