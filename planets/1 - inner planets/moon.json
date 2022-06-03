@@ -32,7 +32,7 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Aquarius", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 5, "detectionRadius" : 100, "identificationRadius" : 10, "position" :  {"x": -68.19719, "y": 3.428392, "z": -31.16138} }
+			{ "frequency" : "Radio", "name" : "Aquarius", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius" : 50, "identificationRadius" : 10, "position" :  {"x": -73.76814, "y": 5.587512, "z": -34.63311} }
 		]
 	},
 	"Props" :
@@ -40,10 +40,10 @@
 		"details" :
 		[
 			{ 
-				"assetBundle" : "planets/assetbundle/rss", 
-				"path" : "Assets/RSS/Prefabs/lunarlander.prefab", 
+				"assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", 
+				"path" : "Assets/RSS/lunarlander.prefab", 
 				"position" :  {"x": -68.19719, "y": 3.428392, "z": -31.16138}, 
-				"alignToNormal" : true, "scale": 12 
+				"alignToNormal" : true, "scale": 1.5 
 			},
 			{
 				"comment" : "MOON NOMAI RUINS",

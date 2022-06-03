@@ -5,6 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
+		"surfaceSize": 1,
 		"hasMapMarker" : false,
 		"showMinimap" : false
 	},
@@ -17,21 +18,23 @@
 		"eccentricity": 0,
 		"argumentOfPeriapsis": 0,
 		"showOrbitLine" : true,
-		"isMoon": true
+		"isMoon": true,
+		"isTidallyLocked": true,
+        "alignmentAxis": {"x": 0, "y": 1, "z": 0}
 	},
 	"Signal" : 
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Cassini", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 5, "detectionRadius": 500, "identificationRadius" : 20 }
+			{ "frequency" : "Radio", "name" : "Cassini", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 50, "identificationRadius" : 10, "position": {"x": 0, "y": 3, "z": 0} }
 		]
 	},
 	"Props" :
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Cassini.prefab" },
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
+			{ "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/RSS/Cassini_no_Huygens_03.prefab" },
+			{ "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/ZeroGVolume.prefab", "scale": 25 }
 		]
 	},
 	"ShipLog" : {

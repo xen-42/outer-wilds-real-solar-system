@@ -1,10 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Russel's Teapot",
+	"name" : "Russell's Teapot",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 0,
+		"surfaceSize": 1,
 		"hasMapMarker" : false,
 		"showMinimap": false
 	},
@@ -14,20 +15,22 @@
 		"inclination" : 5,
 		"trueAnomaly" : 65,
 		"primaryBody" : "Sol",
-		"showOrbitLine" : false
+		"showOrbitLine" : false,
+		"siderealPeriod": 0.2
 	},
 	"Signal" : 
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Traveler", "name" : "Russel's Teapot", "audioClip" : "OW Space Station 081420_2 AP", "sourceRadius" : 1, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "frequency" : "Traveler", "name" : "Russell's Teapot", "audioClip" : "OW Space Station 081420_2 AP", "sourceRadius" : 0.25, "detectionRadius": 50, "identificationRadius" : 5, "onlyAudibleToScope": false }
 		]
 	},
 	"Props" :
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab", "scale": 100 }
+			{ "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/RSS/Teapot.prefab", "scale": 0.25 },
+			{ "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/ZeroGVolume.prefab", "scale": 25 }
 		]
 	},
 	"ShipLog" : {
