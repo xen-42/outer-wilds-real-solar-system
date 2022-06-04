@@ -39,7 +39,7 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen.realsolarsystem.terrifictrifid", "path" : "Assets/RSS/LaplaceP.prefab", "position" : {"x": -59.53851, "y": -45.05071, "z": 66.5143}, "alignToNormal" : true }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/LaplaceP.prefab", "position" : {"x": -59.53851, "y": -45.05071, "z": 66.5143}, "alignToNormal" : true }
 		]
 	},
 	"ShipLog" : {
