@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 857238900
+CRC: 2646211373
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 55741725f0b41d46d7180331d8e95491
+    Hash: 4f54eed698cdbd8c272155cced120344
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 814f42a95ca04866e4b3ae7d4c99f66b
+    Hash: f0380ada44ab7edbec0198d02cd890fe
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -35,6 +35,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
 - Class: 115
@@ -49,7 +51,9 @@ Assets:
 - Assets/RSS/UranusOrbiter.prefab
 - Assets/RSS/Huygens.prefab
 - Assets/RSS/LaplaceP.prefab
+- Assets/RSS/Europa.prefab
 - Assets/RSS/lunarlander.prefab
+- Assets/JellyfishLight.prefab
 - Assets/RSS/percy2.prefab
 - Assets/ZeroGVolume.prefab
 - Assets/RSS/Voyager_17.prefab
@@ -60,6 +64,7 @@ Assets:
 - Assets/RSS/Parker.prefab
 - Assets/RSS/NeptuneOdyssey.prefab
 - Assets/RSS/EuropaClipper.prefab
+- Assets/JellyfishLightLarge.prefab
 - Assets/RSS/Messenger.prefab
 - Assets/RSS/LRO_35.prefab
 Dependencies: []

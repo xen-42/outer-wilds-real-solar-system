@@ -44,8 +44,8 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/venus_heightmap.png",	
-		"textureMap" : "planets/assets/Alpha Centauri Ab.png",	
+		"heightMap" : "planets/assets/proximab_heightmap.png",	
+		"textureMap" : "planets/assets/proximab_texturemap.png",	
 		"minHeight" : 295,
 		"maxHeight" : 305
 	},
