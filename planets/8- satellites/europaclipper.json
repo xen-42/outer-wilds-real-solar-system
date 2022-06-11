@@ -34,8 +34,8 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/RSS/EuropaClipper.prefab" },
-            { "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 25 }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/EuropaClipper.prefab" },
+            { "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/ZeroGVolume.prefab", "scale": 25 }
 		]
 	},
 	"ShipLog" : {
