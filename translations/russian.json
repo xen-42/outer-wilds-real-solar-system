@@ -16,15 +16,15 @@
 		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5" : "Аллиум: Муса, я думаю, что это больше факт, чем теория.",
 
 		"Jammer" : "Джеммер",
-		"Speical birthday gift!" : "С днём рождения!",
+		"Speical birthday gift!" : "Спеицальный подарок на день рождения!",
 		"Wahoo!" : "Вау!",
 		"Ur winning!" : "Ты выиграл!",
 		"Im winning!" : "Я выиграл!",
-		"Will fund!" : "НАЙДУ!",
-		"HOT" : "ГОРЯЧО",
+		"Will fund!" : "Дам денег!",
+		"HOT" : "ГОРЯЧ",
 		"YAY!!~!!!" : "УРА!!~!!!",
 		"Oak doak!" : "Ока-дока!",
-		"Bestest day!" : "Лучший день в мире!"
+		"Bestest day!" : "Наилучший день!"
    	},
     "ShipLogDictionary" :
     	{
@@ -68,14 +68,23 @@
 		"Vesta" : "Веста",
 
 		"Cassini" : "Кассини",
-		"Russel's Teapot" : "Чайник Рассела",
+		"Russell's Teapot" : "Чайник Рассела",
 		"Voyager" : "Вояджер",
-		
+		"LRO" : "ЛРА",
+		"Lunar Reconnaissance Orbiter" : "Лунный разведовательный аппарат",
+		"Venera 9" : "Венера-9",
+		"Europa Clipper" : "Европа Клиппер",
+		"Jupiter Icy Moons Explorer" : "Эксплорер ледяных лун Юпитера",
+		"Laplace-P" : "Лаплас-П",
+		"Uranus Orbiter" : "Уранский орбитальный аппарат",
+		"Neptune Odyssey" : "Нептун Одиссея", 
+		"Parker Solar Probe" : "Солнечный зонд «Паркер»",
+		"MESSENGER" : "Мессенджер",
+		"Huygens" : "Гюгенс",
 		
 		"Alpha Centauri" : "Альфа Центавра",
 		"Toliman" : "Толиман ",
 		"Rigil Kentaurus" : "Ригиль Кентавра",
-
 
 		"Proxima Centauri b" : "Проксима Центавра b",
 		"Proxima Centauri c" : "Проксима Центавра c",
@@ -83,15 +92,13 @@
 		
 		
 		"Barnard's Star" : "Звезда Барнарда",
-		"Barnard's B" : "Звезда Барнарда b",
+		"Barnard's Star B" : "Звезда Барнарда b",
 		
 		
 		"Aquarius" : "Водолей",
 		"Perserverance" : "Персеверанс",
-		"Cassini" : "Кассини",
-		"Russel's Teapot" : "Чайник Рассела",
-		"Voyager" : "Вояджер",
 		"Jammer" : "Джеммер"
+		
 		
     }
 }
