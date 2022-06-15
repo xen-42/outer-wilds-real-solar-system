@@ -54,7 +54,7 @@
 				"a" : 255
 			},
 			"texturePath" : "planets/assets/titan_clouds.png",
-			"useBasicCloudShader": true
+			"cloudsPrefab": "basic"
 		}
 	},
 	"Water" : {

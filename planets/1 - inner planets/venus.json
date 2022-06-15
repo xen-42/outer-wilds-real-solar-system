@@ -53,6 +53,7 @@
 				"a" : 255
 			},
 			"texturePath" : "planets/assets/venus_clouds.png",
+			"cloudsPrefab": "quantumMoon",
 			"hasLightning" : true,
 			"lightningGradient" : [
 				{"time": 0, "tint": {"r": 0, "g": 0, "b": 0}},

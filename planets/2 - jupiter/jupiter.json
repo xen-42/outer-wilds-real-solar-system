@@ -52,6 +52,7 @@
 				"a" : 255
 			},
 			"texturePath" : "planets/assets/jupiter.png",
+			"cloudsPrefab": "giantsDeep",
 			"hasLightning" : true,
 			"lightningGradient" : [
 				{"time": 0, "tint": {"r": 255, "g": 0, "b": 0}},

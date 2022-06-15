@@ -52,7 +52,8 @@
 				"b" : 230,
 				"a" : 255
 			},
-			"texturePath" : "planets/assets/uranus.png"
+			"texturePath" : "planets/assets/uranus.png",
+			"cloudsPrefab": "giantsDeep"
 		}
 	},
 	"Water": {
