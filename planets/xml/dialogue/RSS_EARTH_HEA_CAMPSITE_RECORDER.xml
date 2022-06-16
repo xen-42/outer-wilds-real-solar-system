@@ -5,10 +5,10 @@
 		<Name>START</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_1</Page>
-			<Page>RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_2</Page>
-			<Page>RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_3</Page>
-			<Page>RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_4</Page>
+			<Page>RSS_EarthCampsiteRecorder1</Page>
+			<Page>RSS_EarthCampsiteRecorder2</Page>
+			<Page>RSS_EarthCampsiteRecorder3</Page>
+			<Page>RSS_EarthCampsiteRecorder4</Page>
 		</Dialogue>
 	</DialogueNode>
 

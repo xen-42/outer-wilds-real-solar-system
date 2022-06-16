@@ -82,7 +82,7 @@
 		],
 		"dialogue": [
 			{
-				"xmlFile": "planets/xml/dialogue/jammer.xml",
+				"xmlFile": "planets/xml/dialogue/characters/jammer.xml",
 				"radius": 1,
 				"position": {"x": -111.0043, "y": 218.0896, "z": -11.04778}
 			}

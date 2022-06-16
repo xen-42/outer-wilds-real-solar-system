@@ -4,27 +4,27 @@
     	{
 		"Fred: Earth." : "Фред: Земля.",
 		
-		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_1" : "Для начала, я понятия не имею, как я тут оказался.",
-		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_2" : "Так-же я не уверен, где я нахожусь.",
-		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_3" : "Судя по руинам номаи, я не первый, кто попал сюда.",
-		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_4" : "Я проверю их завтра. А сейчас - время отдохнуть.",
+		"RSS_EarthCampsiteRecorder1" : "Для начала, я понятия не имею, как я тут оказался.",
+		"RSS_EarthCampsiteRecorder2" : "Так-же я не уверен, где я нахожусь.",
+		"RSS_EarthCampsiteRecorder3" : "Судя по руинам номаи, я не первый, кто попал сюда.",
+		"RSS_EarthCampsiteRecorder4" : "Я проверю их завтра. А сейчас - время отдохнуть.",
 
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_1" : "Аллиум: Этот плот был здесь до того, как мы сюда пришли.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_2" : "Аллиум: Гипотеза 1: Он остался здесь после прошлых обитателей планеты.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_3" : "Аллиум: Гипотеза 2: Мы не единственные на этой планете.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_4" : "Муса: Теория: С этим плотом нам будет гораздо легче путешествовать по океану.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5" : "Аллиум: Муса, я думаю, что это больше факт, чем теория.",
+		"RSS_EarthRaftRecorder1" : "Аллиум: Этот плот был здесь до того, как мы сюда пришли.",
+		"RSS_EarthRaftRecorder2" : "Аллиум: Гипотеза 1: Он остался здесь после прошлых обитателей планеты.",
+		"RSS_EarthRaftRecorder3" : "Аллиум: Гипотеза 2: Мы не единственные на этой планете.",
+		"RSS_EarthRaftRecorder4" : "Муса: Теория: С этим плотом нам будет гораздо легче путешествовать по океану.",
+		"RSS_EarthRaftRecorder5" : "Аллиум: Муса, я думаю, что это больше факт, чем теория.",
 
 		"Jammer" : "Джеммер",
-		"Speical birthday gift!" : "Спеицальный подарок на день рождения!",
-		"Wahoo!" : "Вау!",
-		"Ur winning!" : "Ты выиграл!",
-		"Im winning!" : "Я выиграл!",
-		"Will fund!" : "Дам денег!",
-		"HOT" : "ГОРЯЧ",
-		"YAY!!~!!!" : "УРА!!~!!!",
-		"Oak doak!" : "Ока-дока!",
-		"Bestest day!" : "Наилучший день!"
+		"RSS_Jammer11" : "Спеицальный подарок на день рождения!",
+		"RSS_Jammer1A" : "Вау!",
+		"RSS_Jammer21" : "Ты выиграл!",
+		"RSS_Jammer22" : "Я выиграл!",
+		"RSS_Jammer23" : "Дам денег!",
+		"RSS_Jammer24" : "ГОРЯЧ",
+		"RSS_Jammer25" : "УРА!!~!!!",
+		"RSS_Jammer26" : "Ока-дока!",
+		"RSS_Jammer27" : "Наилучший день!"
    	},
     "ShipLogDictionary" :
     	{
