@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2646211373
+CRC: 3092638389
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4f54eed698cdbd8c272155cced120344
+    Hash: 4b502600aa0ffe8a746176c8ea4d5cd7
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f0380ada44ab7edbec0198d02cd890fe
+    Hash: 7d8b8f299aa331a71234d67f14a5cc21
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,6 +38,8 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 3b553936b4d86184aa70c1ec16223cdc, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
 - Class: 115
   Script: {instanceID: 0}
@@ -64,6 +66,7 @@ Assets:
 - Assets/RSS/Parker.prefab
 - Assets/RSS/NeptuneOdyssey.prefab
 - Assets/RSS/EuropaClipper.prefab
+- Assets/OceanGVolume.prefab
 - Assets/JellyfishLightLarge.prefab
 - Assets/RSS/Messenger.prefab
 - Assets/RSS/LRO_35.prefab
