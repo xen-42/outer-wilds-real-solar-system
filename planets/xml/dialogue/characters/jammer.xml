@@ -1,0 +1,48 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Jammer</NameField>
+	
+    <DialogueNode>
+        <Name>Jammer1</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>RSS_Jammer11</Page>
+        </Dialogue>
+
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>RSS_Jammer1A</Text>
+                <DialogueTarget>Jammer2</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+        <SetCondition>RSS_JammerBirthday</SetCondition>
+        <SetPersistentCondition>RSS_MetJammer</SetPersistentCondition>
+    </DialogueNode>
+
+	<DialogueNode>
+		<Name>Jammer2</Name>
+		<EntryCondition>RSS_JammerBirthday</EntryCondition>
+        <Randomize/>
+		<Dialogue>
+			<Page>RSS_Jammer21</Page>
+		</Dialogue>
+        <Dialogue>
+            <Page>RSS_Jammer22</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>RSS_Jammer23</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>RSS_Jammer24</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>RSS_Jammer25</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>RSS_Jammer26</Page>
+        </Dialogue>
+        <Dialogue>
+            <Page>RSS_Jammer27</Page>
+        </Dialogue>
+	</DialogueNode>
+	
+</DialogueTree>

@@ -1,0 +1,398 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Earth",
+	"starSystem" : "xen.RealSolarSystem",
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{"x": -55.65454, "y": 227.4736, "z": 183.9742},
+		"shipSpawnPoint" :
+		{"x": -59.18244, "y": 215.5915, "z": 196.174},
+		"startWithSuit" : true
+	},
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 300,
+		"hasMapMarker" : true,
+		"ambientLight": 1.4
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 6000,
+		"inclination" : 2,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.017,
+		"argumentOfPeriapsis": 102,
+		"trueAnomaly" : 358,
+		"axialTilt" : 23,
+		"siderealPeriod" : 5
+	},
+	"Water" : {
+		"size" : 294
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"useAtmosphereShader": true,
+		"size" : 375,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 375
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/earth_heightmap.png",	
+		"textureMap" : "planets/assets/earth_texturemap.png",	
+		"minHeight" : 292,
+		"maxHeight" : 307
+	},
+	"Props": {
+		"details": [
+			{
+				//NORTH AMERICAN NOMAI RUINS
+				"path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Structure_NOM_WarpReceiver_TimberHearth",
+				"position": {"x": 15.31864, "y": 187.3307, "z": 230.2823},
+				"alignToNormal": true,
+				"removeChildren": ["Structure_NOM_WarpReceiver_TimberHearth_Glass"]
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Props_NOM_WarpCoreWhite",
+				"position": {"x": 15.2086, "y": 187.6206, "z": 230.4424},
+				"rotation": {"x": 0, "y": 315, "z": 90},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Structure_NOM_WarpReceiver_Effects",
+				"position": {"x": 15.31864, "y": 187.3307, "z": 230.1924},
+				"rotation": {"x": 0, "y": -45, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Props_NOM_Lamp_Wall/",
+				"position": {"x": 11.16671, "y": 191.3894, "z": 228.767},
+				"rotation": {"x": 90, "y": 0, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Props_NOM_Lamp_Wall/",
+				"position": {"x": -4.279818, "y": 191.7805, "z": 228.6479},
+				"rotation": {"x": 90, "y": 0, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Props_NOM_Lamp_Wall/",
+				"position": {"x": 31.81252, "y": 187.1135, "z": 230.6627},
+				"rotation": {"x": 90, "y": 0, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_WarpReceiver/Props_NOM_Lamp_Wall/",
+				"position": {"x": 32.1235, "y": 195.8631, "z": 223.1314},
+				"rotation": {"x": -90, "y": 0, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				//NORTH AMERICAN DETAILS
+				"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/TowerInterior/Prefab_NOM_Whiteboard (1)",
+				"position": {"x": 33.41655, "y": 191.0698, "z": 226.322},
+				"rotation": {"x": 0, "y": 270, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": -36.96601, "y": 217.7057, "z": 199.2916},
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {"x": -1.408792, "y": 231.9895, "z": 186.1535},
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": 22.85923, "y": 226.1159, "z": 191.6715},
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {"x": 27.80317, "y": 242.7037, "z": 169.3137},
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": 63.5396, "y": 235.4805, "z": 171.7948},
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": 22.85923, "y": 226.1159, "z": 191.6715},
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": -7.752808, "y": 164.3758, "z": 247.1238},
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 42.7688, "y": 168.4095, "z": 242.1183},
+				"scale": 0.3,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 69.88821, "y": 153.8226, "z": 248.1481},
+				"scale": 0.5,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 60.3192, "y": 129.5013, "z": 264.0546},
+				"scale": 0.3,
+				"alignToNormal": true
+			},
+			{
+				//NORTH AMERICA CAMPSITE
+				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"position": {"x": 15.58844, "y": 232.8649, "z": 184.3383},
+				"alignToNormal": true
+			},
+			{
+				"path" :"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Fireflies/QFireflies (1)",
+				"position": {"x": 9.47097, "y": 233.5415, "z": 184.0938},
+				"alignToNormal": true
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/PlankPath/",
+				"position": {"x": 7.906097, "y": 225.0852, "z": 194.5751},
+				"alignToNormal": true
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteSleepingBag",
+				"position": {"x": 14.07419, "y": 234.9911, "z": 181.7412},
+				"rotation": {"x": 0, "y": 45, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/Props_HEA_WoodenCrate3/",
+				"position": {"x": 17.6082, "y": 235.5001, "z": 180.589},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteCookingStand/",
+				"position": {"x": 20.36746, "y": 232.5298, "z": 183.9709},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/",
+				"position": {"x": 18.86378, "y": 234.7287, "z": 181.3681},
+				"rotation": {"x": 0, "y": 45, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteLogAssets/",
+				"position": {"x": 17.43526, "y": 230.385, "z": 187.0782},
+				"rotation": {"x": 0, "y": -45, "z": 0},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp/Foliage_TH_HighPatch__1_",
+				"position": {"x": 26.10826, "y": 230.0683, "z": 186.3555},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp/Foliage_TH_HighPatch__2_",
+				"position": {"x": 25.8964, "y": 233.0742, "z": 182.5312},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp/Foliage_TH_HighPatch__3_",
+				"position": {"x": 22.64019, "y": 236.7335, "z": 178.214},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp/Foliage_TH_HighPatch__4_",
+				"position": {"x": 18.64156, "y": 240.3426, "z": 173.7084},
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp/Foliage_TH_HighPatch__5_",
+				"position": {"x": 10.77431, "y": 239.5951, "z": 175.4661}, 
+				"alignToNormal": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp/Foliage_TH_HighPatch__7_",
+				"position": {"x": 2.045963, "y": 238.4213, "z": 177.4321}, 
+				"alignToNormal": true
+			},
+			{
+                "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder",
+                "position": {"x": 12.56632, "y": 234.4428, "z": 182.669},
+                "alignToNormal": true,
+				"removeComponents": true
+            },
+			{
+				//Near the raft
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/Props_HEA_table/Tree_TH_Stump (1)",
+				"position": {"x": 20.45054, "y": 155.4767, "z": 251.9456},
+				"scale": 0.3,
+				"alignToNormal": true
+			},
+			{
+				//GEYSER
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)",
+				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363},
+				"alignToNormal": true
+			},
+			{
+				//ANTARCTICA
+				"path" : "RingWorld_Body/Sector_RingWorld/Sector_DarkSideDockingBay/Props_DarkSideDockingBay/OtherComponentsGroup/DockedShip (2)/Structure_IP_GhostShip_v3",
+				"position":  {"x": -0.004, "y": -297.3277, "z": -0.5307},
+				"rotation": {"x": 23.3062, "y": 185.333, "z": 171.669}
+			},
+			{
+				//AUSTRALIA
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/EscapePod_Socket",
+				"position": {"x": 203.4498, "y": -132.8948, "z": -178.9464},
+				"rotation": {"x": 311.4818, "y": 40.5777, "z": 251.7532},
+				"removeChildren": ["Proxy_EscapePod", "Interactibles_EscapePod/Prefab_NOM_Vessel_Computer"]
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder", 
+				"position": {"x": 177.5118, "y": -141.5633, "z": -190.9619},
+				"alignToNormal":true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam", 
+				"position": {"x": 177.8118, "y": -141.7633, "z": -191.2619},
+				"alignToNormal":true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 144.246, "y": -139.7542, "z": -219.7848},
+				"scale": 0.5,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 168.5686, "y": -144.1726, "z": -197.8055},
+				"scale": 0.4,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 172.0606, "y": -128.2036, "z": -207.3417},
+				"scale": 0.3,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 173.1543, "y": -129.0415, "z": -205.833},
+				"scale": 0.6,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 205.2028, "y": -114.8266, "z": -181.5324},
+				"scale": 0.3,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 192.9296, "y": -122.9755, "z": -189.6138},
+				"scale": 0.2,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 191.3327, "y": -123.6215, "z": -190.9432},
+				"scale": 0.5,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 187.6717, "y": -131.0504, "z": -189.5077},
+				"scale": 0.3,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 184.3703, "y": -129.9457, "z": -193.9537},
+				"scale": 0.3,
+				"alignToNormal": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 180.7017, "y": -136.0562, "z": -193.2599},
+				"scale": 0.5,
+				"alignToNormal": true
+			}
+		],
+		"nomaiText": [
+			{
+				"type": "scroll",
+				"xmlFile": "planets/xml/text/EarthScroll.xml",
+				"position": {"x": 8.970151, "y": 191.9035, "z": 226.8537}
+			},
+			{
+				"type": "computer",
+				"xmlFile": "planets/xml/text/EarthScroll.xml",
+				"position": {"x": 196.726, "y": -141.5839, "z": -184.2589},
+				"normal": {"x": 0.8739169, "y": -0.2074001, "z": -0.4396072}
+			},
+			{
+				"type":"wall",
+				"xmlFile": "planets/xml/text/EarthScroll.xml",
+				"position": {"x": 15.41775, "y": 191.364, "z": 228.9008}, 
+				"normal": {"x": 0.02449025, "y": 0.7747101, "z": -0.6318424}
+			},
+			{
+				"type": "recorder",
+				"xmlFile": "planets/xml/text/RSS_EARTH_NOM_RAFT_RECORDER.xml",
+				"position": {"x": 20.7505, "y": 156.1296, "z": 252.6456},
+				"rotation": {"x": 324.6292, "y": 111.2246, "z": 58.3512}
+			}
+		],
+		"rafts": [
+			{
+				"position": {"x": -5.332203, "y": 141.5842, "z": 256.6796}
+			}
+		],
+		"geysers": [
+			{
+				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363}
+			},
+			{
+				"position": {"x": -121.2435, "y": 267.469, "z": 42.14647}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {"x": 12.56632, "y": 234.4428, "z": 182.669},
+				"xmlFile": "planets/xml/dialogue/RSS_EARTH_HEA_CAMPSITE_RECORDER.xml",
+				"radius": 0.5
+			}
+		]
+	},
+	"Singularity": {
+		"pairedSingularity": "The Moon",
+		"position": {"x": 15.4186, "y": 188.6308, "z": 231.7824},
+		"type": "blackHole",
+		"size": 2
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/earth.png"
+		}
+	}
+}

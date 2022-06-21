@@ -7,7 +7,12 @@
 		"surfaceGravity" : 0,
         "surfaceSize": 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false
+		"showMinimap" : false,
+		"zeroGravityRadius": 50
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 1.5,
+		"targetWhenClose": true
 	},
 	"Orbit" :
 	{
@@ -35,8 +40,7 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Parker.prefab" },
-            { "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/ZeroGVolume.prefab", "scale": 50 }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Parker.prefab" }
 		]
 	},
 	"ShipLog" : {

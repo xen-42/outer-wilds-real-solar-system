@@ -1,0 +1,29 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Goldie</NameField>
+	
+	<DialogueNode>
+		<Name>Goldie1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_Goldie11</Page>
+			<Page>RSS_Goldie12</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Goldie1A</Text>
+				<DialogueTarget>Goldie2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<SetPersistentCondition>RSS_MetGoldie</SetPersistentCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Goldie2</Name>
+		<Dialogue>
+			<Page>RSS_Goldie21</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

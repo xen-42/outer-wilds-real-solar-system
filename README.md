@@ -22,6 +22,8 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Ceres texture map](https://www.solarsystemscope.com/textures/)
 
+[Europa texture map](https://www.deviantart.com/askaniy/art/Europa-Texture-Map-20K-769790967)
+
 [Titania texture map](https://www.deviantart.com/neptuneproproduction/art/Titania-Texture-Map-746524585)
 
 [Triton texture map](https://www.deviantart.com/neptuneprogaming/art/Triton-Texture-Map-713512330)

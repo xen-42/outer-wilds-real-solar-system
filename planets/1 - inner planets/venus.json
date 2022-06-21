@@ -53,6 +53,7 @@
 				"a" : 255
 			},
 			"texturePath" : "planets/assets/venus_clouds.png",
+			"cloudsPrefab": "quantumMoon",
 			"hasLightning" : true,
 			"lightningGradient" : [
 				{"time": 0, "tint": {"r": 0, "g": 0, "b": 0}},
@@ -81,7 +82,7 @@
 		],
 		"dialogue": [
 			{
-				"xmlFile": "planets/xml/dialogue/jammer.xml",
+				"xmlFile": "planets/xml/dialogue/characters/jammer.xml",
 				"radius": 1,
 				"position": {"x": -111.0043, "y": 218.0896, "z": -11.04778}
 			}

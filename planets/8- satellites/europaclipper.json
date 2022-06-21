@@ -7,7 +7,12 @@
 		"surfaceGravity" : 0,
         "surfaceSize": 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false
+		"showMinimap" : false,
+		"zeroGravityRadius": 25
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 2.5,
+		"targetWhenClose": true
 	},
 	"Orbit" :
 	{
@@ -35,8 +40,7 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/EuropaClipper.prefab" },
-            { "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/ZeroGVolume.prefab", "scale": 25 }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/EuropaClipper.prefab" }
 		]
 	},
 	"ShipLog" : {
