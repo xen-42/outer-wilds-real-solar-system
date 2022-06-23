@@ -20,7 +20,7 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/calypso_heightmap.png",	
+		"heightMap" : "planets/assets/blank_heightmap.png",	
 		"textureMap" : "planets/assets/calypso_texturemap.png",	
 		"minHeight" : 4,
 		"maxHeight" : 5

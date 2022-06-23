@@ -20,8 +20,8 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/telesto_heightmap.png",	
-		"textureMap" : "planets/assets/blank_texturemap.png",	
+		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"textureMap" : "planets/assets/telesto_texturemap.png",	
 		"minHeight" : 4,
 		"maxHeight" : 5
 	}
