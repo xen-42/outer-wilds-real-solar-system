@@ -15,7 +15,7 @@
 		"primaryBody" : "Jupiter",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"eccentricity" : 0.0015,
+		"eccentricity" : 0,
 		"isTidallyLocked" : true
 	},
 	"HeightMap" :

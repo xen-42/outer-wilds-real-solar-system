@@ -4,7 +4,7 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 2,
+		"surfaceGravity" : 1,
 		"surfaceSize" : 5,
 		"hasMapMarker" : true
 	},
@@ -17,7 +17,7 @@
 		"longitudeOfAscendingNode" : 50.147,
 		"argumentOfPeriapsis": 12.780,
 		"axialTilt" : 52,
-		"siderealPeriod": 25,
+		"siderealPeriod": 2.5,
 		"primaryBody" : "Sol",
 		"isMoon" : true
 	},

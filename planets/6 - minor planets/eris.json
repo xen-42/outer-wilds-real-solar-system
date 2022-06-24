@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 14,
-		"surfaceSize" : 117,
+		"surfaceGravity" : 4,
+		"surfaceSize" : 60,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -25,7 +25,7 @@
 	{
 		"heightMap" : "planets/assets/eris_heightmap.png",	
 		"textureMap" : "planets/assets/eris_texturemap.png",	
-		"minHeight" : 114,
-		"maxHeight" : 120
+		"minHeight" : 57,
+		"maxHeight" : 60
 	}
 }

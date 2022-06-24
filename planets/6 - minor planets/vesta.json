@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 2,
-		"surfaceSize" : 20,
+		"surfaceSize" : 15,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -22,8 +22,8 @@
 	{
 		"heightMap" : "planets/assets/vesta_heightmap.png",	
 		"textureMap" : "planets/assets/vesta_texturemap.png",	
-		"minHeight" : 18,
-		"maxHeight" : 25
+		"minHeight" : 13,
+		"maxHeight" : 16
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

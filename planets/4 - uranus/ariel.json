@@ -14,7 +14,7 @@
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
-		"eccentricity" : 0.0012,
+		"eccentricity" : 0,
 		"longitudeOfAscendingNode": 180,
 		"siderealPeriod" : 12.3
 	},

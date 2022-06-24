@@ -4,7 +4,7 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 1,
+		"surfaceGravity" : 2,
 		"surfaceSize" : 30,
 		"hasMapMarker" : true
 	},
@@ -16,7 +16,8 @@
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
 		"trueAnomaly": 0,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{

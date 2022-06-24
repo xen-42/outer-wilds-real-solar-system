@@ -13,7 +13,7 @@
 		"semiMajorAxis" : 1150,
 		"primaryBody" : "Jupiter",
 		"inclination" : 3.374,
-		"eccentricity" : 0.003,
+		"eccentricity" : 0,
 		"longitudeOfAscendingNode" : 180,
 		"isMoon" : true,
 		"isTidallyLocked" : true,
@@ -23,7 +23,7 @@
 	{
 		"heightMap" : "planets/assets/amalthea_heightmap.png",	
 		"textureMap" : "planets/assets/amalthea_texturemap.png",	
-		"minHeight" : 1,
+		"minHeight" : 2,
 		"maxHeight" : 5
 	}
 }

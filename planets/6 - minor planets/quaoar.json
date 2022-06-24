@@ -4,9 +4,10 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 5,
-		"surfaceSize" : 60,
-		"hasMapMarker" : true
+		"surfaceGravity" : 2,
+		"surfaceSize" : 30,
+		"hasMapMarker" : true,
+		"gravityFallOff": "inverseSquared"
 	},
 	"Orbit" :
 	{
@@ -24,7 +25,7 @@
 	{
 		"heightMap" : "planets/assets/quaoar_heightmap.png",	
 		"textureMap" : "planets/assets/quaoar_texturemap.png",	
-		"minHeight" : 56,
-		"maxHeight" : 60
+		"minHeight" : 30,
+		"maxHeight" : 32
 	}
 }

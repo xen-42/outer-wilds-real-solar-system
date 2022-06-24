@@ -14,7 +14,7 @@
 		"primaryBody" : "Jupiter",
 		"inclination": 3,
 		"longitudeOfAscendingNode": 180,
-		"eccentricity": 0.004,
+		"eccentricity": 0,
 		"trueAnomaly": 331,
 		"isMoon" : true,
 		"isTidallyLocked" : true,

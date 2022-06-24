@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 3,
-		"surfaceSize" : 20,
+		"surfaceGravity" : 1,
+		"surfaceSize" : 15,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -15,8 +15,8 @@
         "inclination": 105.03,
         "longitudeOfAscendingNode": 53.5,
 		"trueAnomaly": 188.5,
-		"argumentOfPeriapsis": 330,
-        "eccentricity": 0.00091,
+		"argumentOfPeriapsis": 0,
+        "eccentricity": 0,
         "axialTilt": 0,
 		"isMoon" : true,
 		"isTidallyLocked" : true
@@ -25,7 +25,7 @@
 	{
 		"heightMap" : "planets/assets/vanth_heightmap.png",	
 		"textureMap" : "planets/assets/vanth_texturemap.png",	
-		"minHeight" : 17,
-		"maxHeight" : 20
+		"minHeight" : 14,
+		"maxHeight" : 16
 	}
 }

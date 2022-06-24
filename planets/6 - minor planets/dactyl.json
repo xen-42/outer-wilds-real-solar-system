@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 90,
+		"semiMajorAxis" : 50,
 		"inclination" : 8,
 		"eccentricity": 0.2,
 		"trueAnomaly": 	0,
@@ -18,13 +18,14 @@
 		"argumentOfPeriapsis": 0,
 		"axialTilt" : 0,
 		"primaryBody" : "Ida",
-		"isMoon" : true
+		"isMoon" : true,
+		"isTidallyLocked": true
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/dactyl_heightmap.png",	
 		"textureMap" : "planets/assets/dactyl_texturemap.png",	
-		"minHeight" : 1,
-		"maxHeight" : 5
+		"minHeight" : 2,
+		"maxHeight" : 3
 	}
 }

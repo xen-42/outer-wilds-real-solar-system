@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 6,
-		"surfaceSize" : 26,
+		"surfaceGravity" : 2,
+		"surfaceSize" : 15,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -24,7 +24,7 @@
 	{
 		"heightMap" : "planets/assets/pallas_heightmap.png",	
 		"textureMap" : "planets/assets/blank_texturemap.png",	
-		"minHeight" : 22,
-		"maxHeight" : 26
+		"minHeight" : 13,
+		"maxHeight" : 15
 	}
 }

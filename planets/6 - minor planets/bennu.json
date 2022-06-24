@@ -4,7 +4,7 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 3,
+		"surfaceGravity" : 1,
 		"surfaceSize" : 10,
 		"hasMapMarker" : true
 	},

@@ -12,8 +12,8 @@
 	{
 		"semiMajorAxis" : 300,
 		"inclination": 120,
-		"longitudeOfAscendingNode": 223,
-		"argumentOfPeriapsis": 146,
+		"longitudeOfAscendingNode": 0,
+		"argumentOfPeriapsis": 0,
 		"primaryBody" : "Pluto-Charon",
 		"isMoon" : true,
 		"isTidallyLocked" : true,

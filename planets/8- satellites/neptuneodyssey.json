@@ -16,7 +16,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 900,
+		"semiMajorAxis" : 1000,
 		"primaryBody" : "Neptune",
 		"inclination": 180,
 		"longitudeOfAscendingNode": 180,

@@ -14,6 +14,7 @@
 		"inclination" : 27,
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
+		"showOrbitLine": false,
 		"longitudeOfAscendingNode" : 180,
 		"trueAnomaly": 60,
 		"isTidallyLocked" : true

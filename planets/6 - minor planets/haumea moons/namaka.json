@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
-		"surfaceSize" : 100,
+		"surfaceGravity" : 1,
+		"surfaceSize" : 10,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -13,21 +13,21 @@
 		"semiMajorAxis" : 250,
 		"primaryBody" : "Haumea",
 		"inclination": 113.013,
-		"longitudeOfAscendingNode": 205.016,
+		"longitudeOfAscendingNode": 180,
 		"eccentricity": 0.249,
 		"trueAnomaly": 178.5,
 		"argumentOfPeriapsis": 178.9,
-		"axialTilt": 78,
+		"axialTilt": 113.013,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"siderealPeriod": 5
 	},
 	"ProcGen": {
-		"scale": 20,
-		"colour": {
-			"R": 100,
-			"G": 100,
-			"B": 100,
-			"A": 255
+		"scale": 10,
+		"color": {
+			"r": 230,
+			"g": 230,
+			"b": 230,
+			"a": 255
 		}
 	}
 }
