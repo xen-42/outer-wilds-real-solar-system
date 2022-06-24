@@ -98,7 +98,7 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Chariklo, Churyumov, Ida, Dactyl, Adrastea, Metis, Orcus, Vanth](https://github.com/zilti/RSSExpansion)
 
-[MK2, Quaoar, Weywot](https://www.deviantart.com/mrspace43-celestia/art/OUTDATED-True-Color-TNO-Textures-2k-709834079)
+[MK2, Quaoar, Weywot, Ixion](https://www.deviantart.com/mrspace43-celestia/art/OUTDATED-True-Color-TNO-Textures-2k-709834079)
 
 [Eris, Makemake, and Sedna](https://www.deviantart.com/kexitt/art/KD-2-Eris-Makemake-and-Sedna-s-maps-663049252)
 
