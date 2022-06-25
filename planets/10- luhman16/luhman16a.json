@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 65,
-		"surfaceSize" : 550,
+		"surfaceGravity" : 46,
+		"surfaceSize" : 900,
 		"hasMapMarker" : true,
 		"ambientLight": 2,
 		"gravityFallOff" : "inverseSquared"
@@ -14,39 +14,67 @@
 	{
 		"semiMajorAxis" : 0,
 		"inclination": 100,
-		"longitudeOfAscendingNode": 140,
-		"argumentOfPeriapsis": 128,
+		"longitudeOfAscendingNode": 180,
 		"primaryBody" : "Luhman 16",
-		"showOrbitLine" : true
+		"showOrbitLine" : true,
+		"axialTilt": 100,
+		"siderealPeriod": 1.5,
+		"tint": 
+		{
+			"r" : 156,
+			"g" : 22,
+			"b" : 31,
+			"a" : 255
+		}
 	},
 	"Star":
 	{
-		"size": 340,
+		"size": 700,
 		"tint" : 
 		{
-			"r" : 132,
-			"g" : 74,
-			"b" : 41,
+			"r" : 156,
+			"g" : 22,
+			"b" : 31,
 			"a" : 255
 		},
 		"hasAtmosphere": false,
-		"solarLuminosity": 1,
+		"solarLuminosity": 0.5,
+		"lightRadius": 25000,
+		"lightTint" : 
+		{
+			"r" : 156,
+			"g" : 22,
+			"b" : 31,
+			"a" : 255
+		},
 		"goSupernova": false,
 		"hasStarController": false
 	},
 	"Atmosphere" :
 	{
-		"size" : 400,
+		"size" : 900,
+		"fogSize": 900,
+		"fogDensity": 1,
+		"fogTint" : 
+		{
+			"r" : 156,
+			"g" : 22,
+			"b" : 31,
+			"a" : 255
+		},
 		"clouds": {
-			"innerCloudRadius": 350,
-			"outerCloudRadius": 400,
+			"innerCloudRadius": 800,
+			"outerCloudRadius": 900,
 			"texturePath": "planets/assets/luhman16a.png",
+			"cloudsPrefab": "giantsDeep",
+			"fluidType": "plasma",
 			"unlit": true,
+			"hasLightning": true,
 			"tint": 
 			{
-				"r" : 165,
-				"g" : 115,
-				"b" : 74,
+				"r" : 36,
+				"g" : 18,
+				"b" : 27,
 				"a" : 255
 			}
 		}

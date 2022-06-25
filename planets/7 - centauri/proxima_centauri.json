@@ -12,7 +12,7 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 50000,
-		"trueAnomaly": 60,
+		"trueAnomaly": 100,
 		"primaryBody" : "Alpha Centauri",
 		"showOrbitLine" : false,
 		"isStatic" : true
@@ -28,6 +28,7 @@
 			"a" : 255
 		},
 		"solarLuminosity": 0.6,
+		"lightRadius": 25000,
 		"lightTint":
 		{
 			"r" : 255,

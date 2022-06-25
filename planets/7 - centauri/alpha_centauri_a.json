@@ -4,7 +4,7 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 120,
+		"surfaceGravity" : 100,
 		"surfaceSize" : 2400,
 		"hasMapMarker" : true,
 		"gravityFallOff" : "inverseSquared"
@@ -12,6 +12,8 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
+		"inclination": 79,
+		"longitudeOfAscendingNode": 205,
 		"primaryBody" : "Alpha Centauri",
 		"showOrbitLine" : true
 	},
@@ -26,6 +28,7 @@
 			"a" : 255
 		},
 		"solarLuminosity": 1,
+		"lightRadius": 25000,
 		"goSupernova": true,
 		"curve": [
 			{ "time": 0, "value": 1 },

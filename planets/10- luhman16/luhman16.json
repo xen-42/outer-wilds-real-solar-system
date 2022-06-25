@@ -6,12 +6,16 @@
 	{
 		"hasMapMarker" : false
 	},
+	"ReferenceFrame":
+	{
+		"enabled": false
+	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 295000,
+		"semiMajorAxis" : 200000,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
-		"trueAnomaly" : 230,
+		"trueAnomaly" : 165,
 		"isStatic" : true
 	},
 	"FocalPoint" :
