@@ -11,7 +11,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 270000,
+		"semiMajorAxis" : 184000,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
 		"trueAnomaly" : 270,
@@ -28,6 +28,7 @@
 			"a" : 255
 		},
 		"solarLuminosity": 0.6,
+		"lightRadius": 25000,
 		"lightTint":
 		{
 			"r" : 255,

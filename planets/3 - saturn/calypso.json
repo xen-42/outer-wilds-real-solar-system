@@ -11,16 +11,17 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 2150,
-		"inclination" : 27.5,
+		"inclination" : 27,
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
+		"showOrbitLine": false,
 		"longitudeOfAscendingNode" : 180,
 		"trueAnomaly": 300,
 		"isTidallyLocked" : true
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/calypso_heightmap.png",	
+		"heightMap" : "planets/assets/blank_heightmap.png",	
 		"textureMap" : "planets/assets/calypso_texturemap.png",	
 		"minHeight" : 4,
 		"maxHeight" : 5

@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 9,
-		"surfaceSize" : 70,
+		"surfaceGravity" : 3,
+		"surfaceSize" : 40,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -16,7 +16,7 @@
 		"eccentricity": 0.16,
 		"longitudeOfAscendingNode": 80,
 		"argumentOfPeriapsis": 295,
-		"siderealPeriod": 46,
+		"siderealPeriod": 4.6,
 		"primaryBody" : "Sol",
 		"isMoon" : false
 	},
@@ -24,7 +24,7 @@
 	{
 		"heightMap" : "planets/assets/makemake_heightmap.png",	
 		"textureMap" : "planets/assets/makemake_texturemap.png",	
-		"minHeight" : 60,
-		"maxHeight" : 65
+		"minHeight" : 38,
+		"maxHeight" : 42
 	}
 }

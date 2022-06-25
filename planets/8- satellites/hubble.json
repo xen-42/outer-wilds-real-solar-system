@@ -5,9 +5,14 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
-		"surfaceSize" : 10,
+		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false
+		"showMinimap" : false,
+		"zeroGravityRadius": 25
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 5,
+		"targetWhenClose": true
 	},
 	"Orbit" :
 	{
@@ -16,9 +21,9 @@
 		"showOrbitLine" : true,
 		"dottedOrbitLine": true,
 		"longitudeOfAscendingNode" : 342.6,
-		"eccentricity" : 0.0002415,
+		"eccentricity" : 0,
 		"inclination" : 28.5,
-		"argumentOfPeriapsis" : 245.56,
+		"argumentOfPeriapsis" : 0,
 		"trueAnomaly" : 161.55,
 		"isMoon": true
 	},
@@ -26,15 +31,14 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Hubble Space Telescope", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "frequency" : "Radio", "name" : "Hubble Space Telescope", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 6, "z": 0 } }
 		]
 	},
 	"Props" :
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/HubbleSpaceTelescope.prefab" },
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/HubbleSpaceTelescope.prefab" }
 		]
 	},
 	"ShipLog" : 

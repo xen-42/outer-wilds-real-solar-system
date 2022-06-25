@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Weywot",
+	"name" : "Xiangliu",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
@@ -10,19 +10,21 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 150,
-		"primaryBody" : "Quaoar",
-		"inclination": 14,
-		"eccentricity": 0.148,
-		"argumentOfPeriapsis": 348,
+		"semiMajorAxis" : 240,
+		"primaryBody" : "Gonggong",
+		"inclination": 83,
+		"eccentricity": 0.29,
+        "longitudeOfAscendingNode": 32,
 		"isMoon" : true,
 		"isTidallyLocked" : true
 	},
-	"HeightMap" :
-	{
-		"heightMap" : "planets/assets/weywot_heightmap.png",	
-		"textureMap" : "planets/assets/weywot_texturemap.png",	
-		"minHeight" : 9,
-		"maxHeight" : 10
+	"ProcGen": {
+		"scale": 10,
+		"color": {
+			"r": 150,
+			"g": 130,
+			"b": 100,
+			"a": 255
+		}
 	}
 }

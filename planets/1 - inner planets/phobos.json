@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 20,
+		"surfaceSize" : 12,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -15,7 +15,7 @@
 		"primaryBody" : "Mars",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"eccentricity" : 0.015,
+		"eccentricity" : 0,
 		"axialTilt" : 26,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
@@ -24,8 +24,8 @@
 	{
 		"heightMap" : "planets/assets/phobos_heightmap.png",	
 		"textureMap" : "planets/assets/phobos_texturemap.png",	
-		"minHeight" : 20,
-		"maxHeight" : 25
+		"minHeight" : 9,
+		"maxHeight" : 12
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

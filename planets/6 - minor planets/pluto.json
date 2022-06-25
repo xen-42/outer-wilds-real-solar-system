@@ -15,9 +15,6 @@
 		"isMoon" : true,
 		"isTidallyLocked" : true,
 		"alignmentAxis" : {"x": 1, "y": 0, "z": 0},
-		"eccentricity": 0.0002,
-		"argumentOfPeriapsis": 113,
-		"longitudeOfAscendingNode": 110,
 		"axialTilt" : 240
 	},
 	"Atmosphere" :

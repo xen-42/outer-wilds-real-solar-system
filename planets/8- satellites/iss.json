@@ -5,9 +5,14 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
-		"surfaceSize" : 45,
+		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false
+		"showMinimap" : false,
+		"zeroGravityRadius": 45
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 45,
+		"targetWhenClose": true
 	},
 	"Orbit" :
 	{
@@ -16,9 +21,9 @@
 		"showOrbitLine" : true,
 		"dottedOrbitLine": true,
 		"longitudeOfAscendingNode" : 13.5,
-		"eccentricity" : 0.0004225,
+		"eccentricity" : 0,
 		"inclination" : 51.65,
-		"argumentOfPeriapsis" : 325.5,
+		"argumentOfPeriapsis" : 0,
 		"trueAnomaly" : 125.41,
 		"isMoon": true,
 		"isTidallyLocked": true
@@ -27,15 +32,14 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "International Space Station", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 45, "detectionRadius": 400, "identificationRadius" : 100 }
+			{ "frequency" : "Radio", "name" : "International Space Station", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 250, "identificationRadius" : 45 }
 		]
 	},
 	"Props" :
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/ISS/InternationalSpaceStation.prefab", "scale": 0.75 },
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 45 }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/ISS/InternationalSpaceStation.prefab", "scale": 0.75 }
 		]
 	},
 	"ShipLog" : 

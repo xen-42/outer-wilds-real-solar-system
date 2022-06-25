@@ -16,7 +16,7 @@
 		"inclination" : 97,
 		"eccentricity" : 0.001,
 		"longitudeOfAscendingNode": 180,
-		"siderealPeriod" : 65.6
+		"siderealPeriod" : 6.56
 	},
 	"HeightMap" :
 	{

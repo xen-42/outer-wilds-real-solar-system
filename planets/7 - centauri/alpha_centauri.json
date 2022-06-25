@@ -4,15 +4,18 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"hasMapMarker" : true,
-		"hasReferenceFrame": false
+		"hasMapMarker" : false
+	},
+	"ReferenceFrame":
+	{
+		"enabled": false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 200000,
+		"semiMajorAxis" : 132000,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
-		"trueAnomaly" : 220,
+		"trueAnomaly" : 230,
 		"isStatic" : true
 	},
 	"FocalPoint" :

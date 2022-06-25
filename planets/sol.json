@@ -25,6 +25,7 @@
 			"a" : 255
 		},
 		"solarLuminosity" : 1,
+		"lightRadius": 75000,
 		"goSupernova": true,
 		"curve": [
 			{ "time": 0, "value": 1 },

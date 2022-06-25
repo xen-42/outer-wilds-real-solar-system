@@ -5,9 +5,14 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
-		"surfaceSize" : 15,
+		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false
+		"showMinimap" : false,
+		"zeroGravityRadius": 20
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 2,
+		"targetWhenClose": true
 	},
 	"Orbit" :
 	{
@@ -27,15 +32,14 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Mars Odyssey", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 15, "detectionRadius": 200, "identificationRadius" : 30 }
+			{ "frequency" : "Radio", "name" : "Mars Odyssey", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 0, "z": 2 } }
 		]
 	},
 	"Props" :
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/MarsOdyssey.prefab" },
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 20 }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/MarsOdyssey.prefab" }
 		]
 	},
 	"ShipLog" : 

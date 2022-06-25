@@ -5,9 +5,14 @@
 	"Base" :
 	{
 		"surfaceGravity" : 0,
-		"surfaceSize" : 10,
+		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap": false
+		"showMinimap": false,
+		"zeroGravityRadius": 25
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 1.5,
+		"targetWhenClose": true
 	},
 	"Orbit" :
 	{
@@ -24,15 +29,14 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Pioneer 11", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 10, "detectionRadius": 200, "identificationRadius" : 100 }
+			{ "frequency" : "Radio", "name" : "Pioneer 11", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1.5, "detectionRadius": 50, "identificationRadius" : 10 }
 		]
 	},
 	"Props" :
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/Pioneer.prefab" },
-			{ "assetBundle" : "planets/assetbundle/rsslore", "path" : "Assets/ZeroGVolume.prefab", "scale": 15 }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/Pioneer.prefab" }
 		]
 	},
 	"ShipLog" : 

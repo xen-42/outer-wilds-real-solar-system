@@ -18,9 +18,11 @@ Ship log planet icons by [Classic](https://github.com/ClassicalBro)
 
 Planet textures and height maps used are not ours. Unless stated otherwise, they're from NASA. The other sources are:
 
+[Luhman 16A and Luhman 16B](https://www.youtube.com/watch?v=LCP3RMGZINA)
+
 [Venus texture maps](https://www.deviantart.com/oleg-pluton)
 
-[Ceres texture map](https://www.solarsystemscope.com/textures/)
+[Ceres texture map](https://www.deviantart.com/oleg-pluton/art/Ceres-texture-map-improved-16k-782181623)
 
 [Europa texture map](https://www.deviantart.com/askaniy/art/Europa-Texture-Map-20K-769790967)
 
@@ -29,6 +31,80 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 [Triton texture map](https://www.deviantart.com/neptuneprogaming/art/Triton-Texture-Map-713512330)
 
 [Charon texture map](https://www.deviantart.com/master-bit/art/Charon-8K-555604289)
+
+[Haumea height map, texture map, and rings](https://www.deviantart.com/astra-planetshine/art/Haumea-Artist-s-Impression-v3-566021580)
+
+[Callisto height map](https://www.deviantart.com/kexitt/art/Calisto-Height-map-560010442)
+
+[Callisto texture map](https://www.deviantart.com/kexitt/art/Callisto-Color-map-590742647)
+
+[Enceladus height map](https://www.deviantart.com/oleg-pluton/art/Enceladus-elevation-map-astro-data-improved-861386709)
+
+[Enceladus texture map](https://www.deviantart.com/oleg-pluton/art/Enceladus-texture-map-improved-769826238)
+
+[Dione height map](https://www.deviantart.com/oleg-pluton/art/Dione-elevation-map-786936439)
+
+[Dione texture map](https://www.deviantart.com/oleg-pluton/art/Dione-texture-map-improved-770832745)
+
+[Vesta height map](https://www.deviantart.com/oleg-pluton/art/Vesta-elevation-map-756462056)
+
+[Vesta texture map](https://www.deviantart.com/oleg-pluton/art/Vesta-texture-map-781645701)
+
+[Rhea height map](https://www.deviantart.com/oleg-pluton/art/Rhea-elevation-map-767817482)
+
+[Rhea texture map](https://www.deviantart.com/oleg-pluton/art/Rhea-texture-map-767818383)
+
+[Prometheus texture map](https://www.deviantart.com/oleg-pluton/art/Prometheus-texture-map-780136421)
+
+[Proteus texture map](https://www.deviantart.com/oleg-pluton/art/Proteus-texture-map-773451080)
+
+[Prometheus and Proteus height maps](https://www.deviantart.com/oleg-pluton/art/Dwarf-moons-and-asteroids-elevation-maps-769532391)
+
+[Amalthea height map](https://www.deviantart.com/oleg-pluton/art/Amalthea-elevation-map-769478071)
+
+[Amalthea texture map](https://www.deviantart.com/oleg-pluton/art/Amalthea-texture-map-Improved-780661092)
+
+[Io height map](https://www.deviantart.com/oleg-pluton/art/Io-elevation-map-773119644)
+
+[Ganymede texture map](https://bjj.mmedia.is/data/ganymede/)
+
+[Deimos height map](https://www.deviantart.com/oleg-pluton/art/Deimos-elevation-map-refined-772218580)
+
+[Deimos texture map](https://www.deviantart.com/oleg-pluton/art/Deimos-texture-map-772205702)
+
+[Phobos texture map](https://www.deviantart.com/oleg-pluton/art/Phobos-texture-map-777457535)
+
+[Umbriel height map and texture map](https://www.deviantart.com/astra-planetshine/art/Uranus-Project-Missing-Data-Umbriel-687033056)
+
+[Oberon height map and texture map](https://www.deviantart.com/oleg-pluton/art/Kexitt-s-and-Snowfall-s-astro-maps-corrections-780388376)
+
+[Iapetus height map](https://www.deviantart.com/oleg-pluton/art/Iapetus-elevation-map-756451237)
+
+[Iapetus texture map](https://www.deviantart.com/fargetanik/art/Iapetus-Truecolor-Texture-Map-8k-814001056)
+
+[Titania height map and texture map](https://www.deviantart.com/astra-planetshine/art/Uranus-Project-Missing-Data-Titania-646920848)
+
+[Ariel height map and texture map](https://www.deviantart.com/astra-planetshine/art/Uranus-Project-Missing-Data-Ariel-579476626)
+
+[Miranda height map and texture map](https://www.deviantart.com/astra-planetshine/art/Uranus-Project-Missing-Data-Miranda-589256744)
+
+[Mimas height map](https://www.deviantart.com/kexitt/art/6k-Mimas-Maps-802608085)
+
+[Mimas texture map](https://www.deviantart.com/oleg-pluton/art/Mimas-texture-map-786933508)
+
+[Triton height map and texture map](https://www.deviantart.com/kexitt/art/Triton-maps-673821587)
+
+[Tethys height map and texture map](https://www.deviantart.com/kexitt/art/8k-Tethys-Maps-802333903)
+
+[Chariklo, Churyumov, Ida, Dactyl, Orcus, Vanth](https://github.com/zilti/RSSExpansion)
+
+[MK2, Quaoar, Weywot, Ixion](https://www.deviantart.com/mrspace43-celestia/art/OUTDATED-True-Color-TNO-Textures-2k-709834079)
+
+[Eris, Makemake, and Sedna](https://www.deviantart.com/kexitt/art/KD-2-Eris-Makemake-and-Sedna-s-maps-663049252)
+
+[Calypso texture map](https://www.deviantart.com/fireon12064/art/Calypso-by-Fireon-B-W-780695285)
+
+[Telesto texture map](https://www.deviantart.com/fireon12064/art/Telesto-by-Fireon-B-W-780722298)
 
 ### Models
 

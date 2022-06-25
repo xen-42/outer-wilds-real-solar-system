@@ -4,9 +4,10 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 7,
-		"surfaceSize" : 200,
-		"hasMapMarker" : true
+		"surfaceGravity" : 4,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"gravityFallOff": "inverseSquared"
 	},
 	"Orbit" :
 	{
@@ -16,6 +17,7 @@
 		"eccentricity": 0.2,
 		"longitudeOfAscendingNode": 122,
 		"argumentOfPeriapsis": 239,
+		"axialTilt": 128,
 		"siderealPeriod": 1,
 		"primaryBody" : "Sol",
 		"isMoon" : false
