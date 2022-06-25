@@ -96,7 +96,7 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Tethys height map and texture map](https://www.deviantart.com/kexitt/art/8k-Tethys-Maps-802333903)
 
-[Chariklo, Churyumov, Ida, Dactyl, Adrastea, Metis, Orcus, Vanth](https://github.com/zilti/RSSExpansion)
+[Chariklo, Churyumov, Ida, Dactyl, Orcus, Vanth](https://github.com/zilti/RSSExpansion)
 
 [MK2, Quaoar, Weywot, Ixion](https://www.deviantart.com/mrspace43-celestia/art/OUTDATED-True-Color-TNO-Textures-2k-709834079)
 

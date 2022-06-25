@@ -17,7 +17,7 @@
 		"longitudeOfAscendingNode" : 300.42,
 		"argumentOfPeriapsis": 242.90,
 		"axialTilt" : 52,
-		"siderealPeriod": 14,
+		"siderealPeriod": 1.4,
 		"primaryBody" : "Sol",
 		"isMoon" : true
 	},
