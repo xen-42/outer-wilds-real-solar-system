@@ -18,26 +18,6 @@
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
-	"AsteroidBelt" : 
-	{
-		"innerRadius" : 75,
-		"outerRadius" : 70,
-		"randomSeed": 7432,
-		"amount": 10,
-		"minSize": 2,
-		"maxSize": 4,
-		"procGen": {
-			"scale": 1,
-			"color": {
-				"r": 126,
-				"g": 95,
-				"b": 73,
-				"a": 255
-			}
-		},
-		"inclination": 26,
-		"longitudeOfAscendingNode": 180
-	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/rhea_heightmap.png",	
