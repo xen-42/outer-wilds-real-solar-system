@@ -12,7 +12,7 @@
 	{
 		"semiMajorAxis" : 69000,
 		"inclination" : 44,
-		"trueAnomaly" : 206,
+		"trueAnomaly" : 306,
         "eccentricity": 0.44,
 		"longitudeOfAscendingNode": 36,
 		"argumentOfPeriapsis": 	151,

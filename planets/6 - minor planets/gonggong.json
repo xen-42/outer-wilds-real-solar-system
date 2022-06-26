@@ -6,13 +6,14 @@
 	{
 		"surfaceGravity" : 2,
 		"surfaceSize" : 32,
-		"hasMapMarker" : true
+		"hasMapMarker" : true,
+		"gravityFallOff": "inverseSquared"
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 68000,
 		"inclination" : 30.63,
-		"trueAnomaly" : 106.5,
+		"trueAnomaly" : 306.5,
 		"eccentricity": 0.5,
 		"longitudeOfAscendingNode": 336.86,
 		"argumentOfPeriapsis": 207.67,
