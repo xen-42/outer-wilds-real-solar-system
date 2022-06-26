@@ -17,7 +17,7 @@
 		"isMoon" : true,
 		"isTidallyLocked" : true,
 		"trueAnomaly" : 200,
-		"eccentricity": 0,
+		"axialTilt": 3,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :

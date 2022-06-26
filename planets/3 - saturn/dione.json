@@ -15,15 +15,15 @@
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"eccentricity" : 0,
 		"isTidallyLocked" : true,
+		"axialTilt": 26,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/dione_heightmap.png",	
 		"textureMap" : "planets/assets/dione_texturemap.png",	
-		"minHeight" : 30,
+		"minHeight" : 29,
 		"maxHeight" : 31
 	}
 }

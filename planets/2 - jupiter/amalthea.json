@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 5,
+		"surfaceSize" : 8,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -17,13 +17,14 @@
 		"longitudeOfAscendingNode" : 180,
 		"isMoon" : true,
 		"isTidallyLocked" : true,
+		"axialTilt": 3.374,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/amalthea_heightmap.png",	
 		"textureMap" : "planets/assets/amalthea_texturemap.png",	
-		"minHeight" : 2,
-		"maxHeight" : 5
+		"minHeight" : 4,
+		"maxHeight" : 8
 	}
 }

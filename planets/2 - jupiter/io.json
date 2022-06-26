@@ -14,10 +14,10 @@
 		"primaryBody" : "Jupiter",
 		"inclination": 3,
 		"longitudeOfAscendingNode": 180,
-		"eccentricity": 0,
 		"trueAnomaly": 331,
 		"isMoon" : true,
 		"isTidallyLocked" : true,
+		"axialTilt": 3,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"Atmosphere" :

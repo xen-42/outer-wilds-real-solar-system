@@ -15,15 +15,15 @@
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"eccentricity" : 0,
 		"isTidallyLocked" : true,
+		"axialTilt": 41,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/iapetus_heightmap.png",	
 		"textureMap" : "planets/assets/iapetus_texturemap.png",	
-		"minHeight" : 39,
+		"minHeight" : 37,
 		"maxHeight" : 40
 	}
 }
