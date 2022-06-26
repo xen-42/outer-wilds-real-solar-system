@@ -36,7 +36,7 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Callisto height map](https://www.deviantart.com/kexitt/art/Calisto-Height-map-560010442)
 
-[Callisto texture map](https://www.deviantart.com/kexitt/art/Callisto-Color-map-590742647)
+[Callisto texture map](https://bjj.mmedia.is/data/callisto/index.html)
 
 [Enceladus height map](https://www.deviantart.com/oleg-pluton/art/Enceladus-elevation-map-astro-data-improved-861386709)
 
@@ -65,6 +65,8 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 [Amalthea texture map](https://www.deviantart.com/oleg-pluton/art/Amalthea-texture-map-Improved-780661092)
 
 [Io height map](https://www.deviantart.com/oleg-pluton/art/Io-elevation-map-773119644)
+
+[Io texture map](https://www.deviantart.com/oleg-pluton/art/Io-elevation-map-773119644)
 
 [Ganymede texture map](https://bjj.mmedia.is/data/ganymede/)
 

@@ -42,7 +42,13 @@
 	},
 	"Props":{
 		"volcanoes": [
-			{"position":{"x":75}}
+			{ "position": {"x": 29.56788, "y": 26.487, "z": 62.42421}, "minInterval": 15, "maxInterval": 60 },
+			{ "position": {"x": -32.12466, "y": -51.45461, "z": 41.50724}, "minInterval": 15, "maxInterval": 60 },
+			{ "position": {"x": 17.44872, "y": -24.22137, "z": -68.0819}, "minInterval": 15, "maxInterval": 60 },
+			{ "position": {"x": 66.95788, "y": -1.756643, "z": 31.0178}, "minInterval": 15, "maxInterval": 60 },
+			{ "position": {"x": -47.70881, "y": 52.34853, "z": -20.18302}, "minInterval": 15, "maxInterval": 60 },
+			{ "position": {"x": 39.70198, "y": 46.45693, "z": 40.94479}, "minInterval": 15, "maxInterval": 60 },
+			{ "position": {"x": 70.11443, "y": 23.42624, "z": 8.870171}, "minInterval": 15, "maxInterval": 60 }
 		]
 	},
 	"ShipLog" : {
