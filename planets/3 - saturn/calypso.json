@@ -17,13 +17,15 @@
 		"showOrbitLine": false,
 		"longitudeOfAscendingNode" : 180,
 		"trueAnomaly": 300,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"axialTilt": 27,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/prometheus_heightmap.png",	
 		"textureMap" : "planets/assets/calypso_texturemap.png",	
-		"minHeight" : 4,
+		"minHeight" : 2,
 		"maxHeight" : 5
 	}
 }

@@ -15,8 +15,8 @@
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"eccentricity" : 0,
 		"isTidallyLocked" : true,
+		"axialTilt": 28,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
@@ -24,6 +24,11 @@
 		"heightMap" : "planets/assets/mimas_heightmap.png",	
 		"textureMap" : "planets/assets/mimas_texturemap.png",	
 		"minHeight" : 10,
-		"maxHeight" : 11
+		"maxHeight" : 11,
+		"stretch": {
+			"x": 1.04,
+			"y": 0.98,
+			"z": 0.95
+		}
 	}
 }

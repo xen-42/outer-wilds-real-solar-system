@@ -16,7 +16,8 @@
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
 		"trueAnomaly": 146.6,
-		"siderealPeriod": 2.8
+		"siderealPeriod": 2.8,
+		"axialTilt": 26
 	},
 	"HeightMap" :
 	{

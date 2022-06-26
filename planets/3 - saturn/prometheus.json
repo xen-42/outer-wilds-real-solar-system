@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 11,
+		"surfaceSize" : 10,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -15,13 +15,15 @@
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"axialTilt": 26,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/prometheus_heightmap.png",	
 		"textureMap" : "planets/assets/prometheus_texturemap.png",	
-		"minHeight" : 10,
-		"maxHeight" : 11
+		"minHeight" : 5,
+		"maxHeight" : 10
 	}
 }

@@ -16,8 +16,7 @@
 		"longitudeOfAscendingNode": 180,
 		"isMoon" : true,
 		"trueAnomaly" : 298,
-		"eccentricity": 0,
-		"axialTilt": 0.165,
+		"axialTilt": 3.165,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
@@ -32,14 +31,14 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Laplace-P", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": -59.53851, "y": -45.05071, "z": 66.5143} }
+			{ "frequency" : "Radio", "name" : "Laplace-P", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": -57.28616, "y": -42.68979, "z": 67.67151} }
 		]
 	},
 	"Props" :
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/LaplaceP.prefab", "position" : {"x": -59.53851, "y": -45.05071, "z": 66.5143}, "alignToNormal" : true }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/LaplaceP.prefab", "position" : {"x": -57.28616, "y": -42.68979, "z": 67.67151}, "alignToNormal" : true }
 		]
 	},
 	"ShipLog" : {
