@@ -42,6 +42,8 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Enceladus texture map](https://www.deviantart.com/oleg-pluton/art/Enceladus-texture-map-improved-769826238)
 
+[Titan texture map](https://www.deviantart.com/magentameteorite/art/Titan-Hand-Painted-Cloud-Map-And-Mixed-Surface-Map-743328661)
+
 [Dione height map](https://www.deviantart.com/oleg-pluton/art/Dione-elevation-map-786936439)
 
 [Dione texture map](https://www.deviantart.com/oleg-pluton/art/Dione-texture-map-improved-770832745)
