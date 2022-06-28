@@ -4,8 +4,8 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
-		"surfaceSize" : 30,
+		"surfaceGravity" : 2,
+		"surfaceSize" : 32,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -14,15 +14,16 @@
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
-		"eccentricity" : 0,
 		"longitudeOfAscendingNode": 180,
-		"siderealPeriod" : 2.02
+		"isTidallyLocked" : true,
+		"axialTilt": 97,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/umbriel_heightmap.png",	
 		"textureMap" : "planets/assets/umbriel_texturemap.png",	
-		"minHeight" : 27,
-		"maxHeight" : 30
+		"minHeight" : 30,
+		"maxHeight" : 32
 	}
 }

@@ -4,26 +4,27 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
-		"surfaceSize" : 45,
+		"surfaceGravity" : 3,
+		"surfaceSize" : 44,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1400,
+		"semiMajorAxis" : 1450,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
 		"longitudeOfAscendingNode": 180,
 		"isTidallyLocked" : true,
+		"axialTilt": 97,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/titania_heightmap.png",	
 		"textureMap" : "planets/assets/titania_texturemap.png",	
-		"minHeight" : 37,
-		"maxHeight" : 40
+		"minHeight" : 42,
+		"maxHeight" : 44
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

@@ -16,7 +16,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 700,
+		"semiMajorAxis" : 1350,
 		"primaryBody" : "Uranus",
 		"inclination": 0,
 		"longitudeOfAscendingNode": 0,
