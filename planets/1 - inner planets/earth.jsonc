@@ -31,7 +31,22 @@
 		"siderealPeriod" : 5
 	},
 	"Water" : {
-		"size" : 294
+		"size" : 294,
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 12, "value": 1 },
+			{ "time": 14, "value": 1.012 },
+			{ "time": 18, "value": 1.012 },
+			{ "time": 20, "value": 0 }
+		]
+	},
+	"Lava": {
+		"size": 296,
+		"curve": [
+			{ "time": 0, "value": 0.98 },
+			{ "time": 18.2, "value": 0.98 },
+			{ "time": 18.3, "value": 1 }
+		]
 	},
 	"Atmosphere" :
 	{
