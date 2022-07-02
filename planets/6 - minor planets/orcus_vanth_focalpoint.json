@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Orcus-Vanth",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"hasMapMarker" : true
+	},
+	"ReferenceFrame":
+	{
+		"enabled": false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 39900,
+		"inclination" : 20.592,
+		"trueAnomaly" : 181.735,
+        "eccentricity": 0.22701,
+		"longitudeOfAscendingNode": 268.799,
+		"argumentOfPeriapsis": 	72.310,
+		"primaryBody" : "Sol",
+		"isMoon" : false
+	},
+	"FocalPoint" :
+	{
+		"primary" : "Orcus",
+		"secondary" : "Vanth"
+	}
+}

@@ -10,16 +10,14 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 39900,
-		"inclination" : 20.592,
-		"trueAnomaly" : 181.735,
-        "eccentricity": 0.22701,
-		"longitudeOfAscendingNode": 268.799,
-		"argumentOfPeriapsis": 	72.310,
-		"axialTilt": 1,
-		"siderealPeriod": 2.7,
-		"primaryBody" : "Sol",
-		"isMoon" : false
+		"semiMajorAxis" : 0,
+		"primaryBody" : "Orcus-Vanth",
+		"inclination" : 105,
+		"longitudeOfAscendingNode": 180,
+		"axialTilt": 105,
+		"isMoon" : true,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{

@@ -11,21 +11,19 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 180,
-		"primaryBody" : "Orcus",
-        "inclination": 105.03,
-        "longitudeOfAscendingNode": 53.5,
-		"trueAnomaly": 188.5,
-		"argumentOfPeriapsis": 0,
-        "eccentricity": 0,
-        "axialTilt": 0,
+		"primaryBody" : "Orcus-Vanth",
+        "inclination": 105,
+        "longitudeOfAscendingNode": 180,
+        "axialTilt": 105,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/vanth_heightmap.png",	
 		"textureMap" : "planets/assets/vanth_texturemap.png",	
 		"minHeight" : 14,
-		"maxHeight" : 16
+		"maxHeight" : 15
 	}
 }
