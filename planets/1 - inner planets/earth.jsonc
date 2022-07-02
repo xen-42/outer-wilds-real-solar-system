@@ -396,13 +396,16 @@
 				"xmlFile": "planets/xml/dialogue/RSS_EARTH_HEA_CAMPSITE_RECORDER.xml",
 				"radius": 0.5
 			}
+		],
+		"singularities": [
+			{
+				"uniqueID": "RSS_EarthRuinsBH",
+				"pairedSingularity": "RSS_EarthRuinsWH",
+				"position": {"x": 15.4186, "y": 188.6308, "z": 231.7824},
+				"type": "blackHole",
+				"size": 2
+			}
 		]
-	},
-	"Singularity": {
-		"pairedSingularity": "The Moon",
-		"position": {"x": 15.4186, "y": 188.6308, "z": 231.7824},
-		"type": "blackHole",
-		"size": 2
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
