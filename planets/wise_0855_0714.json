@@ -7,7 +7,7 @@
 		"surfaceGravity" : 40,
 		"surfaceSize" : 800,
 		"hasMapMarker" : true,
-		"ambientLight": 2,
+		"ambientLight": 1,
 		"gravityFallOff" : "inverseSquared"
 	},
 	"Orbit" :
@@ -15,17 +15,17 @@
 		"semiMajorAxis" : 230000,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
-		"trueAnomaly" : 250,
+		"trueAnomaly" : 135,
 		"isStatic" : true
 	},
 	"Star":
 	{
-		"size": 600,
+		"size": 550,
 		"tint" : 
 		{
-			"r" : 126,
-			"g" : 114,
-			"b" : 216,
+			"r" : 50,
+			"g" : 47,
+			"b" : 79,
 			"a" : 255
 		},
 		"hasAtmosphere": false,
@@ -33,9 +33,9 @@
 		"lightRadius": 25000,
 		"lightTint" : 
 		{
-			"r" : 126,
-			"g" : 114,
-			"b" : 216,
+			"r" : 50,
+			"g" : 47,
+			"b" : 79,
 			"a" : 255
 		},
 		"goSupernova": false,
@@ -48,9 +48,9 @@
 		"fogDensity": 1,
 		"fogTint" : 
 		{
-			"r" : 126,
-			"g" : 114,
-			"b" : 216,
+			"r" : 50,
+			"g" : 47,
+			"b" : 79,
 			"a" : 255
 		},
 		"clouds": {
@@ -63,9 +63,9 @@
 			"hasLightning": true,
 			"tint": 
 			{
-				"r" : 162,
-				"g" : 151,
-				"b" : 227,
+				"r" : 23,
+				"g" : 22,
+				"b" : 36,
 				"a" : 255
 			}
 		}
