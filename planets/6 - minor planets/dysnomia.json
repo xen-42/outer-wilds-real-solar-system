@@ -19,13 +19,11 @@
 		"isMoon" : true,
 		"isTidallyLocked" : true
 	},
-	"ProcGen": {
-		"scale": 20,
-		"color": {
-			"r": 100,
-			"g": 80,
-			"b": 80,
-			"a": 255
-		}
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/dysnomia_heightmap.png",	
+		"textureMap" : "planets/assets/dysnomia_texturemap.png",	
+		"minHeight" : 18,
+		"maxHeight" : 20
 	}
 }
