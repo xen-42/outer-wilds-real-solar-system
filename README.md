@@ -100,9 +100,9 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Tethys height map and texture map](https://www.deviantart.com/kexitt/art/8k-Tethys-Maps-802333903)
 
-[Chariklo, Churyumov, Ida, Dactyl, Orcus, Vanth](https://github.com/zilti/RSSExpansion)
+[Chariklo, Churyumov, Ida, Dactyl, Proxima B, Proxima D](https://github.com/zilti/RSSExpansion)
 
-[Eris, Dysnomia, Makemake, MK2, Quaoar, Weywot, Sedna](https://www.deviantart.com/mrspace43-celestia/art/OUTDATED-True-Color-TNO-Textures-2k-709834079)
+[Eris, Dysnomia, Makemake, MK2, Quaoar, Weywot, Sedna, Orcus, Vanth](https://www.deviantart.com/mrspace43-celestia/art/OUTDATED-True-Color-TNO-Textures-2k-709834079)
 
 [Calypso texture map](https://www.deviantart.com/fireon12064/art/Calypso-by-Fireon-B-W-780695285)
 
