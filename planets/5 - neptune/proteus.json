@@ -16,6 +16,7 @@
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
 		"isTidallyLocked" : true,
+		"axialTilt": 28,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
@@ -24,5 +25,11 @@
 		"textureMap" : "planets/assets/proteus_texturemap.png",	
 		"minHeight" : 12,
 		"maxHeight" : 14
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Proteus Log.png"
+		}
 	}
 }

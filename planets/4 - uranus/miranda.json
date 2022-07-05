@@ -4,25 +4,26 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 2,
-		"surfaceSize" : 12,
+		"surfaceGravity" : 1,
+		"surfaceSize" : 14,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1000,
+		"semiMajorAxis" : 1050,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 101,
-		"eccentricity" : 0,
 		"longitudeOfAscendingNode": 180,
-		"siderealPeriod" : 6.9
+		"isTidallyLocked" : true,
+		"axialTilt": 101,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/miranda_heightmap.png",	
 		"textureMap" : "planets/assets/miranda_texturemap.png",	
-		"minHeight" : 22,
-		"maxHeight" : 25
+		"minHeight" : 12,
+		"maxHeight" : 15
 	}
 }

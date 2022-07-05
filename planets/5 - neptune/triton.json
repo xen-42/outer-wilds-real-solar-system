@@ -5,26 +5,41 @@
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 65,
+		"surfaceSize" : 61,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 1200,
-		"inclination" : 157,
+		"inclination" : 130,
 		"longitudeOfAscendingNode": 0,
 		"primaryBody" : "Neptune",
 		"isMoon" : true,
 		"isTidallyLocked" : true,
-		"axialTilt": 220,
+		"axialTilt": 50,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+	},
+	"Atmosphere" :
+	{
+		"size" : 62,
+		"useAtmosphereShader": true,
+		"hasSnow": true
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/triton_heightmap.png",	
 		"textureMap" : "planets/assets/triton_texturemap.png",	
-		"minHeight" : 63,
-		"maxHeight" : 65
+		"minHeight" : 64,
+		"maxHeight" : 67
+	},
+	"Props": 
+	{
+		"geysers": [
+			{ "position": {"x": -45.25802, "y": -33.96282, "z": -31.62589} },
+			{ "position": {"x": -57.10152, "y": -28.51456, "z": -11.6116} },
+			{ "position": {"x": -0.04020309, "y": -38.22764, "z": 52.62264} },
+			{ "position": {"x": 6.323707, "y": -58.75522, "z": -26.39195} }
+		]
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

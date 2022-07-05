@@ -1,0 +1,73 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "WISE 0855−0714",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 40,
+		"surfaceSize" : 800,
+		"hasMapMarker" : true,
+		"ambientLight": 1,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 230000,
+		"primaryBody" : "Sol",
+		"showOrbitLine" : false,
+		"trueAnomaly" : 135,
+		"isStatic" : true
+	},
+	"Star":
+	{
+		"size": 550,
+		"tint" : 
+		{
+			"r" : 50,
+			"g" : 47,
+			"b" : 79,
+			"a" : 255
+		},
+		"hasAtmosphere": false,
+		"solarLuminosity": 0.5,
+		"lightRadius": 25000,
+		"lightTint" : 
+		{
+			"r" : 50,
+			"g" : 47,
+			"b" : 79,
+			"a" : 255
+		},
+		"goSupernova": false,
+		"hasStarController": false
+	},
+	"Atmosphere" :
+	{
+		"size" : 800,
+		"fogSize": 800,
+		"fogDensity": 1,
+		"fogTint" : 
+		{
+			"r" : 50,
+			"g" : 47,
+			"b" : 79,
+			"a" : 255
+		},
+		"clouds": {
+			"innerCloudRadius": 700,
+			"outerCloudRadius": 800,
+			"texturePath": "planets/assets/wise_0855_0714.png",
+			"cloudsPrefab": "giantsDeep",
+			"fluidType": "plasma",
+			"unlit": true,
+			"hasLightning": true,
+			"tint": 
+			{
+				"r" : 23,
+				"g" : 22,
+				"b" : 36,
+				"a" : 255
+			}
+		}
+	}
+}

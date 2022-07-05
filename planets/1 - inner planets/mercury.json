@@ -28,6 +28,16 @@
 			"a" : 255
 		}
 	},
+	"Lava": {
+		"size": 100,
+		"curve": [
+			{ "time": 0, "value": 0.95 },
+			{ "time": 12, "value": 0.95 },
+			{ "time": 14, "value": 1 },
+			{ "time": 15.2, "value": 1 },
+			{ "time": 15.5, "value": 1.05 }
+		]
+	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/mercury_heightmap.png",	

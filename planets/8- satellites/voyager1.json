@@ -1,0 +1,45 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Voyager 1",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"hasMapMarker" : false,
+		"showMinimap": false,
+		"zeroGravityRadius": 25
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 2,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10000,
+		"primaryBody" : "Luhman 16",
+		"showOrbitLine" : true,
+		"isMoon": true,
+		"dottedOrbitLine": true,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x": 0, "y": 1, "z": 0}
+	},
+	"Signal" : 
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Voyager 1", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 50, "identificationRadius" : 10 }
+		]
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Voyager_17.prefab" }
+		]
+	},
+	"ShipLog" : 
+	{
+		"mapMode" : { "remove" : true }
+	}
+}

@@ -36,11 +36,13 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Callisto height map](https://www.deviantart.com/kexitt/art/Calisto-Height-map-560010442)
 
-[Callisto texture map](https://www.deviantart.com/kexitt/art/Callisto-Color-map-590742647)
+[Callisto texture map](https://bjj.mmedia.is/data/callisto/index.html)
 
 [Enceladus height map](https://www.deviantart.com/oleg-pluton/art/Enceladus-elevation-map-astro-data-improved-861386709)
 
 [Enceladus texture map](https://www.deviantart.com/oleg-pluton/art/Enceladus-texture-map-improved-769826238)
+
+[Titan texture map](https://www.deviantart.com/magentameteorite/art/Titan-Hand-Painted-Cloud-Map-And-Mixed-Surface-Map-743328661)
 
 [Dione height map](https://www.deviantart.com/oleg-pluton/art/Dione-elevation-map-786936439)
 
@@ -65,6 +67,8 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 [Amalthea texture map](https://www.deviantart.com/oleg-pluton/art/Amalthea-texture-map-Improved-780661092)
 
 [Io height map](https://www.deviantart.com/oleg-pluton/art/Io-elevation-map-773119644)
+
+[Io texture map](https://www.deviantart.com/oleg-pluton/art/Io-elevation-map-773119644)
 
 [Ganymede texture map](https://bjj.mmedia.is/data/ganymede/)
 
@@ -96,11 +100,9 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Tethys height map and texture map](https://www.deviantart.com/kexitt/art/8k-Tethys-Maps-802333903)
 
-[Chariklo, Churyumov, Ida, Dactyl, Orcus, Vanth](https://github.com/zilti/RSSExpansion)
+[Chariklo, Churyumov, Ida, Dactyl, Proxima B, Proxima D](https://github.com/zilti/RSSExpansion)
 
-[MK2, Quaoar, Weywot, Ixion](https://www.deviantart.com/mrspace43-celestia/art/OUTDATED-True-Color-TNO-Textures-2k-709834079)
-
-[Eris, Makemake, and Sedna](https://www.deviantart.com/kexitt/art/KD-2-Eris-Makemake-and-Sedna-s-maps-663049252)
+[Eris, Dysnomia, Makemake, MK2, Quaoar, Weywot, Sedna, Orcus, Vanth](https://www.deviantart.com/mrspace43-celestia/art/OUTDATED-True-Color-TNO-Textures-2k-709834079)
 
 [Calypso texture map](https://www.deviantart.com/fireon12064/art/Calypso-by-Fireon-B-W-780695285)
 

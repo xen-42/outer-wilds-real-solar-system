@@ -25,8 +25,8 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/proximab_heightmap.png",	
-		"textureMap" : "planets/assets/proximab_texturemap.png",	
+		"heightMap" : "planets/assets/europa_heightmap.png",	
+		"textureMap" : "planets/assets/europa_texturemap.png",	
 		"minHeight" : 46,
 		"maxHeight" : 51
 	},

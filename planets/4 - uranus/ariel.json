@@ -4,25 +4,26 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
-		"surfaceSize" : 28,
+		"surfaceGravity" : 2,
+		"surfaceSize" : 32,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1100,
+		"semiMajorAxis" : 1150,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
-		"eccentricity" : 0,
 		"longitudeOfAscendingNode": 180,
-		"siderealPeriod" : 1.23
+		"isTidallyLocked" : true,
+		"axialTilt": 97,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/ariel_heightmap.png",	
 		"textureMap" : "planets/assets/ariel_texturemap.png",	
-		"minHeight" : 25,
-		"maxHeight" : 28
+		"minHeight" : 30,
+		"maxHeight" : 32
 	}
 }

@@ -1,21 +1,23 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Proxima Centauri c",
+	"name" : "Proxima c",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 16,
-		"surfaceSize" : 400,
+		"surfaceGravity" : 12,
+		"surfaceSize" : 500,
 		"hasMapMarker" : true,
 		"ambientLight": 0.8
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 10000,
-		"inclination" : 3,
 		"primaryBody" : "Proxima Centauri",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 74,
+		"eccentricity": 0.04,
+		"argumentOfPeriapsis": 225,
+		"inclination" : 3,
+		"longitudeOfAscendingNode" : 330,
 		"axialTilt" : 27,
 		"trueAnomaly" : 142,
 		"siderealPeriod" : 3
@@ -25,20 +27,20 @@
 		"size" : 500,
 		"fogTint" : 
 		{
-			"r" : 128,
-			"g" : 128,
-			"b" : 255,
+			"r" : 255,
+			"g" : 82,
+			"b" : 51,
 			"a" : 255
 		},
-		"fogDensity": 0.9,
+		"fogDensity": 1,
 		"fogSize": 500,
 		"useAtmosphereShader": true,
 		"hasRain": true,
 		"atmosphereTint" : 
 		{
-			"r" : 181,
-			"g" : 181,
-			"b" : 230,
+			"r" : 255,
+			"g" : 82,
+			"b" : 51,
 			"a" : 255
 		},
 		"clouds": {
@@ -46,22 +48,48 @@
 			"innerCloudRadius" : 450,
 			"tint" : 
 			{
-				"r" : 181,
-				"g" : 181,
-				"b" : 230,
+				"r" : 186,
+				"g" : 82,
+				"b" : 64,
 				"a" : 255
 			},
-			"texturePath" : "planets/assets/Proxima C.png"
+			"texturePath" : "planets/assets/proxima_c.png",
+			"cloudsPrefab": "giantsDeep",
+			"hasLightning" : true,
+			"lightningGradient" : [
+				{"time": 0, "tint": {"r": 255, "g": 0, "b": 0}},
+				{"time": 0.99, "tint": {"r": 128, "g": 64, "b": 0}},
+				{"time": 1, "tint": {"r": 128, "g": 25, "b": 0}}
+			]
 		}
 	},
 	"Water": 
 	{
-		"size": 400
+		"size": 350
+	},
+	"Lava": {
+		"size": 50,
+		"tint": 
+		{
+			"r" : 4000,
+			"g" : 1500,
+			"b" : 150,
+			"a" : 255
+		}
+	},
+	"Props": {
+		"details": [
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 300 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 250 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 200 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 150 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 100 }
+		]
 	},
 	"Ring" : 
 	{
-		"innerRadius" : 650,
-		"outerRadius" : 1000,
+		"innerRadius" : 750,
+		"outerRadius" : 1500,
 		"texture" : "planets/assets/proxima_c_rings.png",
 		"fluidType": "sand"
 	},

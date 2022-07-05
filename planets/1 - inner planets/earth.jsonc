@@ -31,7 +31,22 @@
 		"siderealPeriod" : 5
 	},
 	"Water" : {
-		"size" : 294
+		"size" : 294,
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 12, "value": 1 },
+			{ "time": 14, "value": 1.012 },
+			{ "time": 18, "value": 1.012 },
+			{ "time": 20, "value": 0 }
+		]
+	},
+	"Lava": {
+		"size": 296,
+		"curve": [
+			{ "time": 0, "value": 0.98 },
+			{ "time": 18.2, "value": 0.98 },
+			{ "time": 18.3, "value": 1 }
+		]
 	},
 	"Atmosphere" :
 	{
@@ -381,13 +396,16 @@
 				"xmlFile": "planets/xml/dialogue/RSS_EARTH_HEA_CAMPSITE_RECORDER.xml",
 				"radius": 0.5
 			}
+		],
+		"singularities": [
+			{
+				"uniqueID": "RSS_EarthRuinsBH",
+				"pairedSingularity": "RSS_EarthRuinsWH",
+				"position": {"x": 15.4186, "y": 188.6308, "z": 231.7824},
+				"type": "blackHole",
+				"size": 2
+			}
 		]
-	},
-	"Singularity": {
-		"pairedSingularity": "The Moon",
-		"position": {"x": 15.4186, "y": 188.6308, "z": 231.7824},
-		"type": "blackHole",
-		"size": 2
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

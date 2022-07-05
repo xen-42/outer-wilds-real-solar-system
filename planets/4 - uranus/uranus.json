@@ -82,7 +82,7 @@
 	},
 	"Ring" : 
 	{
-		"innerRadius" : 800,
+		"innerRadius" : 600,
 		"outerRadius" : 1000,
 		"texture" : "planets/assets/uranus_rings.png",
 		"fluidType": "sand"

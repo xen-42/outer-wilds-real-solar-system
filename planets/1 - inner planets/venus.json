@@ -22,6 +22,16 @@
 		"siderealPeriod" : 10,
 		"trueAnomaly" : 50
 	},
+	"Lava": {
+		"size": 252,
+		"curve": [
+			{ "time": 0, "value": 0.95 },
+			{ "time": 15, "value": 0.95 },
+			{ "time": 17, "value": 1 },
+			{ "time": 18.5, "value": 1 },
+			{ "time": 19, "value": 1.05 }
+		]
+	},
 	"Atmosphere" :
 	{
 		"size" : 300,

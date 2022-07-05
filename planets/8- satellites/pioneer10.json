@@ -16,14 +16,15 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 132000,
-		"primaryBody" : "Sol",
+		"semiMajorAxis" : 10000,
+		"primaryBody" : "WISE 0855−0714",
 		"isMoon": true,
-		"showOrbitLine" : false,
+		"showOrbitLine" : true,
 		"dottedOrbitLine": true,
-		"isStatic": true,
-		"inclination": 26.25,
-		"trueAnomaly": 259.25
+		"eccentricity": 0.5,
+		"argumentOfPeriapsis": 225,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x": 0, "y": 0, "z": 1}
 	},
 	"Signal" : 
 	{

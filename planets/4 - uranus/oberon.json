@@ -4,25 +4,26 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
-		"surfaceSize" : 39,
+		"surfaceGravity" : 3,
+		"surfaceSize" : 40,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1500,
+		"semiMajorAxis" : 1600,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
-		"eccentricity" : 0.001,
 		"longitudeOfAscendingNode": 180,
-		"siderealPeriod" : 6.56
+		"isTidallyLocked" : true,
+		"axialTilt": 97,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/oberon_heightmap.png",	
 		"textureMap" : "planets/assets/oberon_texturemap.png",	
-		"minHeight" : 36,
-		"maxHeight" : 39
+		"minHeight" : 38,
+		"maxHeight" : 41
 	}
 }

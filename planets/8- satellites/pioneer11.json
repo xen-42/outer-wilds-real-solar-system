@@ -16,14 +16,15 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 97600,
-		"primaryBody" : "Sol",
+		"semiMajorAxis" : 10000,
+		"primaryBody" : "Proxima Centauri",
 		"isMoon": true,
-		"showOrbitLine" : false,
+		"showOrbitLine" : true,
 		"dottedOrbitLine": true,
-		"isStatic": true,
-		"inclination": 9.5,
-		"trueAnomaly": 110
+		"eccentricity": 0.5,
+		"argumentOfPeriapsis": 150,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x": 0, "y": 0, "z": 1}
 	},
 	"Signal" : 
 	{

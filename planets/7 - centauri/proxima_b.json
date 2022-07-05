@@ -1,53 +1,53 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Proxima Centauri b",
+	"name" : "Proxima b",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 14,
-		"surfaceSize" : 300,
+		"surfaceGravity" : 12,
+		"surfaceSize" : 350,
 		"hasMapMarker" : true,
 		"ambientLight": 0.6
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 3000,
-		"inclination" : 0,
+		"semiMajorAxis" : 4500,
 		"primaryBody" : "Proxima Centauri",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 74,
+		"eccentricity": 0.08,
+		"argumentOfPeriapsis": 310,
+		"inclination": 1,
+		"longitudeOfAscendingNode": 150,
 		"axialTilt" : 0,
-		"trueAnomaly" : 0,
-		"isTidallyLocked" : true,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"siderealPeriod": 8
 	},
 	"Atmosphere": 
 	{
-		"size" : 310,
+		"size" : 360,
 		"fogTint" : 
 		{
-			"r" : 255,
-			"g" : 80,
-			"b" : 50,
+			"r" : 128,
+			"g" : 40,
+			"b" : 25,
 			"a" : 255
 		},
 		"fogDensity": 0.1,
-		"fogSize": 310,
+		"fogSize": 360,
 		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
-			"r" : 255,
-			"g" : 80,
-			"b" : 50,
+			"r" : 128,
+			"g" : 40,
+			"b" : 25,
 			"a" : 255
 		}
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/proximab_heightmap.png",	
-		"textureMap" : "planets/assets/proximab_texturemap.png",	
-		"minHeight" : 295,
-		"maxHeight" : 305
+		"heightMap" : "planets/assets/proxima_b_heightmap.png",	
+		"textureMap" : "planets/assets/proxima_b_texturemap.png",	
+		"minHeight" : 350,
+		"maxHeight" : 360
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
