@@ -1,10 +1,10 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "MK2",
+	"name" : "Haua",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 2,
+		"surfaceGravity" : 1,
 		"surfaceSize" : 8,
 		"hasMapMarker" : true
 	},
@@ -25,7 +25,7 @@
 	{
 		"heightMap" : "planets/assets/mk2_heightmap.png",	
 		"textureMap" : "planets/assets/mk2_texturemap.png",	
-		"minHeight" : 7,
+		"minHeight" : 7.5,
 		"maxHeight" : 8
 	}
 }

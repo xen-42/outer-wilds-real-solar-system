@@ -67,7 +67,6 @@
 			"hasLightning" : true,
 			"lightningGradient" : [
 				{"time": 0, "tint": {"r": 0, "g": 0, "b": 0}},
-				{"time": 0.99, "tint": {"r": 0, "g": 0, "b": 0}},
 				{"time": 1, "tint": {"r": 0, "g": 0, "b": 0}}
 			]
 		}

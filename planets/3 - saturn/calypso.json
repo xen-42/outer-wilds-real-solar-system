@@ -23,9 +23,14 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/prometheus_heightmap.png",	
+		"heightMap" : "planets/assets/deimos_heightmap.png",	
 		"textureMap" : "planets/assets/calypso_texturemap.png",	
 		"minHeight" : 2,
-		"maxHeight" : 5
+		"maxHeight" : 4,
+		"stretch": {
+			"x": 1.5,
+			"y": 1,
+			"z": 1
+		}
 	}
 }

@@ -17,14 +17,15 @@
 		"longitudeOfAscendingNode" : 172.9,
 		"argumentOfPeriapsis": 310.7,
 		"axialTilt": 84,
+		"siderealPeriod": 1.6,
 		"primaryBody" : "Sol",
 		"isMoon" : true
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/pallas_heightmap.png",	
-		"textureMap" : "planets/assets/blank_texturemap.png",	
+		"textureMap" : "planets/assets/mimas_texturemap.png",	
 		"minHeight" : 13,
-		"maxHeight" : 15
+		"maxHeight" : 16
 	}
 }

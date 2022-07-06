@@ -4,8 +4,11 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"hasMapMarker" : true,
-		"hasReferenceFrame": false
+		"hasMapMarker" : true
+	},
+	"ReferenceFrame":
+	{
+		"enabled": false
 	},
 	"Orbit" :
 	{
