@@ -19,7 +19,13 @@
 		"longitudeOfAscendingNode" : 300,
 		"eccentricity" : 0.25,
 		"argumentOfPeriapsis": 300,
-		"trueAnomaly": 270
+		"trueAnomaly": 270,
+		"tint": {
+            "r": 240,
+            "g": 210,
+            "b": 180,
+            "a": 255
+        }
 	},
 	"FocalPoint" :
 	{

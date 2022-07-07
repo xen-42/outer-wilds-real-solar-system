@@ -19,7 +19,14 @@
 		"inclination": 1,
 		"longitudeOfAscendingNode": 150,
 		"axialTilt" : 0,
-		"siderealPeriod": 8
+		"siderealPeriod": 8,
+		"tint": 
+		{
+			"r" : 100,
+			"g" : 30,
+			"b" : 20,
+			"a" : 255
+		}
 	},
 	"Atmosphere": 
 	{

@@ -18,7 +18,14 @@
 		"trueAnomaly" : 86,
 		"axialTilt": 3.1,
 		"isTidallyLocked" : true,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 180,
+			"g" : 120,
+			"b" : 70,
+			"a" : 255
+		}
 	},
 	"Water": {
 		"size": 69

@@ -17,7 +17,13 @@
 		"axialTilt": 105,
 		"isMoon" : true,
 		"isTidallyLocked": true,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": {
+            "r": 135,
+            "g": 135,
+            "b": 135,
+            "a": 255
+        }
 	},
 	"HeightMap" :
 	{

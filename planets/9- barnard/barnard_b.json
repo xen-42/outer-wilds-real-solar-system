@@ -17,7 +17,14 @@
 		"longitudeOfAscendingNode" : 256,
 		"eccentricity" : 0.32,
 		"axialTilt" : 10,
-		"siderealPeriod": 4
+		"siderealPeriod": 10,
+		"tint": 
+		{
+			"r" : 80,
+			"g" : 30,
+			"b" : 20,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{

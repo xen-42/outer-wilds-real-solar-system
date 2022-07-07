@@ -18,7 +18,13 @@
 		"longitudeOfAscendingNode": 144,
 		"argumentOfPeriapsis": 	311,
 		"siderealPeriod": 2,
-		"isMoon" : false
+		"isMoon" : false,
+		"tint": {
+            "r": 130,
+            "g": 90,
+            "b": 80,
+            "a": 255
+        }
 	},
 	"HeightMap" :
 	{

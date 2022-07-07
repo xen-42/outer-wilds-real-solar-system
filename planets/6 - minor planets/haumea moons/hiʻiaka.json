@@ -19,7 +19,14 @@
 		"argumentOfPeriapsis": 154.1,
 		"axialTilt": 126.356,
 		"isMoon" : true,
-		"siderealPeriod": 2
+		"siderealPeriod": 2,
+		"tint": 
+		{
+			"r" : 230,
+			"g" : 230,
+			"b" : 230,
+			"a" : 255
+		}
 	},
 	"ProcGen": {
 		"scale": 15,

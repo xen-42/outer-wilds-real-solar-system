@@ -16,7 +16,13 @@
 		"eccentricity": 0.29,
         "longitudeOfAscendingNode": 32,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"tint": {
+            "r": 150,
+            "g": 130,
+            "b": 100,
+            "a": 255
+        }
 	},
 	"ProcGen": {
 		"scale": 10,

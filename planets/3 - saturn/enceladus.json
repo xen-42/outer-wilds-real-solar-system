@@ -18,7 +18,15 @@
 		"eccentricity" : 0,
 		"isTidallyLocked" : true,
 		"axialTilt": 26,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		}
+	},
 	},
 	"HeightMap" :
 	{

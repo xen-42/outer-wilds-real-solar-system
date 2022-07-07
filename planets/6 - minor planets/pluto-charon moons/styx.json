@@ -16,7 +16,13 @@
 		"trueAnomaly": 135,
 		"isMoon" : true,
 		"siderealPeriod": -2.5,
-		"axialTilt": 240
+		"axialTilt": 240,
+		"tint": {
+            "r": 175,
+            "g": 175,
+            "b": 175,
+            "a": 255
+        }
 	},
 	"ProcGen": {
 		"scale": 10,

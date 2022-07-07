@@ -20,7 +20,14 @@
 		"argumentOfPeriapsis": 55,
 		"axialTilt" : 177,
 		"siderealPeriod" : 10,
-		"trueAnomaly" : 50
+		"trueAnomaly" : 50,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 200,
+			"b" : 128,
+			"a" : 255
+		}
 	},
 	"Lava": {
 		"size": 252,

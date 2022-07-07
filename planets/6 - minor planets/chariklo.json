@@ -19,7 +19,14 @@
 		"axialTilt" : 52,
 		"siderealPeriod": 1.4,
 		"primaryBody" : "Sol",
-		"isMoon" : false
+		"isMoon" : false,
+		"tint": 
+		{
+			"r" : 60,
+			"g" : 50,
+			"b" : 50,
+			"a" : 255
+		}
 	},
 	"Ring" :
 	{

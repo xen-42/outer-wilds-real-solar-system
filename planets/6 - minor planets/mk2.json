@@ -19,7 +19,13 @@
 		"argumentOfPeriapsis": 0,
 		"axialTilt": 0,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"tint": {
+            "r": 50,
+            "g": 40,
+            "b": 40,
+            "a": 255
+        }
 	},
 	"HeightMap" :
 	{

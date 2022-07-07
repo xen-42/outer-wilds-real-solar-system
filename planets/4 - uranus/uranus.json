@@ -20,7 +20,14 @@
 		"argumentOfPeriapsis": 99,
 		"axialTilt" : 97,
 		"trueAnomaly" : 142,
-		"siderealPeriod" : 3.6
+		"siderealPeriod" : 3.6,
+		"tint":
+		{
+			"r" : 128,
+			"g" : 255,
+			"b" : 230,
+			"a" : 255
+		}
 	},
 	"Atmosphere" :
 	{

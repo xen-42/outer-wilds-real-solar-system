@@ -17,7 +17,14 @@
 		"longitudeOfAscendingNode": 180,
 		"isTidallyLocked" : true,
 		"axialTilt": 101,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 140,
+			"g" : 130,
+			"b" : 130,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{
