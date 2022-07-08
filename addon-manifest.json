@@ -1,0 +1,19 @@
+{
+    "achievements" : [
+        {
+            "ID" : "RSS_AllSpacecraft",
+            "secret" : false,
+            "signalIDs" : [ "Parker Solar Probe", "MESSENGER", "Venera 9", "International Space Station", "Hubble Space Telescope", "Aquarius", "Lunar Reconnaissance Orbiter", "Perseverance", "Mars Odyssey", "Europa Clipper", "Laplace-P", "Jupiter Icy Moons Explorer", "Cassini", "Huygens", "Uranus Orbiter", "Neptune Odyssey", "Pioneer 11", "Voyager 2", "Voyager 1", "Pioneer 10" ]
+        },
+        {
+            "ID" : "RSS_AllJellyfish",
+            "secret" : false,
+            "conditionIDs" : [ "RSS_MetGustavo", "RSS_MetGarry", "RSS_MetGeoffrey", "RSS_MetGriffin", "RSS_MetGertrude", "RSS_MetGooseberry", "RSS_MetGabro", "RSS_MetGoldie", "RSS_MetGideon", "RSS_MetGregory", "RSS_MetGerald" ]
+        },
+        {
+            "ID" : "RSS_FindJammer",
+            "secret" : false,
+            "conditionIDs" : [ "RSS_MetJammer" ]
+        }
+    ]
+}
