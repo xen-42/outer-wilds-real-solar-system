@@ -20,11 +20,12 @@
 	"Star" :
 	{
 		"size" : 1000,
+		"starRampTexture": "planets/assets/proxima_ramp.png",
 		"tint" : 
 		{
 			"r" : 255,
-			"g" : 100,
-			"b" : 80,
+			"g" : 75,
+			"b" : 50,
 			"a" : 255
 		},
 		"solarLuminosity": 0.6,
@@ -32,8 +33,8 @@
 		"lightTint":
 		{
 			"r" : 255,
-			"g" : 100,
-			"b" : 80,
+			"g" : 142,
+			"b" : 128,
 			"a" : 255
 		},
 		"goSupernova": false

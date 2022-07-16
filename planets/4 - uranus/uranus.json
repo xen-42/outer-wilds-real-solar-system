@@ -62,7 +62,13 @@
 				"a" : 255
 			},
 			"texturePath" : "planets/assets/uranus.png",
-			"cloudsPrefab": "giantsDeep"
+			"rampPath": "planets/assets/uranus_ramp.png",
+			"cloudsPrefab": "giantsDeep",
+			"hasLightning": true,
+			"lightningGradient" : [
+				{"time": 0, "tint": {"r": 0, "g": 0, "b": 0}},
+				{"time": 1, "tint": {"r": 0, "g": 0, "b": 0}}
+			]
 		}
 	},
 	"Water": {

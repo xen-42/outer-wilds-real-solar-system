@@ -62,12 +62,12 @@
 				"a" : 255
 			},
 			"texturePath" : "planets/assets/neptune.png",
+			"rampPath": "planets/assets/neptune_ramp.png",
 			"cloudsPrefab": "giantsDeep",
 			"hasLightning" : true,
 			"lightningGradient" : [
-				{"time": 0, "tint": {"r": 255, "g": 0, "b": 0}},
-				{"time": 0.99, "tint": {"r": 128, "g": 64, "b": 0}},
-				{"time": 1, "tint": {"r": 128, "g": 25, "b": 0}}
+				{"time": 0, "tint": {"r": 0, "g": 0, "b": 0}},
+				{"time": 1, "tint": {"r": 0, "g": 0, "b": 0}}
 			]
 		}
 	},
