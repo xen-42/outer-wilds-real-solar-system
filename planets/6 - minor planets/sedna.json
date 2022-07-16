@@ -10,15 +10,21 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 90000,
+		"semiMajorAxis" : 180000,
+		"primaryBody" : "Sol",
 		"inclination" : 12,
-		"trueAnomaly" : 358,
-		"eccentricity": 0.85,
+		"trueAnomaly" : 350,
+		"eccentricity": 0.6,
 		"longitudeOfAscendingNode": 144,
 		"argumentOfPeriapsis": 	311,
 		"siderealPeriod": 2,
-		"primaryBody" : "Sol",
-		"isMoon" : false
+		"isMoon" : false,
+		"tint": {
+            "r": 130,
+            "g": 90,
+            "b": 80,
+            "a": 255
+        }
 	},
 	"HeightMap" :
 	{

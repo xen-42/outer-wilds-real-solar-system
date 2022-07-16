@@ -18,7 +18,14 @@
 		"isMoon" : true,
 		"isTidallyLocked" : true,
 		"axialTilt": 3,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 225,
+			"g" : 190,
+			"b" : 80,
+			"a" : 255
+		}
 	},
 	"Atmosphere" :
 	{

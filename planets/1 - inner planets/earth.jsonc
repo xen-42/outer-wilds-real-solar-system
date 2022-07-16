@@ -28,7 +28,14 @@
 		"argumentOfPeriapsis": 102,
 		"trueAnomaly" : 358,
 		"axialTilt" : 23,
-		"siderealPeriod" : 5
+		"siderealPeriod" : 5,
+		"tint" : 
+		{
+			"r" : 130,
+			"g" : 175,
+			"b" : 255,
+			"a" : 255
+		}
 	},
 	"Water" : {
 		"size" : 294,

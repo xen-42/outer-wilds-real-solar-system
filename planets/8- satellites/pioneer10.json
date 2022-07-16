@@ -8,7 +8,7 @@
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
 		"showMinimap": false,
-		"zeroGravityRadius": 25
+		"zeroGravityRadius": 100
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 1.5,
@@ -30,7 +30,7 @@
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Pioneer 10", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1.5, "detectionRadius": 50, "identificationRadius" : 10 }
+			{ "frequency" : "Radio", "name" : "Pioneer 10", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1.5, "detectionRadius": 100, "identificationRadius" : 10, "position": { "x": 0, "y": 0, "z": 1 } }
 		]
 	},
 	"Props" :

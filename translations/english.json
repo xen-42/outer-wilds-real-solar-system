@@ -98,5 +98,20 @@
     "ShipLogDictionary" :
     {
 		"" : ""
-   	}
+   	},
+    "AchievementTranslations" : 
+	{
+		"RSS_AllSpacecraft" : {
+			"Name" : "Mysterious Relicts",
+			"Description" : "Discover every spacecraft."
+		},
+		"RSS_AllJellyfish" : {
+			"Name" : "Happy Family",
+			"Description" : "Meet every jellyfish."
+		},
+		"RSS_FindJammer" : {
+			"Name" : "You Win!",
+			"Description" : "Find Jammer."
+		}
+	}
 }

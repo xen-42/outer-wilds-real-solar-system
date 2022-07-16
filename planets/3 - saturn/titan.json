@@ -20,7 +20,14 @@
 		"argumentOfPeriapsis": 0,
 		"axialTilt" : 26,
 		"isTidallyLocked" : true,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 160,
+			"g" : 115,
+			"b" : 60,
+			"a" : 255
+		}
 	},
 	"Atmosphere" :
 	{

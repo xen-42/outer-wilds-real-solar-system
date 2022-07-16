@@ -18,7 +18,14 @@
 		"isTidallyLocked" : true,
 		"trueAnomaly" : 200,
 		"axialTilt": 3,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 85,
+			"g" : 65,
+			"b" : 45,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{

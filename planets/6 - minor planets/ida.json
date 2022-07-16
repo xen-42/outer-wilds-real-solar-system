@@ -20,7 +20,14 @@
 		"axialTilt" : 0,
 		"siderealPeriod": 9.5,
 		"primaryBody" : "Sol",
-		"isMoon" : true
+		"isMoon" : true,
+		"tint": 
+		{
+			"r" : 100,
+			"g" : 100,
+			"b" : 100,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{

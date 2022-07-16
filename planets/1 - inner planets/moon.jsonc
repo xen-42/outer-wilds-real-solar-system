@@ -20,7 +20,14 @@
 		"argumentOfPeriapsis": 318,
 		"axialTilt" : 1.5,
 		"isTidallyLocked" : true,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint" : 
+		{
+			"r" : 175,
+			"g" : 175,
+			"b" : 175,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{

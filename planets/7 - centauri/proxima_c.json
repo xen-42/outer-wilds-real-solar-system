@@ -20,7 +20,14 @@
 		"longitudeOfAscendingNode" : 330,
 		"axialTilt" : 27,
 		"trueAnomaly" : 142,
-		"siderealPeriod" : 3
+		"siderealPeriod" : 3,
+		"tint": 
+		{
+			"r" : 60,
+			"g" : 10,
+			"b" : 5,
+			"a" : 255
+		}
 	},
 	"Atmosphere" :
 	{

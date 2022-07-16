@@ -19,13 +19,21 @@
 		"axialTilt" : 52,
 		"siderealPeriod": 1.4,
 		"primaryBody" : "Sol",
-		"isMoon" : true
+		"isMoon" : false,
+		"tint": 
+		{
+			"r" : 60,
+			"g" : 50,
+			"b" : 50,
+			"a" : 255
+		}
 	},
 	"Ring" :
 	{
 		"innerRadius" : 19,
 		"outerRadius" : 21,
-		"texture": "planets/assets/chariklo_rings.png"
+		"texture": "planets/assets/chariklo_rings.png",
+		"fluidType": "sand"
 	},
 	"HeightMap" :
 	{

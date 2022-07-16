@@ -17,7 +17,13 @@
         "eccentricity": 0,
         "axialTilt": 78,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"tint": {
+            "r": 60,
+            "g": 50,
+            "b": 40,
+            "a": 255
+        }
 	},
 	"HeightMap" :
 	{

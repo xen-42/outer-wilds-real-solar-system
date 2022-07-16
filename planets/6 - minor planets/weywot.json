@@ -16,7 +16,13 @@
 		"eccentricity": 0.148,
 		"argumentOfPeriapsis": 348,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"tint": {
+            "r": 125,
+            "g": 125,
+            "b": 125,
+            "a": 255
+        }
 	},
 	"HeightMap" :
 	{

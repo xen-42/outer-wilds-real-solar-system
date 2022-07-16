@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 100,
+		"surfaceSize" : 60,
 		"hasMapMarker" : true,
 		"gravityFallOff": "inverseSquared"
 	},
@@ -18,21 +18,29 @@
 		"longitudeOfAscendingNode": 122,
 		"argumentOfPeriapsis": 239,
 		"axialTilt": 128,
-		"siderealPeriod": 1,
+		"siderealPeriod": 0.8,
 		"primaryBody" : "Sol",
-		"isMoon" : false
+		"isMoon" : false,
+		"tint": 
+		{
+			"r" : 230,
+			"g" : 230,
+			"b" : 230,
+			"a" : 255
+		}
 	},
 	"Ring" :
 	{
-		"innerRadius" : 150,
-		"outerRadius" : 160,
-		"texture": "planets/assets/haumea_rings.png"
+		"innerRadius" : 100,
+		"outerRadius" : 110,
+		"texture": "planets/assets/haumea_rings.png",
+		"fluidType": "sand"
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/haumea_heightmap.png",
 		"textureMap": "planets/assets/haumea_texturemap.png",
-		"minHeight": 88,
-		"maxHeight": 90,
+		"minHeight": 58,
+		"maxHeight": 60,
 		"stretch":{
 			"x": 1.1428572,
 			"y": 1.6,

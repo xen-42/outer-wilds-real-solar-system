@@ -18,7 +18,14 @@
 		"primaryBody" : "Sol",
 		"trueAnomaly": 225,
 		"isMoon" : false,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"tint": 
+		{
+			"r" : 128,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		}
 	},
 	"Atmosphere" :
 	{
