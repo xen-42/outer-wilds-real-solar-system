@@ -219,5 +219,20 @@
 		"Luhman 16" : "Луман 16",
 		"Luhman 16A" : "Луман 16A",
 		"Luhman 16B" : "Луман 16B"
-    }
+    },
+"AchievementTranslations" : 
+	{
+		"RSS_AllSpacecraft" : {
+			"Name" : "Таинственные реликвии",
+			"Description" : "Найти каждый космический аппарат."
+		},
+		"RSS_AllJellyfish" : {
+			"Name" : "Счастливая семья",
+			"Description" : "Поговорить с каждой медузой."
+		},
+		"RSS_FindJammer" : {
+			"Name" : "Ты выиграл!",
+			"Description" : "Найти Джеммера."
+		}
+	}
 }
