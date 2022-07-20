@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 14,
+		"surfaceSize" : 16,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -27,12 +27,28 @@
 			"a" : 255
 		}
 	},
+	"Water": {
+		"size": 15.4
 	},
-	"HeightMap" :
-	{
-		"heightMap" : "planets/assets/enceladus_heightmap.png",	
-		"textureMap" : "planets/assets/enceladus_texturemap.png",	
-		"minHeight" : 13,
-		"maxHeight" : 14
+	"Props": {
+		"details": [
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Enceladus.prefab" },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/OceanGVolume.prefab", "scale": 15.4 }
+		],
+		"geysers": [
+			{ "position": {"x": 0, "y": -10, "z": 0}, "disableBubbles": true }
+		]
+	},
+	"Bramble": {
+		"nodes": [
+			{
+				"name": "EnceladusNode",
+				"linksTo": "EnceladusBramble",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 48.3677, "y": 7.1128, "z": 21.6874},
+				"scale": 0.15,
+				"lightTint": {"r": 131, "g": 124, "b": 105, "a": 0}
+			}
+		]
 	}
 }

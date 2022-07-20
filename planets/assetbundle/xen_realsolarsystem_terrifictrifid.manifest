@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3092638389
+CRC: 2323704077
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4b502600aa0ffe8a746176c8ea4d5cd7
+    Hash: ac4fb554f6736ad5851883b9288ac62f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7d8b8f299aa331a71234d67f14a5cc21
+    Hash: 25c66d1072602c7aef341768b4650343
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -41,6 +41,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 3b553936b4d86184aa70c1ec16223cdc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -55,6 +57,7 @@ Assets:
 - Assets/RSS/LaplaceP.prefab
 - Assets/RSS/Europa.prefab
 - Assets/RSS/lunarlander.prefab
+- Assets/RSS/BrambleHouse.prefab
 - Assets/JellyfishLight.prefab
 - Assets/RSS/percy2.prefab
 - Assets/ZeroGVolume.prefab
@@ -70,4 +73,5 @@ Assets:
 - Assets/JellyfishLightLarge.prefab
 - Assets/RSS/Messenger.prefab
 - Assets/RSS/LRO_35.prefab
+- Assets/RSS/Enceladus.prefab
 Dependencies: []

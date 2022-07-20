@@ -38,7 +38,7 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 
 [Callisto texture map](https://bjj.mmedia.is/data/callisto/index.html)
 
-[Enceladus height map](https://www.deviantart.com/oleg-pluton/art/Enceladus-elevation-map-astro-data-improved-861386709)
+[Enceladus height map](https://www.deviantart.com/trappist1e/art/Enceladus-DEM-yes-its-real-869087221)
 
 [Enceladus texture map](https://www.deviantart.com/oleg-pluton/art/Enceladus-texture-map-improved-769826238)
 
