@@ -43,7 +43,7 @@
 		"nodes": [
 			{
 				"name": "EnceladusNode",
-				"linksTo": "EnceladusBramble",
+				"linksTo": "EnceladusDimension",
 				"position": {"x": 0, "y": 0, "z": 0},
 				"rotation": {"x": 48.3677, "y": 7.1128, "z": 21.6874},
 				"scale": 0.15,
