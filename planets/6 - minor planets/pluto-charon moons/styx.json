@@ -25,7 +25,7 @@
         }
 	},
 	"ProcGen": {
-		"scale": 10,
+		"scale": 8,
 		"color": {
 			"r": 100,
 			"g": 100,

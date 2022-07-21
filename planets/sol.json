@@ -53,9 +53,9 @@
 	{
 		"innerRadius" : 9000,
 		"outerRadius" : 10500,
-		"maxSize": 25,
-		"minSize": 10,
-		"amount": 100
+		"maxSize": 15,
+		"minSize": 5,
+		"amount": 50
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",

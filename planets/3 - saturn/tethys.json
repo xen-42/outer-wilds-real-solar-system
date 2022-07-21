@@ -15,7 +15,7 @@
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"trueAnomaly": 0,
+		"trueAnomaly": 85,
 		"isTidallyLocked" : true,
 		"axialTilt": 27,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0},

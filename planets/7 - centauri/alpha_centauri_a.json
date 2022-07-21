@@ -49,7 +49,7 @@
 		"curve": [
 			{ "time": 0, "value": 1 },
 			{ "time": 12, "value": 1 },
-			{ "time": 21, "value": 2 }
+			{ "time": 21, "value": 2.5 }
 		],
 		"endTint": 
 		{
