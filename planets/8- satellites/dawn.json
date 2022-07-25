@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Dawn",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"hasMapMarker" : false,
+		"showMinimap" : false,
+		"zeroGravityRadius": 25
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 1,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 75,
+		"primaryBody" : "Ceres",
+		"inclination": 75,
+		"longitudeOfAscendingNode": -90,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+        "trueAnomaly": 0,
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {"x": 0, "y": 0, "z": 1}
+	},
+	"Signal" : 
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Dawn", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 0.4, "z": 1 } }
+		]
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Dawn_19.prefab" }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}

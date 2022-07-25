@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2590405388
+CRC: 608412297
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ae79fe8a42af04afb67fd24793f421d2
+    Hash: 00957c7ab6a5c8119f149ad6ad5b4718
   TypeTreeHash:
     serializedVersion: 2
     Hash: 25c66d1072602c7aef341768b4650343
@@ -54,6 +54,7 @@ Assets:
 - Assets/RSS/Venera.prefab
 - Assets/RSS/UranusOrbiter.prefab
 - Assets/RSS/Huygens.prefab
+- Assets/RSS/newhorizons2.prefab
 - Assets/RSS/LaplaceP.prefab
 - Assets/RSS/Europa.prefab
 - Assets/RSS/lunarlander.prefab
@@ -67,6 +68,7 @@ Assets:
 - Assets/RSS/Ingenuity.prefab
 - Assets/RSS/Teapot.prefab
 - Assets/RSS/Parker.prefab
+- Assets/RSS/Dawn_19.prefab
 - Assets/RSS/NeptuneOdyssey.prefab
 - Assets/RSS/EuropaClipper.prefab
 - Assets/OceanGVolume.prefab
