@@ -36,9 +36,9 @@ Most textures and heightmaps used are not ours. Unless stated otherwise, they're
 
 - Io [texture](https://www.deviantart.com/oleg-pluton/art/Io-elevation-map-773119644)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Io-elevation-map-773119644)
 
-- Europa [texture](https://www.deviantart.com/askaniy/art/Europa-Texture-Map-20K-769790967)
+- Europa [texture](https://www.deviantart.com/askaniy/art/Europa-Texture-Map-20K-769790967)/[heightmap](https://www.deviantart.com/mrspace43/art/Europa-Height-Map-673752546)
 
-- Ganymede [texture](https://bjj.mmedia.is/data/ganymede/)
+- Ganymede [texture](https://bjj.mmedia.is/data/ganymede/)/[heightmap](https://solarviews.com/cap/jup/ganymedecyl2.htm)
 
 - Callisto [texture](https://bjj.mmedia.is/data/callisto/index.html)/[heightmap](https://www.deviantart.com/kexitt/art/Calisto-Height-map-560010442)
 
@@ -75,6 +75,8 @@ Most textures and heightmaps used are not ours. Unless stated otherwise, they're
 - Proteus [texture](https://www.deviantart.com/oleg-pluton/art/Proteus-texture-map-773451080)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Dwarf-moons-and-asteroids-elevation-maps-769532391)
 
 - Triton [texture/heightmap](https://www.deviantart.com/kexitt/art/Triton-maps-673821587)
+
+- Pluto [texture](https://www.deviantart.com/bob3studios/art/Pluto-Texture-Map-Fixed-Blur-762286905)/[heightmap](https://www.deviantart.com/trappist1e/art/semifictional-pluto-height-map-871990349)
 
 - Charon [texture/heightmap](https://www.deviantart.com/master-bit/art/Charon-8K-555604289)
 
