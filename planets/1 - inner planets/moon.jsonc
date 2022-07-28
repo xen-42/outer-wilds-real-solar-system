@@ -36,15 +36,12 @@
 		"minHeight" : 74,
 		"maxHeight" : 76
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Aquarius", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius" : 50, "identificationRadius" : 10, "position" :  {"x": -73.76814, "y": 5.587512, "z": -34.63311} }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Radio", "name" : "Aquarius", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius" : 50, "identificationRadius" : 10, "position" :  {"x": -73.76814, "y": 5.587512, "z": -34.63311} }
+		],
 		"details" :
 		[
 			{ 

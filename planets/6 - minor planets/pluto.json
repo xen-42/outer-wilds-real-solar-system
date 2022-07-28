@@ -27,14 +27,8 @@
 	{
 		"size" : 61,
 		"useAtmosphereShader": true,
-		"hasSnow": true,
-		"atmosphereTint":
-		{
-			"r" : 150,
-			"g" : 150,
-			"b" : 255,
-			"a" : 255
-		}
+		"atmosphereSunIntensity": 0.15,
+		"hasSnow": true
 	},
 	"HeightMap" :
 	{

@@ -42,6 +42,7 @@
 		"fogDensity": 1,
 		"fogSize": 850,
 		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.5,
 		"atmosphereTint" : 
 		{
 			"r" : 90,

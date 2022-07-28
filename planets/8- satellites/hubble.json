@@ -27,15 +27,12 @@
 		"trueAnomaly" : 161.55,
 		"isMoon": true
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Hubble Space Telescope", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 6, "z": 0 } }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Radio", "name" : "Hubble Space Telescope", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 6, "z": 0 } }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/HubbleSpaceTelescope.prefab" }

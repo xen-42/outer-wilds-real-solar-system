@@ -57,15 +57,12 @@
 		"minHeight" : 150,
 		"maxHeight" : 155
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Perseverance", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius" : 50, "identificationRadius" : 5, "position" : {"x": -32.54024, "y": 42.58353, "z": -141.7253} }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Radio", "name" : "Perseverance", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius" : 50, "identificationRadius" : 5, "position" : {"x": -32.54024, "y": 42.58353, "z": -141.7253} }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/percy2.prefab", "position" : {"x": -32.54024, "y": 42.58353, "z": -141.7253}, "alignToNormal" : true },

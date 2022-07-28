@@ -29,15 +29,12 @@
         "isTidallyLocked": true,
         "alignmentAxis": {"x": 1, "y": 0, "z": 0}
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Europa Clipper", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 1.6, "y": -0.5, "z": 0 } }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Radio", "name" : "Europa Clipper", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 1.6, "y": -0.5, "z": 0 } }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/EuropaClipper.prefab" }

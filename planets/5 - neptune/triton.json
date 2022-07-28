@@ -30,6 +30,7 @@
 	{
 		"size" : 62,
 		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.15,
 		"hasSnow": true
 	},
 	"HeightMap" :

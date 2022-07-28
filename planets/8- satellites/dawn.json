@@ -29,15 +29,12 @@
         "isTidallyLocked": true,
         "alignmentAxis": {"x": 0, "y": 0, "z": 1}
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Dawn", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 0.4, "z": 1 } }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Radio", "name" : "Dawn", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 0.4, "z": 1 } }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Dawn_19.prefab" }

@@ -41,6 +41,7 @@
 		"fogDensity": 1,
 		"fogSize": 105,
 		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.5,
 		"hasSnow": true,
 		"atmosphereTint" : 
 		{
@@ -80,15 +81,12 @@
 		"minHeight" : 80,
 		"maxHeight" : 84
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Huygens", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": 76.79877, "y": -15.90129, "z": -26.27043} }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Radio", "name" : "Huygens", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": 76.79877, "y": -15.90129, "z": -26.27043} }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Huygens.prefab", "position" : {"x": 76.79877, "y": -15.90129, "z": -26.27043}, "alignToNormal" : true }

@@ -85,13 +85,11 @@
 		"minHeight" : 255,
 		"maxHeight" : 245
 	},
-	"Signal": {
-		"signals": [
-			{ "frequency" : "Radio", "name" : "Venera 9", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": -71.25204, "y": 117.2623, "z": 208.6547} },
-			{ "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "frequency" : "Traveler", "name" : "Jammer", "audioClip" : "ow_kazoo_theme", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "onlyAudibleToScope" : false }
-		]
-	},
 	"Props": {
+		"signals": [
+			{ "frequency" : "Radio", "name" : "Venera 9", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": -71.25204, "y": 117.2623, "z": 208.6547} },
+			{ "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "frequency" : "Traveler", "name" : "Jammer", "audio" : "ow_kazoo_theme", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "onlyAudibleToScope" : false }
+		],
 		"details": [
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Venera.prefab", "position" : {"x": -71.25204, "y": 117.2623, "z": 208.6547}, "alignToNormal" : true },
 			{ "path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Ghosts_DreamZone_1/GhostNodeMap_Forest/Prefab_IP_GhostBird_Enkidu/Ghostbird_IP_ANIM", "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "scale" : 0.1, "alignToNormal" : true }
