@@ -26,7 +26,7 @@
 			{ "path" : "TimberHearth_Body/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Rocks_UnderwaterCaves/OtherComponentsGroup/GeyserRocks/Terrain_TH_SeperateGeyser", "position" : {"x": 0, "y": -11, "z": 0}, "rotation": {"x": 180, "y": 0, "z": 0} }
 		],
 		"geysers": [
-			{ "position": {"x": 0, "y": -10, "z": 0}, "disableBubbles": true }
+			{ "position": {"x": 0, "y": -12, "z": 0}, "disableShaft": true, "disableSpout": true, "offset": -6 }
 		]
 	},
 	"HeightMap" :

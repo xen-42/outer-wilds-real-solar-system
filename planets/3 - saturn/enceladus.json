@@ -36,7 +36,7 @@
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/OceanGVolume.prefab", "scale": 15.4 }
 		],
 		"geysers": [
-			{ "position": {"x": 0, "y": -10, "z": 0}, "disableBubbles": true }
+			{ "position": {"x": 0, "y": -16, "z": 0}, "disableBubbles": true }
 		]
 	},
 	"Bramble": {
@@ -45,7 +45,7 @@
 				"name": "EnceladusNode",
 				"linksTo": "EnceladusDimension",
 				"position": {"x": 0, "y": 0, "z": 0},
-				"rotation": {"x": 48.3677, "y": 7.1128, "z": 21.6874},
+				"rotation": {"x": 48.0822, "y": 7.2001, "z": 27.4512},
 				"scale": 0.15,
 				"lightTint": {"r": 131, "g": 124, "b": 105, "a": 0}
 			}
