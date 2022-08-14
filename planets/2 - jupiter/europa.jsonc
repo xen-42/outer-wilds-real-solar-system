@@ -94,10 +94,10 @@
 			{ "xmlFile": "planets/xml/dialogue/placeholder.xml", "position" : {"x": 1.750032, "y": 8.499125, "z": -54.31119}, "radius": 1.75, "range": 4 }
 		],
 		"geysers": [
-			{ "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "disableShaft": true, "disableSpout": true, "offset": -25 },
-			{ "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "disableShaft": true, "disableBubbles": true, "offset": -75 },
-			{ "position" : {"x": 5.393641, "y": -46.00281, "z": -7.566312}, "disableShaft": true, "disableSpout": true, "offset": -25 },
-			{ "position" : {"x": 5.393641, "y": -46.00281, "z": -7.566312}, "disableShaft": true, "disableBubbles": true, "offset": -75 }
+			{ "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "disableShaft": true, "disableSpout": true, "offset": -25, "force": 0, "volume": 0, "activeDuration": 10, "inactiveDuration": 24 },
+			{ "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "disableShaft": true, "disableBubbles": true, "offset": -75, "force": 30, "tint": {"r": 255, "g": 255, "b": 255, "a": 128}, "volume": 0.15, "activeDuration": 10, "inactiveDuration": 24 },
+			{ "position" : {"x": 5.393641, "y": -46.00281, "z": -7.566312}, "disableShaft": true, "disableSpout": true, "offset": -25, "force": 0, "volume": 0, "activeDuration": 10, "inactiveDuration": 18 },
+			{ "position" : {"x": 5.393641, "y": -46.00281, "z": -7.566312}, "disableShaft": true, "disableBubbles": true, "offset": -75, "force": 30, "tint": {"r": 255, "g": 255, "b": 255, "a": 128}, "volume": 0.15, "activeDuration": 10, "inactiveDuration": 18 }
 		]
 	},
 	"ShipLog" : {

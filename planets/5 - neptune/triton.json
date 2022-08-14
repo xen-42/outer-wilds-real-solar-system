@@ -43,11 +43,13 @@
 	"Props": 
 	{
 		"geysers": [
-			{ "position": {"x": -45.25802, "y": -33.96282, "z": -31.62589} },
-			{ "position": {"x": -57.10152, "y": -28.51456, "z": -11.6116} },
-			{ "position": {"x": -0.04020309, "y": -38.22764, "z": 52.62264} },
-			{ "position": {"x": 6.323707, "y": -58.75522, "z": -26.39195} },
-			{ "position": {"x": -36.22219, "y": -54.85512, "z": -0.9772949} }
+			{ "position": {"x": -45.25802, "y": -33.96282, "z": -31.62589}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 6, "inactiveDuration": 23 },
+			{ "position": {"x": -57.10152, "y": -28.51456, "z": -11.6116}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 6, "inactiveDuration": 28 },
+			{ "position": {"x": -0.04020309, "y": -38.22764, "z": 52.62264}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 6, "inactiveDuration": 25 },
+			{ "position": {"x": 6.323707, "y": -58.75522, "z": -26.39195}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 6, "inactiveDuration": 30 },
+			{ "position": {"x": -36.22219, "y": -54.85512, "z": -0.9772949}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 8, "inactiveDuration": 18 },
+			{ "position": {"x": 8.238359, "y": -63.45654, "z": 13.82193}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 8, "inactiveDuration": 16 },
+			{ "position": {"x": -29.83527, "y": -49.09742, "z": 31.68348}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 8, "inactiveDuration": 20 }
 		]
 	},
 	"ShipLog" : {

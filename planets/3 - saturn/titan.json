@@ -83,6 +83,9 @@
 	},
 	"Props" :
 	{
+		"audioVolumes": [
+			{ "audio": "Eye_of_Universe_Ambience_v2_01", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105 }
+		],
 		"signals" : 
 		[
 			{ "frequency" : "Radio", "name" : "Huygens", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": 76.79877, "y": -15.90129, "z": -26.27043} }

@@ -93,6 +93,9 @@
 		}
 	},
 	"Props": {
+		"audioVolumes": [
+			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 650 }
+		],
 		"details": [
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 550 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 450 },

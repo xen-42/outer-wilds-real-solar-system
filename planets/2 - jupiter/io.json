@@ -48,6 +48,9 @@
 		"maxHeight" : 75
 	},
 	"Props":{
+		"audioVolumes": [
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 100 }
+		],
 		"volcanoes": [
 			{ "position": {"x": 29.56788, "y": 26.487, "z": 62.42421}, "minInterval": 30, "maxInterval": 120, "minLaunchSpeed": 50, "maxLaunchSpeed": 100 },
 			{ "position": {"x": -32.12466, "y": -51.45461, "z": 41.50724}, "minInterval": 30, "maxInterval": 120, "minLaunchSpeed": 50, "maxLaunchSpeed": 100 },

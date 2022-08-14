@@ -86,6 +86,9 @@
 		"maxHeight" : 245
 	},
 	"Props": {
+		"audioVolumes": [
+			{ "audio": "Eye_of_Universe_Ambience_v2_01", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 300 }
+		],
 		"signals": [
 			{ "frequency" : "Radio", "name" : "Venera 9", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": -71.25204, "y": 117.2623, "z": 208.6547} },
 			{ "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "frequency" : "Traveler", "name" : "Jammer", "audio" : "ow_kazoo_theme", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "onlyAudibleToScope" : false }

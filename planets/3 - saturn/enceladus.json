@@ -36,7 +36,7 @@
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/OceanGVolume.prefab", "scale": 15.4 }
 		],
 		"geysers": [
-			{ "position": {"x": 0, "y": -16, "z": 0}, "disableBubbles": true }
+			{ "position": {"x": 0, "y": -16, "z": 0}, "force": 30, "tint": {"r": 255, "g": 255, "b": 255, "a": 128}, "volume": 0.15, "disableBubbles": true, "activeDuration": 8, "inactiveDuration": 16 }
 		]
 	},
 	"Bramble": {
