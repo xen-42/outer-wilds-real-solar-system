@@ -42,6 +42,7 @@
 		"fogDensity": 1,
 		"fogSize": 850,
 		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.5,
 		"atmosphereTint" : 
 		{
 			"r" : 90,
@@ -64,9 +65,9 @@
 			"cloudsPrefab": "basic",
 			"hasLightning" : true,
 			"lightningGradient" : [
-				{"time": 0, "tint": {"r": 255, "g": 0, "b": 0}},
-				{"time": 0.99, "tint": {"r": 128, "g": 64, "b": 0}},
-				{"time": 1, "tint": {"r": 128, "g": 25, "b": 0}}
+				{"time": 0, "tint": {"r": 255, "g": 64, "b": 128}},
+				{"time": 0.66, "tint": {"r": 0, "g": 0, "b": 128}},
+				{"time": 1, "tint": {"r": 64, "g": 0, "b": 128}}
 			]
 		}
 	},
@@ -91,6 +92,9 @@
 		}
 	},
 	"Props": {
+		"audioVolumes": [
+			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 400 }
+		],
 		"details": [
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 300 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 250 },

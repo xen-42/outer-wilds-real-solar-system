@@ -23,9 +23,9 @@
 		"siderealPeriod" : 2,
 		"tint": 
 		{
-			"r" : 175,
+			"r" : 200,
 			"g" : 120,
-			"b" : 75,
+			"b" : 65,
 			"a" : 255
 		}
 	},
@@ -42,6 +42,7 @@
 		"fogDensity": 1,
 		"fogSize": 950,
 		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.5,
 		"atmosphereTint" : 
 		{
 			"r" : 193,
@@ -61,12 +62,13 @@
 				"a" : 255
 			},
 			"texturePath" : "planets/assets/jupiter.png",
+			"rampPath": "planets/assets/jupiter_ramp.png",
 			"cloudsPrefab": "giantsDeep",
 			"hasLightning" : true,
 			"lightningGradient" : [
-				{"time": 0, "tint": {"r": 255, "g": 0, "b": 0}},
-				{"time": 0.99, "tint": {"r": 128, "g": 64, "b": 0}},
-				{"time": 1, "tint": {"r": 128, "g": 25, "b": 0}}
+				{"time": 0, "tint": {"r": 255, "g": 64, "b": 128}},
+				{"time": 0.66, "tint": {"r": 0, "g": 0, "b": 128}},
+				{"time": 1, "tint": {"r": 64, "g": 0, "b": 128}}
 			]
 		}
 	},
@@ -91,6 +93,9 @@
 		}
 	},
 	"Props": {
+		"audioVolumes": [
+			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 650 }
+		],
 		"details": [
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 550 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 450 },

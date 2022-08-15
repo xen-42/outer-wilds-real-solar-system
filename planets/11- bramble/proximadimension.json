@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "ProximaDimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -2000,
+			"y": 20000,
+			"z": 0
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "ProximaNode",
+			"fogTint": {"r" : 131, "g" : 124, "b" : 105, "a" : 255}
+		},
+		"nodes": [
+			{
+				"name": "ProximaSeed",
+				"linksTo": "EnceladusDimension",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"scale": 1,
+				"isSeed": true
+			}
+		]
+	},
+	"Props": {
+		"details": [
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Geometry_AnglerNestDimension/OtherComponentsGroup/FishEggs" },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Volumes_AnglerNestDimension/FogOverrideVolume (1)" },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/FogLight_FishEgg" },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Lighting_AnglerNestDimension/PointLight_DB_FishEggs" }
+		]
+	}
+}

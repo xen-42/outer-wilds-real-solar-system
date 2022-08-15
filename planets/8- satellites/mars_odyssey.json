@@ -28,15 +28,12 @@
 		"isMoon": true,
 		"isTidallyLocked": true
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Mars Odyssey", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 0, "z": 2 } }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Radio", "name" : "Mars Odyssey", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 0, "z": 2 } }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/MarsOdyssey.prefab" }

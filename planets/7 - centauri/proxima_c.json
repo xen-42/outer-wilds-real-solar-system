@@ -61,36 +61,36 @@
 				"a" : 255
 			},
 			"texturePath" : "planets/assets/proxima_c.png",
+			"rampPath": "planets/assets/proxima_c_ramp.png",
 			"cloudsPrefab": "giantsDeep",
-			"hasLightning" : true,
-			"lightningGradient" : [
-				{"time": 0, "tint": {"r": 255, "g": 0, "b": 0}},
-				{"time": 0.99, "tint": {"r": 128, "g": 64, "b": 0}},
-				{"time": 1, "tint": {"r": 128, "g": 25, "b": 0}}
-			]
+			"hasLightning" : true
 		}
 	},
 	"Water": 
 	{
 		"size": 350
 	},
-	"Lava": {
-		"size": 50,
-		"tint": 
-		{
-			"r" : 4000,
-			"g" : 1500,
-			"b" : 150,
-			"a" : 255
-		}
+	"Bramble": {
+		"nodes": [
+			{
+				"name": "ProximaNode",
+				"linksTo": "ProximaDimension",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"scale": 2,
+				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
+				"farFogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 255}
+			}
+		]
 	},
 	"Props": {
 		"details": [
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 300 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 275 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 250 },
-			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 200 },
-			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 150 },
-			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 100 }
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 225 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 200 }
 		]
 	},
 	"Ring" : 

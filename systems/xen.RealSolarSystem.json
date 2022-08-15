@@ -2,14 +2,26 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"canEnterViaWarpDrive" : true,
 	"startHere" : false,
-	"coords" : {
-		"x" : [0, 1],
-		"y" : [1, 2],
-		"z" : [2, 3]
+	"Vessel": {
+		"coords": {
+			"x" : [0, 1],
+			"y" : [1, 2],
+			"z" : [2, 3]
+		},
+		"vesselPosition": {
+			"x" : 0,
+			"y" : 0,
+			"z" : 8000
+		}
 	},
-	"vesselPosition" : {
-		"x" : 0,
-		"y" : 0,
-		"z" : 8000
+	"Skybox": {
+		"destroyStarField": false,
+		"useCube": true,
+		"rightPath": "planets/assets/sky_pos_x.jpg",
+		"leftPath": "planets/assets/sky_neg_x.jpg",
+		"topPath": "planets/assets/sky_pos_y.jpg",
+		"bottomPath": "planets/assets/sky_neg_y.jpg",
+		"frontPath": "planets/assets/sky_pos_z.jpg",
+		"backPath": "planets/assets/sky_neg_z.jpg"
 	}
 }

@@ -15,31 +15,47 @@
 		"inclination": 79,
 		"longitudeOfAscendingNode": 205,
 		"primaryBody" : "Alpha Centauri",
-		"showOrbitLine" : true
+		"showOrbitLine" : true,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 115,
+			"b" : 7,
+			"a" : 255
+		}
 	},
 	"Star" :
 	{
 		"size" : 1800,
+		"starRampTexture": "planets/assets/toliman_ramp.png",
+		"starCollapseRampTexture": "planets/assets/toliman_collapse_ramp.png",
 		"tint" : 
 		{
 			"r" : 255,
-			"g" : 200,
-			"b" : 70,
+			"g" : 95,
+			"b" : 7,
 			"a" : 255
 		},
-		"solarLuminosity": 0.8,
+		"solarLuminosity": 1,
 		"lightRadius": 25000,
-		"goSupernova": false,
+		"lightTint": 
+		{
+			"r" : 255,
+			"g" : 227,
+			"b" : 172,
+			"a" : 255
+		},
+		"goSupernova": true,
 		"curve": [
 			{ "time": 0, "value": 1 },
-			{ "time": 16, "value": 1 },
-			{ "time": 22, "value": 1.5 }
+			{ "time": 12, "value": 1 },
+			{ "time": 21, "value": 2 }
 		],
 		"endTint": 
 		{
-			"r" : 235,
-			"g" : 40,
-			"b" : 10,
+			"r" : 255,
+			"g" : 7,
+			"b" : 7,
 			"a" : 255
 		}
 	},

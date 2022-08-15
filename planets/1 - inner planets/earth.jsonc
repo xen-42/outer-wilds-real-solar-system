@@ -78,6 +78,9 @@
 		"maxHeight" : 307
 	},
 	"Props": {
+		"audioVolumes": [
+			{ "audio": "OW_TH_AmbienceInCanyons", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 350 }
+		],
 		"details": [
 			{
 				//NORTH AMERICAN NOMAI RUINS
@@ -391,10 +394,10 @@
 		],
 		"geysers": [
 			{
-				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363}
+				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363}, "activeDuration": 10, "inactiveDuration": 19
 			},
 			{
-				"position": {"x": -121.2435, "y": 267.469, "z": 42.14647}
+				"position": {"x": -121.2435, "y": 267.469, "z": 42.14647}, "activeDuration": 3, "inactiveDuration": 7
 			}
 		],
 		"dialogue": [

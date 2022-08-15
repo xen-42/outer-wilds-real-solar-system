@@ -25,15 +25,12 @@
 		"isMoon" : true,
 		"siderealPeriod" : 0.2
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Traveler", "name" : "Russell's Teapot", "audioClip" : "OW Space Station 081420_2 AP", "sourceRadius" : 0.25, "detectionRadius": 50, "identificationRadius" : 5, "onlyAudibleToScope": false }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Traveler", "name" : "Russell's Teapot", "audio" : "OW Space Station 081420_2 AP", "sourceRadius" : 0.25, "detectionRadius": 50, "identificationRadius" : 5, "onlyAudibleToScope": false }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Teapot.prefab", "scale": 0.25 }

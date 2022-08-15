@@ -16,8 +16,7 @@
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
+		"trueAnomaly": 281,
 		"axialTilt" : 26,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
@@ -42,6 +41,7 @@
 		"fogDensity": 1,
 		"fogSize": 105,
 		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.5,
 		"hasSnow": true,
 		"atmosphereTint" : 
 		{
@@ -81,15 +81,15 @@
 		"minHeight" : 80,
 		"maxHeight" : 84
 	},
-	"Signal" : 
-	{
-		"signals" : 
-		[
-			{ "frequency" : "Radio", "name" : "Huygens", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": 76.79877, "y": -15.90129, "z": -26.27043} }
-		]
-	},
 	"Props" :
 	{
+		"audioVolumes": [
+			{ "audio": "Eye_of_Universe_Ambience_v2_01", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 105 }
+		],
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Huygens", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": 76.79877, "y": -15.90129, "z": -26.27043} }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Huygens.prefab", "position" : {"x": 76.79877, "y": -15.90129, "z": -26.27043}, "alignToNormal" : true }

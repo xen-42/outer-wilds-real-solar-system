@@ -28,15 +28,12 @@
 		"isMoon": true,
 		"isTidallyLocked": true
 	},
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "International Space Station", "audioClip" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 250, "identificationRadius" : 45 }
-		]
-	},
-	"Props" :
-	{
+			{ "frequency" : "Radio", "name" : "International Space Station", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 250, "identificationRadius" : 45 }
+		],
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/ISS/InternationalSpaceStation.prefab", "scale": 0.75 }

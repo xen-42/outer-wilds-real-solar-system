@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3092638389
+CRC: 608412297
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4b502600aa0ffe8a746176c8ea4d5cd7
+    Hash: 00957c7ab6a5c8119f149ad6ad5b4718
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7d8b8f299aa331a71234d67f14a5cc21
+    Hash: 25c66d1072602c7aef341768b4650343
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -41,6 +41,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 3b553936b4d86184aa70c1ec16223cdc, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -52,9 +54,11 @@ Assets:
 - Assets/RSS/Venera.prefab
 - Assets/RSS/UranusOrbiter.prefab
 - Assets/RSS/Huygens.prefab
+- Assets/RSS/newhorizons2.prefab
 - Assets/RSS/LaplaceP.prefab
 - Assets/RSS/Europa.prefab
 - Assets/RSS/lunarlander.prefab
+- Assets/RSS/BrambleHouse.prefab
 - Assets/JellyfishLight.prefab
 - Assets/RSS/percy2.prefab
 - Assets/ZeroGVolume.prefab
@@ -64,10 +68,12 @@ Assets:
 - Assets/RSS/Ingenuity.prefab
 - Assets/RSS/Teapot.prefab
 - Assets/RSS/Parker.prefab
+- Assets/RSS/Dawn_19.prefab
 - Assets/RSS/NeptuneOdyssey.prefab
 - Assets/RSS/EuropaClipper.prefab
 - Assets/OceanGVolume.prefab
 - Assets/JellyfishLightLarge.prefab
 - Assets/RSS/Messenger.prefab
 - Assets/RSS/LRO_35.prefab
+- Assets/RSS/Enceladus.prefab
 Dependencies: []

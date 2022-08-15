@@ -15,6 +15,7 @@
 		"primaryBody" : "Mars",
 		"isMoon" : true,
 		"longitudeOfAscendingNode" : 180,
+		"trueAnomaly": 30,
 		"axialTilt" : 26,
 		"isTidallyLocked" : true,
 		"alignmentAxis": {"x": -1, "y": 0, "z": 0},

@@ -33,7 +33,7 @@
 	{
 		"heightMap" : "planets/assets/ida_heightmap.png",	
 		"textureMap" : "planets/assets/ida_texturemap.png",	
-		"minHeight" : 5,
+		"minHeight" : 3,
 		"maxHeight" : 10
 	}
 }
