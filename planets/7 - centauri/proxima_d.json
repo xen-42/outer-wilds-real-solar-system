@@ -33,6 +33,7 @@
 		"heightMap" : "planets/assets/proxima_d_heightmap.png",	
 		"textureMap" : "planets/assets/proxima_d_texturemap.png",	
 		"minHeight" : 245,
-		"maxHeight" : 255
+		"maxHeight" : 255,
+		"resolution": 256
 	}
 }

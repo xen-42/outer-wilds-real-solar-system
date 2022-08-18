@@ -75,7 +75,8 @@
 		"heightMap" : "planets/assets/earth_heightmap.png",	
 		"textureMap" : "planets/assets/earth_texturemap.png",	
 		"minHeight" : 292,
-		"maxHeight" : 307
+		"maxHeight" : 307,
+		"resolution": 512
 	},
 	"Props": {
 		"audioVolumes": [

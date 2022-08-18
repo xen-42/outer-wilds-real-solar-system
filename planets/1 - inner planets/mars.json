@@ -55,18 +55,19 @@
 		"heightMap" : "planets/assets/mars_heightmap.png",	
 		"textureMap" : "planets/assets/mars_texturemap.png",	
 		"minHeight" : 150,
-		"maxHeight" : 155
+		"maxHeight" : 155,
+		"resolution": 256
 	},
 	"Props" :
 	{
 		"signals" : 
 		[
-			{ "frequency" : "Radio", "name" : "Perseverance", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius" : 50, "identificationRadius" : 5, "position" : {"x": -32.54024, "y": 42.58353, "z": -141.7253} }
+			{ "frequency" : "Radio", "name" : "Perseverance", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius" : 50, "identificationRadius" : 5, "position" : {"x": -31.95775, "y": 42.77191, "z": -141.5945} }
 		],
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/percy2.prefab", "position" : {"x": -32.54024, "y": 42.58353, "z": -141.7253}, "alignToNormal" : true },
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Ingenuity.prefab", "position" : {"x": -32.54024, "y": 42.58353, "z": -141.7253}, "alignToNormal" : true }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/percy2.prefab", "position" : {"x": -31.95775, "y": 42.77191, "z": -141.5945}, "alignToNormal" : true },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Ingenuity.prefab", "position" : {"x": -31.95775, "y": 42.77191, "z": -141.5945}, "alignToNormal" : true }
 		],
 		"tornados": [
 			{ "position": {"x": -37.14261, "y": -100.763, "z": -104.7132}, "height": 5, "type": "upwards", "wanderDegreesX": 20, "wanderDegreesZ": 20, "wanderRate": 0.05, "tint": { "r" : 180, "g" : 120, "b" : 80, "a" : 255 } },
