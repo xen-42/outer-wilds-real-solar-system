@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Sirius",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"hasMapMarker" : false
+	},
+	"ReferenceFrame":
+	{
+		"enabled": false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 267000,
+		"primaryBody" : "Sol",
+		"showOrbitLine" : false,
+		"trueAnomaly" : 100,
+		"isStatic" : true
+	},
+	"FocalPoint" :
+	{
+		"primary" : "Sirius A",
+		"secondary" : "Sirius B"
+	}
+}

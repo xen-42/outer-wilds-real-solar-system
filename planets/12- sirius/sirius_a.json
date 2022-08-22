@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/dev/NewHorizons/Schemas/body_schema.json",
+	"name" : "Sirius A",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 70,
+		"surfaceSize" : 3400,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 0,
+		"inclination": 97,
+		"longitudeOfAscendingNode": 161,
+		"primaryBody" : "Sirius",
+		"showOrbitLine" : true,
+		"tint" : 
+		{
+			"r" : 200,
+			"g" : 230,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Star" :
+	{
+		"size" : 3400,
+		"starRampTexture": "planets/assets/sirius_ramp.png",
+		"starCollapseRampTexture": "planets/assets/sirius_collapse_ramp.png",
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 320,
+			"b" : 384,
+			"a" : 255
+		},
+		"solarLuminosity": 2,
+		"lightRadius": 75000,
+		"lightTint": 
+		{
+			"r" : 225,
+			"g" : 245,
+			"b" : 255,
+			"a" : 255
+		},
+		"stellarDeathType": "supernova",
+		"stellarRemnantType": "whiteDwarf",
+		"supernovaSize": 75000,
+		"supernovaSpeed": 2222,
+		"lifespan": 12,
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 8, "value": 1 },
+			{ "time": 12, "value": 3 }
+		],
+		"endTint": 
+		{
+			"r" : 255,
+			"g" : 129,
+			"b" : 83,
+			"a" : 255
+		}
+	}
+}

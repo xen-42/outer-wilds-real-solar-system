@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/dev/NewHorizons/Schemas/body_schema.json",
+	"name" : "Sirius B",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 4500,
+		"surfaceSize" : 300,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 20000,
+		"inclination": 97,
+		"longitudeOfAscendingNode": 161,
+		"primaryBody" : "Sirius",
+		"showOrbitLine" : true,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Star" :
+	{
+		"size" : 300,
+		"tint" : 
+		{
+			"r" : 384,
+			"g" : 384,
+			"b" : 384,
+			"a" : 255
+		},
+		"solarLuminosity": 0.5,
+		"lightRadius": 10000,
+		"lightTint": 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"stellarDeathType": "none"
+	},
+	"ShockEffect" : {
+		"hasSupernovaShockEffect": true
+	}
+}
