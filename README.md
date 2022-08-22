@@ -5,7 +5,7 @@
 ![Downloads](https://img.shields.io/github/downloads/xen-42/outer-wilds-real-solar-system/total)
 ![Downloads of newest version](https://img.shields.io/github/downloads/xen-42/outer-wilds-real-solar-system/latest/total)
 
-Replaces the solar system in Outer Wilds with ours, including 8 planets, 38 moons, 15 minor bodies, 22 spacecraft, and the 4 nearest star systems with their 4 exoplanets.
+Replaces the solar system in Outer Wilds with ours, including 8 planets, 38 moons, 15 minor bodies, 22 spacecraft, and the 5 nearest star systems with their 4 exoplanets.
 
 ![Bright sky](https://user-images.githubusercontent.com/22628069/146660294-41484062-cc5e-49d8-b940-01467c121907.png)
 
