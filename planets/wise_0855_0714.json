@@ -38,7 +38,7 @@
 			"b" : 79,
 			"a" : 255
 		},
-		"goSupernova": false,
+		"stellarDeathType": "none",
 		"hasStarController": false
 	},
 	"Atmosphere" :

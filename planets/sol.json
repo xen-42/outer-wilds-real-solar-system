@@ -35,7 +35,10 @@
 			"b" : 240,
 			"a" : 255
 		},
-		"goSupernova": true,
+		"stellarDeathType": "supernova",
+		"stellarRemnantType": "whiteDwarf",
+		"supernovaSize": 60000,
+		"lifespan": 21.666,
 		"curve": [
 			{ "time": 0, "value": 1 },
 			{ "time": 12, "value": 1 },

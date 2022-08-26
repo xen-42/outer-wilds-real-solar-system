@@ -4,7 +4,7 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 100,
+		"surfaceGravity" : 75,
 		"surfaceSize" : 2400,
 		"hasMapMarker" : true,
 		"gravityFallOff" : "inverseSquared"
@@ -12,8 +12,6 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
-		"inclination": 79,
-		"longitudeOfAscendingNode": 205,
 		"primaryBody" : "Alpha Centauri",
 		"showOrbitLine" : true,
 		"tint" : 
@@ -45,7 +43,10 @@
 			"b" : 240,
 			"a" : 255
 		},
-		"goSupernova": true,
+		"stellarDeathType": "supernova",
+		"stellarRemnantType": "whiteDwarf",
+		"supernovaSize": 65000,
+		"lifespan": 21.604,
 		"curve": [
 			{ "time": 0, "value": 1 },
 			{ "time": 12, "value": 1 },

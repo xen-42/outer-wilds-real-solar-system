@@ -13,8 +13,6 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
-		"inclination": 100,
-		"longitudeOfAscendingNode": 180,
 		"primaryBody" : "Luhman 16",
 		"showOrbitLine" : true,
 		"axialTilt": 100,
@@ -47,7 +45,7 @@
 			"b" : 31,
 			"a" : 255
 		},
-		"goSupernova": false,
+		"stellarDeathType": "none",
 		"hasStarController": false
 	},
 	"Atmosphere" :

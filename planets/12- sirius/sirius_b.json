@@ -11,7 +11,9 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 20000,
+		"semiMajorAxis" : 25000,
+		"eccentricity": 0.6,
+		"argumentOfPeriapsis": 185,
 		"inclination": 97,
 		"longitudeOfAscendingNode": 161,
 		"primaryBody" : "Sirius",
@@ -46,6 +48,7 @@
 		"stellarDeathType": "none"
 	},
 	"ShockEffect" : {
-		"hasSupernovaShockEffect": true
+		"hasSupernovaShockEffect": true,
+		"radius": 400
 	}
 }

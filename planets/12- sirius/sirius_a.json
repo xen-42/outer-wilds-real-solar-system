@@ -12,14 +12,12 @@
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
-		"inclination": 97,
-		"longitudeOfAscendingNode": 161,
 		"primaryBody" : "Sirius",
 		"showOrbitLine" : true,
 		"tint" : 
 		{
-			"r" : 200,
-			"g" : 230,
+			"r" : 166,
+			"g" : 216,
 			"b" : 255,
 			"a" : 255
 		}
@@ -48,12 +46,12 @@
 		"stellarDeathType": "supernova",
 		"stellarRemnantType": "whiteDwarf",
 		"supernovaSize": 75000,
-		"supernovaSpeed": 2222,
-		"lifespan": 12,
+		"supernovaSpeed": 2000,
+		"lifespan": 11,
 		"curve": [
 			{ "time": 0, "value": 1 },
-			{ "time": 8, "value": 1 },
-			{ "time": 12, "value": 3 }
+			{ "time": 7, "value": 1 },
+			{ "time": 11, "value": 3 }
 		],
 		"endTint": 
 		{

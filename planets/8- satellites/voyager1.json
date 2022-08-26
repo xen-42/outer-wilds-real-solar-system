@@ -16,7 +16,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 10000,
+		"semiMajorAxis" : 12000,
 		"primaryBody" : "Luhman 16",
 		"showOrbitLine" : true,
 		"isMoon": true,

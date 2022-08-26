@@ -4,16 +4,19 @@
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 90,
+		"surfaceGravity" : 110,
 		"surfaceSize" : 1800,
 		"hasMapMarker" : true,
 		"gravityFallOff" : "inverseSquared"
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 15000,
+		"semiMajorAxis" : 25000,
+		"eccentricity": 0.5,
+		"argumentOfPeriapsis": 232,
 		"inclination": 79,
 		"longitudeOfAscendingNode": 205,
+		"trueAnomaly": 180,
 		"primaryBody" : "Alpha Centauri",
 		"showOrbitLine" : true,
 		"tint" : 
@@ -45,7 +48,10 @@
 			"b" : 172,
 			"a" : 255
 		},
-		"goSupernova": true,
+		"stellarDeathType": "supernova",
+		"stellarRemnantType": "whiteDwarf",
+		"supernovaSize": 45000,
+		"lifespan": 22,
 		"curve": [
 			{ "time": 0, "value": 1 },
 			{ "time": 12, "value": 1 },
@@ -58,6 +64,10 @@
 			"b" : 7,
 			"a" : 255
 		}
+	},
+	"ShockEffect" : {
+		"hasSupernovaShockEffect": true,
+		"radius": 240
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
