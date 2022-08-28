@@ -44,6 +44,13 @@
 	{
 		"heightMap" : "planets/assets/io_heightmap.png",	
 		"textureMap" : "planets/assets/io_texturemap.png",	
+		"emissionMap": "planets/assets/io_emissionmap.png",
+		"emissionColor": {
+			"r": 225,
+			"g": 147,
+			"b": 8,
+			"a": 255
+		},
 		"minHeight" : 73,
 		"maxHeight" : 75
 	},
