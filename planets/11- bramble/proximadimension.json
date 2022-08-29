@@ -7,22 +7,32 @@
 		"staticPosition": {
 			"x": -2000,
 			"y": 20000,
-			"z": 0
+			"z": 2000
 		}
 	},
 	"Bramble": {
 		"dimension": {
 			"linksTo": "ProximaNode",
-			"fogTint": {"r" : 131, "g" : 124, "b" : 105, "a" : 255}
+			"radius": 750,
+			"fogTint": {"r" : 84, "g" : 83, "b" : 73, "a" : 255}
 		},
 		"nodes": [
 			{
-				"name": "ProximaSeed",
+				"name": "EnceladusSeed",
 				"linksTo": "EnceladusDimension",
-				"position": {"x": 0, "y": 0, "z": 0},
+				"position": {"x": 500, "y": 0, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 0},
 				"scale": 1,
-				"isSeed": true
+				"isSeed": true,
+				"fogTint": {"r": 83, "g": 99, "b": 87, "a": 255},
+				"lightTint": {"r": 83, "g": 99, "b": 87, "a": 255}
+			},
+			{
+				"name": "GatewayNode",
+				"linksTo": "GatewayDimension",
+				"position": {"x": 0, "y": 0, "z": 500},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"scale": 1
 			}
 		]
 	},
@@ -30,6 +40,7 @@
 		"details": [
 			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Geometry_AnglerNestDimension/OtherComponentsGroup/FishEggs" },
 			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Volumes_AnglerNestDimension/FogOverrideVolume (1)" },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Effects_AnglerNestDimension/InnerWarpFogGlow (1)" },
 			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/FogLight_FishEgg" },
 			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Lighting_AnglerNestDimension/PointLight_DB_FishEggs" }
 		]
