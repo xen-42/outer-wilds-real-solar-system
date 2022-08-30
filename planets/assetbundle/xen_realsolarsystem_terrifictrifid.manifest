@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 608412297
+CRC: 3046704414
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 00957c7ab6a5c8119f149ad6ad5b4718
+    Hash: f7062f705289b2b89c4da1d7a75f4722
   TypeTreeHash:
     serializedVersion: 2
     Hash: 25c66d1072602c7aef341768b4650343
@@ -66,6 +66,7 @@ Assets:
 - Assets/RSS/Juice.prefab
 - Assets/RSS/Cassini_no_Huygens_03.prefab
 - Assets/RSS/Ingenuity.prefab
+- Assets/RSS/EnceladusLight.prefab
 - Assets/RSS/Teapot.prefab
 - Assets/RSS/Parker.prefab
 - Assets/RSS/Dawn_19.prefab
