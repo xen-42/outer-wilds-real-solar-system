@@ -1,0 +1,34 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>RSS_PB_EscapePod_CrashSiteRecording1</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>RSS_PB_EscapePod_CrashSiteRecording2</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>RSS_PB_EscapePod_CrashSiteRecording3</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>RSS_PB_EscapePod_CrashSiteRecording4</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>RSS_PB_EscapePod_CrashSiteRecording5</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<Text>RSS_PB_EscapePod_CrashSiteRecording6</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<Text>RSS_PB_EscapePod_CrashSiteRecording7</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<Text>RSS_PB_EscapePod_CrashSiteRecording8</Text>
+	</TextBlock>
+</NomaiObject>
