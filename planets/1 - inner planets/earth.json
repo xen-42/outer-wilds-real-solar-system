@@ -54,5 +54,17 @@
 		"textureMap" : "planets/assets/earth_texturemap.png",	
 		"minHeight" : 292,
 		"maxHeight" : 307
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{
+				"assetBundle": "planets/assetbundle/rssteaser",
+				"path": "Assets/TeaserSign.prefab",
+				"position": {"x": -49.90244, "y": 198.8575, "z": 215.5718},
+				"rotation": {"x": 32.8632, "y": 293.6701, "z": 323.2172}
+			}
+		]
 	}
 }
