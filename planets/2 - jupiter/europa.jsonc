@@ -41,7 +41,7 @@
 	{
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Europa.prefab" },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Europa.prefab", "keepLoaded": true },
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/OceanGVolume.prefab", "scale": 69 },
 			{ "path" : "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/MusicVolume_AquaticExploration", "scale": 0.157 },
 			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "alignToNormal": true },

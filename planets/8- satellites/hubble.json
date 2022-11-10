@@ -16,7 +16,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 550,
+		"semiMajorAxis" : 525,
 		"primaryBody" : "Earth",
 		"showOrbitLine" : true,
 		"dottedOrbitLine": true,
@@ -35,7 +35,7 @@
 		],
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/HubbleSpaceTelescope.prefab" }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/HubbleSpaceTelescope.prefab", "keepLoaded": true }
 		]
 	},
 	"ShipLog" : 
