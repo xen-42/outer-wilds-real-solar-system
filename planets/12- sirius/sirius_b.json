@@ -51,26 +51,28 @@
 		"hasSupernovaShockEffect": true,
 		"radius": 400
 	},
-	"Ring": {
-		"innerRadius": 0,
-		"outerRadius": 3000,
-		"texture": "planets/assets/sirius_disk.png",
-		"fluidType": "plasma",
-		"rotationSpeed": 60,
-		"unlit": true,
-		"inclination": 97,
-		"longitudeOfAscendingNode": 161,
-		"scaleCurve": [
-			{ "time": 0, "value": 0 },
-			{ "time": 11.4, "value": 0 },
-			{ "time": 11.5, "value": 1 },
-			{ "time": 12, "value": 0 }
-		],
-		"opacityCurve": [
-			{ "time": 0, "value": 0 },
-			{ "time": 11.5, "value": 0 },
-			{ "time": 11.6, "value": 1 },
-			{ "time": 11.9, "value": 0 }
-		]
-	}
+	"Rings": [
+		{
+			"innerRadius": 0,
+			"outerRadius": 3000,
+			"texture": "planets/assets/sirius_disk.png",
+			"fluidType": "plasma",
+			"rotationSpeed": 60,
+			"unlit": true,
+			"inclination": 97,
+			"longitudeOfAscendingNode": 161,
+			"scaleCurve": [
+				{ "time": 0, "value": 0 },
+				{ "time": 11.4, "value": 0 },
+				{ "time": 11.5, "value": 1 },
+				{ "time": 12, "value": 0 }
+			],
+			"opacityCurve": [
+				{ "time": 0, "value": 0 },
+				{ "time": 11.5, "value": 0 },
+				{ "time": 11.6, "value": 1 },
+				{ "time": 11.9, "value": 0 }
+			]
+		}
+	]
 }

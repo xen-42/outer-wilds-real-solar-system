@@ -7,8 +7,7 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false,
-		"zeroGravityRadius": 60
+		"showMinimap" : false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 45,
@@ -37,6 +36,11 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/ISS/InternationalSpaceStation.prefab", "scale": 0.75, "keepLoaded": true }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 60 }
 		]
 	},
 	"ShipLog" : 

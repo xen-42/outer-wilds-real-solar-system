@@ -58,9 +58,6 @@
 		"resolution": 512
 	},
 	"Props": {
-		"audioVolumes": [
-			{ "audio": "HGT_Ambience_Surface", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 400 }
-		],
 		"signals": [
 			{ "frequency" : "EscapePod", "name" : "Escape Pod 5", "audio" : "OW_NM_EscapePodDistressSignal", "sourceRadius" : 1.25, "detectionRadius": 70, "identificationRadius" : 13, "position": {"x": -144.4693, "y": -78.9546, "z": 315.7878}, "onlyAudibleToScope": false }
 		],
@@ -87,6 +84,11 @@
 				{ "position": {"x": 0.2236, "y": -0.1454}, "zRotation": 70, "variation": 6, "mirror": false }
 			  ] 
 			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "HGT_Ambience_Surface", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 400 }
 		]
 	},
 	"ShipLog" : {

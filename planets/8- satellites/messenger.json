@@ -7,8 +7,7 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false,
-		"zeroGravityRadius": 25
+		"showMinimap" : false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 1.25,
@@ -38,6 +37,11 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Messenger.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 25 }
 		]
 	},
 	"ShipLog" : {

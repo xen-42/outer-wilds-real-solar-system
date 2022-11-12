@@ -29,13 +29,14 @@
 			"a" : 255
 		}
 	},
-	"Ring" :
-	{
-		"innerRadius" : 100,
-		"outerRadius" : 110,
-		"texture": "planets/assets/haumea_rings.png",
-		"fluidType": "sand"
-	},
+	"Rings": [
+		{
+			"innerRadius" : 100,
+			"outerRadius" : 110,
+			"texture": "planets/assets/haumea_rings.png",
+			"fluidType": "sand"
+		}
+	],
 	"HeightMap": {
 		"heightMap": "planets/assets/haumea_heightmap.png",
 		"textureMap": "planets/assets/haumea_texturemap.png",

@@ -92,13 +92,14 @@
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 200 }
 		]
 	},
-	"Ring" : 
-	{
-		"innerRadius" : 750,
-		"outerRadius" : 1500,
-		"texture" : "planets/assets/proxima_c_rings.png",
-		"fluidType": "sand"
-	},
+	"Rings": [
+		{
+			"innerRadius" : 750,
+			"outerRadius" : 1500,
+			"texture" : "planets/assets/proxima_c_rings.png",
+			"fluidType": "sand"
+		}
+	],
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
 		"mapMode" : {

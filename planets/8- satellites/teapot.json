@@ -7,8 +7,7 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap": false,
-		"zeroGravityRadius": 25
+		"showMinimap": false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 0.25,
@@ -34,6 +33,11 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Teapot.prefab", "scale": 0.25 }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 25 }
 		]
 	},
 	"ShipLog" : 

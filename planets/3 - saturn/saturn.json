@@ -92,9 +92,6 @@
 		}
 	},
 	"Props": {
-		"audioVolumes": [
-			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 400 }
-		],
 		"details": [
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 300 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 250 },
@@ -111,13 +108,19 @@
 			{ "type": "hurricane", "position": { "x": 0, "y": -295, "z": 0 }, "height": 375, "wanderRate": 0, "tint": { "r" : 90, "g" : 128, "b" : 180, "a" : 255 } }
 		]
 	},
-	"Ring" : 
-	{
-		"innerRadius" : 900,
-		"outerRadius" : 1700,
-		"texture" : "planets/assets/saturn_rings.png",
-		"fluidType": "sand"
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 400 }
+		]
 	},
+	"Rings": [
+		{
+			"innerRadius" : 900,
+			"outerRadius" : 1700,
+			"texture" : "planets/assets/saturn_rings.png",
+			"fluidType": "sand"
+		}
+	],
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
 		"mapMode" : {

@@ -93,9 +93,6 @@
 		}
 	},
 	"Props": {
-		"audioVolumes": [
-			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 650 }
-		],
 		"details": [
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 550 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 450 },
@@ -130,6 +127,11 @@
 			{ "type": "downwards", "position": { "x": -163, "y": -563, "z": 281 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 10, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
 			{ "type": "downwards", "position": { "x": -163, "y": -563, "z": -281 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 10, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
 			{ "type": "hurricane", "position": { "x": 0, "y": -630, "z": 0 }, "height": 250, "wanderRate": 0, "tint": { "r" : 149, "g" : 116, "b" : 83, "a" : 255 } }
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 650 }
 		]
 	},
 	"ShipLog" : {

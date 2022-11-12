@@ -7,8 +7,7 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false,
-		"zeroGravityRadius": 25
+		"showMinimap" : false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 5,
@@ -36,6 +35,11 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/HubbleSpaceTelescope.prefab", "keepLoaded": true }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 25 }
 		]
 	},
 	"ShipLog" : 

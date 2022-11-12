@@ -86,9 +86,6 @@
 		}
 	},
 	"Props": {
-		"audioVolumes": [
-			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 350 }
-		],
 		"details": [
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 300 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 250 },
@@ -97,13 +94,19 @@
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 100 }
 		]
 	},
-	"Ring" : 
-	{
-		"innerRadius" : 600,
-		"outerRadius" : 1000,
-		"texture" : "planets/assets/uranus_rings.png",
-		"fluidType": "sand"
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 350 }
+		]
 	},
+	"Rings": [
+		{
+			"innerRadius" : 600,
+			"outerRadius" : 1000,
+			"texture" : "planets/assets/uranus_rings.png",
+			"fluidType": "sand"
+		}
+	],
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
 		"mapMode" : {

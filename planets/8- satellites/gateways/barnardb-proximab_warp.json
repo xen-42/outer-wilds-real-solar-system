@@ -7,8 +7,7 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false,
-		"zeroGravityRadius": 50
+		"showMinimap" : false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 25,
@@ -40,6 +39,11 @@
 		[
 			{ "uniqueID": "BarnardbFromProximab", "type": "whiteHole", "pairedSingularity": "ProximabToBarnardb", "position": {"x": 0, "y": 34, "z": 0}, "horizonRadius": 8, "distortRadius": 20, "renderQueueOverride": 3000, "rotation": {"x": 0, "y": 270, "z": 0} },
 			{ "uniqueID": "BarnardbToProximab", "type": "blackHole", "pairedSingularity": "ProximabFromBarnardb", "position": {"x": 0, "y": -34, "z": 0}, "horizonRadius": 8, "distortRadius": 20, "renderQueueOverride": 3000, "hasWarpEffects": false }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 50 }
 		]
 	},
 	"ShipLog" : {

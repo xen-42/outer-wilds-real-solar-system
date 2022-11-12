@@ -7,8 +7,7 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap": false,
-		"zeroGravityRadius": 100
+		"showMinimap": false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 2,
@@ -33,6 +32,11 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Voyager_17.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 100 }
 		]
 	},
 	"ShipLog" : 

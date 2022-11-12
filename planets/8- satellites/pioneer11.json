@@ -7,8 +7,7 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap": false,
-		"zeroGravityRadius": 100
+		"showMinimap": false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 1.5,
@@ -35,6 +34,11 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/Pioneer.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 100 }
 		]
 	},
 	"ShipLog" : 

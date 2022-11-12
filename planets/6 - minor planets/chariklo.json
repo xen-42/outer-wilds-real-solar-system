@@ -28,13 +28,14 @@
 			"a" : 255
 		}
 	},
-	"Ring" :
-	{
-		"innerRadius" : 19,
-		"outerRadius" : 21,
-		"texture": "planets/assets/chariklo_rings.png",
-		"fluidType": "sand"
-	},
+	"Rings": [
+		{
+			"innerRadius" : 19,
+			"outerRadius" : 21,
+			"texture": "planets/assets/chariklo_rings.png",
+			"fluidType": "sand"
+		}
+	],
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/chariklo_heightmap.png",	

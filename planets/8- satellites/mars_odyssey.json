@@ -7,8 +7,7 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
 		"hasMapMarker" : false,
-		"showMinimap" : false,
-		"zeroGravityRadius": 20
+		"showMinimap" : false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 2,
@@ -37,6 +36,11 @@
 		"details" :
 		[
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/MarsOdyssey.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 20 }
 		]
 	},
 	"ShipLog" : 
