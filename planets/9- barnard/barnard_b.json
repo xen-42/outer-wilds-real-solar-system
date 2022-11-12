@@ -1,12 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Barnard's Star b",
+	"name" : "Barnard b",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 14,
 		"surfaceSize" : 300,
-		"hasMapMarker" : true
+		"hasMapMarker" : true,
+		"ambientLight": 0.6
 	},
 	"Orbit" :
 	{
@@ -20,18 +21,46 @@
 		"siderealPeriod": 10,
 		"tint": 
 		{
-			"r" : 80,
-			"g" : 30,
-			"b" : 20,
+			"r" : 160,
+			"g" : 60,
+			"b" : 45,
 			"a" : 255
 		}
 	},
+	"Atmosphere": 
+	{
+		"size" : 350,
+		"fogTint" : 
+		{
+			"r" : 195,
+			"g" : 155,
+			"b" : 150,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 350,
+		"useAtmosphereShader": true,
+		"atmosphereTint" : 
+		{
+			"r" : 195,
+			"g" : 155,
+			"b" : 150,
+			"a" : 255
+		},
+		"hasSnow": true
+	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/mercury_heightmap.png",	
+		"heightMap" : "planets/assets/barnardb_heightmap.png",	
 		"textureMap" : "planets/assets/barnardb_texturemap.png",	
-		"minHeight" : 298,
-		"maxHeight" : 302
+		"minHeight" : 300,
+		"maxHeight" : 310,
+		"resolution": 512
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "BH_Ambience_Surface", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 350 }
+		]
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
