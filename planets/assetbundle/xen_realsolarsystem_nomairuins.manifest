@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3425099890
+CRC: 3037951839
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fb8a324d48217745368c6bd0c37dd341
+    Hash: e60698aaed1900a183c59cdd36aa7c31
   TypeTreeHash:
     serializedVersion: 2
     Hash: 56acb9f38ad1beb1e75ad67c76b19157
@@ -34,6 +34,7 @@ Assets:
 - Assets/Nomai Ruins/ProximaBSymbol.prefab
 - Assets/Nomai Ruins/EarthSymbol.prefab
 - Assets/Nomai Ruins/BarnardBSymbol.prefab
+- Assets/Nomai Ruins/ProximaCSymbol.prefab
 - Assets/Nomai Ruins/seedspikes_edit.prefab
 - Assets/Nomai Ruins/WarpStation.prefab
 Dependencies: []
