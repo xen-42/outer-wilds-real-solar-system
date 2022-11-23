@@ -23,5 +23,6 @@
 		"bottomPath": "planets/assets/sky_neg_y.jpg",
 		"frontPath": "planets/assets/sky_pos_z.jpg",
 		"backPath": "planets/assets/sky_neg_z.jpg"
-	}
+	},
+	"travelAudio": "planets/assets/SpaceInRealLife.ogg"
 }
