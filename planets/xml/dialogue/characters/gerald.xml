@@ -1,0 +1,36 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Gerald</NameField>
+	
+	<DialogueNode>
+		<Name>Gerald1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_Gerald11</Page>
+			<Page>RSS_Gerald12</Page>
+			<Page>RSS_Gerald13</Page>
+			<Page>RSS_Gerald14</Page>
+			<Page>RSS_Gerald15</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Gerald1A</Text>
+				<DialogueTarget>Gerald2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<SetPersistentCondition>RSS_MetGerald</SetPersistentCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gerald2</Name>
+		<Dialogue>
+			<Page>RSS_Gerald21</Page>
+			<Page>RSS_Gerald22</Page>
+			<Page>RSS_Gerald23</Page>
+			<Page>RSS_Gerald24</Page>
+			<Page>RSS_Gerald25</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

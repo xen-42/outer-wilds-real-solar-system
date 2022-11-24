@@ -72,8 +72,17 @@
 		"RSS_GarryExplore2" : "You could go talk to Dad at the north pole though, he likes visitors.",
 
 		"Geoffrey" : "Geoffrey",
+		"RSS_Geoffrey11" : "Have you ever thought “hey, I am a thing that exists”? It’s wild. You are a something, and I am also a something.",
+		"RSS_Geoffrey12" : "Does that mean we’re both the same thing? But that would also mean we’re the same thing as everything.",
+		"RSS_Geoffrey13" : "Am I a toothbrush? I mean, I’m a jellyfish. I have no clue what teeth are. But am I a toothbrush?",
+		"RSS_Geoffrey21" : "This is very conchfusing...",
 
 		"Griffin" : "Griffin",
+		"RSS_Griffin11" : "I like tea. Tea is good.",
+		"RSS_Griffin12" : "Sometimes I come back from my jellyjob, and I’m really stressed.",
+		"RSS_Griffin13" : "But when I take a sip of some tea, it all goes away.",
+		"RSS_Griffin14" : "Granted, it’s rather difficult to drink a liquid while being underwater, and to acquire it from a teapot in deep space.",
+		"RSS_Griffin15" : "But I do like some tea.",
 
 		"Gertrude" : "Gertrude",
 		"RSS_Gertrude11" : "Greetings! May the Holy Shell be with you.",
@@ -110,13 +119,32 @@
 		"RSS_Goldie21" : "Only sometimes.<![CDATA[<Pause>]]> <![CDATA[<size=20>Heh...</size>]]>",
 
 		"Gideon" : "Gideon",
+		"RSS_Gideon11" : "I LOVE COFFEE.",
+		"RSS_Gideon12" : "COFFEE IS THE BEST THING EVER.",
+		"RSS_Gideon13" : "<![CDATA[<size=40>WHEN I SLEEP FOR THIRTEEN HOURS STRAIGHT AND I NEED TO WAKE UP I JUST NEED SOME COFFEE.</size>]]>",
+		"RSS_Gideon14" : "<![CDATA[<size=45>AND BY SOME I MEAN 34 INDUSTRIAL CONTAINERS FULL OF RAW COFFEE BEANS.</size>]]>",
+		"RSS_Gideon15" : "<![CDATA[<size=50>COFFEE IS THE BEST THING EVER I LOVE IT SO MUCH I’D LITERALLY JUST STOP EXISTING WITHOUT COFFEE MY BLOOD IS NOW COFFEE I’M SERIOUS IF A VAMPIRE BIT ME THEY’D GET SUPER ENERGETIC CUZ MY BLOOD IS MADE OF COFFEE.</size>]]>",
+		"RSS_Gideon16" : "<![CDATA[<size=60>A</size>]]><![CDATA[<size=59>A</size>]]><![CDATA[<size=58>A</size>]]><![CDATA[<size=57>A</size>]]><![CDATA[<size=56>A</size>]]><![CDATA[<size=55>A</size>]]><![CDATA[<size=54>A</size>]]><![CDATA[<size=53>A</size>]]><![CDATA[<size=52>A</size>]]><![CDATA[<size=51>A</size>]]><![CDATA[<size=50>A</size>]]><![CDATA[<size=49>A</size>]]><![CDATA[<size=48>A</size>]]><![CDATA[<size=47>A</size>]]><![CDATA[<size=46>A</size>]]><![CDATA[<size=45>A</size>]]><![CDATA[<size=44>A</size>]]><![CDATA[<size=43>A</size>]]><![CDATA[<size=42>A</size>]]><![CDATA[<size=41>A</size>]]><![CDATA[<size=40>A</size>]]><![CDATA[<size=39>A</size>]]><![CDATA[<size=38>A</size>]]><![CDATA[<size=37>A</size>]]><![CDATA[<size=36>A</size>]]><![CDATA[<size=35>A</size>]]><![CDATA[<size=34>A</size>]]><![CDATA[<size=33>A</size>]]><![CDATA[<size=32>A</size>]]><![CDATA[<size=31>A</size>]]><![CDATA[<size=30>A</size>]]><![CDATA[<size=29>A</size>]]><![CDATA[<size=28>A</size>]]><![CDATA[<size=27>A</size>]]><![CDATA[<size=26>A</size>]]><![CDATA[<size=25>A</size>]]><![CDATA[<size=24>A</size>]]><![CDATA[<size=23>A</size>]]><![CDATA[<size=22>A</size>]]><![CDATA[<size=21>A</size>]]><![CDATA[<size=20>A</size>]]><![CDATA[<size=19>A</size>]]><![CDATA[<size=18>A</size>]]><![CDATA[<size=17>A</size>]]><![CDATA[<size=16>A</size>]]><![CDATA[<size=15>A</size>]]><![CDATA[<size=14>A</size>]]><![CDATA[<size=13>A</size>]]><![CDATA[<size=12>A</size>]]><![CDATA[<size=11>A</size>]]>",
+		"RSS_Gideon17" : "<![CDATA[<size=20>One sec ima go get some coffee...</size>]]>",
+		"RSS_Gideon21" : "<![CDATA[<size=20>Styx, did dad hide it again...</size>]]>",
 
 		"Gregory" : "Gregory",
 		"RSS_Gregory11" : "Hey, you're from space, right? I've always wanted to see the stars.",
 		"RSS_Gregory1A" : "Well they're not doing too good...",
 		"RSS_Gregory21" : "Oh, well, I hope they get better soon.",
 
-		"Gerald" : "Gerald"
+		"Gerald" : "Gerald",
+		"RSS_Gerald11" : "Did you know that water is the most lethal substance ever?",
+		"RSS_Gerald12" : "Yeah, 100% of things that consume water die.",
+		"RSS_Gerald13" : "So, stop drinking water. Also, stop breathing. That one also has a 100% mortality rate.",
+		"RSS_Gerald14" : "Wait.",
+		"RSS_Gerald15" : "Oh my gaia.",
+		"RSS_Gerald1A" : "You’re drinking water!",
+		"RSS_Gerald21" : "Oh styx oh phocis oh my ganymede oh no what will I do oh no dear zeus oh no-",
+		"RSS_Gerald22" : "Wait, I know what to do!",
+		"RSS_Gerald23" : "PANIC!",
+		"RSS_Gerald24" : "<![CDATA[<size=50>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!!!!</size>]]>",
+		"RSS_Gerald25" : "Okay I’m good now."
    	},
     "ShipLogDictionary" :
     {

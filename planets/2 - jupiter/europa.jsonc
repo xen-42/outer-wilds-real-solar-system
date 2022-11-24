@@ -83,15 +83,15 @@
 			{ "xmlFile": "planets/xml/dialogue/placeholder.xml", "position" : {"x": 0, "y": 60, "z": 0}, "radius": 3.5, "range": 8 },
 			{ "xmlFile": "planets/xml/dialogue/characters/garry.xml", "position" : {"x": 0, "y": -55, "z": 0}, "radius": 1.75, "range": 4 },
 			{ "xmlFile": "planets/xml/dialogue/characters/garrycallout.xml", "position" : {"x": 0, "y": -55, "z": 0}, "radius": 0, "remoteTriggerPosition": {"x": 0, "y": -35, "z": 0}, "remoteTriggerRadius": 30, "blockAfterPersistentCondition": "RSS_GarryCallout" },
-			{ "xmlFile": "planets/xml/dialogue/placeholder.xml", "position" : {"x": -44.21429, "y": 24.02697, "z": 22.19916}, "radius": 1.75, "range": 4 },
-			{ "xmlFile": "planets/xml/dialogue/placeholder.xml", "position" : {"x": -52.46511, "y": -11.43769, "z": 11.89925}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/geoffrey.xml", "position" : {"x": -44.21429, "y": 24.02697, "z": 22.19916}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/griffin.xml", "position" : {"x": -52.46511, "y": -11.43769, "z": 11.89925}, "radius": 1.75, "range": 4 },
 			{ "xmlFile": "planets/xml/dialogue/characters/gertrude.xml", "position" : {"x": 27.76891, "y": -33.45103, "z": 33.68853}, "radius": 1.75, "range": 4 },
 			{ "xmlFile": "planets/xml/dialogue/characters/gooseberry.xml", "position" : {"x": 50.6428, "y": -9.404798, "z": -0.9791875}, "radius": 1.75, "range": 4 },
 			{ "xmlFile": "planets/xml/dialogue/characters/gabro.xml", "position" : {"x": 28.49156, "y": 34.92665, "z": -31.51764}, "radius": 1.75, "range": 4 },
 			{ "xmlFile": "planets/xml/dialogue/characters/goldie.xml", "position" : {"x": -11.89569, "y": -44.70222, "z": -29.75239}, "radius": 1.75, "range": 4 },
-			{ "xmlFile": "planets/xml/dialogue/placeholder.xml", "position" : {"x": -50.97876, "y": -16.10713, "z": 12.91232}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/gideon.xml", "position" : {"x": -50.97876, "y": -16.10713, "z": 12.91232}, "radius": 1.75, "range": 4 },
 			{ "xmlFile": "planets/xml/dialogue/characters/gregory.xml", "position" : {"x": 10.86177, "y": 19.70426, "z": 50.1873}, "radius": 1.75, "range": 4 },
-			{ "xmlFile": "planets/xml/dialogue/placeholder.xml", "position" : {"x": 1.750032, "y": 8.499125, "z": -54.31119}, "radius": 1.75, "range": 4 }
+			{ "xmlFile": "planets/xml/dialogue/characters/gerald.xml", "position" : {"x": 1.750032, "y": 8.499125, "z": -54.31119}, "radius": 1.75, "range": 4 }
 		],
 		"geysers": [
 			{ "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "disableShaft": true, "disableSpout": true, "offset": -25, "force": 0, "volume": 0, "activeDuration": 10, "inactiveDuration": 24 },

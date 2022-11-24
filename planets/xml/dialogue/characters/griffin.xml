@@ -1,0 +1,18 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Griffin</NameField>
+	
+	<DialogueNode>
+		<Name>Griffin1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_Griffin11</Page>
+			<Page>RSS_Griffin12</Page>
+			<Page>RSS_Griffin13</Page>
+			<Page>RSS_Griffin14</Page>
+			<Page>RSS_Griffin15</Page>
+		</Dialogue>
+
+		<SetPersistentCondition>RSS_MetGriffin</SetPersistentCondition>
+	</DialogueNode>
+
+</DialogueTree>
