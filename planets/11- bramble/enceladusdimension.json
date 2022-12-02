@@ -5,16 +5,17 @@
 	"Orbit" :
 	{
 		"staticPosition": {
-			"x": 2000,
-			"y": 20000,
-			"z": 2000
+			"x": 0,
+			"y": -30000,
+			"z": 0
 		}
 	},
 	"Bramble": {
 		"dimension": {
-			"linksTo": "EnceladusNode",
+			"linksTo": "EnceladusEntrance",
 			"radius": 75,
-			"fogTint": {"r": 83, "g": 99, "b": 87, "a": 0},
+			"fogTint": {"r": 85, "g": 102, "b": 128, "a": 0},
+			"vinePrefab": "smallNest",
 			"allowedEntrances": [0]
 		}
 	},

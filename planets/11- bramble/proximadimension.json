@@ -5,44 +5,57 @@
 	"Orbit" :
 	{
 		"staticPosition": {
-			"x": -2000,
-			"y": 20000,
-			"z": 2000
+			"x": -100000,
+			"y": -50000,
+			"z": -100000
 		}
 	},
 	"Bramble": {
 		"dimension": {
-			"linksTo": "ProximaNode",
+			"linksTo": "ProximaEntrance",
 			"radius": 750,
-			"fogTint": {"r" : 84, "g" : 83, "b" : 73, "a" : 255}
+			"fogTint": {"r" : 168, "g" : 71, "b" : 56, "a" : 255},
+			"vinePrefab": "hub"
 		},
 		"nodes": [
 			{
-				"name": "EnceladusSeed",
-				"linksTo": "EnceladusDimension",
-				"position": {"x": 500, "y": 0, "z": 0},
-				"rotation": {"x": 0, "y": 0, "z": 0},
+				"name": "ProximaToSeedCluster",
+				"linksTo": "AmbushDimension",
+				"position": {"x": 16.9783, "y": -642.4551, "z": -28.5952},
+				"rotation": {"x": 359.0952, "y": 53.6423, "z": 86.7825},
 				"scale": 1,
-				"isSeed": true,
-				"fogTint": {"r": 83, "g": 99, "b": 87, "a": 255},
-				"lightTint": {"r": 83, "g": 99, "b": 87, "a": 255}
+				"fogTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 129, "a": 255}
 			},
 			{
-				"name": "GatewayNode",
-				"linksTo": "GatewayDimension",
-				"position": {"x": 0, "y": 0, "z": 500},
+				"name": "ProximaToLoop1",
+				"linksTo": "AmbushDimension",
+				"position": {"x": 262.6341, "y": -154.2422, "z": -297.3658},
 				"rotation": {"x": 0, "y": 0, "z": 0},
-				"scale": 1
+				"scale": 1,
+				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 255}
+			},
+			{
+				"name": "ProximaToEnceladus",
+				"linksTo": "EnceladusDimension",
+				"position": {"x": 157.8841, "y": 72.6513, "z": 409.989},
+				"rotation": {"x": 330.4683, "y": 194.2699, "z": 134.9387},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 128, "g": 181, "b": 255, "a": 255},
+				"lightTint": {"r": 128, "g": 181, "b": 255, "a": 255},
+				"hasFogLight": true
+			},
+			{
+				"name": "ProximaToAmbush",
+				"linksTo": "AmbushDimension",
+				"position": {"x": -266.5742, "y": 433.9707, "z": -34.6027},
+				"rotation": {"x": 26.6764, "y": 355.5576, "z": 7.4842},
+				"scale": 1,
+				"fogTint": {"r": 255, "g": 83, "b": 83, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 83, "a": 255}
 			}
-		]
-	},
-	"Props": {
-		"details": [
-			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Geometry_AnglerNestDimension/OtherComponentsGroup/FishEggs" },
-			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Volumes_AnglerNestDimension/FogOverrideVolume (1)" },
-			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Effects_AnglerNestDimension/InnerWarpFogGlow (1)" },
-			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/FogLight_FishEgg" },
-			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Lighting_AnglerNestDimension/PointLight_DB_FishEggs" }
 		]
 	}
 }

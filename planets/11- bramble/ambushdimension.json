@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "AmbushDimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -103000,
+			"y": -50000,
+			"z": -103000
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "ProximaToAmbush",
+			"radius": 500,
+			"fogTint": {"r" : 168, "g" : 56, "b" : 56, "a" : 255},
+			"fogDensity": 4,
+			"vinePrefab": "none",
+			"allowedEntrances": [2]
+		}
+	},
+	"Props": {
+		"details": [
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 77, "y": -30, "z": -211}, "rotation": {"x": -5, "y": -20, "z": 0}, "scale": 2 },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -14.5, "y": 0, "z": 413.3}, "rotation": {"x": -13.413, "y": -50.194, "z": 153.603} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -155.7, "y": 179.1, "z": 287.7}, "rotation": {"x": 3.934, "y": -10.251, "z": 247.76} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -256.7, "y": -20.7, "z": 274.8}, "rotation": {"x": 0, "y": 4.51, "z": 0} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 76.7, "y": 97.2, "z": 181}, "rotation": {"x": 3.61, "y": 5.295, "z": -49.412} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -87, "y": -231.7, "z": 265.2}, "rotation": {"x": -64.209, "y": -43.834, "z": 29.719} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -176.5, "y": 118, "z": 46}, "rotation": {"x": 2.88, "y": 14.185, "z": -206.423} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -323.6, "y": 117, "z": 135.4}, "rotation": {"x": -60, "y": 57.586, "z": -256.753} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -218, "y": -146, "z": 74}, "rotation": {"x": 8.2, "y": 136.956, "z": -181.838} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 149, "y": -261, "z": 87.6}, "rotation": {"x": 19.288, "y": 173.827, "z": -22.626} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 97.5, "y": 254.9, "z": 283.5}, "rotation": {"x": 33.739, "y": 302.87, "z": -308.257} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -34.1, "y": 395.9, "z": 147.3}, "rotation": {"x": 6.44, "y": 248.246, "z": -535.144} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -217.4, "y": -60.7, "z": -85.8}, "rotation": {"x": 1.258, "y": 445.391, "z": -358.66} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 222.1, "y": -61.4, "z": 86.6}, "rotation": {"x": 3.104, "y": 591.904, "z": 4.284} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 123.6, "y": 248.7, "z": -241.2}, "rotation": {"x": 25.5, "y": 425.613, "z": 214.91} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 292.17, "y": 168.44, "z": -154.15}, "rotation": {"x": -20, "y": 240.83, "z": -209.75} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -31, "y": -312.7, "z": -224.3}, "rotation": {"x": -27.919, "y": 571.069, "z": 269.117} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -197.6, "y": 247.7, "z": -224.5}, "rotation": {"x": -23.4, "y": 347.5, "z": 1071.481} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 54.8, "y": 347.3, "z": -33.9}, "rotation": {"x": -763.932, "y": 825.867, "z": 4475.1} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 323.9, "y": -142.9, "z": 227.6}, "rotation": {"x": -720.915, "y": 794.293, "z": 4743.444} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": -481.8, "y": -106.5, "z": -148.2}, "rotation": {"x": -721.929, "y": 616.398, "z": 4589.307} },
+			{ "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x": 299.2, "y": 236.5, "z": 125.2}, "rotation": {"x": -739.02, "y": 997.393, "z": 4313.828} }
+		]
+	}
+}

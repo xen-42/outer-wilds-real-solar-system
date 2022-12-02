@@ -81,12 +81,12 @@
 	"Bramble": {
 		"nodes": [
 			{
-				"name": "ProximaNode",
+				"name": "ProximaEntrance",
 				"linksTo": "ProximaDimension",
 				"position": {"x": 0, "y": 0, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 0},
 				"scale": 2,
-				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
+				"fogTint": {"r": 255, "g": 107, "b": 83, "a": 255},
 				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 255}
 			}
 		]

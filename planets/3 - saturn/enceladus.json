@@ -28,7 +28,14 @@
 		}
 	},
 	"Water": {
-		"size": 15.4
+		"size": 15.4,
+		"tint": 
+		{
+			"r" : 85,
+			"g" : 102,
+			"b" : 128,
+			"a" : 255
+		}
 	},
 	"Props": {
 		"details": [
@@ -43,13 +50,13 @@
 	"Bramble": {
 		"nodes": [
 			{
-				"name": "EnceladusNode",
+				"name": "EnceladusEntrance",
 				"linksTo": "EnceladusDimension",
 				"position": {"x": 0, "y": 0, "z": 0},
 				"rotation": {"x": 48.0822, "y": 7.2001, "z": 27.4512},
 				"scale": 0.15,
-				"fogTint": {"r": 83, "g": 99, "b": 87, "a": 255},
-				"lightTint": {"r": 83, "g": 99, "b": 87, "a": 0},
+				"fogTint": {"r": 85, "g": 102, "b": 128, "a": 255},
+				"lightTint": {"r": 64, "g": 89, "b": 128, "a": 0},
 				"possibleExits": [0]
 			}
 		]
