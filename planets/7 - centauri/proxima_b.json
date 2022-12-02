@@ -30,7 +30,7 @@
 	},
 	"Atmosphere": 
 	{
-		"size" : 375,
+		"size" : 390,
 		"fogTint" : 
 		{
 			"r" : 128,
@@ -39,7 +39,7 @@
 			"a" : 255
 		},
 		"fogDensity": 0.1,
-		"fogSize": 375,
+		"fogSize": 390,
 		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
@@ -72,7 +72,22 @@
 			{ "path": "DB_VesselDimension_Body/Sector_VesselDimension/Sector_VesselBridge/Interactibles_VesselBridge/DynamicProps/BrokenWarpCore_Body/Prefab_NOM_WarpCoreVesselBroken/Props_NOM_WarpCore_Advanced_Broken_V3", "position": {"x": -108.4286, "y": -100.5924, "z": 328.8538}, "rotation": {"x": 327.2956, "y": 215.1889, "z": 187.9177} },
 			{ "path": "DB_VesselDimension_Body/Sector_VesselDimension/Sector_VesselBridge/Interactibles_VesselBridge/UNSORTED/interior_cables/int_cable_warp", "position": {"x": -108.2631, "y": -101.7159, "z": 319.3362}, "rotation": {"x": 9.6572, "y": 180.5909, "z": 154.5993}, "scale": 0.5 },
 			{ "path": "DB_VesselDimension_Body/Sector_VesselDimension/Sector_VesselBridge/Interactibles_VesselBridge/UNSORTED/interior_cables/int_cable_warp", "position": {"x": -104.983, "y": -98.7302, "z": 320.2784}, "rotation": {"x": 346.1237, "y": 155.9007, "z": 185.1719}, "scale": 0.5 },
-			{ "path": "DB_VesselDimension_Body/Sector_VesselDimension/Sector_VesselBridge/Interactibles_VesselBridge/UNSORTED/interior_cables/int_cable_warp", "position": {"x": -104.4581, "y": -103.2468, "z": 324.5467}, "rotation": {"x": 34.5834, "y": 84.0872, "z": 104.5713}, "scale": 0.25 }
+			{ "path": "DB_VesselDimension_Body/Sector_VesselDimension/Sector_VesselBridge/Interactibles_VesselBridge/UNSORTED/interior_cables/int_cable_warp", "position": {"x": -104.4581, "y": -103.2468, "z": 324.5467}, "rotation": {"x": 34.5834, "y": 84.0872, "z": 104.5713}, "scale": 0.25 },
+
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Volumes/Prefab_NOM_RuinsMusicVolume", "position": {"x": 0, "y": 350, "z": 0} },
+			{ "path": "StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/ControlledByProxy_StatueIsland/Props_NOM_DockingTractorBeam (1)/Props_NOM_LargeTractorBeam_Geo", "position": {"x": 0, "y": 349.75, "z": 0}, "alignToNormal": true, "keepLoaded": true },
+
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_nomairuins", "path" : "Assets/Nomai Ruins/SettlementRuin2.prefab", "position": {"x": 17.5, "y": 349, "z": -30.3}, "rotation": {"x": 354.9242, "y": 330.5471, "z": 0.1458} },
+			{ "path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)", "position": {"x": -2.2164, "y": 1.2, "z": 8.8182}, "rotation": {"x": 0, "y": 227, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)", "position": {"x": 4, "y": 0, "z": 2}, "rotation": {"x": 0, "y": 315, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)", "position": {"x": 5, "y": 0, "z": 3}, "rotation": {"x": 0, "y": 315, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)", "position": {"x": -4, "y": 0, "z": 2}, "rotation": {"x": 0, "y": 45, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)", "position": {"x": -5, "y": 0, "z": 3}, "rotation": {"x": 0, "y": 45, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot", "position": {"x": -6.0691, "y": 0, "z": 6.8728}, "rotation": {"x": 0, "y": 97, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_VaseThin", "position": {"x": -6.5182, "y": 0.18, "z": 6.3419}, "rotation": {"x": 270, "y": 302, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_VaseThick", "position": {"x": -6.3873, "y": 0, "z": 5.4291}, "rotation": {"x": 0, "y": 90, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf", "position": {"x": 6.4, "y": 0.6, "z": 4.5}, "rotation": {"x": 90, "y": 270, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf", "position": {"x": -2, "y": 0.6, "z": 0.6}, "rotation": {"x": 90, "y": 0, "z": 0}, "parentPath": "Sector/SettlementRuin2", "isRelativeToParent": true }
 		],
 		"nomaiText": [
 			{ "type": "preCrashComputer", "xmlFile": "planets/xml/text/PB_EscapePod_FlightLog.xml", "position": {"x": -107.4549, "y": -99.72294, "z": 324.7078}, "normal": {"x": -0.2883309, "y": -0.3119961, "z": 0.9052755} },

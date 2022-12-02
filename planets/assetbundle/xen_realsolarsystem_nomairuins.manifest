@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3037951839
+CRC: 3576851914
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e60698aaed1900a183c59cdd36aa7c31
+    Hash: 23f5100f105eea8289648266e7dc8d2c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 56acb9f38ad1beb1e75ad67c76b19157
+    Hash: fee90f7e2d7cbe3e5af190aae7256f34
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,6 +29,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Nomai Ruins/ProximaBSymbol.prefab
@@ -36,5 +38,6 @@ Assets:
 - Assets/Nomai Ruins/BarnardBSymbol.prefab
 - Assets/Nomai Ruins/ProximaCSymbol.prefab
 - Assets/Nomai Ruins/seedspikes_edit.prefab
+- Assets/Nomai Ruins/SettlementRuin2.prefab
 - Assets/Nomai Ruins/WarpStation.prefab
 Dependencies: []
