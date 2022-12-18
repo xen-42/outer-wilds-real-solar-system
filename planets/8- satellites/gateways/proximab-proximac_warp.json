@@ -17,7 +17,7 @@
 	{
 		"semiMajorAxis" : 650,
 		"primaryBody" : "Proxima b",
-        "trueAnomaly": 240,
+        "trueAnomaly": 120,
 		"showOrbitLine" : true,
 		"dottedOrbitLine": true,
 		"isMoon": true,
