@@ -20,12 +20,12 @@
 		"nodes": [
 			{
 				"name": "ProximaToSeedCluster",
-				"linksTo": "AmbushDimension",
+				"linksTo": "SeedClusterDimension",
 				"position": {"x": 16.9783, "y": -642.4551, "z": -28.5952},
 				"rotation": {"x": 359.0952, "y": 53.6423, "z": 86.7825},
 				"scale": 1,
-				"fogTint": {"r": 255, "g": 83, "b": 129, "a": 255},
-				"lightTint": {"r": 255, "g": 83, "b": 129, "a": 255}
+				"fogTint": {"r": 192, "g": 128, "b": 255, "a": 255},
+				"lightTint": {"r": 192, "g": 128, "b": 255, "a": 255}
 			},
 			{
 				"name": "ProximaToLoop1",

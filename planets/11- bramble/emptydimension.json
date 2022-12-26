@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "EmptyDimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -94500,
+			"y": -50000,
+			"z": -105500
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "EnceladusEntrance",
+			"radius": 150,
+			"fogTint": {"r" : 84, "g" : 83, "b" : 73, "a" : 255},
+			"fogDensity": 4,
+			"vinePrefab": "none"
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "GhostDimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -93500,
+			"y": -50000,
+			"z": -103500
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "EnceladusEntrance",
+			"radius": 250,
+			"fogTint": {"r" : 56, "g" : 168, "b" : 140, "a" : 255},
+			"fogDensity": 3,
+			"vinePrefab": "none",
+			"allowedEntrances": [5]
+		}
+	},
+	"Lava": {
+		"size": 300
+	},
+	"removeChildren": [
+		"Sector/MoltenCore/LavaSphere",
+		"Sector/MoltenCore/MoltenCore_Proxy"
+	],
+	"Props": {
+		"details": [
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_nomairuins", "path" : "Assets/Cow_Bumper.prefab", "position": {"x": 100, "y": -30, "z": 40}, "rotation": {"x": 0, "y": 90, "z": 0}, "scale": 10000 }
+		]
+	},
+	"Volumes": {
+		"interferenceVolumes": [
+			{ "radius": 500 }
+		]
+	}
+}
