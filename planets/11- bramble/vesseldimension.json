@@ -3,5 +3,13 @@
 	"name" : "DB_VesselDimension",
 	"removeChildren": [
 		"Sector_VesselDimension/Geometry_VesselDimension/OtherComponentsGroup/Structure_NOM_EscapePod_DB"
-	]
+	],
+	"Props": {
+		"details": [
+			{ "path": "Sector_VesselDimension/Geometry_VesselDimension/OtherComponentsGroup/Structure_NOM_EscapePod_DB", "position": {"x": 102.99, "y": -76.0996, "z": 53.9199}, "rotation": {"x": 11.5009, "y": 64.3905, "z": 13.6049}, "rename": "Structure_NOM_EscapePod_DB_2" }
+		],
+		"singularities": [
+			{ "uniqueID": "VesselToRSS", "type": "blackHole", "targetStarSystem": "xen.RealSolarSystem", "position": {"x": -77.92, "y": -47.5606, "z": -135.9199}, "horizonRadius": 16, "distortRadius": 40 }
+		]
+	}
 }
