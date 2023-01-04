@@ -104,7 +104,12 @@
 			"innerRadius" : 600,
 			"outerRadius" : 1000,
 			"texture" : "planets/assets/uranus_rings.png",
-			"fluidType": "sand"
+			"fluidType": "sand",
+			"opacityCurve": [
+				{ "time": 0, "value": 1 },
+				{ "time": 18, "value": 1 },
+				{ "time": 22, "value": 0.4 }
+			]
 		}
 	],
 	"ShipLog" : {

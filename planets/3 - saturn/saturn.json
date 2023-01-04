@@ -118,7 +118,17 @@
 			"innerRadius" : 900,
 			"outerRadius" : 1700,
 			"texture" : "planets/assets/saturn_rings.png",
-			"fluidType": "sand"
+			"fluidType": "sand",
+			"opacityCurve": [
+				{ "time": 0, "value": 1 },
+				{ "time": 15, "value": 1 },
+				{ "time": 20, "value": 0 }
+			],
+			"scaleCurve": [
+				{ "time": 0, "value": 1 },
+				{ "time": 20, "value": 1 },
+				{ "time": 20.01, "value": 0 }
+			]
 		}
 	],
 	"ShipLog" : {
