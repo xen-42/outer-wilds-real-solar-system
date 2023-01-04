@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Loop3Dimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -111000,
+			"y": -50000,
+			"z": -107500
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "ProximaToLoop1",
+			"radius": 500,
+			"fogTint": {"r" : 168, "g" : 86, "b" : 56, "a" : 255},
+			"vinePrefab": "exitOnly",
+			"allowedEntrances": [3]
+		},
+		"nodes": [
+			{
+				"name": "Loop3ToLoop4",
+				"linksTo": "Loop4Dimension",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 43.5599, "y": 358.1138, "z": 24.2412},
+				"scale": 1,
+				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 510}
+			}
+		]
+	}
+}

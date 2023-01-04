@@ -29,7 +29,7 @@
 			},
 			{
 				"name": "ProximaToLoop1",
-				"linksTo": "AmbushDimension",
+				"linksTo": "Loop1Dimension",
 				"position": {"x": 262.6341, "y": -154.2422, "z": -297.3658},
 				"rotation": {"x": 0, "y": 0, "z": 0},
 				"scale": 1,
