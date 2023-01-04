@@ -12,7 +12,7 @@
 	},
 	"Bramble": {
 		"dimension": {
-			"linksTo": "EnceladusEntrance",
+			"linksTo": "ProximaEntrance",
 			"radius": 250,
 			"fogTint": {"r" : 168, "g" : 56, "b" : 86, "a" : 255},
 			"vinePrefab": "smallNest"

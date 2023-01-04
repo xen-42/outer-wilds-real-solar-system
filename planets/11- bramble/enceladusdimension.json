@@ -27,7 +27,8 @@
 			{ "path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal", "position": {"x": -1.5, "y": 2, "z": 12}, "rotation": {"x": 90, "y": -90, "z": -90}, "removeChildren": ["CapsuleVolume_NOM_GravityCrystal", "AudioSource_GravityCrystal"] },
 			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": 0, "y": -11, "z": 0}, "rotation": {"x": 180, "y": 0, "z": 0} },
 			{ "path" : "TimberHearth_Body/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Rocks_UnderwaterCaves/OtherComponentsGroup/GeyserRocks/Terrain_TH_SeperateGeyser", "position" : {"x": 0, "y": -11, "z": 0}, "rotation": {"x": 180, "y": 0, "z": 0} },
-			{ "path" : "TimberHearth_Body/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Rocks_UnderwaterCaves/OtherComponentsGroup/GeyserRocks/Terrain_TH_SeperateGeyser", "position" : {"x": 0, "y": -11, "z": 0}, "rotation": {"x": 180, "y": 0, "z": 0} }
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Rocks_UnderwaterCaves/OtherComponentsGroup/GeyserRocks/Terrain_TH_SeperateGeyser", "position" : {"x": 0, "y": -11, "z": 0}, "rotation": {"x": 180, "y": 0, "z": 0} },
+			{ "path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Effects_EscapePodDimension/Effects_DB_IceMotes (1)" }
 		],
 		"geysers": [
 			{ "position": {"x": 0, "y": -12, "z": 0}, "force": 30, "disableShaft": true, "disableSpout": true, "offset": -6, "volume": 0.3, "activeDuration": 8, "inactiveDuration": 16 }

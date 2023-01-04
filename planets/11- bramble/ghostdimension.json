@@ -12,7 +12,7 @@
 	},
 	"Bramble": {
 		"dimension": {
-			"linksTo": "EnceladusEntrance",
+			"linksTo": "ProximaEntrance",
 			"radius": 250,
 			"fogTint": {"r" : 56, "g" : 168, "b" : 140, "a" : 255},
 			"fogDensity": 3,
