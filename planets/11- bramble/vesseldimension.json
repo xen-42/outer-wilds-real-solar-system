@@ -11,5 +11,10 @@
 		"singularities": [
 			{ "uniqueID": "VesselToRSS", "type": "blackHole", "targetStarSystem": "xen.RealSolarSystem", "position": {"x": -77.92, "y": -47.5606, "z": -135.9199}, "horizonRadius": 16, "distortRadius": 40 }
 		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{ "achievementID": "RSS_FindVesselWormhole", "revealOn": "enter", "position": {"x": -77.92, "y": -47.5606, "z": -135.9199}, "radius": 75 }
+		]
 	}
 }

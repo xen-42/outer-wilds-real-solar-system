@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
     "achievements" : [
         {
             "ID" : "RSS_AllSpacecraft",
@@ -14,6 +15,14 @@
             "ID" : "RSS_FindJammer",
             "secret" : false,
             "conditionIDs" : [ "RSS_MetJammer" ]
+        },
+        {
+            "ID" : "RSS_FindVesselWormhole",
+            "secret" : false
+        },
+        {
+            "ID" : "RSS_CompleteShipLog",
+            "secret" : false
         }
     ]
 }

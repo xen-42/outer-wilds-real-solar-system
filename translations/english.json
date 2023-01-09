@@ -153,16 +153,24 @@
     "AchievementTranslations" : 
 	{
 		"RSS_AllSpacecraft" : {
-			"Name" : "Mysterious Relicts",
+			"Name" : "Forgotten Flagships",
 			"Description" : "Discover every spacecraft."
 		},
 		"RSS_AllJellyfish" : {
-			"Name" : "Happy Family",
+			"Name" : "Full Bloom",
 			"Description" : "Meet every jellyfish."
 		},
 		"RSS_FindJammer" : {
 			"Name" : "You Win!",
 			"Description" : "Find Jammer."
+		},
+		"RSS_FindVesselWormhole" : {
+			"Name" : "The Other Side",
+			"Description" : "Find another swirly thing by a broken thing."
+		},
+		"RSS_CompleteShipLog" : {
+			"Name" : "Ethnographer",
+			"Description" : "Complete the ship log."
 		}
 	}
 }
