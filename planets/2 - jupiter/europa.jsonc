@@ -28,7 +28,9 @@
 		}
 	},
 	"Water": {
-		"size": 69
+		"size": 69,
+		"density": 10,
+		"buoyancy": 0.1
 	},
 	"HeightMap" :
 	{
