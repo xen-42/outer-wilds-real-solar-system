@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 370,
+		"semiMajorAxis" : 550,
 		"primaryBody" : "Eris",
         "inclination": 45.5,
         "longitudeOfAscendingNode": 126.17,

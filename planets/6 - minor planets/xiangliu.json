@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 240,
+		"semiMajorAxis" : 340,
 		"primaryBody" : "Gonggong",
 		"inclination": 83,
 		"eccentricity": 0.29,

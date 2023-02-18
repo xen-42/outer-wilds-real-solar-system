@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 210,
+		"semiMajorAxis" : 310,
 		"primaryBody" : "Makemake",
 		"inclination": 0,
 		"longitudeOfAscendingNode": 0,

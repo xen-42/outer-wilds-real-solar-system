@@ -17,6 +17,7 @@
 		"eccentricity": 0.041,
 		"longitudeOfAscendingNode": 189,
 		"argumentOfPeriapsis": 147,
+		"axialTilt": 14,
 		"siderealPeriod": 4,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
@@ -27,6 +28,14 @@
             "a": 255
         }
 	},
+	"Rings": [
+		{
+			"innerRadius" : 100,
+			"outerRadius" : 110,
+			"texture": "planets/assets/quaoar_rings.png",
+			"fluidType": "sand"
+		}
+	],
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/quaoar_heightmap.png",	
