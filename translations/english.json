@@ -25,17 +25,6 @@
 		"RSS_PB_EscapePod_DistressSignalNote1" : "MUSA: Given the lack of other distress signals, I'm not confident ours will be heard either.",
 		"RSS_PB_EscapePod_DistressSignalNote2" : "MUSA: I fear my upcoming strive to pinpoint our location will be in vain, and that the warp has already sealed our fate...",
 
-		"RSS_EarthCampsiteRecorder1" : "So for starters I have no idea how I ended up here.",
-		"RSS_EarthCampsiteRecorder2" : "I'm also not entirely sure where exactly here is.",
-		"RSS_EarthCampsiteRecorder3" : "Seems I'm not the only one who's been here, judging by the Nomai ruins nearby.",
-		"RSS_EarthCampsiteRecorder4" : "I'll go check those out tomorrow, for now I think I deserve a little rest.",
-
-		"RSS_EarthRaftRecorder1" : "ALLIUM: This raft was here when we arrived.",
-		"RSS_EarthRaftRecorder2" : "ALLIUM: Hypothesis 1: It was left here by the original inhabitants of this planet.",
-		"RSS_EarthRaftRecorder3" : "ALLIUM: Hypothesis 2: We are not the only ones to have been marooned here.",
-		"RSS_EarthRaftRecorder4" : "MUSA: Unrelated hypothesis, this raft would have made our ocean crossing much easier.",
-		"RSS_EarthRaftRecorder5" : "ALLIUM: I believe that is more of an objective fact than a theory, Musa.",
-
 		"Jammer" : "Jammer",
 		"RSS_Jammer11" : "Speical birthday gift!",
 		"RSS_Jammer1A" : "Wahoo!",
