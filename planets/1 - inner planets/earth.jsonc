@@ -68,13 +68,13 @@
 			"a" : 255
 		},
 		"fogDensity": 0.1,
-		"fogSize": 375,
-		"clouds": {
+		"fogSize": 375
+		/*"clouds": {
 			"outerCloudRadius": 340,
 			"texturePath": "planets/assets/earth_cloudmap.png",
 			"cloudsPrefab": "transparent",
 			"rotationSpeed": 0.5
-		}
+		}*/
 	},
 	"HeightMap" :
 	{
