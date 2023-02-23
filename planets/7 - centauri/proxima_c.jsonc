@@ -35,8 +35,8 @@
 		"fogTint" : 
 		{
 			"r" : 255,
-			"g" : 82,
-			"b" : 51,
+			"g" : 107,
+			"b" : 83,
 			"a" : 255
 		},
 		"fogDensity": 1,
@@ -67,7 +67,7 @@
 			"hasLightning" : true
 		}
 	},
-	"Water": 
+	/*"Water": 
 	{
 		"size": 350,
 		"tint": 
@@ -77,7 +77,7 @@
 			"b" : 5,
 			"a" : 255
 		}
-	},
+	},*/
 	"Bramble": {
 		"nodes": [
 			{
@@ -91,6 +91,10 @@
 			}
 		]
 	},
+	"removeChildren": [
+		"Sector/Water/OceanFog",
+		"Sector/ProximaEntrance/Effects/InnerWarpFogGlow"
+	],
 	"Props": {
 		"details": [
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 300 },
@@ -98,16 +102,19 @@
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 250 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 225 },
 			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 200 },
-			//{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_3/State_1/Vines_Ice_Geo" },
-			//{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_2 (1)/State_1/Vines_Ice_Geo" },
-			//{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_2 (2)/State_1/Vines_Ice_Geo" },
-			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine1/DB_Bramble_Vine1/State_1/Terrain_TH_Bramble_Vine1", "position": {"x": -49.38, "y": 127.2227, "z": -9.813774}, "alignToNormal": true, "scale": 4 },
-			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine2/DB_Bramble_Vine2/State_1/Terrain_TH_Bramble_Vine2", "position": {"x": 42.31807, "y": -121.0086, "z": 68.10693}, "alignToNormal": true, "scale": 4 },
-			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine3/DB_Bramble_Vine3/State_1/Terrain_TH_Bramble_Vine3", "position": {"x": -98.81757, "y": -92.06648, "z": -14.63225}, "alignToNormal": true, "scale": 4 },
-			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine4/DB_Bramble_Vine4/State_1/Terrain_TH_Bramble_Vine4", "position": {"x": -75.87148, "y": 20.24512, "z": 116.2786}, "alignToNormal": true, "scale": 4 },
-			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine5/DB_Bramble_Vine5/State_1/Terrain_TH_Bramble_Vine5", "position": {"x": 90.17326, "y": 43.99134, "z": 96.51473}, "alignToNormal": true, "scale": 4 },
-			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine3/DB_Bramble_Vine3/State_1/Terrain_TH_Bramble_Vine3", "position": {"x": 123.8342, "y": -36.2485, "z": -53.07655}, "alignToNormal": true, "scale": 4 },
-			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine4/DB_Bramble_Vine4/State_1/Terrain_TH_Bramble_Vine4", "position": {"x": 21.62696, "y": 90.51161, "z": -100.1898}, "alignToNormal": true, "scale": 4 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_3/State_1/Vines_Ice_Geo", "position": {"x": 0, "y": 0, "z": 100}, "rotation": {"x": 0, "y": 0, "z": 0}, "scale": 2 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_3/State_1/Vines_Ice_Geo", "position": {"x": 29.81439, "y": -130.3969, "z": -17.28649}, "rotation": {"x": 90, "y": 223, "z": 0}, "scale": 2 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_3/State_1/Vines_Ice_Geo", "position": {"x": -70.8947, "y": 74.90579, "z": -86.85326}, "rotation": {"x": 320, "y": 253, "z": 43}, "scale": 2 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_3/State_1/Vines_Ice_Geo", "position": {"x": 18.0876, "y": 14.2521, "z": -60.2044}, "rotation": {"x": 21, "y": 140, "z": 260}, "scale": 2 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_3/State_1/Vines_Ice_Geo", "position": {"x": 73.38601, "y": 118.6532, "z": -1.840626}, "rotation": {"x": 310, "y": 65, "z": 285}, "scale": 2 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_3/State_1/Vines_Ice_Geo", "position": {"x": -107.0128, "y": -42.88555, "z": 68.29608}, "rotation": {"x": 345, "y": 280, "z": 180}, "scale": 2 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine1/DB_Bramble_Vine1/State_1/Terrain_TH_Bramble_Vine1", "position": {"x": -49.38, "y": 127.2227, "z": -9.813774}, "alignToNormal": true, "scale": 8 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine2/DB_Bramble_Vine2/State_1/Terrain_TH_Bramble_Vine2", "position": {"x": 42.31807, "y": -121.0086, "z": 68.10693}, "alignToNormal": true, "scale": 8 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine3/DB_Bramble_Vine3/State_1/Terrain_TH_Bramble_Vine3", "position": {"x": -98.81757, "y": -92.06648, "z": -14.63225}, "alignToNormal": true, "scale": 8 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine4/DB_Bramble_Vine4/State_1/Terrain_TH_Bramble_Vine4", "position": {"x": -75.87148, "y": 20.24512, "z": 116.2786}, "alignToNormal": true, "scale": 8 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine5/DB_Bramble_Vine5/State_1/Terrain_TH_Bramble_Vine5", "position": {"x": 90.17326, "y": 43.99134, "z": 96.51473}, "alignToNormal": true, "scale": 8 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine3/DB_Bramble_Vine3/State_1/Terrain_TH_Bramble_Vine3", "position": {"x": 123.8342, "y": -36.2485, "z": -53.07655}, "alignToNormal": true, "scale": 8 },
+			{ "path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_Q_Vine4/DB_Bramble_Vine4/State_1/Terrain_TH_Bramble_Vine4", "position": {"x": 21.62696, "y": 90.51161, "z": -100.1898}, "alignToNormal": true, "scale": 8 },
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_nomairuins", "path" : "Assets/Nomai Ruins/seedspikes_edit.prefab", "position": {"x": 0, "y": -0.1796, "z": 0.1222}, "scale": 33 }
 		]
 	},
