@@ -29,6 +29,14 @@
 			"a" : 255
 		}
 	},
+	"Lava": {
+		"size": 75.15,
+		"curve": [
+			{ "time": 0, "value": 0.95 },
+			{ "time": 17, "value": 0.95 },
+			{ "time": 18, "value": 1 }
+		]
+	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/moon_heightmap.png",	
