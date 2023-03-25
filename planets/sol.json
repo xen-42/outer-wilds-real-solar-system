@@ -52,14 +52,6 @@
 			"a" : 255
 		}
 	},
-	"AsteroidBelt" : 
-	{
-		"innerRadius" : 9000,
-		"outerRadius" : 10500,
-		"maxSize": 15,
-		"minSize": 5,
-		"amount": 50
-	},
 	"ShipLog" : {
 		"spriteFolder": "planets/shiplogs/sprites",
 		"mapMode" : {
