@@ -108,7 +108,12 @@
 			"opacityCurve": [
 				{ "time": 0, "value": 1 },
 				{ "time": 18, "value": 1 },
-				{ "time": 22, "value": 0.4 }
+				{ "time": 22, "value": 0 }
+			],
+			"scaleCurve": [
+				{ "time": 0, "value": 1 },
+				{ "time": 22, "value": 1 },
+				{ "time": 22.01, "value": 0 }
 			]
 		}
 	],

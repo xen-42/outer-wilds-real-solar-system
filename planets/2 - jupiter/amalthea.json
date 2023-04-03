@@ -5,7 +5,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 8,
+		"surfaceSize" : 12,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -32,6 +32,6 @@
 		"heightMap" : "planets/assets/amalthea_heightmap.png",	
 		"textureMap" : "planets/assets/amalthea_texturemap.png",	
 		"minHeight" : 4,
-		"maxHeight" : 8
+		"maxHeight" : 12
 	}
 }

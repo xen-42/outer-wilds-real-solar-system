@@ -29,7 +29,6 @@
 	},
 	"Atmosphere" :
 	{
-		"size" : 80,
 		"fogTint" : 
 		{
 			"r" : 200,
@@ -37,7 +36,7 @@
 			"b" : 128,
 			"a" : 255
 		},
-		"fogDensity": 0.1,
+		"fogDensity": 0.2,
 		"fogSize": 80
 	},
 	"HeightMap" :
@@ -55,6 +54,15 @@
 		"maxHeight" : 75
 	},
 	"Props":{
+		"audioSources": [
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": 25.95344, "y": 36.56299, "z": 59.06419}, "minDistance": 8, "maxDistance": 50, "volume": 1 },
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": -32.12466, "y": -51.45461, "z": 41.50724}, "minDistance": 8, "maxDistance": 50, "volume": 1 },
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": 17.44872, "y": -24.22137, "z": -68.0819}, "minDistance": 8, "maxDistance": 50, "volume": 1 },
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": 66.95788, "y": -1.756643, "z": 31.0178}, "minDistance": 8, "maxDistance": 50, "volume": 1 },
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": -47.70881, "y": 52.34853, "z": -20.18302}, "minDistance": 8, "maxDistance": 50, "volume": 1 },
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": 39.70198, "y": 46.45693, "z": 40.94479}, "minDistance": 8, "maxDistance": 50, "volume": 1 },
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": 70.11443, "y": 23.42624, "z": 8.870171}, "minDistance": 8, "maxDistance": 50, "volume": 1 }
+		],
 		"volcanoes": [
 			{ "position": {"x": 29.56788, "y": 26.487, "z": 62.42421}, "minInterval": 30, "maxInterval": 120, "minLaunchSpeed": 50, "maxLaunchSpeed": 100 },
 			{ "position": {"x": -32.12466, "y": -51.45461, "z": 41.50724}, "minInterval": 30, "maxInterval": 120, "minLaunchSpeed": 50, "maxLaunchSpeed": 100 },
@@ -67,7 +75,16 @@
 	},
 	"Volumes": {
 		"audioVolumes": [
-			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 100 }
+			{ "audio": "Volcano_Ambience_Loop_V2", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 100, "volume": 0.15 }
+		],
+		"hazardVolumes": [
+			{ "type": "heat", "damagePerSecond": 20, "radius": 3, "position": {"x": 25.95344, "y": 36.56299, "z": 59.06419} },
+			{ "type": "heat", "damagePerSecond": 20, "radius": 3, "position": {"x": -32.12466, "y": -51.45461, "z": 41.50724} },
+			{ "type": "heat", "damagePerSecond": 20, "radius": 3, "position": {"x": 17.44872, "y": -24.22137, "z": -68.0819} },
+			{ "type": "heat", "damagePerSecond": 20, "radius": 3, "position": {"x": 66.95788, "y": -1.756643, "z": 31.0178} },
+			{ "type": "heat", "damagePerSecond": 20, "radius": 3, "position": {"x": -47.70881, "y": 52.34853, "z": -20.18302} },
+			{ "type": "heat", "damagePerSecond": 20, "radius": 3, "position": {"x": 39.70198, "y": 46.45693, "z": 40.94479} },
+			{ "type": "heat", "damagePerSecond": 20, "radius": 3, "position": {"x": 70.11443, "y": 23.42624, "z": 8.870171} }
 		]
 	},
 	"ShipLog" : {
