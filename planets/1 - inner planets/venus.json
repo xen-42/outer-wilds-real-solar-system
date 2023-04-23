@@ -80,11 +80,43 @@
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/venus_heightmap.png",	
-		"textureMap" : "planets/assets/venus_texturemap.png",	
+		"heightMap" : "planets/assets/venus_heightmap.png",
+		"textureMap" : "planets/assets/venus_texturemap.png",
 		"minHeight" : 255,
 		"maxHeight" : 245,
-		"resolution": 512
+		"resolution": 512,
+		"smoothness": 0.5,
+		"metallic": 0.5,
+		"normalMap": "planets/assets/venus_normalmap.png",
+		"normalStrength": 0.2,
+		"tileBlendMap": "planets/assets/venus_blendmap.png",
+		"baseTile": {
+			"size": 4,
+			"textureTile": "planets/assets/tiles/Moon_d2_mir.png",
+			"smoothnessTile": "planets/assets/tiles/diffuse_s.png",
+			"normalTile": "planets/assets/tiles/Moon_n_mir.png",
+			"normalStrength": 2
+		},
+		"redTile": {
+			"size": 4,
+			"textureTile": "planets/assets/tiles/VenusRocks_d.png",
+			"smoothnessTile": "planets/assets/tiles/diffuse_s.png",
+			"normalTile": "planets/assets/tiles/VenusRocks_n.png",
+			"normalStrength": 2
+		},
+		"greenTile": {
+			"size": 4,
+			"smoothnessTile": "planets/assets/tiles/diffuse_s.png",
+			"normalTile": "planets/assets/tiles/Soil_n_mir.png",
+			"normalStrength": 2
+		},
+		"blueTile": {
+			"size": 5,
+			"textureTile": "planets/assets/tiles/Grain_d.png",
+			"smoothnessTile": "planets/assets/tiles/VenusSnow_s.png",
+			"normalTile": "planets/assets/tiles/Snow_n_mir.png",
+			"normalStrength": 2
+		}
 	},
 	"Props": {
 		"signals": [
