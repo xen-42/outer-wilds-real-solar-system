@@ -22,9 +22,9 @@ Most textures and heightmaps used are not ours. Unless stated otherwise, they're
 
 - Venus [texture](https://www.deviantart.com/oleg-pluton/art/Venus-texture-map-775557036)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Venus-elevation-map-improved-768916009)
 
-- Phobos [texture](https://www.deviantart.com/oleg-pluton/art/Phobos-texture-map-777457535)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Phobos-elevation-map-769476470)
+- Phobos [texture](https://www.deviantart.com/askaniy/art/Phobos-Texture-Map-784146561)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Phobos-elevation-map-769476470)
 
-- Deimos [texture](https://www.deviantart.com/oleg-pluton/art/Deimos-texture-map-772205702)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Deimos-elevation-map-refined-772218580)
+- Deimos [texture](https://www.deviantart.com/askaniy/art/Deimos-Texture-Map-784881224)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Deimos-elevation-map-refined-772218580)
 
 - Ceres [texture](https://www.deviantart.com/oleg-pluton/art/Ceres-texture-map-improved-16k-782181623)
 
