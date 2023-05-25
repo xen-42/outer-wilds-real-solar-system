@@ -14,11 +14,28 @@ Replaces the solar system in Outer Wilds with ours, including 8 planets, 38 moon
 ![Lunar lander](https://user-images.githubusercontent.com/22628069/148104095-67424b8a-7307-4bcc-a5a9-138d97316e23.png)
 
 ## Credits
-Ship log planet icons by [Classic](https://github.com/ClassicalBro).
+
+### Contributors
+
+- [xen](https://github.com/xen-42) - Pre-1.0.0 author.
+
+- [Trifid](https://github.com/TerrificTrifid) - 1.0.0 author/writer.
+
+- [Gay Coffee](https://github.com/Her-Majesty-the-Queen-of-England) - Writer.
+
+- [MegaPiggy](https://github.com/MegaPiggy) - New bodies and texture hunting.
+
+- [Greenpixel](https://github.com/gpixl) - Spaceflight music remix.
+
+- [Classic](https://github.com/ClassicalBro) - Ship log icons.
+
+- [Tlya](https://github.com/Tllya) - Russian translation.
+
+### Textures
 
 Skybox was created with SpaceEngine © Cosmographic Software LLC.
 
-Most textures and heightmaps used are not ours. Unless stated otherwise, they're from NASA or made by [Trifid](https://github.com/TerrificTrifid). The other sources are:
+Most planet textures used are not ours. Unless stated otherwise, they're derived from NASA or made by Trifid. The other sources are:
 
 - Venus [texture](https://www.deviantart.com/oleg-pluton/art/Venus-texture-map-775557036)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Venus-elevation-map-improved-768916009)
 
@@ -90,6 +107,6 @@ Most textures and heightmaps used are not ours. Unless stated otherwise, they're
 
 ### Models
 
-"Teapot." (https://skfb.ly/oqPNZ) by Akulla is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+"Teapot." (https://skfb.ly/oqPNZ) by Akulla is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 
-All other models are from [NASA](https://nasa3d.arc.nasa.gov/models) or made by [Trifid](https://github.com/TerrificTrifid).
+All other models are from [NASA](https://nasa3d.arc.nasa.gov/models) or made by Trifid.
