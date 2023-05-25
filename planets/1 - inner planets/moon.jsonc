@@ -30,7 +30,7 @@
 		}
 	},
 	"Lava": {
-		"size": 75.15,
+		"size": 75.5,
 		"curve": [
 			{ "time": 0, "value": 0.95 },
 			{ "time": 17, "value": 0.95 },
@@ -42,7 +42,25 @@
 		"heightMap" : "planets/assets/moon_heightmap.png",	
 		"textureMap" : "planets/assets/moon_texturemap.png",	
 		"minHeight" : 74,
-		"maxHeight" : 76
+		"maxHeight" : 77,
+		"smoothness": 0.15,
+		"normalMap": "planets/assets/moon_normalmap.png",
+		"normalStrength": 0.25,
+		"tileBlendMap": "planets/assets/moon_blendmap.png",
+		"baseTile": {
+			"size": 8,
+			"textureTile": "planets/assets/tiles/Regolith_d.png",
+			"smoothnessTile": "planets/assets/tiles/Regolith_s.png",
+			"normalTile": "planets/assets/tiles/Regolith_n.png",
+			"normalStrength": 1
+		},
+		"redTile": {
+			"size": 4,
+			"textureTile": "planets/assets/tiles/Moon_d2_mir.png",
+			"smoothnessTile": "planets/assets/tiles/Moon_s_mir.png",
+			"normalTile": "planets/assets/tiles/Moon_n_mir.png",
+			"normalStrength": 2
+		}
 	},
 	"Props" :
 	{
