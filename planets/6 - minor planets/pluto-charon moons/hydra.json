@@ -16,7 +16,7 @@
 		"trueAnomaly": 0,
 		"isMoon" : true,
 		"siderealPeriod": -1,
-		"axialTilt": 240,
+		"axialTilt": 350,
 		"tint": {
             "r": 175,
             "g": 175,
@@ -24,13 +24,19 @@
             "a": 255
         }
 	},
-	"ProcGen": {
-		"scale": 16,
-		"color": {
-			"r": 100,
-			"g": 100,
-			"b": 100,
-			"a": 255
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/hydra_heightmap.png",	
+		"textureMap" : "planets/assets/hydra_texturemap.png",	
+		"minHeight" : 6,
+		"maxHeight" : 16,
+		"smoothness": 0.5,
+		"baseTile": {
+			"size": 8,
+			"textureTile": "planets/assets/tiles/Regolith_d.png",
+			"smoothnessTile": "planets/assets/tiles/Regolith_s.png",
+			"normalTile": "planets/assets/tiles/Regolith_n.png",
+			"normalStrength": 1
 		}
 	},
 	"ShipLog" : {

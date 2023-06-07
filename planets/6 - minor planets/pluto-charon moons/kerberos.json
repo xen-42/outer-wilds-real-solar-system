@@ -16,7 +16,7 @@
 		"trueAnomaly": 45,
 		"isMoon" : true,
 		"siderealPeriod": -3,
-		"axialTilt": 240,
+		"axialTilt": 340,
 		"tint": {
             "r": 175,
             "g": 175,

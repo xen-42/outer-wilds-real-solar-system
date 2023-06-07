@@ -17,9 +17,9 @@ Replaces the solar system in Outer Wilds with ours, including 8 planets, 38 moon
 
 ### Contributors
 
-- [xen](https://github.com/xen-42) - Pre-1.0.0 author.
-
 - [Trifid](https://github.com/TerrificTrifid) - 1.0.0 author/writer.
+
+- [xen](https://github.com/xen-42) - Pre-1.0.0 author.
 
 - [Gay Coffee](https://github.com/Her-Majesty-the-Queen-of-England) - Writer.
 
@@ -96,6 +96,10 @@ Most planet textures used are not ours. Unless stated otherwise, they're derived
 - Pluto [texture](https://www.deviantart.com/bob3studios/art/Pluto-Texture-Map-Fixed-Blur-762286905)/[heightmap](https://www.deviantart.com/trappist1e/art/semifictional-pluto-height-map-871990349)
 
 - Charon [texture/heightmap](https://www.deviantart.com/master-bit/art/Charon-8K-555604289)
+
+- Nix [texture](https://www.deviantart.com/askaniy/art/Nix-Color-Texture-Maps-926588947)/[heightmap](https://figshare.com/articles/online_resource/Shape_Model_of_Nix/12779948)
+
+- Hydra [texture](https://www.deviantart.com/askaniy/art/Hydra-Color-Texture-Maps-926623163)/[heightmap](https://figshare.com/articles/online_resource/Shape_Model_of_Hydra/12779975)
 
 - Haumea [texture/heightmap](https://www.deviantart.com/astra-planetshine/art/Haumea-Artist-s-Impression-v3-566021580)
 
