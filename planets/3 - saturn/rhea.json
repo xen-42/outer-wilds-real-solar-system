@@ -11,9 +11,14 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1200,
+		"semiMajorAxis" : 1100,
+		"inclination" : 0,
 		"primaryBody" : "Saturn",
 		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
 		"isTidallyLocked" : true
 	},
 	"HeightMap" :
