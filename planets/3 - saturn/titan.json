@@ -1,70 +1,66 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Titan",
-	"starSystem" : "xen.RealSolarSystem",
-	"Base" :
-	{
-		"surfaceGravity" : 10,
-		"surfaceSize" : 140,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
-	},
-	"Orbit" :
-	{
-		"semiMajorAxis" : 1450,
-		"inclination" : 0,
-		"primaryBody" : "Saturn",
-		"isMoon" : true,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
-		"axialTilt" : 0,
-		"isTidallyLocked" : true
-	},
-	"Atmosphere" :
-	{
-		"size" : 120,
-		"cloudTint" : 
-		{
-			"r" : 220,
-			"g" : 198,
-			"b" : 97,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/titan_clouds.png",
-		"fogTint" : 
-		{
-			"r" : 220,
-			"g" : 198,
-			"b" : 97,
-			"a" : 255
-		},
-		"fogDensity": 0.9,
-		"fogSize": 120,
-		"hasAtmosphere" : true,
-		"atmosphereTint" : 
-		{
-			"r" : 230,
-			"g" : 230,
-			"b" : 80,
-			"a" : 255
-		}
-	},
-	"Water" : {
-		"size" : 103,
-		"tint" : 
-		{
-			"r" : 113,
-			"g" : 82,
-			"b" : 28,
-			"a" : 255
-		}
-	},
-	"HeightMap" :
-	{
-		"heightMap" : "planets/assets/titan_heightmap.png",	
-		"textureMap" : "planets/assets/titan_texturemap.png",	
-		"minHeight" : 100,
-		"maxHeight" : 105
-	}
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "Titan",
+    "starSystem": "xen.RealSolarSystem",
+    "Base": {
+        "surfaceGravity": 10,
+        "surfaceSize": 140,
+        "hasMapMarker": true,
+        "hasAmbientLight": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 1450,
+        "inclination": 0,
+        "primaryBody": "Saturn",
+        "isMoon": true,
+        "longitudeOfAscendingNode": 0,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 0,
+        "axialTilt": 0,
+        "isTidallyLocked": true
+    },
+    "Atmosphere": {
+        "size": 120,
+        "cloudTint": {
+            "r": 220,
+            "g": 198,
+            "b": 97,
+            "a": 255
+        },
+        "cloud": "planets/assets/titan_clouds.png",
+        "fogTint": {
+            "r": 220,
+            "g": 198,
+            "b": 97,
+            "a": 255
+        },
+        "fogDensity": 0.5,
+        "fogSize": 120,
+        "hasAtmosphere": true,
+        "atmosphereTint": {
+            "r": 6,
+            "g": 0,
+            "b": 255,
+            "a": 255
+        },
+        "clouds": {
+            "texturePath": "planets/assets/titan_clouds.png",
+            "cloudsPrefab": "transparent"
+        }
+    },
+    "Water": {
+        "size": 97,
+        "tint": {
+            "r": 113,
+            "g": 82,
+            "b": 28,
+            "a": 255
+        }
+    },
+    "HeightMap": {
+        "heightMap": "planets/assets/titan_heightmap.png",
+        "textureMap": "planets/assets/titan_texturemap.png",
+        "minHeight": 95,
+        "maxHeight": 105
+    }
 }
