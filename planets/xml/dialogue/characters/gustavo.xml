@@ -1,0 +1,119 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Gustavo</NameField>
+	
+	<DialogueNode>
+		<Name>Gustavo0</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_Gustavo01</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Gustavo0A</Text>
+				<DialogueTarget>Gustavo1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>RSS_MetGustavo</RequiredPersistentCondition>
+				<Text>RSS_Gustavo0B</Text>
+				<DialogueTarget>Gustavo2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<SetPersistentCondition>RSS_MetGustavo</SetPersistentCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gustavo1</Name>
+		<Dialogue>
+			<Page>RSS_Gustavo11</Page>
+		</Dialogue>
+
+		<DialogueTarget>Gustavo2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gustavo2</Name>
+		<Dialogue>
+			<Page>RSS_Gustavo21</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredPersistentCondition>RSS_MetGabro</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGarry</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGeoffrey</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGerald</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGertrude</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGideon</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGoldie</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGooseberry</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGregory</RequiredPersistentCondition>
+				<RequiredPersistentCondition>RSS_MetGriffin</RequiredPersistentCondition>
+				<Text>RSS_Gustavo2A</Text>
+				<DialogueTarget>Gustavo6</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>RSS_Gustavo2B</Text>
+				<DialogueTarget>Gustavo3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>RSS_Gustavo2C</Text>
+				<DialogueTarget>Gustavo4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>RSS_Gustavo2D</Text>
+				<DialogueTarget>Gustavo5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>RSS_Gustavo2E</Text>
+				<DialogueTarget>Gustavo7</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gustavo3</Name>
+		<Dialogue>
+			<Page>RSS_Gustavo31</Page>
+		</Dialogue>
+
+		<DialogueTarget>Gustavo2</DialogueTarget>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>Gustavo4</Name>
+		<Dialogue>
+			<Page>RSS_Gustavo41</Page>
+		</Dialogue>
+
+		<DialogueTarget>Gustavo2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gustavo5</Name>
+		<Dialogue>
+			<Page>RSS_Gustavo51</Page>
+		</Dialogue>
+
+		<DialogueTarget>Gustavo2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gustavo6</Name>
+		<Dialogue>
+			<Page>RSS_Gustavo61</Page>
+			<Page>RSS_Gustavo62</Page>
+		</Dialogue>
+
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gustavo7</Name>
+		<Dialogue>
+			<Page>RSS_Gustavo71</Page>
+		</Dialogue>
+
+	</DialogueNode>
+
+</DialogueTree>

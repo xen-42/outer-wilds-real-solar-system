@@ -82,7 +82,7 @@
 			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": 1.750032, "y": 8.499125, "z": -54.31119} }
 		],
 		"dialogue": [
-			{ "xmlFile": "planets/xml/dialogue/placeholder.xml", "position" : {"x": 0, "y": 60, "z": 0}, "radius": 3.5, "range": 8 },
+			{ "xmlFile": "planets/xml/dialogue/characters/gustavo.xml", "position" : {"x": 0, "y": 60, "z": 0}, "radius": 3.5, "range": 8 },
 			{ "xmlFile": "planets/xml/dialogue/characters/garry.xml", "position" : {"x": 0, "y": -55, "z": 0}, "radius": 1.75, "range": 4 },
 			{ "xmlFile": "planets/xml/dialogue/characters/garrycallout.xml", "position" : {"x": 0, "y": -55, "z": 0}, "radius": 0, "remoteTriggerPosition": {"x": 0, "y": -35, "z": 0}, "remoteTriggerRadius": 30, "blockAfterPersistentCondition": "RSS_GarryCallout" },
 			{ "xmlFile": "planets/xml/dialogue/characters/geoffrey.xml", "position" : {"x": -44.21429, "y": 24.02697, "z": 22.19916}, "radius": 1.75, "range": 4 },
