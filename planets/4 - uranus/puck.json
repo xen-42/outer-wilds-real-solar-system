@@ -17,11 +17,15 @@
 		"inclination" : 97,
 		"isTidallyLocked" : true
 	},
-	"HeightMap" :
+	"ProcGen" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
-		"textureMap" : "planets/assets/puck_texturemap.png",	
-		"minHeight" : 20,
-		"maxHeight" : 20
+		"scale" : 20,
+		"color" : 
+		{
+			"r" : 177,
+			"g" : 177,
+			"b" : 177,
+			"a" : 255
+		}
 	}
 }

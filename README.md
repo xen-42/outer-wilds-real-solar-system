@@ -1,11 +1,13 @@
 # Outer Wilds Real Solar System
 ![Saturn](https://user-images.githubusercontent.com/22628069/147424489-f453cb3b-1719-46b4-bac2-e97a6057ee73.png)
 
-![Current version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FMinecraft633%2Fouter-wilds-real-solar-system-titan-edition%2Fmain%2Fmanifest.json&query=%24.version&label=version&color=dark_green)
+![Current version](https://img.shields.io/github/manifest-json/v/xen-42/outer-wilds-real-solar-system?color=gree&filename=manifest.json)
 ![Downloads](https://img.shields.io/github/downloads/xen-42/outer-wilds-real-solar-system/total)
 ![Downloads of newest version](https://img.shields.io/github/downloads/xen-42/outer-wilds-real-solar-system/latest/total)
 
-Replaces the solar system in Outer Wilds with ours, including 8 planets, 13 moons, over 100 asteroids, 5 minor bodies, a few planetary probes and satellites, and 2 distant solar systems (Alpha Centauri and Barnard's Star). (Has full translations for Polish)
+Replaces the solar system in Outer Wilds with ours, including 8 planets, 13 moons, over 100 asteroids, 5 minor bodies, a few planetary probes and satellites, and 2 distant solar systems (Alpha Centauri and Barnard's Star).
+
+Translations for Polish and Russian.
 
 ![Bright sky](https://user-images.githubusercontent.com/22628069/146660294-41484062-cc5e-49d8-b940-01467c121907.png)
 
@@ -16,6 +18,10 @@ Replaces the solar system in Outer Wilds with ours, including 8 planets, 13 moon
 ## Credits
 Ship log planet icons by [Classic](https://github.com/ClassicalBro)
 
+Russian translation by [Tllya](https://github.com/Tllya)
+
+Polish translation by [Titan2076](https://github.com/Minecraft633)
+
 Planet textures and height maps used are not ours. Unless stated otherwise, they're from NASA. The other sources are:
 
 [Triton texture map](https://www.deviantart.com/neptuneprogaming/art/Triton-Texture-Map-713512330)
@@ -25,6 +31,12 @@ Planet textures and height maps used are not ours. Unless stated otherwise, they
 [Ceres texture map](https://www.solarsystemscope.com/textures/)
 
 [Venus texture maps](https://www.deviantart.com/oleg-pluton)
+
+[Neptune texture map](https://www.deviantart.com/askaniy/art/Neptune-1989-Texture-Map-769376373)
+
+Rhea [texture map](https://www.deviantart.com/oleg-pluton/art/Rhea-texture-map-767818383)/[height map](https://www.deviantart.com/oleg-pluton/art/Rhea-elevation-map-767817482)
+
+[Charon texture/height maps](https://www.deviantart.com/master-bit/art/Charon-8K-555604289)
 
 ### Models
 
