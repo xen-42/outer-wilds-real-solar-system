@@ -1,0 +1,52 @@
+{
+    "DialogueDictionary" :
+    	{
+		"" : ""
+   	},
+    "ShipLogDictionary" :
+    	{
+		"" : ""
+   	},
+	"UIDictionary" :
+    	{
+		"Sol" : "Słońce",
+		"Gateway to Earth" : "Wrota do Ziemi",
+
+		"Mercury" : "Merkury",
+		"Venus" : "Wenus",
+		"Earth" : "Ziemia",
+		"Jupiter": "Jowisz",
+		"Uranus" : "Uran",
+		"Neptune" : "Neptun",
+
+		"The Moon" : "Księżyc",
+		"Phobos" : "Fobos",
+		"Ganymede" : "Ganimedes",
+		"Callisto" : "Kalisto",
+		"Titan" : "Tytan",
+		"Rhea" : "Rea",
+		"Titania" : "Tytania",
+		"Puck" : "Puk",
+		"Triton" : "Tryton",
+
+		"Halley's Comet" : "Kometa Halleya",
+		"Pluto" : "Pluton",
+		"Pluto-Charon" : "Pluton-Charon",
+		"Vesta" : "Westa",
+
+		"Russel's Teapot" : "Czajniczek Russella",
+		
+		
+		"Alpha Centauri" : "Alfa Centauri",
+		"Alpha Centauri A" : "Alfa Centauri A",
+		"Perdition" : "Alfa Centauri AB",
+		"Alpha Centauri B" : "Alfa Centauri B",
+
+		
+		
+		"Lunar Lander" : "Lądownik Księżycowy",
+		"Perserverance Rover" : "Łazik Perserverance",
+		"Russel's Teapot" : "Czajniczek Russella"
+		
+    }
+}
