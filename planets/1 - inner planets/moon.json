@@ -27,7 +27,7 @@
 		"heightMap" : "planets/assets/moon_heightmap.png",	
 		"textureMap" : "planets/assets/moon_texturemap.png",	
 		"minHeight" : 74,
-		"maxHeight" : 76
+		"maxHeight" : 77
 	},
 	"Signal" : 
 	{

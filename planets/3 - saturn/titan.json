@@ -11,7 +11,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1200,
+		"semiMajorAxis" : 1450,
 		"inclination" : 0,
 		"primaryBody" : "Saturn",
 		"isMoon" : true,

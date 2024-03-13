@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Rhea",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 42,
+		"hasMapMarker" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1100,
+		"inclination" : 26,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 180,
+		"trueAnomaly": 208,
+		"isTidallyLocked" : true,
+		"axialTilt": 26,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 200,
+			"g" : 200,
+			"b" : 200,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/rhea_heightmap.png",	
+		"textureMap" : "planets/assets/rhea_texturemap.png",	
+		"minHeight" : 40,
+		"maxHeight" : 42
+	}
+}
