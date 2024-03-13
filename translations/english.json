@@ -2,28 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
     "DialogueDictionary" :
     {
-		"RSS_PB_EscapePod_FlightLog1" : "BEGIN FLIGHTLOG: <![CDATA[<color=orange>Escape Pod 5</color>]]>. <![CDATA[<color=orange>Vessel</color>]]> has been mortally injured. Emergency sequence activated. Awaiting departure from <![CDATA[<color=orange>Vessel</color>]]>.",
-		"RSS_PB_EscapePod_FlightLog2" : "WARNING: Launch obstructed. Cannot safely-\nNow launching <![CDATA[<color=orange>Escape Pod 5</color>]]>.",
-		"RSS_PB_EscapePod_FlightLog3" : "ALERT: Uncontrolled warp detected. Significant damage to pod detected.",
-		"RSS_PB_EscapePod_FlightLog4" : "ALERT: Collision imminent. Preparing for impact.",
-		"RSS_PB_EscapePod_FlightLog5" : "Scanning external environment... Scan complete. Stellar radiation is prohibitively high. Verdict: INHOSPITABLE. Do not seek shelter on planet surface.",
-
-		"RSS_PB_EscapePod_CrashSiteRecording1" : "KEEK: Is... well, is everyone <![CDATA[<i>else</i>]]> unharmed?",
-		"RSS_PB_EscapePod_CrashSiteRecording2" : "ALLIUM: I believe so, yes. We are no more injured than you.",
-		"RSS_PB_EscapePod_CrashSiteRecording3" : "FOLI: Rest now, let me treat your burns.",
-		"RSS_PB_EscapePod_CrashSiteRecording4" : "MUSA: It appears the four of us are the only passengers.",
-		"RSS_PB_EscapePod_CrashSiteRecording5" : "ALLIUM: Better than no passengers. You have my gratitude, Keek.",
-		"RSS_PB_EscapePod_CrashSiteRecording6" : "MUSA: I’ll go set out the distress signal.",
-		"RSS_PB_EscapePod_CrashSiteRecording7" : "FOLI: Move swiftly; this planet is approaching periapsis, where it is most vulnerable to the <![CDATA[<color=lightblue>red dwarf star</color>]]>.",
-		"RSS_PB_EscapePod_CrashSiteRecording8" : "ALLIUM: You can wait until night, actually. This planet’s eccentricity prevented it from becoming tidally locked.",
-
-		"RSS_PB_EscapePod_CrashSiteRecording_21" : "KEEK: We have decided to relocate to one of the poles. I’m not sure which one it will be, the magnetic field is too chaotic to tell.",
-		"RSS_PB_EscapePod_CrashSiteRecording_22" : "ALLIUM: Well we are heading in the pod’s aft direction regardless.",
-		"RSS_PB_EscapePod_CrashSiteRecording_23" : "FOLI: The radiation will be less intense, which will hopefully increase our chances of survival.",
-		"RSS_PB_EscapePod_CrashSiteRecording_24" : "MUSA: It will also be ideal for celestial observations. We could assess this star system and what to do next.",
-
-		"RSS_PB_EscapePod_DistressSignalNote1" : "MUSA: Given the lack of other distress signals, I’m not confident ours will be heard either.",
-		"RSS_PB_EscapePod_DistressSignalNote2" : "MUSA: I fear my upcoming strive to pinpoint our location will be in vain, and that the warp has already sealed our fate...",
+		
 
 		"Jammer" : "Jammer",
 		"RSS_Jammer11" : "Speical birthday gift!",
