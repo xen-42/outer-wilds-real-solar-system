@@ -26,7 +26,18 @@
 				"rotation": {"x": 43.5599, "y": 358.1138, "z": 24.2412},
 				"scale": 1,
 				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
-				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 510}
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 512}
+			},
+			{
+				"name": "Loop1ToEmpty",
+				"linksTo": "EmptyDimension",
+				"position": {"x": 108.2891, "y": 444.2378, "z": -17.18656},
+				"rotation": {"x": 1.4635, "y": 101.3294, "z": 252.7305},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 255, "g": 255, "b": 255, "a": 255},
+				"lightTint": {"r": 255, "g": 255, "b": 255, "a": 64},
+				"hasFogLight": true
 			}
 		]
 	}

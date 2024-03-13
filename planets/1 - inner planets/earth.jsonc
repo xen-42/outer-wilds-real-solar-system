@@ -14,8 +14,7 @@
 	{
 		"surfaceGravity" : 12,
 		"surfaceSize" : 300,
-		"hasMapMarker" : true,
-		"ambientLight": 1.4
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -39,6 +38,13 @@
 	},
 	"Water" : {
 		"size" : 294,
+		//"tint" : 
+		//{
+		//	"r" : 2,
+		//	"g" : 5,
+		//	"b" : 20,
+		//	"a" : 255
+		//},
 		"curve": [
 			{ "time": 0, "value": 1 },
 			{ "time": 12, "value": 1 },
@@ -76,6 +82,20 @@
 			"rotationSpeed": 0.5
 		}*/
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 375,
+			"innerRadius": 300,
+			"intensity": 1,
+			"tint" : 
+			{
+				"r" : 130,
+				"g" : 175,
+				"b" : 255,
+				"a" : 255
+			}
+		}
+	],
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/earth_heightmap.png",	
@@ -210,7 +230,11 @@
 				"position": {"x": 180.7017, "y": -136.0562, "z": -193.2599},
 				"scale": 0.5,
 				"alignToNormal": true
-			}
+			}/*,
+
+			{
+				"path": "TimberHearth_Body/AmbientLight_TH", "keepLoaded": true
+			}*/
 		],
 		"geysers": [
 			{

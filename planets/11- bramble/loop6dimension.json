@@ -26,7 +26,7 @@
 				"rotation": {"x": 43.5599, "y": 358.1138, "z": 24.2412},
 				"scale": 1,
 				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
-				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 510},
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 512},
 				"preventRecursionCrash": true
 			}
 		]

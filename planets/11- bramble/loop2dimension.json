@@ -26,7 +26,40 @@
 				"rotation": {"x": 43.5599, "y": 358.1138, "z": 24.2412},
 				"scale": 1,
 				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
-				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 510}
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 512}
+			},
+			{
+				"name": "SeedClusterToEgg1",
+				"linksTo": "EggDimension",
+				"position": {"x": 88.50235, "y": -208.7986, "z": 179.0788},
+				"rotation": {"x": 128.717, "y": 357.359, "z": 367.141},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"hasFogLight": true
+			},
+			{
+				"name": "SeedClusterToEgg2",
+				"linksTo": "EggDimension",
+				"position": {"x": 88.50235, "y": -208.7986, "z": 179.0788},
+				"rotation": {"x": 128.717, "y": 357.359, "z": 367.141},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"hasFogLight": true
+			},
+			{
+				"name": "SeedClusterToEgg3",
+				"linksTo": "EggDimension",
+				"position": {"x": 88.50235, "y": -208.7986, "z": 179.0788},
+				"rotation": {"x": 128.717, "y": 357.359, "z": 367.141},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"hasFogLight": true
 			}
 		]
 	}
