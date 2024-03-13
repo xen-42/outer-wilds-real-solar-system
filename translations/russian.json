@@ -24,7 +24,81 @@
 		"RSS_Jammer24" : "ГОРЯЧ",
 		"RSS_Jammer25" : "УРА!!~!!!",
 		"RSS_Jammer26" : "Ока-дока!",
-		"RSS_Jammer27" : "Наилучший день!"
+		"RSS_Jammer27" : "Наилучший день!",
+
+		"Gustavo" : "Густаво",
+
+		"Garry" : "Гэрри",
+		"RSS_EuropaIntro11" : "О, привет, ты новенький.",
+		"RSS_EuropaIntro21" : "Добро пожаловать на Европу. Я Гэрри.",
+		"RSS_EuropaIntro22" : "Как ты видишь, тепло ядра поддерживает этот океан подо льдом.",
+		"RSS_EuropaIntro23" : "Здесь довольно хорошо, но мне интересно, что на поверхности.",
+		"RSS_EuropaIntro24" : "Что-нибудь нужно?",
+		"RSS_GarryHey11" : "Привет.",
+		"RSS_GarryHey21" : "Привет снова.",
+		"RSS_GarryQuestionsA1" : "Густаво здесь?",
+		"RSS_GarryQuestionsA2" : "Где опять Густаво?",
+		"RSS_GarryQuestionsB" : "Как дела?",
+		"RSS_GarryQuestionsC" : "Что здесь можно найти?",
+		"RSS_GarryQuestionsD" : "Увидимся.",
+		"RSS_GarryGustavo11" : "Папа на северном полюсе.",
+		"RSS_GarryGustavo21" : "Северный полюс.",
+		"RSS_GarryGustavo22" : "Он гигант, ты не сможешь пропустить его.",
+		"RSS_GarryGeysers1" : "Не очень, просто греемся у вулканов.",
+		"RSS_GarryGeysers2" : "И думаем о поверхности...",
+		"RSS_GarryGeysers3" : "Ух...<![CDATA[<Pause=0.5>]]> что-нибудь ещё?",
+		"RSS_GarryExplore1" : "Ну, на Европе мало что происходит. Большинство вулканов сейчас спят.",
+		"RSS_GarryExplore2" : "Ты можешь поговорить с моим отцом на северном полюсе. Он рад гостям.",
+
+		"Geoffrey" : "Геффри",
+
+		"Griffin" : "Гриффин",
+
+		"Gertrude" : "Гертруда",
+		"RSS_Gertrude11" : "Добро пожаловать! Да пребудет с тобой святая раковина.",
+		"RSS_Gertrude1A" : "Что?",
+		"RSS_Gertrude21" : "Ты не знаешь про Чайник?",
+		"RSS_Gertrude2A" : "Ух...",
+		"RSS_Gertrude31" : "Боже, вы должны были умереть без него!",
+		"RSS_Gertrude32" : "Чайник Рассела положил святую раковину на океан, чтобы защитить нас от демонов с Ио!",
+		"RSS_Gertrude33" : "Никто не может найти Чайник Рассела, так как он слишком мал, чтобы его увидеть, поскольку вращается по орбите где-то между Землёй и Марсом.",
+		"RSS_Gertrude3A" : "Интересно...",
+
+		"Gooseberry" : "Госбери",
+		"RSS_Gooseberry11" : "Привет!",
+		"RSS_Gooseberry1A" : "Мне нравится твои вибрации.",
+		"RSS_Gooseberry1B" : "Какова твоя мудрость?",
+		"RSS_Gooseberry21" : "Ура!",
+		"RSS_Gooseberry31" : "Джеммер всегда находится в пределах 12,756 километров.",
+		"RSS_Gooseberry32" : "Почему печь называется духовкой, когда там никого не душат?",
+		"RSS_Gooseberry33" : "Печенья пекут, бекон жарят.",
+		"RSS_Gooseberry34" : "Может быть, настоящее Око вселенной - это друзья, которых мы нашли на пути к нему.",
+		"RSS_Gooseberry35" : "Все проблемы можно и нужно решать с помощью поджога.",
+		"RSS_Gooseberry36" : "Джо.",
+
+		"Gabro" : "Габро",
+		"RSS_Gabro11" : "Hola.",  
+		"RSS_Gabro1A" : "Hehe one b.",
+		"RSS_Gabro21" : "¿Qué te ríes?",
+		"RSS_Gabro2A" : "Nada.",
+
+		"Goldie" : "Голди",
+		"RSS_Goldie11" : "Привет.",
+		"RSS_Goldie12" : "Я изучал квантовую физику.",
+		"RSS_Goldie1A" : "Понятно.",
+		"RSS_Goldie21" : "Только иногда.<![CDATA[<Pause>]]> <![CDATA[<size=20>Хех...</size>]]>",
+
+		"Gideon" : "Гидеон",
+
+		"Gregory" : "Грегорий",
+		"RSS_Gregory11" : "Хей, ты из космоса, да? Я всегда хотел увидеть звёзды.",
+		"RSS_Gregory1A" : "Ну, сейчас им не очень хорошо...",
+		"RSS_Gregory21" : "Ох, ладно, надеюсь им скоро станет лучше.",
+
+		"Gerald" : "Геральд",
+		
+		"Joe" : "Джо",
+		"There are worms under your skin, rip off your skin, get them out." : "У тебя под кожей черви, содри кожу, вытащи их."
    	},
     "ShipLogDictionary" :
     	{
@@ -32,6 +106,7 @@
    	},
 	"UIDictionary" :
     	{
+		"xen.RealSolarSystem" : "Реальная солнечная система",
 		"Sol" : "Солнце",
 		"Gateway to Earth" : "Телепорт на Землю",
 
@@ -51,10 +126,26 @@
 		"Europa" : "Европа",
 		"Ganymede" : "Ганимед",
 		"Callisto" : "Каллисто",
+		"Amalthea" : "Амальтея",
+		"Calypso" : "Калипсо",
+		"Dione" : "Диона",
+		"Iapetus" : "Япет",
+		"Enceladus" : "Энцелад",
+		"Mimas" : "Мимас",
+		"Pan" : "Пан",
+		"Prometheus" : "Прометей",
+		"Rhea" : "Рея",
+		"Telesto" : "Телесто",
 		"Titan" : "Титан",
 		"Titania" : "Титания",
+		"Tethys" : "Тефия",
 		"Puck" : "Пак",
+		"Ariel" : "Ариэль",
+		"Miranda" : "Миранда",
+		"Oberon" : "Оберон",
+		"Umbriel" : "Умбриэль",
 		"Triton" : "Тритон",
+		"Proteus" : "Протей",
 
 		"Ceres" : "Церера",
 		"Charon" : "Харон",
@@ -66,6 +157,26 @@
 		"Pluto" : "Плутон",
 		"Pluto-Charon" : "Плутон-Харон",
 		"Vesta" : "Веста",
+		"Chariklo" : "Харикло",
+		"Churyumov" : "Чурюмов",
+		"Dactyl" : "Дактиль",
+		"Ida" : "Ида",
+		"Dysnomia" : "Дисномия",
+		"Eris" : "Эрида",
+		"Haumea" : "Хаумеа",
+		"Makemake" : "Макемаке",
+		"MK2" : "MK2",
+		"Orcus" : "Орк",
+		"Pallas" : "Паллада",
+		"Quaoar" : "Квавар",
+		"Sedna" : "Седна",
+		"Vanth" : "Вант",
+		"Weywot" : "Вейвот",
+		"Hiʻiaka" : "Хииака",
+		"Namaka" : "Намака",
+		"Ixion" : "Иксион",
+		"Gonggong" : "Гунгун",
+		"Xiangliu" : "Сянлю",
 
 		"Cassini" : "Кассини",
 		"Russell's Teapot" : "Чайник Рассела",
@@ -77,17 +188,27 @@
 		"Jupiter Icy Moons Explorer" : "Эксплорер ледяных лун Юпитера",
 		"Laplace-P" : "Лаплас-П",
 		"Uranus Orbiter" : "Уранский орбитальный аппарат",
-		"Neptune Odyssey" : "Нептун Одиссея", 
+		"Neptune Odyssey" : "Нептун Одиссея",
+		"Mars Odyssey" : "Марк Одиссея",
 		"Parker Solar Probe" : "Солнечный зонд «Паркер»",
 		"MESSENGER" : "Мессенджер",
 		"Huygens" : "Гюгенс",
+		"Aquarius" : "Водолей",
+		"Perserverance" : "Персеверанс",
+		"Hubble Space Telescope" : "Космический телескоп Хаббла",
+		"Jammer" : "Джеммер",
+		"International Space Station" : "Международная космичесая станция",
+		"Dawn" : "Рассвет",
+		"New Horizons" : "Новые горизонты",
 		
+
 		"Alpha Centauri" : "Альфа Центавра",
 		"Toliman" : "Толиман ",
 		"Rigil Kentaurus" : "Ригиль Кентавра",
 
 		"Proxima b" : "Проксима b",
 		"Proxima c" : "Проксима c",
+		"Proxima d" : "Проксима d",
 		"Proxima Centauri b" : "Проксима Центавра b",
 		"Proxima Centauri c" : "Проксима Центавра c",
 		"Proxima Centauri" : "Проксима Центавра",
@@ -97,10 +218,23 @@
 		"Barnard's Star B" : "Звезда Барнарда b",
 		
 		
-		"Aquarius" : "Водолей",
-		"Perserverance" : "Персеверанс",
-		"Jammer" : "Джеммер"
-		
-		
-    }
+		"Luhman 16" : "Луман 16",
+		"Luhman 16A" : "Луман 16A",
+		"Luhman 16B" : "Луман 16B"
+    },
+"AchievementTranslations" : 
+	{
+		"RSS_AllSpacecraft" : {
+			"Name" : "Таинственные реликвии",
+			"Description" : "Найти каждый космический аппарат."
+		},
+		"RSS_AllJellyfish" : {
+			"Name" : "Счастливая семья",
+			"Description" : "Поговорить с каждой медузой."
+		},
+		"RSS_FindJammer" : {
+			"Name" : "Ты выиграл!",
+			"Description" : "Найти Джеммера."
+		}
+	}
 }
