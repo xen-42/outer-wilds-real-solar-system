@@ -6,8 +6,7 @@
 	{
 		"surfaceGravity" : 12,
 		"surfaceSize" : 500,
-		"hasMapMarker" : true,
-		"ambientLight": 0.8
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -72,6 +71,19 @@
 			]
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 500,
+			"innerRadius": 450,
+			"intensity": 0.8,
+			"tint": {
+				"r": 50,
+				"g": 100,
+				"b": 230,
+				"a": 255
+			}
+		}
+	],
 	"Water": {
 		"size": 350
 	},

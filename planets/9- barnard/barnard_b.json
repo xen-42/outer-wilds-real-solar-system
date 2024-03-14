@@ -6,8 +6,7 @@
 	{
 		"surfaceGravity" : 14,
 		"surfaceSize" : 300,
-		"hasMapMarker" : true,
-		"ambientLight": 0.6
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -37,7 +36,7 @@
 			"b" : 150,
 			"a" : 255
 		},
-		"fogDensity": 0.1,
+		"fogDensity": 0.9,
 		"fogSize": 350,
 		"useAtmosphereShader": true,
 		"atmosphereTint" : 
@@ -49,6 +48,19 @@
 		},
 		"hasSnow": true
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 350,
+			"innerRadius": 300,
+			"intensity": 0.2,
+			"tint": {
+				"r" : 195,
+				"g" : 155,
+				"b" : 150,
+				"a" : 255
+			}
+		}
+	],
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/barnardb_heightmap.png",	

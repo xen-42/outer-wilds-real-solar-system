@@ -6,8 +6,7 @@
 	{
 		"surfaceGravity" : 6,
 		"surfaceSize" : 150,
-		"hasMapMarker" : true,
-		"ambientLight": 0.6
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -50,6 +49,19 @@
 			"a" : 255
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 160,
+			"innerRadius": 150,
+			"intensity": 0.4,
+			"tint": {
+				"r": 50,
+				"g": 75,
+				"b": 100,
+				"a": 255
+			}
+		}
+	],
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/mars_heightmap.png",	
@@ -66,8 +78,8 @@
 		],
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/percy2.prefab", "position" : {"x": -31.95775, "y": 42.77191, "z": -141.5945}, "alignToNormal" : true },
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Ingenuity.prefab", "position" : {"x": -31.95775, "y": 42.77191, "z": -141.5945}, "alignToNormal" : true }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/percy2.prefab", "position" : {"x": -31.95775, "y": 42.77191, "z": -141.5945}, "alignRadial" : true },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Ingenuity.prefab", "position" : {"x": -31.95775, "y": 42.77191, "z": -141.5945}, "alignRadial" : true }
 		],
 		"tornados": [
 			{ "position": {"x": -37.14261, "y": -100.763, "z": -104.7132}, "height": 5, "type": "upwards", "wanderDegreesX": 20, "wanderDegreesZ": 20, "wanderRate": 0.05, "tint": { "r" : 180, "g" : 120, "b" : 80, "a" : 255 } },

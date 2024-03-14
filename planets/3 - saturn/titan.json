@@ -6,8 +6,7 @@
 	{
 		"surfaceGravity" : 4,
 		"surfaceSize" : 105,
-		"hasMapMarker" : true,
-		"ambientLight": 1
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -64,6 +63,19 @@
 			"cloudsPrefab": "basic"
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 110,
+			"innerRadius": 80,
+			"intensity": 0.7,
+			"tint": {
+				"r": 255,
+				"g": 220,
+				"b": 150,
+				"a": 255
+			}
+		}
+	],
 	"Water" : {
 		"size" : 82,
 		"tint" : 
@@ -89,7 +101,7 @@
 		],
 		"details" :
 		[
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Huygens.prefab", "position" : {"x": 76.79877, "y": -15.90129, "z": -26.27043}, "alignToNormal" : true }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Huygens.prefab", "position" : {"x": 76.79877, "y": -15.90129, "z": -26.27043}, "alignRadial" : true }
 		]
 	},
 	"Volumes": {

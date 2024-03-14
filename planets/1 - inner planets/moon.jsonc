@@ -20,7 +20,7 @@
 		"argumentOfPeriapsis": 318,
 		"axialTilt" : 1.5,
 		"isTidallyLocked" : true,
-		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"alignmentAxis": {"x": 1, "y": 0, "z": 0},
 		"tint" : 
 		{
 			"r" : 175,
@@ -74,7 +74,7 @@
 				"assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", 
 				"path" : "Assets/RSS/lunarlander.prefab", 
 				"position" :  {"x": -68.19719, "y": 3.428392, "z": -31.16138}, 
-				"alignToNormal" : true, "scale": 1.5 
+				"alignRadial" : true, "scale": 1.5 
 			}
 		]
 	},

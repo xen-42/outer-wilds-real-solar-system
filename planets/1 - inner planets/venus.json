@@ -6,8 +6,7 @@
 	{
 		"surfaceGravity" : 10,
 		"surfaceSize" : 300,
-		"hasMapMarker" : true,
-		"ambientLight": 2
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -78,6 +77,19 @@
 			]
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 300,
+			"innerRadius": 280,
+			"intensity": 2,
+			"tint": {
+				"r": 255,
+				"g": 200,
+				"b": 128,
+				"a": 255
+			}
+		}
+	],
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/venus_heightmap.png",
@@ -124,8 +136,8 @@
 			{ "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "frequency" : "Traveler", "name" : "Jammer", "audio" : "ow_kazoo_theme", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "onlyAudibleToScope" : false }
 		],
 		"details": [
-			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Venera.prefab", "position" : {"x": -68.9879, "y": 117.4088, "z": 208.7593}, "alignToNormal" : true },
-			{ "path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Ghosts_DreamZone_1/GhostNodeMap_Forest/Prefab_IP_GhostBird_Enkidu/Ghostbird_IP_ANIM", "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "scale" : 0.1, "alignToNormal" : true }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Venera.prefab", "position" : {"x": -68.9879, "y": 117.4088, "z": 208.7593}, "alignRadial" : true },
+			{ "path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Ghosts_DreamZone_1/GhostNodeMap_Forest/Prefab_IP_GhostBird_Enkidu/Ghostbird_IP_ANIM", "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "scale" : 0.1, "alignRadial" : true }
 		],
 		"dialogue": [
 			{

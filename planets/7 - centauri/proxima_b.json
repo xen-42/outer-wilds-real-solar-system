@@ -6,8 +6,7 @@
 	{
 		"surfaceGravity" : 12,
 		"surfaceSize" : 350,
-		"hasMapMarker" : true,
-		"ambientLight": 0.6
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -49,6 +48,19 @@
 			"a" : 255
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 390,
+			"innerRadius": 350,
+			"intensity": 0.2,
+			"tint": {
+				"r" : 128,
+				"g" : 40,
+				"b" : 25,
+				"a" : 255
+			}
+		}
+	],
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/proxima_b_heightmap.png",	
