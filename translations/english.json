@@ -128,7 +128,37 @@
 		"RSS_Gerald22" : "Wait, I know what to do!",
 		"RSS_Gerald23" : "PANIC!",
 		"RSS_Gerald24" : "<![CDATA[<size=50>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!!!!</size>]]>",
-		"RSS_Gerald25" : "Okay I’m good now."
+		"RSS_Gerald25" : "Okay I’m good now.",
+
+		"Eduardo" : "Eduardo",
+		"RSS_Eduardo01" : "Hey",
+		"RSS_Eduardo0A" : "Who are you?",
+		"RSS_Eduardo0B" : "I have a question.",
+		"RSS_Eduardo11" : "Hey again.",
+		"RSS_Eduardo21" : "Eduardo.",
+		"RSS_EduardoQA" : "I found the White Hole Forge.",
+		"RSS_EduardoQB" : "Where are we?",
+		"RSS_EduardoQC" : "I like your house.",
+		"RSS_EduardoQD" : "Are you, uh, married?",
+		"RSS_EduardoQE" : "Okay goodbye.",
+		"RSS_Eduardo31" : "The core of <![CDATA[<color=lightblue>Enceladus</color>]]>.<![CDATA[<Pause>]]> Inside a Bramble node.<![CDATA[<Pause>]]> Inside <![CDATA[<color=lightblue>Enceladus</color>]]>.",
+		"RSS_Eduardo3A" : "But how did the Bramble get here?",
+		"RSS_Eduardo41" : "Thanks, I built it with my own twelve tentacles.",
+		"RSS_Eduardo4A" : "Your... what?",
+		"RSS_Eduardo4B" : "Where did you get the gravity crystal though?",
+		"RSS_Eduardo51" : "No, my brother Ernesto is. If you’re looking for him, he’s out visiting his cousin, but he’ll probably be back soon.",
+		"RSS_Eduardo61" : "Count them.",
+		"RSS_Eduardo71" : "I found it in the big thing by the swirly thing.",
+		"RSS_Eduardo7A" : "Um, elaborate?",
+		"RSS_Eduardo7B" : "You mean the White Hole Forge?",
+		"RSS_Eduardo81" : "Dunno. It was like this when I got here.",
+		"RSS_Eduardo91" : "Bye bye.",
+		"RSS_Eduardo101" : "Okay.",
+		"RSS_Eduardo102" : "...",
+		"RSS_Eduardo103" : "You’re the expert now, not me.",
+		"RSS_Eduardo111" : "I don’t know what it is, I just found it in the red and cloudy place.",
+		"RSS_Eduardo121" : "Probably."
+		
    	},
     "ShipLogDictionary" :
     {
