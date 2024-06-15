@@ -7,6 +7,8 @@
 
 Replaces the solar system in Outer Wilds with ours, including 8 planets, 38 moons, 15 minor bodies, 22 spacecraft, and the 5 nearest star systems with their 4 exoplanets.
 
+Translations for Polish and Russian.
+
 ![Bright sky](https://user-images.githubusercontent.com/22628069/146660294-41484062-cc5e-49d8-b940-01467c121907.png)
 
 ![Perserverance Rover](https://user-images.githubusercontent.com/22628069/147908787-7ee451b6-459d-449f-8fa1-dbac6be82103.png)
@@ -30,6 +32,8 @@ Replaces the solar system in Outer Wilds with ours, including 8 planets, 38 moon
 - [Classic](https://github.com/ClassicalBro) - Ship log icons.
 
 - [Tlya](https://github.com/Tllya) - Russian translation.
+
+- [Titan2076](https://github.com/Minecraft633) - Polish translation.
 
 ### Textures
 
@@ -88,6 +92,8 @@ Most planet textures used are not ours. Unless stated otherwise, they're derived
 - Titania [texture/heightmap](https://www.deviantart.com/astra-planetshine/art/Uranus-Project-Missing-Data-Titania-646920848)
 
 - Oberon [texture/heightmap](https://www.deviantart.com/oleg-pluton/art/Kexitt-s-and-Snowfall-s-astro-maps-corrections-780388376)
+
+- Neptune [texture](https://www.deviantart.com/askaniy/art/Neptune-1989-Texture-Map-769376373)
 
 - Proteus [texture](https://www.deviantart.com/oleg-pluton/art/Proteus-texture-map-773451080)/[heightmap](https://www.deviantart.com/oleg-pluton/art/Dwarf-moons-and-asteroids-elevation-maps-769532391)
 
