@@ -5,8 +5,11 @@
 	"Base" :
 	{
 		"surfaceGravity" : 12,
-		"surfaceSize" : 350,
-		"hasMapMarker" : true
+		"surfaceSize" : 350
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{

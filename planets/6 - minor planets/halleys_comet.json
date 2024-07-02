@@ -6,9 +6,12 @@
 	{
 		"surfaceGravity" : 1,
 		"surfaceSize" : 20,
-		"hasMapMarker" : true,
 		"ambientLight": 0.6,
 		"hasCometTail" : true
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{

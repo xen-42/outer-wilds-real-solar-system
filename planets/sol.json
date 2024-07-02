@@ -6,9 +6,12 @@
 	{
 		"surfaceGravity" : 100,
 		"surfaceSize" : 1500,
-		"hasMapMarker" : true,
 		"gravityFallOff" : "inverseSquared",
 		"centerOfSolarSystem" : true
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{

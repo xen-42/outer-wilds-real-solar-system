@@ -6,9 +6,12 @@
 	{
 		"surfaceGravity" : 42,
 		"surfaceSize" : 1000,
-		"hasMapMarker" : true,
 		"ambientLight": 2,
 		"gravityFallOff" : "inverseSquared"
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{

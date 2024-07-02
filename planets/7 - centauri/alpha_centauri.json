@@ -2,9 +2,9 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Alpha Centauri",
 	"starSystem" : "xen.RealSolarSystem",
-	"Base" :
+	"MapMarker":
 	{
-		"hasMapMarker" : false
+		"enabled": false
 	},
 	"ReferenceFrame":
 	{

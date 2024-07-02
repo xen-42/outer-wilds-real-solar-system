@@ -6,8 +6,11 @@
 	{
 		"surfaceGravity" : 0,
 		"surfaceSize" : 1,
-		"hasMapMarker" : false,
 		"showMinimap" : false
+	},
+	"MapMarker":
+	{
+		"enabled": false
 	},
 	"ReferenceFrame": {
 		"bracketRadius": 1.5,
