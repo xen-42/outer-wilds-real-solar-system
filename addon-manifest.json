@@ -19,10 +19,6 @@
         {
             "ID" : "RSS_FindVesselWormhole",
             "secret" : false
-        },
-        {
-            "ID" : "RSS_CompleteShipLog",
-            "secret" : false
         }
     ]
 }
