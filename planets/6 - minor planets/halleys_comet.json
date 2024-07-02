@@ -6,7 +6,6 @@
 	{
 		"surfaceGravity" : 1,
 		"surfaceSize" : 20,
-		"ambientLight": 0.6,
 		"hasCometTail" : true
 	},
 	"MapMarker":
@@ -44,6 +43,11 @@
 		"fogDensity": 0.1,
 		"fogSize": 20
 	},
+	"AmbientLights": [
+		{
+			"intensity": 0.6
+		}
+	],
 	"ProcGen" :
 	{
 		"scale" : 15,

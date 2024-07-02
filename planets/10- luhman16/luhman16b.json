@@ -6,7 +6,6 @@
 	{
 		"surfaceGravity" : 42,
 		"surfaceSize" : 1000,
-		"ambientLight": 2,
 		"gravityFallOff" : "inverseSquared"
 	},
 	"MapMarker":
@@ -32,6 +31,11 @@
 			"a" : 255
 		}
 	},
+	"AmbientLights": [
+		{
+			"intensity": 2
+		}
+	],
 	"Star":
 	{
 		"size": 800,
