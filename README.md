@@ -19,9 +19,9 @@ Translations for Polish and Russian.
 
 ### Contributors
 
-- [Trifid](https://github.com/TerrificTrifid) - 1.0.0 author/writer.
+- [Trifid](https://github.com/TerrificTrifid) - 0.7.0 author/writer.
 
-- [xen](https://github.com/xen-42) - Pre-1.0.0 author.
+- [xen](https://github.com/xen-42) - Pre-0.7.0 author.
 
 - [Gay Coffee](https://github.com/Her-Majesty-the-Queen-of-England) - Writer.
 
