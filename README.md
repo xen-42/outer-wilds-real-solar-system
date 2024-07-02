@@ -14,7 +14,7 @@ Translations for Polish and Russian.
 ![Perserverance Rover](https://user-images.githubusercontent.com/22628069/147908787-7ee451b6-459d-449f-8fa1-dbac6be82103.png)
 
 ![Lunar lander](https://user-images.githubusercontent.com/22628069/148104095-67424b8a-7307-4bcc-a5a9-138d97316e23.png)
-
+[For a more data-accurate/better texture expreience, check out this fork right here.](https://github.com/Minecraft633/outer-wilds-real-solar-system-titan-edition)
 ## Credits
 Ship log planet icons by [Classic](https://github.com/ClassicalBro)
 
