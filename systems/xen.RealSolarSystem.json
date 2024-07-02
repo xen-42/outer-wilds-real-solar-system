@@ -8,10 +8,12 @@
 			"y" : [ 1, 0, 2, 4 ],
 			"z" : [ 1, 0, 2, 4 ]
 		},
-		"vesselPosition": {
-			"x" : 0,
-			"y" : 0,
-			"z" : 8000
+		"vesselSpawn": {
+			"position": {
+				"x" : 0,
+				"y" : 0,
+				"z" : 8000
+			}
 		}
 	},
 	"Skybox": {
@@ -24,5 +26,7 @@
 		"frontPath": "planets/assets/sky_pos_z.jpg",
 		"backPath": "planets/assets/sky_neg_z.jpg"
 	},
-	"travelAudio": "planets/assets/SpaceInRealLife.ogg"
+	"GlobalMusic": {
+		"travelAudio": "planets/assets/SpaceInRealLife.ogg"
+	}
 }
