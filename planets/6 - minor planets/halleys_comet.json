@@ -5,12 +5,13 @@
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 20,
-		"hasCometTail" : true
+		"surfaceSize" : 20
 	},
 	"MapMarker":
 	{
 		"enabled": true
+	},
+	"CometTail": {
 	},
 	"Orbit" :
 	{

@@ -11,6 +11,8 @@
 	{
 		"enabled": true
 	},
+	"CometTail": {
+	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 11000,
