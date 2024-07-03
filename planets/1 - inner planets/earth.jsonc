@@ -114,12 +114,6 @@
 	"Props": {
 		"details": [
 			{
-				"assetBundle": "planets/assetbundle/rssteaser",
-				"path": "Assets/TeaserSign.prefab",
-				"position": {"x": -49.90244, "y": 198.8575, "z": 215.5718},
-				"rotation": {"x": 32.8632, "y": 293.6701, "z": 323.2172}
-			},
-			{
 				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
 				"position": {"x": -36.96601, "y": 217.7057, "z": 199.2916},
 				"alignRadial": true
