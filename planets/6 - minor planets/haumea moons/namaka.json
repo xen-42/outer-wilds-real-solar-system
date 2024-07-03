@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Namaka",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 10
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 250,
+		"primaryBody" : "Haumea",
+		"inclination": 113.013,
+		"longitudeOfAscendingNode": 180,
+		"eccentricity": 0.249,
+		"trueAnomaly": 178.5,
+		"argumentOfPeriapsis": 178.9,
+		"axialTilt": 113.013,
+		"isMoon" : true,
+		"siderealPeriod": 5,
+		"tint": 
+		{
+			"r" : 230,
+			"g" : 230,
+			"b" : 230,
+			"a" : 255
+		}
+	},
+	"ProcGen": {
+		"scale": 10,
+		"color": {
+			"r": 230,
+			"g": 230,
+			"b": 230,
+			"a": 255
+		}
+	}
+}

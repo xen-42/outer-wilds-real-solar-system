@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "MK2",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 8
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 310,
+		"primaryBody" : "Makemake",
+		"inclination": 0,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"trueAnomaly": 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt": 0,
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"tint": {
+            "r": 50,
+            "g": 40,
+            "b": 40,
+            "a": 255
+        }
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/mk2_heightmap.png",	
+		"textureMap" : "planets/assets/mk2_texturemap.png",	
+		"minHeight" : 7.5,
+		"maxHeight" : 8
+	}
+}

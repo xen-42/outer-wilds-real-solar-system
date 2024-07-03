@@ -1,13 +1,15 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Mercury",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 6,
-		"surfaceSize" : 100,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceSize" : 100
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
@@ -15,25 +17,41 @@
 		"inclination" : 3,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 0,
+		"longitudeOfAscendingNode" : 48,
 		"eccentricity" : 0.1,
-		"argumentOfPeriapsis": 0,
+		"argumentOfPeriapsis": 29,
 		"axialTilt" : 2,
-		"trueAnomaly" : 0,
-		"isTidallyLocked" : true,
+		"trueAnomaly" : 174,
+		"siderealPeriod": 10,
 		"tint" : 
 		{
-			"r" : 160,
-			"g" : 135,
-			"b" : 82,
+			"r" : 120,
+			"g" : 120,
+			"b" : 120,
 			"a" : 255
 		}
+	},
+	"Lava": {
+		"size": 100,
+		"curve": [
+			{ "time": 0, "value": 0.95 },
+			{ "time": 12, "value": 0.95 },
+			{ "time": 14, "value": 1 },
+			{ "time": 15.2, "value": 1 },
+			{ "time": 15.5, "value": 1.05 }
+		]
 	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/mercury_heightmap.png",	
 		"textureMap" : "planets/assets/mercury_texturemap.png",	
-		"minHeight" : 100,
+		"minHeight" : 98,
 		"maxHeight" : 102
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/mercury.png"
+		}
 	}
 }

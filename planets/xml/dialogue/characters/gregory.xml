@@ -1,0 +1,28 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Gregory</NameField>
+	
+	<DialogueNode>
+		<Name>Gregory1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_Gregory11</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Gregory1A</Text>
+				<DialogueTarget>Gregory2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<SetPersistentCondition>RSS_MetGregory</SetPersistentCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gregory2</Name>
+		<Dialogue>
+			<Page>RSS_Gregory21</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

@@ -1,0 +1,67 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Enceladus",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 16
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 2000,
+		"inclination" : 26,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 180,
+		"trueAnomaly": 93,
+		"isTidallyLocked" : true,
+		"axialTilt": 26,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Water": {
+		"size": 15.4,
+		"tint": 
+		{
+			"r" : 85,
+			"g" : 102,
+			"b" : 128,
+			"a" : 255
+		}
+	},
+	"Props": {
+		"details": [
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Enceladus.prefab", "keepLoaded": true },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/EnceladusLight.prefab" },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/OceanGVolume.prefab", "scale": 30 }
+		],
+		"geysers": [
+			{ "position": {"x": 0, "y": -16, "z": 0}, "force": 30, "tint": {"r": 255, "g": 255, "b": 255, "a": 128}, "volume": 0.15, "disableBubbles": true, "activeDuration": 8, "inactiveDuration": 16 }
+		]
+	},
+	"Bramble": {
+		"nodes": [
+			{
+				"name": "EnceladusEntrance",
+				"linksTo": "EnceladusDimension",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 48.0822, "y": 7.2001, "z": 27.4512},
+				"scale": 0.15,
+				"fogTint": {"r": 85, "g": 102, "b": 128, "a": 255},
+				"lightTint": {"r": 64, "g": 89, "b": 128, "a": 0},
+				"possibleExits": [0]
+			}
+		]
+	}
+}

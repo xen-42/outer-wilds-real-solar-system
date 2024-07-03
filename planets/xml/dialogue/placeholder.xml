@@ -1,0 +1,12 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Joe</NameField>
+	
+	<DialogueNode>
+		<Name>Joe</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>There are worms under your skin, rip off your skin, get them out.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

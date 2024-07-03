@@ -1,50 +1,29 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Venus",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 10,
-		"surfaceSize" : 270,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceSize" : 300
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 4000,
+		"semiMajorAxis" : 4500,
 		"inclination" : 3,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 54,
+		"longitudeOfAscendingNode" : 77,
+		"eccentricity" : 0.007,
+		"argumentOfPeriapsis": 55,
 		"axialTilt" : 177,
-		"siderealPeriod" : 100,
-		"trueAnomaly" : 180
-	},
-	"Atmosphere" :
-	{
-		"size" : 300,
-		"cloudTint" : 
-		{
-			"r" : 202,
-			"g" : 171,
-			"b" : 117,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/venus_clouds.png",
-		"useBasicCloudShader" : true,
-		"fogTint" : 
-		{
-			"r" : 200,
-			"g" : 128,
-			"b" : 128,
-			"a" : 255
-		},
-		"fogDensity": 0.9,
-		"fogSize": 300,
-		"hasAtmosphere" : true,
-		"atmosphereTint" : 
+		"siderealPeriod" : 10,
+		"trueAnomaly" : 50,
+		"tint" : 
 		{
 			"r" : 255,
 			"g" : 200,
@@ -52,28 +31,134 @@
 			"a" : 255
 		}
 	},
-	"HeightMap" :
-	{
-		"heightMap" : "planets/assets/venus_heightmap.png",	
-		"textureMap" : "planets/assets/venus_texturemap.png",	
-		"minHeight" : 255,
-		"maxHeight" : 245
-	},
-	"Signal": {
-		"signals": [
-			{ "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "frequency" : "Traveler", "name" : "Jammer", "audioClip" : "ow_kazoo_theme", "sourceRadius" : 0.5, "detectionRadius": 100, "identificationRadius" : 5, "onlyAudibleToScope" : false }
+	"Lava": {
+		"size": 252,
+		"curve": [
+			{ "time": 0, "value": 0.95 },
+			{ "time": 15, "value": 0.95 },
+			{ "time": 17, "value": 1 },
+			{ "time": 18.5, "value": 1 },
+			{ "time": 19, "value": 1.05 }
 		]
 	},
+	"Atmosphere" :
+	{
+		"size" : 300,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 200,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 1,
+		"fogSize": 300,
+		"useAtmosphereShader": true,
+		"atmosphereTint" : 
+		{
+			"r" : 255,
+			"g" : 200,
+			"b" : 128,
+			"a" : 255
+		},
+		"clouds": {
+			"outerCloudRadius" : 300,
+			"innerCloudRadius" : 280,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 200,
+				"b" : 128,
+				"a" : 255
+			},
+			"texturePath" : "planets/assets/venus_clouds.png",
+			"cloudsPrefab": "quantumMoon",
+			"hasLightning" : true,
+			"lightningGradient" : [
+				{"time": 0, "tint": {"r": 0, "g": 0, "b": 0}},
+				{"time": 1, "tint": {"r": 0, "g": 0, "b": 0}}
+			]
+		}
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 300,
+			"innerRadius": 280,
+			"intensity": 2,
+			"tint": {
+				"r": 255,
+				"g": 200,
+				"b": 128,
+				"a": 255
+			}
+		}
+	],
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/venus_heightmap.png",
+		"textureMap" : "planets/assets/venus_texturemap.png",
+		"minHeight" : 255,
+		"maxHeight" : 245,
+		"resolution": 512,
+		"smoothness": 0.5,
+		"metallic": 0.5,
+		"normalMap": "planets/assets/venus_normalmap.png",
+		"normalStrength": 0.2,
+		"tileBlendMap": "planets/assets/venus_blendmap.png",
+		"baseTile": {
+			"size": 4,
+			"textureTile": "planets/assets/tiles/Moon_d2_mir.png",
+			"smoothnessTile": "planets/assets/tiles/diffuse_s.png",
+			"normalTile": "planets/assets/tiles/Moon_n_mir.png",
+			"normalStrength": 2
+		},
+		"redTile": {
+			"size": 4,
+			"textureTile": "planets/assets/tiles/VenusRocks_d.png",
+			"smoothnessTile": "planets/assets/tiles/diffuse_s.png",
+			"normalTile": "planets/assets/tiles/VenusRocks_n.png",
+			"normalStrength": 2
+		},
+		"greenTile": {
+			"size": 4,
+			"smoothnessTile": "planets/assets/tiles/diffuse_s.png",
+			"normalTile": "planets/assets/tiles/Soil_n_mir.png",
+			"normalStrength": 2
+		},
+		"blueTile": {
+			"size": 5,
+			"textureTile": "planets/assets/tiles/Grain_d.png",
+			"smoothnessTile": "planets/assets/tiles/VenusSnow_s.png",
+			"normalTile": "planets/assets/tiles/Snow_n_mir.png",
+			"normalStrength": 2
+		}
+	},
 	"Props": {
+		"signals": [
+			{ "frequency" : "Radio", "name" : "Venera 9", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "position": {"x": -68.9879, "y": 117.4088, "z": 208.7593} },
+			{ "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "frequency" : "Traveler", "name" : "Jammer", "audio" : "ow_kazoo_theme", "sourceRadius" : 0.5, "detectionRadius": 50, "identificationRadius" : 5, "onlyAudibleToScope" : false }
+		],
 		"details": [
-			{ "path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Ghosts_DreamZone_1/GhostNodeMap_Forest/Prefab_IP_GhostBird_Enkidu/Ghostbird_IP_ANIM", "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "scale" : 0.1, "alignToNormal" : true }
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Venera.prefab", "position" : {"x": -68.9879, "y": 117.4088, "z": 208.7593}, "alignRadial" : true },
+			{ "path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Ghosts_DreamZone_1/GhostNodeMap_Forest/Prefab_IP_GhostBird_Enkidu/Ghostbird_IP_ANIM", "position" : {"x": -111.0043, "y": 218.0896, "z": -11.04778}, "scale" : 0.1, "alignRadial" : true }
 		],
 		"dialogue": [
 			{
-				"xmlFile": "planets/xml/dialogue/jammer.xml",
+				"xmlFile": "planets/xml/dialogue/characters/jammer.xml",
 				"radius": 1,
 				"position": {"x": -111.0043, "y": 218.0896, "z": -11.04778}
 			}
 		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "Eye_of_Universe_Ambience_v2_01", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 300 }
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/venus.png"
+		}
 	}
 }

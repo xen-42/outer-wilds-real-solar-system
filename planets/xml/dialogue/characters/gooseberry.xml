@@ -1,0 +1,55 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Gooseberry</NameField>
+	
+	<DialogueNode>
+		<Name>Gooseberry1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_Gooseberry11</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Gooseberry1A</Text>
+				<DialogueTarget>Gooseberry2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>RSS_Gooseberry1B</Text>
+				<DialogueTarget>Gooseberry3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<SetPersistentCondition>RSS_MetGooseberry</SetPersistentCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gooseberry2</Name>
+		<Dialogue>
+			<Page>RSS_Gooseberry21</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Gooseberry3</Name>
+		<Randomize/>
+		<Dialogue>
+			<Page>RSS_Gooseberry31</Page>
+		</Dialogue>
+		<Dialogue>
+			<Page>RSS_Gooseberry32</Page>
+		</Dialogue>
+		<Dialogue>
+			<Page>RSS_Gooseberry33</Page>
+		</Dialogue>
+		<Dialogue>
+			<Page>RSS_Gooseberry34</Page>
+		</Dialogue>
+		<Dialogue>
+			<Page>RSS_Gooseberry35</Page>
+		</Dialogue>
+		<Dialogue>
+			<Page>RSS_Gooseberry36</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

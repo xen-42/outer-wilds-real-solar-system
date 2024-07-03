@@ -1,27 +1,46 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Titania",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 4,
-		"surfaceSize" : 45,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceGravity" : 3,
+		"surfaceSize" : 44
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1200,
+		"semiMajorAxis" : 1450,
 		"primaryBody" : "Uranus",
 		"isMoon" : true,
 		"inclination" : 97,
-		"isTidallyLocked" : true
+		"longitudeOfAscendingNode": 180,
+		"trueAnomaly": 212,
+		"isTidallyLocked" : true,
+		"axialTilt": 97,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 115,
+			"g" : 90,
+			"b" : 90,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/titania_heightmap.png",	
 		"textureMap" : "planets/assets/titania_texturemap.png",	
-		"minHeight" : 45,
-		"maxHeight" : 45
+		"minHeight" : 42,
+		"maxHeight" : 44
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Titania log.png"
+		}
 	}
 }

@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Mars Odyssey",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"showMinimap" : false
+	},
+	"MapMarker":
+	{
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 2,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 200,
+		"primaryBody" : "Mars",
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"inclination" : 68.064,
+		"eccentricity": 0,
+		"longitudeOfAscendingNode": 34.98,
+		"argumentOfPeriapsis": 0,
+		"trueAnomaly": 0,
+		"isMoon": true,
+		"isTidallyLocked": true
+	},
+	"Props" :
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Mars Odyssey", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 0, "z": 2 } }
+		],
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/MarsOdyssey.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 20 }
+		]
+	},
+	"ShipLog" : 
+    {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}

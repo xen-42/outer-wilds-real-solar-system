@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Xiangliu",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 10
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 340,
+		"primaryBody" : "Gonggong",
+		"inclination": 83,
+		"eccentricity": 0.29,
+        "longitudeOfAscendingNode": 32,
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"tint": {
+            "r": 150,
+            "g": 130,
+            "b": 100,
+            "a": 255
+        }
+	},
+	"ProcGen": {
+		"scale": 10,
+		"color": {
+			"r": 150,
+			"g": 130,
+			"b": 100,
+			"a": 255
+		}
+	}
+}

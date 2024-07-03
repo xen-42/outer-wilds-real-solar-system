@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Prometheus",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 10
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1650,
+		"inclination" : 26,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 180,
+		"trueAnomaly": 177,
+		"isTidallyLocked" : true,
+		"axialTilt": 26,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 200,
+			"g" : 200,
+			"b" : 200,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/prometheus_heightmap.png",	
+		"textureMap" : "planets/assets/prometheus_texturemap.png",	
+		"minHeight" : 5,
+		"maxHeight" : 10
+	}
+}

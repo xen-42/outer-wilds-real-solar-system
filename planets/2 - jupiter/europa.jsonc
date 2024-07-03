@@ -1,0 +1,114 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Europa",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 70
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1600,
+		"primaryBody" : "Jupiter",
+		"inclination": 3,
+		"longitudeOfAscendingNode": 180,
+		"isMoon" : true,
+		"trueAnomaly" : 86,
+		"axialTilt": 3.1,
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 245,
+			"g" : 175,
+			"b" : 145,
+			"a" : 255
+		}
+	},
+	"Water": {
+		"size": 69,
+		"density": 10,
+		"buoyancy": 0.1
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/europa_heightmap.png",	
+		"textureMap" : "planets/assets/europa_texturemap.png",	
+		"minHeight" : 46,
+		"maxHeight" : 51
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Europa.prefab", "keepLoaded": true },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/OceanGVolume.prefab", "scale": 69 },
+			{ "path" : "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/MusicVolume_AquaticExploration", "scale": 0.157 },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Rocks_UnderwaterCaves/OtherComponentsGroup/GeyserRocks/Terrain_TH_SeperateGeyser", "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Rocks_UnderwaterCaves/OtherComponentsGroup/GeyserRocks/Terrain_TH_SeperateGeyser", "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": 5.393641, "y": -46.00281, "z": -7.566312}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Rocks_UnderwaterCaves/OtherComponentsGroup/GeyserRocks/Terrain_TH_SeperateGeyser", "position" : {"x": 5.393641, "y": -46.00281, "z": -7.566312}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Rocks_UnderwaterCaves/OtherComponentsGroup/GeyserRocks/Terrain_TH_SeperateGeyser", "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": -44.43725, "y": 4.731924, "z": -14.0677}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": -38.3355, "y": 15.7006, "z": -22.59622}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": -37.99961, "y": 5.473454, "z": -27.35748}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": 41.94415, "y": 14.15053, "z": 15.23258}, "alignRadial": true },
+			{ "path" : "TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/Terrain_TH_SeperateGeyser_Small (16)", "position" : {"x": 42.67953, "y": 1.089503, "z": 19.55354}, "alignRadial": true },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": 0, "y": 60, "z": 0}, "alignRadial": true, "scale": 0.32 }, //Gustavo
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": 0, "y": 60, "z": 0} },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLightLarge.prefab", "position" : {"x": 0, "y": 55, "z": 0} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": 0, "y": -55, "z": 0}, "alignRadial": true, "scale": 0.16 }, //Garry
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": 0, "y": -55, "z": 0} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": -44.21429, "y": 24.02697, "z": 22.19916}, "alignRadial": true, "scale": 0.16 }, //Geoffrey
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": -44.21429, "y": 24.02697, "z": 22.19916} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": -52.46511, "y": -11.43769, "z": 11.89925}, "alignRadial": true, "scale": 0.16 }, //Griffin
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": -52.46511, "y": -11.43769, "z": 11.89925} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": 27.76891, "y": -33.45103, "z": 33.68853}, "alignRadial": true, "scale": 0.16 }, //Gertrude
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": 27.76891, "y": -33.45103, "z": 33.68853} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": 50.6428, "y": -9.404798, "z": -0.9791875}, "rotation": {"x": 359, "y": 1, "z": 80}, "scale": 0.16 }, //Gooseberry
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": 50.6428, "y": -9.404798, "z": -0.9791875} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": 28.49156, "y": 34.92665, "z": -31.51764}, "alignRadial": true, "scale": 0.16 }, //Gabro
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": 28.49156, "y": 34.92665, "z": -31.51764} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": -11.89569, "y": -44.70222, "z": -29.75239},"alignRadial": true, "scale": 0.16 }, //Goldie
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": -11.89569, "y": -44.70222, "z": -29.75239} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": -50.97876, "y": -16.10713, "z": 12.91232}, "alignRadial": true, "scale": 0.16 }, //Gideon
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": -50.97876, "y": -16.10713, "z": 12.91232} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": 10.86177, "y": 19.70426, "z": 50.1873}, "alignRadial": true, "scale": 0.16 }, //Gregory
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": 10.86177, "y": 19.70426, "z": 50.1873} },
+			{ "path" : "Jellyfish_Body/Beast_GD_Jellyfish_v4", "position" : {"x": 1.750032, "y": 8.499125, "z": -54.31119}, "alignRadial": true, "scale": 0.16 }, //Gerald
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/JellyfishLight.prefab", "position" : {"x": 1.750032, "y": 8.499125, "z": -54.31119} }
+		],
+		"dialogue": [
+			{ "xmlFile": "planets/xml/dialogue/characters/gustavo.xml", "position" : {"x": 0, "y": 60, "z": 0}, "radius": 3.5, "range": 8 },
+			{ "xmlFile": "planets/xml/dialogue/characters/garry.xml", "position" : {"x": 0, "y": -55, "z": 0}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/garrycallout.xml", "position" : {"x": 0, "y": -55, "z": 0}, "radius": 0, "remoteTrigger": {"position": {"x": 0, "y": -35, "z": 0}, "radius": 30}, "blockAfterPersistentCondition": "RSS_GarryCallout" },
+			{ "xmlFile": "planets/xml/dialogue/characters/geoffrey.xml", "position" : {"x": -44.21429, "y": 24.02697, "z": 22.19916}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/griffin.xml", "position" : {"x": -52.46511, "y": -11.43769, "z": 11.89925}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/gertrude.xml", "position" : {"x": 27.76891, "y": -33.45103, "z": 33.68853}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/gooseberry.xml", "position" : {"x": 50.6428, "y": -9.404798, "z": -0.9791875}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/gabro.xml", "position" : {"x": 28.49156, "y": 34.92665, "z": -31.51764}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/goldie.xml", "position" : {"x": -11.89569, "y": -44.70222, "z": -29.75239}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/gideon.xml", "position" : {"x": -50.97876, "y": -16.10713, "z": 12.91232}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/gregory.xml", "position" : {"x": 10.86177, "y": 19.70426, "z": 50.1873}, "radius": 1.75, "range": 4 },
+			{ "xmlFile": "planets/xml/dialogue/characters/gerald.xml", "position" : {"x": 1.750032, "y": 8.499125, "z": -54.31119}, "radius": 1.75, "range": 4 }
+		],
+		"geysers": [
+			{ "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "disableShaft": true, "disableSpout": true, "offset": -25, "force": 0, "volume": 0, "activeDuration": 10, "inactiveDuration": 24 },
+			{ "position" : {"x": 4.596366, "y": -45.25183, "z": 11.24978}, "disableShaft": true, "disableBubbles": true, "offset": -75, "force": 30, "tint": {"r": 255, "g": 255, "b": 255, "a": 128}, "volume": 0.15, "activeDuration": 10, "inactiveDuration": 24 },
+			{ "position" : {"x": 5.393641, "y": -46.00281, "z": -7.566312}, "disableShaft": true, "disableSpout": true, "offset": -25, "force": 0, "volume": 0, "activeDuration": 10, "inactiveDuration": 18 },
+			{ "position" : {"x": 5.393641, "y": -46.00281, "z": -7.566312}, "disableShaft": true, "disableBubbles": true, "offset": -75, "force": 30, "tint": {"r": 255, "g": 255, "b": 255, "a": 128}, "volume": 0.15, "activeDuration": 10, "inactiveDuration": 18 }
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/er.png"
+		}
+	}
+}

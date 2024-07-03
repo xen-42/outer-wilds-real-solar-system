@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Sedna",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 30
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 180000,
+		"primaryBody" : "Sol",
+		"inclination" : 12,
+		"trueAnomaly" : 350,
+		"eccentricity": 0.6,
+		"longitudeOfAscendingNode": 144,
+		"argumentOfPeriapsis": 	311,
+		"siderealPeriod": 2,
+		"isMoon" : false,
+		"tint": {
+            "r": 130,
+            "g": 90,
+            "b": 80,
+            "a": 255
+        }
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/sedna_heightmap.png",	
+		"textureMap" : "planets/assets/sedna_texturemap.png",	
+		"minHeight" : 28,
+		"maxHeight" : 30
+	}
+}

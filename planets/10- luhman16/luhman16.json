@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Luhman 16",
+	"starSystem" : "xen.RealSolarSystem",
+	"MapMarker":
+	{
+		"enabled": false
+	},
+	"ReferenceFrame":
+	{
+		"enabled": false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 200000,
+		"primaryBody" : "Sol",
+		"showOrbitLine" : false,
+		"trueAnomaly" : 165,
+		"isStatic" : true
+	},
+	"FocalPoint" :
+	{
+		"primary" : "Luhman 16A",
+		"secondary" : "Luhman 16B"
+	}
+}

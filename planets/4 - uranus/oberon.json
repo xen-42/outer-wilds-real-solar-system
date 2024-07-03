@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Oberon",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 3,
+		"surfaceSize" : 40
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1600,
+		"primaryBody" : "Uranus",
+		"isMoon" : true,
+		"inclination" : 97,
+		"longitudeOfAscendingNode": 180,
+		"trueAnomaly": 327,
+		"isTidallyLocked" : true,
+		"axialTilt": 97,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 100,
+			"g" : 75,
+			"b" : 75,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/oberon_heightmap.png",	
+		"textureMap" : "planets/assets/oberon_texturemap.png",	
+		"minHeight" : 38,
+		"maxHeight" : 41
+	}
+}

@@ -1,52 +1,135 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Neptune",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 20,
-		"surfaceSize" : 300,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceGravity" : 12,
+		"surfaceSize" : 500
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 21000,
+		"semiMajorAxis" : 30000,
 		"inclination" : 1,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 131,
+		"longitudeOfAscendingNode" : 132,
+		"eccentricity" : 0.008,
+		"argumentOfPeriapsis" : 257,
 		"axialTilt" : 28,
 		"trueAnomaly" : 256,
-		"siderealPeriod" : 30
+		"siderealPeriod" : 4,
+		"tint": 
+		{
+			"r" : 10,
+			"g" : 30,
+			"b" : 100,
+			"a" : 255
+		}
 	},
 	"Atmosphere" :
 	{
-		"size" : 300,
-		"cloudTint" : 
+		"size" : 500,
+		"fogTint" : 
 		{
-			"r" : 181,
-			"g" : 181,
+			"r" : 50,
+			"g" : 100,
 			"b" : 230,
 			"a" : 255
 		},
-		"cloud" : "planets/assets/neptune.png",
-		"fogTint" : 
-		{
-			"r" : 128,
-			"g" : 128,
-			"b" : 255,
-			"a" : 255
-		},
-		"fogDensity": 0.9,
-		"fogSize": 300,
-		"hasAtmosphere" : true,
+		"fogDensity": 1,
+		"fogSize": 500,
+		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.5,
 		"atmosphereTint" : 
 		{
-			"r" : 10,
-			"g" : 90,
-			"b" : 220,
+			"r" : 50,
+			"g" : 100,
+			"b" : 230,
 			"a" : 255
+		},
+		"hasRain": true,
+		"hasSnow": true,
+		"clouds": {
+			"outerCloudRadius" : 500,
+			"innerCloudRadius" : 450,
+			"tint" : 
+			{
+				"r" : 10,
+				"g" : 30,
+				"b" : 100,
+				"a" : 255
+			},
+			"texturePath" : "planets/assets/neptune.png",
+			"rampPath": "planets/assets/neptune_ramp.png",
+			"cloudsPrefab": "giantsDeep",
+			"hasLightning" : true,
+			"lightningGradient" : [
+				{"time": 0, "tint": {"r": 0, "g": 0, "b": 0}},
+				{"time": 1, "tint": {"r": 0, "g": 0, "b": 0}}
+			]
+		}
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 500,
+			"innerRadius": 450,
+			"intensity": 0.8,
+			"tint": {
+				"r": 50,
+				"g": 100,
+				"b": 230,
+				"a": 255
+			}
+		}
+	],
+	"Water": {
+		"size": 350
+	},
+	"Lava": {
+		"size": 50,
+		"tint": 
+		{
+			"r" : 4000,
+			"g" : 1500,
+			"b" : 150,
+			"a" : 255
+		}
+	},
+	"Props": {
+		"details": [
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 300 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 250 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 200 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 150 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 100 }
+		],
+		"tornados": [
+			{ "type": "downwards", "position": { "x": 175, "y": 303, "z": 0 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -87, "y": 303, "z": 152 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -87, "y": 303, "z": -152 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			
+			{ "type": "hurricane", "position": { "x": 0, "y": 0, "z": 350 }, "height": 100, "wanderDegreesX": 90, "wanderDegreesZ": 30, "wanderRate": 0.02, "tint": { "r" : 10, "g" : 30, "b" : 100, "a" : 255 } },
+			{ "type": "hurricane", "position": { "x": 0, "y": 0, "z": -350 }, "height": 100, "wanderDegreesX": 90, "wanderDegreesZ": 30, "wanderRate": 0.02, "tint": { "r" : 10, "g" : 30, "b" : 100, "a" : 255 } },
+
+			{ "type": "downwards", "position": { "x": -175, "y": -303, "z": 0 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 87, "y": -303, "z": 152 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 87, "y": -303, "z": -152 }, "height": 100, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.04, "tint": { "r" : 200, "g" : 200, "b" : 200, "a" : 255 } }
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 350 }
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/neptune log.png"
 		}
 	}
 }

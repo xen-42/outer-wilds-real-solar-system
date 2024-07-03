@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Miranda",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 14
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1050,
+		"primaryBody" : "Uranus",
+		"isMoon" : true,
+		"inclination" : 101,
+		"longitudeOfAscendingNode": 180,
+		"trueAnomaly": 282,
+		"isTidallyLocked" : true,
+		"axialTilt": 101,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 140,
+			"g" : 130,
+			"b" : 130,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/miranda_heightmap.png",	
+		"textureMap" : "planets/assets/miranda_texturemap.png",	
+		"minHeight" : 12,
+		"maxHeight" : 15
+	}
+}

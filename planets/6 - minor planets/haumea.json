@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Haumea",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 60,
+		"gravityFallOff": "inverseSquared"
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 44500,
+		"inclination" : 28,
+		"trueAnomaly" : 218,
+		"eccentricity": 0.2,
+		"longitudeOfAscendingNode": 122,
+		"argumentOfPeriapsis": 239,
+		"axialTilt": 128,
+		"siderealPeriod": 0.8,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"tint": 
+		{
+			"r" : 230,
+			"g" : 230,
+			"b" : 230,
+			"a" : 255
+		}
+	},
+	"Rings": [
+		{
+			"innerRadius" : 100,
+			"outerRadius" : 110,
+			"texture": "planets/assets/haumea_rings.png",
+			"fluidType": "sand"
+		}
+	],
+	"HeightMap": {
+		"heightMap": "planets/assets/haumea_heightmap.png",
+		"textureMap": "planets/assets/haumea_texturemap.png",
+		"minHeight": 38,
+		"maxHeight": 40,
+		"stretch":{
+			"x": 1.1428572,
+			"y": 0.72727275,
+			"z": 1.6
+		}
+	}
+}

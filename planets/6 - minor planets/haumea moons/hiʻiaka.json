@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Hi'iaka",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 15
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 500,
+		"primaryBody" : "Haumea",
+		"inclination": 126.356,
+		"longitudeOfAscendingNode": 180,
+		"eccentricity": 0.0513,
+		"trueAnomaly": 152.8,
+		"argumentOfPeriapsis": 154.1,
+		"axialTilt": 126.356,
+		"isMoon" : true,
+		"siderealPeriod": 2,
+		"tint": 
+		{
+			"r" : 230,
+			"g" : 230,
+			"b" : 230,
+			"a" : 255
+		}
+	},
+	"ProcGen": {
+		"scale": 15,
+		"color": {
+			"r": 230,
+			"g": 230,
+			"b": 230,
+			"a": 255
+		}
+	}
+}

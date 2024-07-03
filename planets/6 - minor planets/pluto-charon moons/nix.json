@@ -1,28 +1,51 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Nix",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 20,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceSize" : 20
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 900,
+		"semiMajorAxis" : 600,
 		"primaryBody" : "Pluto-Charon",
+		"inclination": 120,
+		"trueAnomaly": 90,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"siderealPeriod": 2,
+		"axialTilt": 370,
+		"tint": {
+            "r": 175,
+            "g": 175,
+            "b": 175,
+            "a": 255
+        }
 	},
-	"ProcGen": {
-		"scale": 20,
-		"colour": {
-			"R": 100,
-			"G": 100,
-			"B": 100,
-			"A": 255
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/nix_heightmap.png",	
+		"textureMap" : "planets/assets/nix_texturemap.png",	
+		"minHeight" : 8,
+		"maxHeight" : 16,
+		"smoothness": 0.5,
+		"baseTile": {
+			"size": 8,
+			"textureTile": "planets/assets/tiles/Regolith_d.png",
+			"smoothnessTile": "planets/assets/tiles/Regolith_s.png",
+			"normalTile": "planets/assets/tiles/Regolith_n.png",
+			"normalStrength": 1
+		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Nix log.png"
 		}
 	}
 }

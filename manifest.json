@@ -1,9 +1,9 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "xen",
+  "author": "Trifid, xen, MegaPiggy",
   "name": "Real Solar System",
   "uniqueName": "xen.RealSolarSystem",
-  "version": "0.6.7",
+  "version": "1.0.0",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]
 }

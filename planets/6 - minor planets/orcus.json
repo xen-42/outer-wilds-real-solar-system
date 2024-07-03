@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Orcus",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 30
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 0,
+		"primaryBody" : "Orcus-Vanth",
+		"inclination" : 105,
+		"longitudeOfAscendingNode": 180,
+		"axialTilt": 105,
+		"isMoon" : true,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": {
+            "r": 135,
+            "g": 135,
+            "b": 135,
+            "a": 255
+        }
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/orcus_heightmap.png",	
+		"textureMap" : "planets/assets/orcus_texturemap.png",	
+		"minHeight" : 28,
+		"maxHeight" : 30
+	}
+}

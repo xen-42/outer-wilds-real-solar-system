@@ -1,0 +1,64 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Proxima b to Earth",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"showMinimap" : false
+	},
+	"MapMarker":
+	{
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 25,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 650,
+		"primaryBody" : "Proxima b",
+        "trueAnomaly": 0,
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"axialTilt": 90,
+		"tint": 
+		{
+			"r" : 255,
+			"g" : 93,
+			"b" : 30,
+			"a" : 255
+		}
+	},
+	"Props" :
+	{
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_nomairuins", "path" : "Assets/Nomai Ruins/WarpStation.prefab", "keepLoaded": true },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_nomairuins", "path" : "Assets/Nomai Ruins/EarthSymbol.prefab", "position": {"x": 0.17, "y": -0.11, "z": -4.52}, "rotation": {"x": 0, "y": -90, "z": 90}, "keepLoaded": true },
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_nomairuins", "path" : "Assets/Nomai Ruins/EarthSymbol.prefab", "position": {"x": 0.17, "y": 0.11, "z": 4.52}, "rotation": {"x": 0, "y": -90, "z": -90}, "keepLoaded": true },
+			{ "path" : "SunStation_Body/Sector_SunStation/Sector_WarpModule/Interactables_WarpModule/Prefab_NOM_WarpReceiver", "position": {"x": 0, "y": 8.84, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "scale": 1.98, "removeChildren": ["WarpReceiver_Streaming", "BlackHole", "WhiteHole", "ReturnActivationTrigger", "Effects_NOM_WarpReceiverGlow"], "removeComponents": true },
+			{ "path" : "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Prefab_NOM_WarpTransmitter (2)", "position": {"x": 0, "y": -8.84, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 180}, "scale": 1.98, "removeChildren": ["WarpTransmitter_Streaming", "BlackHole", "WhiteHole"], "removeComponents": true }
+		],
+		"singularities": 
+		[
+			{ "uniqueID": "ProximabFromEarth", "type": "whiteHole", "pairedSingularity": "EarthToProximab", "position": {"x": 0, "y": 34, "z": 0}, "horizonRadius": 8, "distortRadius": 20, "renderQueueOverride": 3000, "rotation": {"x": 0, "y": 270, "z": 0} },
+			{ "uniqueID": "ProximabToEarth", "type": "blackHole", "pairedSingularity": "EarthFromProximab", "position": {"x": 0, "y": -34, "z": 0}, "horizonRadius": 8, "distortRadius": 20, "renderQueueOverride": 3000, "hasWarpEffects": false }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 50 }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}

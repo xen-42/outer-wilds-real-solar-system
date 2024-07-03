@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "EggDimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -96500,
+			"y": -50000,
+			"z": -106500
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "ProximaEntrance",
+			"radius": 250,
+			"fogTint": {"r" : 168, "g" : 56, "b" : 86, "a" : 255},
+			"vinePrefab": "smallNest"
+		}
+	},
+	"Props": {
+		"details": [
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Geometry_AnglerNestDimension/OtherComponentsGroup/FishEggs" },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Effects_AnglerNestDimension/InnerWarpFogGlow (1)" },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Lighting_AnglerNestDimension/PointLight_DB_FishEggs" },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Geometry_AnglerNestDimension/OtherComponentsGroup/FishEggs", "position": {"x": -150, "y": 0, "z": 100} },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Effects_AnglerNestDimension/InnerWarpFogGlow (1)", "position": {"x": -150, "y": 0, "z": 100} },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Lighting_AnglerNestDimension/PointLight_DB_FishEggs", "position": {"x": -150, "y": 0, "z": 100} },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Geometry_AnglerNestDimension/OtherComponentsGroup/FishEggs", "position": {"x": 100, "y": 0, "z": 120} },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Effects_AnglerNestDimension/InnerWarpFogGlow (1)", "position": {"x": 100, "y": 0, "z": 120} },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Lighting_AnglerNestDimension/PointLight_DB_FishEggs", "position": {"x": 100, "y": 0, "z": 120} },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Geometry_AnglerNestDimension/OtherComponentsGroup/FishEggs", "position": {"x": 0, "y": 0, "z": -175} },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Effects_AnglerNestDimension/InnerWarpFogGlow (1)", "position": {"x": 0, "y": 0, "z": -175} },
+			{ "path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Lighting_AnglerNestDimension/PointLight_DB_FishEggs", "position": {"x": 0, "y": 0, "z": -175} }
+		]
+	}
+}

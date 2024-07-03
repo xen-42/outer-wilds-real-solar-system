@@ -1,0 +1,81 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/dev/NewHorizons/Schemas/body_schema.json",
+	"name" : "Sirius B",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 4500,
+		"surfaceSize" : 300,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 25000,
+		"eccentricity": 0.6,
+		"argumentOfPeriapsis": 185,
+		"inclination": 97,
+		"longitudeOfAscendingNode": 161,
+		"primaryBody" : "Sirius",
+		"showOrbitLine" : true,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Star" :
+	{
+		"size" : 300,
+		"tint" : 
+		{
+			"r" : 384,
+			"g" : 384,
+			"b" : 384,
+			"a" : 255
+		},
+		"solarLuminosity": 0.5,
+		"lightRadius": 10000,
+		"lightTint": 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"stellarDeathType": "none"
+	},
+	"ShockEffect" : {
+		"hasSupernovaShockEffect": true,
+		"radius": 400
+	},
+	"Rings": [
+		{
+			"innerRadius": 0,
+			"outerRadius": 3000,
+			"texture": "planets/assets/sirius_disk.png",
+			"fluidType": "plasma",
+			"rotationSpeed": 60,
+			"unlit": true,
+			"inclination": 97,
+			"longitudeOfAscendingNode": 161,
+			"scaleCurve": [
+				{ "time": 0, "value": 0 },
+				{ "time": 11.4, "value": 0 },
+				{ "time": 11.5, "value": 1 },
+				{ "time": 12, "value": 0 }
+			],
+			"opacityCurve": [
+				{ "time": 0, "value": 0 },
+				{ "time": 11.5, "value": 0 },
+				{ "time": 11.6, "value": 1 },
+				{ "time": 11.9, "value": 0 }
+			]
+		}
+	]
+}

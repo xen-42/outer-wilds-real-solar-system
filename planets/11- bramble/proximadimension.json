@@ -1,0 +1,61 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "ProximaDimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -100000,
+			"y": -50000,
+			"z": -100000
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "ProximaEntrance",
+			"radius": 750,
+			"fogTint": {"r" : 168, "g" : 71, "b" : 56, "a" : 255},
+			"vinePrefab": "hub"
+		},
+		"nodes": [
+			{
+				"name": "ProximaToSeedCluster",
+				"linksTo": "SeedClusterDimension",
+				"position": {"x": 16.9783, "y": -642.4551, "z": -28.5952},
+				"rotation": {"x": 359.0952, "y": 53.6423, "z": 86.7825},
+				"scale": 1,
+				"fogTint": {"r": 192, "g": 128, "b": 255, "a": 255},
+				"lightTint": {"r": 192, "g": 128, "b": 255, "a": 255}
+			},
+			{
+				"name": "ProximaToLoop1",
+				"linksTo": "Loop1Dimension",
+				"position": {"x": 262.6341, "y": -154.2422, "z": -297.3658},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"scale": 1,
+				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 255}
+			},
+			{
+				"name": "ProximaToEnceladus",
+				"linksTo": "EnceladusDimension",
+				"position": {"x": 157.8841, "y": 72.6513, "z": 409.989},
+				"rotation": {"x": 330.4683, "y": 194.2699, "z": 134.9387},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 128, "g": 181, "b": 255, "a": 255},
+				"lightTint": {"r": 128, "g": 181, "b": 255, "a": 255},
+				"hasFogLight": true
+			},
+			{
+				"name": "ProximaToAmbush",
+				"linksTo": "AmbushDimension",
+				"position": {"x": -266.5742, "y": 433.9707, "z": -34.6027},
+				"rotation": {"x": 26.6764, "y": 355.5576, "z": 7.4842},
+				"scale": 1,
+				"fogTint": {"r": 255, "g": 83, "b": 83, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 83, "a": 255}
+			}
+		]
+	}
+}

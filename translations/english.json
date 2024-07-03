@@ -1,19 +1,190 @@
 {
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
     "DialogueDictionary" :
     {
-		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_1" : "So for starters I have no idea how I ended up here.",
-		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_2" : "I'm also not entirely sure where exactly here is.",
-		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_3" : "Seems I'm not the only one who's been here, judging by the Nomai ruins nearby.",
-		"RSS_EARTH_HEA_CAMPSITE_RECORDER_PAGE_4" : "I'll go check those out tomorrow, for now I think I deserve a little rest.",
+		
 
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_1" : "Allium: This raft was here when we arrived.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_2" : "Allium: Hypothesis 1: It was left here by the original inhabitants of this planet.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_3" : "Allium: Hypothesis 2: We are not the only ones to have been marooned here.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_4" : "Musa: Unrelated hypothesis, this raft would have made our ocean crossing much easier.",
-		"RSS_EARTH_NOM_RAFT_RECORDER_PAGE_5" : "Allium: I believe that is more of an objective fact than a theory, Musa."
+		"Jammer" : "Jammer",
+		"RSS_Jammer11" : "Speical birthday gift!",
+		"RSS_Jammer1A" : "Wahoo!",
+		"RSS_Jammer21" : "Ur winning!",
+		"RSS_Jammer22" : "Im winning!",
+		"RSS_Jammer23" : "Will fund!",
+		"RSS_Jammer24" : "HOT",
+		"RSS_Jammer25" : "YAY!!~!!!",
+		"RSS_Jammer26" : "Oak doak!",
+		"RSS_Jammer27" : "Bestest day!",
+
+		"Gustavo" : "Gustavo",
+		"RSS_Gustavo01" : "Why, hello traveler! What brings you to <![CDATA[<color=lightblue>Europa</color>]]>?",
+		"RSS_Gustavo0A" : "I saw the geysers.",
+		"RSS_Gustavo0B" : "Can I ask you something?",
+		"RSS_Gustavo11" : "Ah right, the vents melted through the ice down there. Must be pretty from the outside.",
+		"RSS_Gustavo21" : "What can I do for you?",
+		"RSS_Gustavo2A" : "I met all of your children.",
+		"RSS_Gustavo2B" : "Where should I explore here?",
+		"RSS_Gustavo2C" : "Is there any other life in this solar system?",
+		"RSS_Gustavo2D" : "Are we safe from the meteors?",
+		"RSS_Gustavo2E" : "Just saying hi.",
+		"RSS_Gustavo31" : "Have you met my eleven children? Well one’s away, but still, they’re quite something.",
+		"RSS_Gustavo41" : "Indeed, out at <![CDATA[<color=lightblue>Enceladus</color>]]>. A son of mine married a fine lad from there. Oh and <![CDATA[<color=lightblue>Earth</color>]]> too, I suppose. Not much is left there though.",
+		"RSS_Gustavo51" : "Ah yes, don’t worry about <![CDATA[<color=lightblue>Io</color>]]>. The ice takes a beating, but it holds. Outside is a different story, but you’re welcome to stay here.",
+		"RSS_Gustavo61" : "You- all of them? Really? Well I suppose it’s an achievement, but I respect your tolerance.",
+		"RSS_Gustavo62" : "<![CDATA[<size=20>You have Achievements+ right?</size>]]>",
+		"RSS_Gustavo71" : "Have a good one.",
+
+		"Garry" : "Garry",
+		"RSS_EuropaIntro11" : "Oh hey, you’re new.",
+		"RSS_EuropaIntro21" : "Welcome to Europa, I’m Garry.",
+		"RSS_EuropaIntro22" : "As you can see, the heat from tidal forces maintains this ocean below the ice.",
+		"RSS_EuropaIntro23" : "It’s pretty nice here, although I do wonder what’s beyond the shell.",
+		"RSS_EuropaIntro24" : "Need anything?",
+		"RSS_GarryHey11" : "Hey.",
+		"RSS_GarryHey21" : "Hey again.",
+		"RSS_GarryQuestionsA1" : "Is Gustavo here?",
+		"RSS_GarryQuestionsA2" : "Where is Gustavo again?",
+		"RSS_GarryQuestionsB" : "What are you up to?",
+		"RSS_GarryQuestionsC" : "Where should I explore here?",
+		"RSS_GarryQuestionsD" : "Seeya.",
+		"RSS_GarryGustavo11" : "Dad’s at the north pole, yeah.",
+		"RSS_GarryGustavo21" : "The north pole.",
+		"RSS_GarryGustavo22" : "He’s giant, you can’t miss him.",
+		"RSS_GarryGeysers1" : "Not much, just warming up by these vents.",
+		"RSS_GarryGeysers2" : "And thinking about the surface...",
+		"RSS_GarryGeysers3" : "Uh...<![CDATA[<Pause=0.5>]]> anything else?",
+		"RSS_GarryExplore1" : "Well there’s not much going on with Europa, most of the vents are dormant right now.",
+		"RSS_GarryExplore2" : "You could go talk to Dad at the north pole though, he likes visitors.",
+
+		"Geoffrey" : "Geoffrey",
+		"RSS_Geoffrey11" : "Have you ever thought “hey, I am a thing that exists”? It’s wild. You are a something, and I am also a something.",
+		"RSS_Geoffrey12" : "Does that mean we’re both the same thing? But that would also mean we’re the same thing as everything.",
+		"RSS_Geoffrey13" : "Am I a toothbrush? I mean, I’m a jellyfish. I have no clue what teeth are. But am I a toothbrush?",
+		"RSS_Geoffrey21" : "This is very conchfusing...",
+
+		"Griffin" : "Griffin",
+		"RSS_Griffin11" : "I like tea. Tea is good.",
+		"RSS_Griffin12" : "Sometimes I come back from my jellyjob, and I’m really stressed.",
+		"RSS_Griffin13" : "But when I take a sip of some tea, it all goes away.",
+		"RSS_Griffin14" : "Granted, it’s rather difficult to drink a liquid while being underwater, and to acquire it from a teapot in deep space.",
+		"RSS_Griffin15" : "But I do like some tea.",
+
+		"Gertrude" : "Gertrude",
+		"RSS_Gertrude11" : "Greetings! May the Holy Shell be with you.",
+		"RSS_Gertrude1A" : "The what now?",
+		"RSS_Gertrude21" : "Do you not know the way of the Teapot?",
+		"RSS_Gertrude2A" : "Uh...",
+		"RSS_Gertrude31" : "Goodness, you must be so lost without It!",
+		"RSS_Gertrude32" : "Russell's Teapot cast The Holy Shell around the ocean to protect us from the demons of Io!",
+		"RSS_Gertrude33" : "No one can disprove Russell's Teapot, for It is too small to see as It orbits somewhere between Earth and Mars.",
+		"RSS_Gertrude3A" : "Interesting...",
+
+		"Gooseberry" : "Gooseberry",
+		"RSS_Gooseberry11" : "Hallo!",
+		"RSS_Gooseberry1A" : "I like your vibe.",
+		"RSS_Gooseberry1B" : "What is your wisdom?",
+		"RSS_Gooseberry21" : "Yay!",
+		"RSS_Gooseberry31" : "Jammer is always within 12,756 kilometers.",
+		"RSS_Gooseberry32" : "Why do they call it oven when you of in the cold food of out hot eat the food?",
+		"RSS_Gooseberry33" : "Cookies are baked and bacon is cooked.",
+		"RSS_Gooseberry34" : "Maybe the real Eye of the universe was the friends we made along the way.",
+		"RSS_Gooseberry35" : "All problems can and should be solved with arson.",
+		"RSS_Gooseberry36" : "Joe.",
+
+		"Gabro" : "Gabro",
+		"RSS_Gabro11" : "Hola.",
+		"RSS_Gabro1A" : "Hehe one b.",
+		"RSS_Gabro21" : "¿Qué te ríes?",
+		"RSS_Gabro2A" : "Nada.",
+
+		"Goldie" : "Goldie",
+		"RSS_Goldie11" : "Hello.",
+		"RSS_Goldie12" : "I've been studying quantum physics.",
+		"RSS_Goldie1A" : "I see.",
+		"RSS_Goldie21" : "Only sometimes.<![CDATA[<Pause>]]> <![CDATA[<size=20>Heh...</size>]]>",
+
+		"Gideon" : "Gideon",
+		"RSS_Gideon11" : "I LOVE COFFEE.",
+		"RSS_Gideon12" : "COFFEE IS THE BEST THING EVER.",
+		"RSS_Gideon13" : "<![CDATA[<size=40>WHEN I SLEEP FOR THIRTEEN HOURS STRAIGHT AND I NEED TO WAKE UP I JUST NEED SOME COFFEE.</size>]]>",
+		"RSS_Gideon14" : "<![CDATA[<size=45>AND BY SOME I MEAN 34 INDUSTRIAL CONTAINERS FULL OF RAW COFFEE BEANS.</size>]]>",
+		"RSS_Gideon15" : "<![CDATA[<size=50>COFFEE IS THE BEST THING EVER I LOVE IT SO MUCH I’D LITERALLY JUST STOP EXISTING WITHOUT COFFEE MY BLOOD IS NOW COFFEE I’M SERIOUS IF A VAMPIRE BIT ME THEY’D GET SUPER ENERGETIC CUZ MY BLOOD IS MADE OF COFFEE.</size>]]>",
+		"RSS_Gideon16" : "<![CDATA[<size=60>A</size>]]><![CDATA[<size=59>A</size>]]><![CDATA[<size=58>A</size>]]><![CDATA[<size=57>A</size>]]><![CDATA[<size=56>A</size>]]><![CDATA[<size=55>A</size>]]><![CDATA[<size=54>A</size>]]><![CDATA[<size=53>A</size>]]><![CDATA[<size=52>A</size>]]><![CDATA[<size=51>A</size>]]><![CDATA[<size=50>A</size>]]><![CDATA[<size=49>A</size>]]><![CDATA[<size=48>A</size>]]><![CDATA[<size=47>A</size>]]><![CDATA[<size=46>A</size>]]><![CDATA[<size=45>A</size>]]><![CDATA[<size=44>A</size>]]><![CDATA[<size=43>A</size>]]><![CDATA[<size=42>A</size>]]><![CDATA[<size=41>A</size>]]><![CDATA[<size=40>A</size>]]><![CDATA[<size=39>A</size>]]><![CDATA[<size=38>A</size>]]><![CDATA[<size=37>A</size>]]><![CDATA[<size=36>A</size>]]><![CDATA[<size=35>A</size>]]><![CDATA[<size=34>A</size>]]><![CDATA[<size=33>A</size>]]><![CDATA[<size=32>A</size>]]><![CDATA[<size=31>A</size>]]><![CDATA[<size=30>A</size>]]><![CDATA[<size=29>A</size>]]><![CDATA[<size=28>A</size>]]><![CDATA[<size=27>A</size>]]><![CDATA[<size=26>A</size>]]><![CDATA[<size=25>A</size>]]><![CDATA[<size=24>A</size>]]><![CDATA[<size=23>A</size>]]><![CDATA[<size=22>A</size>]]><![CDATA[<size=21>A</size>]]><![CDATA[<size=20>A</size>]]><![CDATA[<size=19>A</size>]]><![CDATA[<size=18>A</size>]]><![CDATA[<size=17>A</size>]]><![CDATA[<size=16>A</size>]]><![CDATA[<size=15>A</size>]]><![CDATA[<size=14>A</size>]]><![CDATA[<size=13>A</size>]]><![CDATA[<size=12>A</size>]]><![CDATA[<size=11>A</size>]]>",
+		"RSS_Gideon17" : "<![CDATA[<size=20>One sec ima go get some coffee...</size>]]>",
+		"RSS_Gideon21" : "<![CDATA[<size=20>Styx, did dad hide it again...</size>]]>",
+
+		"Gregory" : "Gregory",
+		"RSS_Gregory11" : "Hey, you're from space, right? I've always wanted to see the stars.",
+		"RSS_Gregory1A" : "Well they're not doing too good...",
+		"RSS_Gregory21" : "Oh, well, I hope they get better soon.",
+
+		"Gerald" : "Gerald",
+		"RSS_Gerald11" : "Did you know that water is the most lethal substance ever?",
+		"RSS_Gerald12" : "Yeah, 100% of things that consume water die.",
+		"RSS_Gerald13" : "So, stop drinking water. Also, stop breathing. That one also has a 100% mortality rate.",
+		"RSS_Gerald14" : "Wait.",
+		"RSS_Gerald15" : "Oh my gaia.",
+		"RSS_Gerald1A" : "You’re drinking water!",
+		"RSS_Gerald21" : "Oh styx oh phocis oh my ganymede oh no what will I do oh no dear zeus oh no-",
+		"RSS_Gerald22" : "Wait, I know what to do!",
+		"RSS_Gerald23" : "PANIC!",
+		"RSS_Gerald24" : "<![CDATA[<size=50>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!!!!</size>]]>",
+		"RSS_Gerald25" : "Okay I’m good now.",
+
+		"Eduardo" : "Eduardo",
+		"RSS_Eduardo01" : "Hey",
+		"RSS_Eduardo0A" : "Who are you?",
+		"RSS_Eduardo0B" : "I have a question.",
+		"RSS_Eduardo11" : "Hey again.",
+		"RSS_Eduardo21" : "Eduardo.",
+		"RSS_EduardoQA" : "I found the White Hole Forge.",
+		"RSS_EduardoQB" : "Where are we?",
+		"RSS_EduardoQC" : "I like your house.",
+		"RSS_EduardoQD" : "Are you, uh, married?",
+		"RSS_EduardoQE" : "Okay goodbye.",
+		"RSS_Eduardo31" : "The core of <![CDATA[<color=lightblue>Enceladus</color>]]>.<![CDATA[<Pause>]]> Inside a Bramble node.<![CDATA[<Pause>]]> Inside <![CDATA[<color=lightblue>Enceladus</color>]]>.",
+		"RSS_Eduardo3A" : "But how did the Bramble get here?",
+		"RSS_Eduardo41" : "Thanks, I built it with my own twelve tentacles.",
+		"RSS_Eduardo4A" : "Your... what?",
+		"RSS_Eduardo4B" : "Where did you get the gravity crystal though?",
+		"RSS_Eduardo51" : "No, my brother Ernesto is. If you’re looking for him, he’s out visiting his cousin, but he’ll probably be back soon.",
+		"RSS_Eduardo61" : "Count them.",
+		"RSS_Eduardo71" : "I found it in the big thing by the swirly thing.",
+		"RSS_Eduardo7A" : "Um, elaborate?",
+		"RSS_Eduardo7B" : "You mean the White Hole Forge?",
+		"RSS_Eduardo81" : "Dunno. It was like this when I got here.",
+		"RSS_Eduardo91" : "Bye bye.",
+		"RSS_Eduardo101" : "Okay.",
+		"RSS_Eduardo102" : "...",
+		"RSS_Eduardo103" : "You’re the expert now, not me.",
+		"RSS_Eduardo111" : "I don’t know what it is, I just found it in the red and cloudy place.",
+		"RSS_Eduardo121" : "Probably."
+		
    	},
     "ShipLogDictionary" :
     {
 		"" : ""
-   	}
+   	},
+    "AchievementTranslations" : 
+	{
+		"RSS_AllSpacecraft" : {
+			"Name" : "Forgotten Flagships",
+			"Description" : "Discover every spacecraft."
+		},
+		"RSS_AllJellyfish" : {
+			"Name" : "Full Bloom",
+			"Description" : "Meet every jellyfish."
+		},
+		"RSS_FindJammer" : {
+			"Name" : "You Win!",
+			"Description" : "Find Jammer."
+		},
+		"RSS_FindVesselWormhole" : {
+			"Name" : "The Other Side",
+			"Description" : "Find another swirly thing by a broken thing."
+		},
+		"RSS_CompleteShipLog" : {
+			"Name" : "Ethnographer",
+			"Description" : "Complete the ship log."
+		}
+	}
 }

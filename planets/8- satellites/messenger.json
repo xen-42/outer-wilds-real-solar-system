@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "MESSENGER",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"showMinimap" : false
+	},
+	"MapMarker":
+	{
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 1.25,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 150,
+		"primaryBody" : "Mercury",
+		"inclination": 90,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+        "trueAnomaly": 200,
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {"x": 1, "y": 0, "z": 0}
+	},
+	"Props" :
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "MESSENGER", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0.75, "y": 0.75, "z": 0 } }
+		],
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/Messenger.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 25 }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}

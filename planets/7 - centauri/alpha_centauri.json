@@ -1,22 +1,26 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Alpha Centauri",
 	"starSystem" : "xen.RealSolarSystem",
-	"Base" :
+	"MapMarker":
 	{
-		"hasMapMarker" : false
+		"enabled": false
+	},
+	"ReferenceFrame":
+	{
+		"enabled": false
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 120000,
+		"semiMajorAxis" : 132000,
 		"primaryBody" : "Sol",
 		"showOrbitLine" : false,
-		"trueAnomaly" : 60,
+		"trueAnomaly" : 230,
 		"isStatic" : true
 	},
 	"FocalPoint" :
 	{
-		"Primary" : "Alpha Centauri A",
-		"Secondary" : "Alpha Centauri B"
+		"primary" : "Rigil Kentaurus",
+		"secondary" : "Toliman"
 	}
 }

@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Europa Clipper",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+        "surfaceSize": 1,
+		"showMinimap" : false
+	},
+	"MapMarker":
+	{
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 2.5,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 120,
+		"primaryBody" : "Europa",
+		"inclination": 90,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+        "trueAnomaly": 0,
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {"x": 1, "y": 0, "z": 0}
+	},
+	"Props" :
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Europa Clipper", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 2, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 1.6, "y": -0.5, "z": 0 } }
+		],
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/EuropaClipper.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 25 }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}

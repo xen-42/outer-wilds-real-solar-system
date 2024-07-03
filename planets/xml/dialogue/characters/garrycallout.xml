@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Garry</NameField>
+	
+	<DialogueNode>
+		<Name>EuropaIntro1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_EuropaIntro11</Page>
+		</Dialogue>
+
+		<SetCondition>RSS_EuropaIntro</SetCondition>
+		<SetPersistentCondition>RSS_GarryCallout</SetPersistentCondition>
+	</DialogueNode>
+
+</DialogueTree>

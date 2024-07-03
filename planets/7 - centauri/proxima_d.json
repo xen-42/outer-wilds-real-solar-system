@@ -1,0 +1,42 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Proxima d",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 250
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 2500,
+		"primaryBody" : "Proxima Centauri",
+		"isMoon" : false,
+		"eccentricity": 0.04,
+		"argumentOfPeriapsis": 0,
+		"inclination": 1,
+		"longitudeOfAscendingNode": 0,
+		"axialTilt" : 0,
+		"isTidallyLocked" : true,
+		"alignmentAxis": {"x": 1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 60,
+			"g" : 10,
+			"b" : 5,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/proxima_d_heightmap.png",	
+		"textureMap" : "planets/assets/proxima_d_texturemap.png",	
+		"minHeight" : 245,
+		"maxHeight" : 255,
+		"resolution": 256
+	}
+}

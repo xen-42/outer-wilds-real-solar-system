@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "EmptyDimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -94500,
+			"y": -50000,
+			"z": -105500
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "ProximaEntrance",
+			"radius": 150,
+			"fogTint": {"r" : 84, "g" : 83, "b" : 73, "a" : 255},
+			"fogDensity": 4,
+			"vinePrefab": "none"
+		}
+	}
+}

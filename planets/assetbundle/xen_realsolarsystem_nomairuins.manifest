@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 1656895142
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a3e4eb90cb1f6102d6610d1d96c235ec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fee90f7e2d7cbe3e5af190aae7256f34
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/ProximaBSymbol.prefab
+- Assets/Nomai Ruins/EarthSymbol.prefab
+- Assets/Pivot.prefab
+- Assets/Nomai Ruins/BarnardBSymbol.prefab
+- Assets/Nomai Ruins/ProximaCSymbol.prefab
+- Assets/Nomai Ruins/seedspikes_edit.prefab
+- Assets/Nomai Ruins/SeedVineCollider.prefab
+- Assets/Nomai Ruins/SettlementRuin2.prefab
+- Assets/Cow_Bumper.prefab
+- Assets/Nomai Ruins/WarpStation.prefab
+Dependencies: []

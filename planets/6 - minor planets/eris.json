@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Eris",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 60
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 69000,
+		"inclination" : 44,
+		"trueAnomaly" : 306,
+        "eccentricity": 0.44,
+		"longitudeOfAscendingNode": 36,
+		"argumentOfPeriapsis": 	151,
+		"axialTilt": 78,
+		"siderealPeriod": 5.3,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"tint": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+        }
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/eris_heightmap.png",	
+		"textureMap" : "planets/assets/eris_texturemap.png",	
+		"minHeight" : 57,
+		"maxHeight" : 60
+	}
+}

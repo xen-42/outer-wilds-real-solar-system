@@ -1,0 +1,260 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Earth",
+	"starSystem" : "xen.RealSolarSystem",
+	"Spawn" : 
+	{
+		"playerSpawn": {
+			"position": {"x": -55.65454, "y": 227.4736, "z": 183.9742},
+			"alignRadial": true,
+			"startWithSuit": true
+		},
+		"shipSpawn": {
+			"position": {"x": -59.18244, "y": 215.5915, "z": 196.174},
+			"alignRadial": true
+		}
+	},
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 300
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 6000,
+		"inclination" : 2,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.017,
+		"argumentOfPeriapsis": 102,
+		"trueAnomaly" : 358,
+		"axialTilt" : 23,
+		"siderealPeriod" : 5,
+		"tint" : 
+		{
+			"r" : 130,
+			"g" : 175,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Water" : {
+		"size" : 294,
+		//"tint" : 
+		//{
+		//	"r" : 2,
+		//	"g" : 5,
+		//	"b" : 20,
+		//	"a" : 255
+		//},
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 12, "value": 1 },
+			{ "time": 14, "value": 1.012 },
+			{ "time": 18, "value": 1.012 },
+			{ "time": 20, "value": 0 }
+		]
+	},
+	"Lava": {
+		"size": 296,
+		"curve": [
+			{ "time": 0, "value": 0.98 },
+			{ "time": 18.2, "value": 0.98 },
+			{ "time": 18.3, "value": 1 }
+		]
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"useAtmosphereShader": true,
+		"size" : 375,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 375
+		/*"clouds": {
+			"outerCloudRadius": 340,
+			"texturePath": "planets/assets/earth_cloudmap.png",
+			"cloudsPrefab": "transparent",
+			"rotationSpeed": 0.5
+		}*/
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 375,
+			"innerRadius": 300,
+			"intensity": 1,
+			"tint" : 
+			{
+				"r" : 64,
+				"g" : 96,
+				"b" : 192,
+				"a" : 255
+			}
+		}
+	],
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/earth_heightmap.png",	
+		"textureMap" : "planets/assets/earth_texturemap.png",	
+		"minHeight" : 292,
+		"maxHeight" : 307,
+		"resolution": 512
+	},
+	"Props": {
+		"details": [
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": -36.96601, "y": 217.7057, "z": 199.2916},
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {"x": -1.408792, "y": 231.9895, "z": 186.1535},
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": 22.85923, "y": 226.1159, "z": 191.6715},
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {"x": 27.80317, "y": 242.7037, "z": 169.3137},
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": 63.5396, "y": 235.4805, "z": 171.7948},
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": 22.85923, "y": 226.1159, "z": 191.6715},
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+				"position": {"x": -7.752808, "y": 164.3758, "z": 247.1238},
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 42.7688, "y": 168.4095, "z": 242.1183},
+				"scale": 0.3,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 69.88821, "y": 153.8226, "z": 248.1481},
+				"scale": 0.5,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 60.3192, "y": 129.5013, "z": 264.0546},
+				"scale": 0.3,
+				"alignRadial": true
+			},
+			{
+				//GEYSER
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)",
+				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363},
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 144.246, "y": -139.7542, "z": -219.7848},
+				"scale": 0.5,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 168.5686, "y": -144.1726, "z": -197.8055},
+				"scale": 0.4,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 172.0606, "y": -128.2036, "z": -207.3417},
+				"scale": 0.3,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 173.1543, "y": -129.0415, "z": -205.833},
+				"scale": 0.6,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 205.2028, "y": -114.8266, "z": -181.5324},
+				"scale": 0.3,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 192.9296, "y": -122.9755, "z": -189.6138},
+				"scale": 0.2,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 191.3327, "y": -123.6215, "z": -190.9432},
+				"scale": 0.5,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 187.6717, "y": -131.0504, "z": -189.5077},
+				"scale": 0.3,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 184.3703, "y": -129.9457, "z": -193.9537},
+				"scale": 0.3,
+				"alignRadial": true
+			},
+			{
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {"x": 180.7017, "y": -136.0562, "z": -193.2599},
+				"scale": 0.5,
+				"alignRadial": true
+			}/*,
+
+			{
+				"path": "TimberHearth_Body/AmbientLight_TH", "keepLoaded": true
+			}*/
+		],
+		"geysers": [
+			{
+				"position": {"x": 72.7634, "y": 197.4859, "z": 216.0363}, "activeDuration": 10, "inactiveDuration": 19
+			},
+			{
+				"position": {"x": -121.2435, "y": 267.469, "z": 42.14647}, "activeDuration": 3, "inactiveDuration": 7
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "OW_TH_AmbienceInCanyons", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 350 }
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/earth.png"
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Chariklo",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 8
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 22000,
+		"inclination" : 23.382,
+		"eccentricity": 0.1721,
+		"trueAnomaly": 77.670,
+		"longitudeOfAscendingNode" : 300.42,
+		"argumentOfPeriapsis": 242.90,
+		"axialTilt" : 52,
+		"siderealPeriod": 1.4,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"tint": 
+		{
+			"r" : 60,
+			"g" : 50,
+			"b" : 50,
+			"a" : 255
+		}
+	},
+	"Rings": [
+		{
+			"innerRadius" : 19,
+			"outerRadius" : 21,
+			"texture": "planets/assets/chariklo_rings.png",
+			"fluidType": "sand"
+		}
+	],
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/chariklo_heightmap.png",	
+		"textureMap" : "planets/assets/chariklo_texturemap.png",	
+		"minHeight" : 4,
+		"maxHeight" : 8
+	}
+}

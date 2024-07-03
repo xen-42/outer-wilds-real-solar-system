@@ -1,37 +1,81 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Alpha Centauri B",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Toliman",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 100,
-		"surfaceSize" : 1000,
-		"hasMapMarker" : true,
+		"surfaceGravity" : 110,
+		"surfaceSize" : 1800,
 		"gravityFallOff" : "inverseSquared"
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 10000,
-		"inclination" : 0,
+		"semiMajorAxis" : 25000,
+		"eccentricity": 0.5,
+		"argumentOfPeriapsis": 232,
+		"inclination": 79,
+		"longitudeOfAscendingNode": 205,
+		"trueAnomaly": 180,
 		"primaryBody" : "Alpha Centauri",
-		"showOrbitLine" : true
+		"showOrbitLine" : true,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 115,
+			"b" : 7,
+			"a" : 255
+		}
 	},
 	"Star" :
 	{
 		"size" : 1800,
+		"starRampTexture": "planets/assets/toliman_ramp.png",
+		"starCollapseRampTexture": "planets/assets/toliman_collapse_ramp.png",
 		"tint" : 
 		{
-			"r" : 160,
-			"g" : 87,
-			"b" : 55,
+			"r" : 255,
+			"g" : 95,
+			"b" : 7,
 			"a" : 255
 		},
-		"solarFlareTint" : 
+		"solarLuminosity": 1,
+		"lightRadius": 25000,
+		"lightTint": 
 		{
-			"r" : 26,
-			"g" : 102,
-			"b" : 255,
+			"r" : 255,
+			"g" : 227,
+			"b" : 172,
 			"a" : 255
+		},
+		"stellarDeathType": "supernova",
+		"stellarRemnantType": "whiteDwarf",
+		"supernovaSize": 45000,
+		"lifespan": 22,
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 12, "value": 1 },
+			{ "time": 21, "value": 2 }
+		],
+		"endTint": 
+		{
+			"r" : 255,
+			"g" : 7,
+			"b" : 7,
+			"a" : 255
+		}
+	},
+	"ShockEffect" : {
+		"hasSupernovaShockEffect": true,
+		"radius": 240
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Alpha Centauri B log.png"
 		}
 	}
 }

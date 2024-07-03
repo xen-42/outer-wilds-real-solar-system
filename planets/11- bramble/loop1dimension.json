@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Loop1Dimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -103500,
+			"y": -50000,
+			"z": -103500
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "ProximaToLoop1",
+			"radius": 500,
+			"fogTint": {"r" : 168, "g" : 86, "b" : 56, "a" : 255},
+			"vinePrefab": "exitOnly",
+			"allowedEntrances": [3]
+		},
+		"nodes": [
+			{
+				"name": "Loop1ToLoop2",
+				"linksTo": "Loop2Dimension",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 43.5599, "y": 358.1138, "z": 24.2412},
+				"scale": 1,
+				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 512}
+			},
+			{
+				"name": "Loop1ToEmpty",
+				"linksTo": "EmptyDimension",
+				"position": {"x": 108.2891, "y": 444.2378, "z": -17.18656},
+				"rotation": {"x": 1.4635, "y": 101.3294, "z": 252.7305},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 255, "g": 255, "b": 255, "a": 255},
+				"lightTint": {"r": 255, "g": 255, "b": 255, "a": 64},
+				"hasFogLight": true
+			}
+		]
+	}
+}

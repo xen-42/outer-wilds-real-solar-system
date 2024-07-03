@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Telesto",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 5
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 2150,
+		"inclination" : 27,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"showOrbitLine": false,
+		"longitudeOfAscendingNode" : 180,
+		"trueAnomaly": 145,
+		"isTidallyLocked" : true,
+		"axialTilt": 27,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/deimos_heightmap.png",	
+		"textureMap" : "planets/assets/telesto_texturemap.png",	
+		"minHeight" : 3,
+		"maxHeight" : 4,
+		"stretch": {
+			"x": 1.5,
+			"y": 1,
+			"z": 1
+		}
+	}
+}

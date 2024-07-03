@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "LRO",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"showMinimap" : false
+	},
+	"MapMarker":
+	{
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 1.5,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 100,
+		"primaryBody" : "The Moon",
+		"inclination": 90,
+		"longitudeOfAscendingNode": 60,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0,
+        "trueAnomaly": 0,
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"isMoon": true,
+        "isTidallyLocked": true,
+        "alignmentAxis": {"x": 0, "y": 0, "z": 1}
+	},
+	"Props" :
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Lunar Reconnaissance Orbiter", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": -0.25, "y": -1, "z": -3.25 } }
+		],
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_terrifictrifid", "path" : "Assets/RSS/LRO_35.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 15 }
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Mimas",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 11
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1850,
+		"inclination" : 28,
+		"primaryBody" : "Saturn",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 180,
+		"trueAnomaly": 79,
+		"isTidallyLocked" : true,
+		"axialTilt": 28,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 175,
+			"g" : 175,
+			"b" : 175,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/mimas_heightmap.png",	
+		"textureMap" : "planets/assets/mimas_texturemap.png",	
+		"minHeight" : 10,
+		"maxHeight" : 11,
+		"stretch": {
+			"x": 1.04,
+			"y": 0.95,
+			"z": 0.98
+		}
+	}
+}

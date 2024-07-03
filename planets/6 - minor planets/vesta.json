@@ -1,17 +1,20 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Vesta",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 2,
-		"surfaceSize" : 15,
-		"hasMapMarker" : true
+		"surfaceSize" : 15
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 9000,
-		"inclination" : 2,
+		"semiMajorAxis" : 9600,
+		"inclination" : 7,
 		"longitudeOfAscendingNode" : 100,
 		"primaryBody" : "Sol",
 		"isMoon" : true,
@@ -31,5 +34,11 @@
 		"textureMap" : "planets/assets/vesta_texturemap.png",	
 		"minHeight" : 13,
 		"maxHeight" : 16
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Vesta Log.png"
+		}
 	}
 }

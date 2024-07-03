@@ -1,0 +1,190 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">	
+	<NameField>Eduardo</NameField>
+	
+	<DialogueNode>
+		<Name>Eduardo0</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>RSS_Eduardo01</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Eduardo0A</Text>
+				<DialogueTarget>Eduardo2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>RSS_MetEduardo</RequiredPersistentCondition>
+				<Text>RSS_Eduardo0B</Text>
+				<DialogueTarget>EduardoQ</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<SetCondition>RSS_TalkedToEduardo</SetCondition>
+		<SetPersistentCondition>RSS_MetEduardo</SetPersistentCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo1</Name>
+		<EntryCondition>RSS_TalkedToEduardo</EntryCondition>
+		<Dialogue>
+			<Page>RSS_Eduardo11</Page>
+		</Dialogue>
+
+		<DialogueTarget>EduardoQ</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo2</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo21</Page>
+		</Dialogue>
+
+		<DialogueTarget>EduardoQ</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>EduardoQ</Name>
+		<Dialogue>
+			<Page></Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<!--<DialogueOption>
+				<Text>RSS_EduardoQA</Text>
+				<DialogueTarget>Eduardo10</DialogueTarget>
+			</DialogueOption>-->
+			<DialogueOption>
+				<Text>RSS_EduardoQB</Text>
+				<DialogueTarget>Eduardo3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>RSS_EduardoQC</Text>
+				<DialogueTarget>Eduardo4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<!--<RequiredLogCondition></RequiredLogCondition>-->
+				<RequiredPersistentCondition>RSS_MetGustavo</RequiredPersistentCondition>
+				<Text>RSS_EduardoQD</Text>
+				<DialogueTarget>Eduardo5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>RSS_EduardoQE</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo3</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo31</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Eduardo3A</Text>
+				<DialogueTarget>Eduardo8</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo4</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo41</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Eduardo4A</Text>
+				<DialogueTarget>Eduardo6</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>RSS_Eduardo4B</Text>
+				<DialogueTarget>Eduardo7</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo5</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo51</Page>
+		</Dialogue>
+
+		<DialogueTarget>EduardoQ</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo6</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo61</Page>
+		</Dialogue>
+
+		<DialogueTarget>EduardoQ</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo7</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo71</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>RSS_Eduardo7A</Text>
+				<DialogueTarget>Eduardo11</DialogueTarget>
+			</DialogueOption>
+			<!--<DialogueOption>
+				<Text>RSS_Eduardo7B</Text>
+				<DialogueTarget>Eduardo12</DialogueTarget>
+			</DialogueOption>-->
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo8</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo81</Page>
+		</Dialogue>
+
+		<DialogueTarget>EduardoQ</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo9</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo91</Page>
+		</Dialogue>
+
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo10</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo101</Page>
+			<Page>RSS_Eduardo102</Page>
+			<Page>RSS_Eduardo103</Page>
+		</Dialogue>
+
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo11</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo111</Page>
+		</Dialogue>
+
+		<DialogueTarget>EduardoQ</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Eduardo12</Name>
+		<Dialogue>
+			<Page>RSS_Eduardo121</Page>
+		</Dialogue>
+
+		<DialogueTarget>EduardoQ</DialogueTarget>
+	</DialogueNode>
+
+</DialogueTree>

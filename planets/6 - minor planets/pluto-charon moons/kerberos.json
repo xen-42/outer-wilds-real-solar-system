@@ -1,28 +1,45 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Kerberos",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 1,
-		"surfaceSize" : 10,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceSize" : 10
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1000,
+		"semiMajorAxis" : 700,
 		"primaryBody" : "Pluto-Charon",
+		"inclination": 120,
+		"trueAnomaly": 45,
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"siderealPeriod": -3,
+		"axialTilt": 340,
+		"tint": {
+            "r": 175,
+            "g": 175,
+            "b": 175,
+            "a": 255
+        }
 	},
 	"ProcGen": {
-		"scale": 10,
-		"colour": {
-			"R": 100,
-			"G": 100,
-			"B": 100,
-			"A": 255
+		"scale": 8,
+		"color": {
+			"r": 100,
+			"g": 100,
+			"b": 100,
+			"a": 255
+		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Kerberos log.png"
 		}
 	}
 }

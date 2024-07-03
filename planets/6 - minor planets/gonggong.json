@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Gonggong",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 2,
+		"surfaceSize" : 32,
+		"gravityFallOff": "inverseSquared"
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 68000,
+		"inclination" : 30.63,
+		"trueAnomaly" : 306.5,
+		"eccentricity": 0.5,
+		"longitudeOfAscendingNode": 336.86,
+		"argumentOfPeriapsis": 207.67,
+		"siderealPeriod": 4.6,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"tint": {
+            "r": 70,
+            "g": 50,
+            "b": 40,
+            "a": 255
+        }
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/gonggong_heightmap.png",	
+		"textureMap" : "planets/assets/gonggong_texturemap.png",	
+		"minHeight" : 29,
+		"maxHeight" : 32
+	}
+}

@@ -1,27 +1,64 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Triton",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 65,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceSize" : 61
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 1200,
-		"inclination" : 156,
+		"inclination" : 130,
+		"longitudeOfAscendingNode": 0,
 		"primaryBody" : "Neptune",
 		"isMoon" : true,
-		"isTidallyLocked" : true
+		"isTidallyLocked" : true,
+		"axialTilt": 50,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 200,
+			"g" : 190,
+			"b" : 180,
+			"a" : 255
+		}
+	},
+	"Atmosphere" :
+	{
+		"size" : 62,
+		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.15,
+		"hasSnow": true
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/triton_heightmap.png",	
 		"textureMap" : "planets/assets/triton_texturemap.png",	
-		"minHeight" : 65,
-		"maxHeight" : 65
+		"minHeight" : 64,
+		"maxHeight" : 67
+	},
+	"Props": 
+	{
+		"geysers": [
+			{ "position": {"x": -45.25802, "y": -33.96282, "z": -31.62589}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 6, "inactiveDuration": 23 },
+			{ "position": {"x": -57.10152, "y": -28.51456, "z": -11.6116}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 6, "inactiveDuration": 28 },
+			{ "position": {"x": -0.04020309, "y": -38.22764, "z": 52.62264}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 6, "inactiveDuration": 25 },
+			{ "position": {"x": 6.323707, "y": -58.75522, "z": -26.39195}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 6, "inactiveDuration": 30 },
+			{ "position": {"x": -36.22219, "y": -54.85512, "z": -0.9772949}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 8, "inactiveDuration": 18 },
+			{ "position": {"x": 8.238359, "y": -63.45654, "z": 13.82193}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 8, "inactiveDuration": 16 },
+			{ "position": {"x": -29.83527, "y": -49.09742, "z": 31.68348}, "tint": {"r": 51, "g": 45, "b": 39, "a": 128}, "force": 30, "volume": 0.15, "activeDuration": 8, "inactiveDuration": 20 }
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Triton log.png"
+		}
 	}
 }

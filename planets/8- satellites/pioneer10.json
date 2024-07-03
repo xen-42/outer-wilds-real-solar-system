@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Pioneer 10",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"showMinimap": false
+	},
+	"MapMarker":
+	{
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 1.5,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10000,
+		"primaryBody" : "WISE 0855−0714",
+		"isMoon": true,
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"eccentricity": 0.5,
+		"argumentOfPeriapsis": 225,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x": 0, "y": 0, "z": 1}
+	},
+	"Props" :
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Pioneer 10", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1.5, "detectionRadius": 100, "identificationRadius" : 10, "position": { "x": 0, "y": 0, "z": 1 } }
+		],
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/Pioneer.prefab" }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 100 }
+		]
+	},
+	"ShipLog" : 
+	{
+		"mapMode" : { "remove" : true }
+	}
+}

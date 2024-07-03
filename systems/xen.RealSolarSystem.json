@@ -1,19 +1,37 @@
 {
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"canEnterViaWarpDrive" : true,
 	"startHere" : false,
-	"coords" : {
-		"x" : [0, 1],
-		"y" : [1, 2],
-		"z" : [2, 3]
+	"Vessel": {
+		"coords": {
+			"x" : [ 4, 0, 1, 2, 5, 3 ],
+			"y" : [ 1, 0, 2, 4 ],
+			"z" : [ 1, 0, 2, 4 ]
+		},
+		"vesselSpawn": {
+			"position": {
+				"x" : 0,
+				"y" : 0,
+				"z" : 8000
+			},
+			"rotation": {
+				"x": 0,
+				"y": 180,
+				"z": 0
+			}
+		}
 	},
-	"vesselPosition" : {
-		"x" : 0,
-		"y" : 0,
-		"z" : 8000
+	"Skybox": {
+		"destroyStarField": false,
+		"useCube": true,
+		"rightPath": "planets/assets/sky_pos_x.jpg",
+		"leftPath": "planets/assets/sky_neg_x.jpg",
+		"topPath": "planets/assets/sky_pos_y.jpg",
+		"bottomPath": "planets/assets/sky_neg_y.jpg",
+		"frontPath": "planets/assets/sky_pos_z.jpg",
+		"backPath": "planets/assets/sky_neg_z.jpg"
 	},
-	"warpExitPosition" : {
-		"x" : 0,
-		"y" : 0,
-		"z" : 1000
+	"GlobalMusic": {
+		"travelAudio": "planets/assets/SpaceInRealLife.ogg"
 	}
 }

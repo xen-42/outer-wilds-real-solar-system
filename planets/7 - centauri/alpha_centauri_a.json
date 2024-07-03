@@ -1,29 +1,72 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Alpha Centauri A",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Rigil Kentaurus",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 180,
-		"surfaceSize" : 1000,
-		"hasMapMarker" : true,
+		"surfaceGravity" : 75,
+		"surfaceSize" : 2400,
 		"gravityFallOff" : "inverseSquared"
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
 		"primaryBody" : "Alpha Centauri",
-		"showOrbitLine" : true
+		"showOrbitLine" : true,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 185,
+			"b" : 40,
+			"a" : 255
+		}
 	},
 	"Star" :
 	{
 		"size" : 2400,
+		"starRampTexture": "planets/assets/sol_ramp.png",
+		"starCollapseRampTexture": "planets/assets/sol_collapse_ramp.png",
 		"tint" : 
 		{
-			"r" : 200,
-			"g" : 200,
-			"b" : 20,
+			"r" : 255,
+			"g" : 158,
+			"b" : 45,
 			"a" : 255
+		},
+		"solarLuminosity": 1,
+		"lightRadius": 25000,
+		"lightTint": 
+		{
+			"r" : 255,
+			"g" : 250,
+			"b" : 240,
+			"a" : 255
+		},
+		"stellarDeathType": "supernova",
+		"stellarRemnantType": "whiteDwarf",
+		"supernovaSize": 65000,
+		"lifespan": 21.604,
+		"curve": [
+			{ "time": 0, "value": 1 },
+			{ "time": 12, "value": 1 },
+			{ "time": 21, "value": 2.5 }
+		],
+		"endTint": 
+		{
+			"r" : 255,
+			"g" : 7,
+			"b" : 7,
+			"a" : 255
+		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Alpha Centauri A log.png"
 		}
 	}
 }

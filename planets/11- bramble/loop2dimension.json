@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Loop2Dimension",
+	"starSystem" : "xen.RealSolarSystem",
+	"Orbit" :
+	{
+		"staticPosition": {
+			"x": -108500,
+			"y": -50000,
+			"z": -103500
+		}
+	},
+	"Bramble": {
+		"dimension": {
+			"linksTo": "ProximaToLoop1",
+			"radius": 500,
+			"fogTint": {"r" : 168, "g" : 86, "b" : 56, "a" : 255},
+			"vinePrefab": "exitOnly",
+			"allowedEntrances": [3]
+		},
+		"nodes": [
+			{
+				"name": "Loop2ToLoop3",
+				"linksTo": "Loop3Dimension",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 43.5599, "y": 358.1138, "z": 24.2412},
+				"scale": 1,
+				"fogTint": {"r": 255, "g": 129, "b": 83, "a": 255},
+				"lightTint": {"r": 255, "g": 129, "b": 83, "a": 512}
+			},
+			{
+				"name": "SeedClusterToEgg1",
+				"linksTo": "EggDimension",
+				"position": {"x": 88.50235, "y": -208.7986, "z": 179.0788},
+				"rotation": {"x": 128.717, "y": 357.359, "z": 367.141},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"hasFogLight": true
+			},
+			{
+				"name": "SeedClusterToEgg2",
+				"linksTo": "EggDimension",
+				"position": {"x": 88.50235, "y": -208.7986, "z": 179.0788},
+				"rotation": {"x": 128.717, "y": 357.359, "z": 367.141},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"hasFogLight": true
+			},
+			{
+				"name": "SeedClusterToEgg3",
+				"linksTo": "EggDimension",
+				"position": {"x": 88.50235, "y": -208.7986, "z": 179.0788},
+				"rotation": {"x": 128.717, "y": 357.359, "z": 367.141},
+				"scale": 1,
+				"isSeed": true,
+				"fogTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"lightTint": {"r": 255, "g": 83, "b": 129, "a": 255},
+				"hasFogLight": true
+			}
+		]
+	}
+}

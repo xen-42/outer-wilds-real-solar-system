@@ -1,38 +1,86 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name" : "Proxima B",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Proxima b",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 8,
-		"surfaceSize" : 150,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceGravity" : 12,
+		"surfaceSize" : 350
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 2000,
-		"inclination" : 0,
+		"semiMajorAxis" : 4500,
 		"primaryBody" : "Proxima Centauri",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 74,
-		"axialTilt" : 0,
-		"trueAnomaly" : 0,
-		"isTidallyLocked" : true,
-		"hasAtmosphere" : true,
-		"atmosphereTint" : 
+		"eccentricity": 0.08,
+		"argumentOfPeriapsis": 310,
+		"inclination": 1,
+		"longitudeOfAscendingNode": 150,
+		"axialTilt" : 180,
+		"siderealPeriod": -8,
+		"tint": 
 		{
-			"r" : 180,
-			"g" : 180,
-			"b" : 30,
+			"r" : 100,
+			"g" : 30,
+			"b" : 20,
 			"a" : 255
 		}
 	},
+	"Atmosphere": 
+	{
+		"size" : 390,
+		"fogTint" : 
+		{
+			"r" : 128,
+			"g" : 40,
+			"b" : 25,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 390,
+		"useAtmosphereShader": true,
+		"atmosphereTint" : 
+		{
+			"r" : 128,
+			"g" : 40,
+			"b" : 25,
+			"a" : 255
+		}
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 390,
+			"innerRadius": 350,
+			"intensity": 0.2,
+			"tint": {
+				"r" : 128,
+				"g" : 40,
+				"b" : 25,
+				"a" : 255
+			}
+		}
+	],
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/venus_heightmap.png",	
-		"textureMap" : "planets/assets/Alpha Centauri Ab.png",	
-		"minHeight" : 150,
-		"maxHeight" : 153
+		"heightMap" : "planets/assets/proxima_b_heightmap.png",	
+		"textureMap" : "planets/assets/proxima_b_texturemap.png",	
+		"minHeight" : 350,
+		"maxHeight" : 360,
+		"resolution": 512
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "HGT_Ambience_Surface", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 400 }
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Proxima B log.png"
+		}
 	}
 }

@@ -1,0 +1,91 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Luhman 16B",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 42,
+		"surfaceSize" : 1000,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"MapMarker":
+	{
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 12000,
+		"eccentricity": 0.35,
+		"argumentOfPeriapsis": 130,
+		"inclination": 100,
+		"longitudeOfAscendingNode": 180,
+		"primaryBody" : "Luhman 16",
+		"showOrbitLine" : true,
+		"axialTilt": 100,
+		"siderealPeriod": 1,
+		"tint": 
+		{
+			"r" : 210,
+			"g" : 25,
+			"b" : 50,
+			"a" : 255
+		}
+	},
+	"AmbientLights": [
+		{
+			"intensity": 2
+		}
+	],
+	"Star":
+	{
+		"size": 800,
+		"tint" : 
+		{
+			"r" : 136,
+			"g" : 24,
+			"b" : 51,
+			"a" : 255
+		},
+		"hasAtmosphere": false,
+		"solarLuminosity": 0.5,
+		"lightRadius": 25000,
+		"lightTint" : 
+		{
+			"r" : 136,
+			"g" : 24,
+			"b" : 51,
+			"a" : 255
+		},
+		"stellarDeathType": "none",
+		"hasStarController": false
+	},
+	"Atmosphere" :
+	{
+		"size" : 1000,
+		"fogSize": 1000,
+		"fogDensity": 1,
+		"fogTint" : 
+		{
+			"r" : 136,
+			"g" : 24,
+			"b" : 51,
+			"a" : 255
+		},
+		"clouds": {
+			"innerCloudRadius": 900,
+			"outerCloudRadius": 1000,
+			"texturePath": "planets/assets/luhman16b.png",
+			"cloudsPrefab": "giantsDeep",
+			"fluidType": "plasma",
+			"unlit": true,
+			"hasLightning": true,
+			"tint": 
+			{
+				"r" : 23,
+				"g" : 17,
+				"b" : 42,
+				"a" : 255
+			}
+		}
+	}
+}

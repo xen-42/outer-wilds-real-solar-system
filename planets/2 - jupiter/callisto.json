@@ -1,27 +1,46 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Callisto",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
 		"surfaceGravity" : 4,
-		"surfaceSize" : 100,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceSize" : 100
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1600,
+		"semiMajorAxis" : 2300,
 		"primaryBody" : "Jupiter",
+		"inclination": 3,
+		"longitudeOfAscendingNode": 180,
 		"isMoon" : true,
 		"isTidallyLocked" : true,
-		"trueAnomaly" : 200
+		"trueAnomaly" : 200,
+		"axialTilt": 3,
+		"alignmentAxis": {"x": -1, "y": 0, "z": 0},
+		"tint": 
+		{
+			"r" : 85,
+			"g" : 65,
+			"b" : 45,
+			"a" : 255
+		}
 	},
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/blank_heightmap.png",	
+		"heightMap" : "planets/assets/callisto_heightmap.png",	
 		"textureMap" : "planets/assets/callisto_texturemap.png",	
-		"minHeight" : 100,
+		"minHeight" : 95,
 		"maxHeight" : 100
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/Callisto.png"
+		}
 	}
 }

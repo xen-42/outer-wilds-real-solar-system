@@ -1,52 +1,158 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Jupiter",
 	"starSystem" : "xen.RealSolarSystem",
 	"Base" :
 	{
-		"surfaceGravity" : 20,
-		"surfaceSize" : 300,
-		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"surfaceGravity" : 24,
+		"surfaceSize" : 900
+	},
+	"MapMarker":
+	{
+		"enabled": true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 12000,
-		"inclination" : 1,
+		"semiMajorAxis" : 13500,
+		"inclination" : 3,
 		"primaryBody" : "Sol",
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 100,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 273,
 		"axialTilt" : 3,
-		"trueAnomaly":20,
-		"siderealPeriod" : 30
+		"trueAnomaly": 20,
+		"siderealPeriod" : 2,
+		"tint": 
+		{
+			"r" : 200,
+			"g" : 120,
+			"b" : 65,
+			"a" : 255
+		}
 	},
 	"Atmosphere" :
 	{
-		"size" : 500,
-		"cloudTint" : 
-		{
-			"r" : 181,
-			"g" : 181,
-			"b" : 230,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/jupiter.png",
+		"size" : 950,
 		"fogTint" : 
 		{
-			"r" : 255,
-			"g" : 128,
-			"b" : 128,
+			"r" : 193,
+			"g" : 139,
+			"b" : 95,
 			"a" : 255
 		},
-		"fogDensity": 0.9,
-		"fogSize": 450,
-		"hasAtmosphere" : true,
+		"fogDensity": 1,
+		"fogSize": 950,
+		"useAtmosphereShader": true,
+		"atmosphereSunIntensity": 0.5,
 		"atmosphereTint" : 
 		{
-			"r" : 255,
-			"g" : 200,
-			"b" : 128,
+			"r" : 193,
+			"g" : 139,
+			"b" : 95,
 			"a" : 255
+		},
+		"hasRain": true,
+		"clouds": {
+			"outerCloudRadius" : 950,
+			"innerCloudRadius" : 850,
+			"tint" : 
+			{
+				"r" : 170,
+				"g" : 110,
+				"b" : 60,
+				"a" : 255
+			},
+			"texturePath" : "planets/assets/jupiter.png",
+			"rampPath": "planets/assets/jupiter_ramp.png",
+			"cloudsPrefab": "giantsDeep",
+			"hasLightning" : true,
+			"lightningGradient" : [
+				{"time": 0, "tint": {"r": 255, "g": 64, "b": 128}},
+				{"time": 0.66, "tint": {"r": 0, "g": 0, "b": 128}},
+				{"time": 1, "tint": {"r": 64, "g": 0, "b": 128}}
+			]
+		}
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 950,
+			"innerRadius": 850,
+			"intensity": 0.8,
+			"tint": {
+				"r": 193,
+				"g": 139,
+				"b": 95,
+				"a": 255
+			}
+		}
+	],
+	"Water": {
+		"size": 650,
+		"tint": 
+		{
+			"r" : 200,
+			"g" : 200,
+			"b" : 200,
+			"a" : 255
+		}
+	},
+	"Lava": {
+		"size": 200,
+		"tint": 
+		{
+			"r" : 4000,
+			"g" : 1500,
+			"b" : 150,
+			"a" : 255
+		}
+	},
+	"Props": {
+		"details": [
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 550 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 450 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 350 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 300 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 285 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 270 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 255 },
+			{ "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Effects_GDInterior/Particle_GD_ElectricBarrierArcs", "scale": 240 }
+		],
+		"tornados": [
+			{ "type": "hurricane", "position": { "x": 0, "y": 630, "z": 0 }, "height": 250, "wanderRate": 0, "tint": { "r" : 149, "g" : 116, "b" : 83, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 163, "y": 563, "z": 281 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 10, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -325, "y": 563, "z": 0 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 10, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 163, "y": 563, "z": -281 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 10, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 498, "y": 418, "z": 0 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -249, "y": 418, "z": 431 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -249, "y": 418, "z": -431 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+
+			{ "type": "upwards", "position": { "x": 0, "y": 222, "z": 611 }, "height": 200, "wanderDegreesX": 90, "wanderDegreesZ": 5, "wanderRate": 0.05, "tint": { "r" : 220, "g" : 220, "b" : 220, "a" : 255 } },
+			{ "type": "upwards", "position": { "x": 0, "y": 222, "z": -611 }, "height": 200, "wanderDegreesX": 90, "wanderDegreesZ": 5, "wanderRate": 0.05, "tint": { "r" : 220, "g" : 220, "b" : 220, "a" : 255 } },
+
+			{ "type": "upwards", "position": { "x": 432, "y": -222, "z": 432 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 5, "wanderRate": 0.05, "tint": { "r" : 220, "g" : 220, "b" : 220, "a" : 255 } },
+			{ "type": "hurricane", "position": { "x": -415, "y": -222, "z": 415 }, "height": 250, "wanderDegreesX": 0, "wanderDegreesZ": 0, "wanderRate": 0, "tint": { "r" : 255, "g" : 128, "b" : 55, "a" : 255 } },
+			{ "type": "upwards", "position": { "x": -432, "y": -222, "z": -432 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 5, "wanderRate": 0.05, "tint": { "r" : 220, "g" : 220, "b" : 220, "a" : 255 } },
+			{ "type": "upwards", "position": { "x": 432, "y": -222, "z": -432 }, "height": 200, "wanderDegreesX": 30, "wanderDegreesZ": 5, "wanderRate": 0.05, "tint": { "r" : 220, "g" : 220, "b" : 220, "a" : 255 } },
+
+			{ "type": "downwards", "position": { "x": 249, "y": -418, "z": 431 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -498, "y": -418, "z": 0 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 249, "y": -418, "z": -431 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 0, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": 325, "y": -563, "z": 0 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 10, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -163, "y": -563, "z": 281 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 10, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "downwards", "position": { "x": -163, "y": -563, "z": -281 }, "height": 200, "wanderDegreesX": 60, "wanderDegreesZ": 10, "wanderRate": 0.07, "tint": { "r" : 190, "g" : 170, "b" : 150, "a" : 255 } },
+			{ "type": "hurricane", "position": { "x": 0, "y": -630, "z": 0 }, "height": 250, "wanderRate": 0, "tint": { "r" : 149, "g" : 116, "b" : 83, "a" : 255 } }
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{ "audio": "OW_GD_UnderwaterCurrent", "track": "environment", "position": {"x": 0, "y": 0, "z": 0}, "radius": 650 }
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/shiplogs/icons/jupiter log.png"
 		}
 	}
 }

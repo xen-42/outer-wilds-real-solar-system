@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Hubble Space Telescope",
+	"starSystem" : "xen.RealSolarSystem",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"showMinimap" : false
+	},
+	"MapMarker":
+	{
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 5,
+		"targetWhenClose": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 525,
+		"primaryBody" : "Earth",
+		"showOrbitLine" : true,
+		"dottedOrbitLine": true,
+		"longitudeOfAscendingNode" : 342.6,
+		"eccentricity" : 0,
+		"inclination" : 28.5,
+		"argumentOfPeriapsis" : 0,
+		"trueAnomaly" : 161.55,
+		"isMoon": true
+	},
+	"Props" :
+	{
+		"signals" : 
+		[
+			{ "frequency" : "Radio", "name" : "Hubble Space Telescope", "audio" : "OW_PR_ProbeInAirSound", "sourceRadius" : 1, "detectionRadius": 50, "identificationRadius" : 10, "position": { "x": 0, "y": 6, "z": 0 } }
+		],
+		"details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/xen_realsolarsystem_megapiggy", "path" : "Assets/HubbleSpaceTelescope.prefab", "keepLoaded": true }
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{ "radius": 25 }
+		]
+	},
+	"ShipLog" : 
+	{
+		"mapMode" : { "remove" : true }
+	}
+}
