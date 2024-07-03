@@ -23,8 +23,6 @@ Translations for Polish and Russian.
 
 - [xen](https://github.com/xen-42) - Pre-1.0.0 author.
 
-- [Gay Coffee](https://github.com/Her-Majesty-the-Queen-of-England) - Writer.
-
 - [MegaPiggy](https://github.com/MegaPiggy) - New bodies and texture hunting.
 
 - [Greenpixel](https://github.com/gpixl) - Spaceflight music remix.
