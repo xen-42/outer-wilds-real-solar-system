@@ -33,5 +33,6 @@
 	},
 	"GlobalMusic": {
 		"travelAudio": "planets/assets/SpaceInRealLife.ogg"
-	}
+	},
+	"respawnHere": true
 }
