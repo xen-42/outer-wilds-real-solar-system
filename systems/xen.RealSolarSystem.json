@@ -32,7 +32,8 @@
 		"backPath": "planets/assets/sky_neg_z.jpg"
 	},
 	"GlobalMusic": {
-		"travelAudio": "planets/assets/SpaceInRealLife.ogg"
+		"travelAudio": "planets/assets/SpaceInRealLife.ogg",
+		"brambleDimensionAudio": "planets/assets/RSSflightmusic.mp3"
 	},
 	"respawnHere": true
 }
